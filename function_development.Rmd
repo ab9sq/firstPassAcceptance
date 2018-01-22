@@ -1,0 +1,74 @@
+---
+title: "Functions"
+author: "Nick Lauerman"
+date: "January 22, 2018 @ 4:00 PM"
+output: 
+  pdf_document: 
+    fig_caption: yes
+    fig_height: 7.5
+    fig_width: 7.5
+    toc: yes
+    toc_depth: 5
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is to document the develpoment of functins derived from various other
+activities to support the FPA proejct. It is important to note tha functions
+developed or documente here will have to be included in an R file so they may be
+easily brought into the R enviroment in the future.
+
+# Data Input
+this function will read the csv file in and will make required conversions to factors
+or date
+```{r}
+get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
+     FPA <- read.csv( file = file, 
+                      stringsAsFactors = FALSE,
+                      col.names = c("sqa",
+                                    "project",
+                                    "application",
+                                    "deliverable",
+                                    "version",
+                                    "docID",
+                                    "status",
+                                    "date",
+                                    "reason",
+                                    "comments"))
+     FPA$sqa <- as.factor(FPA$sqa)
+     FPA$application <- as.factor(FPA$application)
+     FPA$deliverable <- as.factor(FPA$deliverable)
+     FPA$status <- as.factor(FPA$status)
+     FPA$reason <- as.factor(FPA$reason)
+     levels(FPA$reason)[1] <- NA
+     FPA$date <- as.Date(FPA$date, format = "%d-%B-%y")
+     return(FPA)
+}
+```
+
+## Test
+### count
+First the fuctin is run creating the FPA data frame. The the number of rows in the 
+data frame is checked again the source data (66 at this time) as well as the number 
+of columns (10)
+```{r}
+FPA <- get.csv()
+nrow(FPA)
+ncol(FPA)
+dim(FPA)
+```
+
+### Factors and Date
+Now a count of each factor will be tabulated to verify against the know data
+```{r}
+table(FPA$sqa)
+table(FPA$application)
+table(FPA$deliverable)
+table(FPA$status)
+table(FPA$reason)
+table(FPA$date)
+```
+
+

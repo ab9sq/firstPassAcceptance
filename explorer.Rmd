@@ -8,6 +8,7 @@ output:
     fig_height: 7.5
     fig_width: 7.5
     toc: yes
+    toc_depth: 5
 ---
 
 ```{r setup, include=FALSE}
