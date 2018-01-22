@@ -6,7 +6,7 @@ Wayne,LC-S 01104.000,Assay File Database ,Software Change Request,1,SCR-01,A,17-
 Wayne,LC-S 00986.005,PCN/SCN,Software Compliance Assessment,,SCA-01,D,18-Jan-18,Incorrect scope,"Project name includes SMF, but Assessment links only PCN SCN"
 Beilah,1090,WWLIMS,Test Protocol,1,TC_IPDR_ ADDWWLIMS08562_SLIGO,A,15-Jan-18,,Resubmittal
 Beilah,1090,WWLIMS,Test Protocol,1,TC_IPDR_ ADDWWLIMS08562_LONGFORD,A,15-Jan-18,,Resubmittal
-Beilah,1090,WWLIMS,Test Protocol,1,TCTCPIT_E_05,D,11-Jan-18,inaccurate information,
+Beilah,1090,WWLIMS,Test Protocol,1,TCTCPIT_E_05,D,11-Jan-18,Inaccurate information,
 Beilah,1090,WWLIMS,Test Protocol,1,TCTCPIT_E_05,A,15-Jan-18,,
 Beilah,1033.011,Pulse,IIVP results,1,install for QA,A-FP,15-Jan-18,,
 Beilah,1033.011,Pulse,Test Protocol,1,DP_Product Lines_Protocol,A-FP,15-Jan-18,,

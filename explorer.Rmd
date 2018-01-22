@@ -1,0 +1,140 @@
+---
+title: "Exploration"
+author: "Nick Lauerman"
+date: "January 22, 2018"
+output: 
+  pdf_document: 
+    fig_caption: yes
+    fig_height: 7.5
+    fig_width: 7.5
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Purpose
+To explore metrics options based on data collected by Software Quality Assurance
+in a spreadsheet for document review and approval.
+
+# Libraries used
+No libriries used yet
+```{r libraries, eval=FALSE}
+#require(tidyverse)
+```
+
+
+# Data
+The data is presented n a CVS file (saved from an Excel workbook) with the
+following columns and data chartistics
+
+SQA 
+: SQAE Preforming the review
+
+Project ID 
+: Uniquie ID assigned tot he project may come from NPV or ePAS
+
+Application 
+: Application Name (limited selection)
+
+Doc Version 
+: Version number of the document, also know as the revision number
+
+Doc ID, if needed 
+: unique identifier to distingous between documnets fo the same deliver type 
+within a project
+
+Approver or Disapprov?
+: Approval status from the following list
+
+* A
+: Approved
+
+* A-FP
+: Approved on fist pass
+
+* D
+: Disapproved
+
+Date of Approval or Disapproval
+: Date action was taken
+
+Reason for Disapproval:
+Selected from the following list
+
+* Inaccurate information
+
+* Incorrect scope
+
+* Insufficient testing
+
+* Insufficient traceability
+
+* N/A
+
+* Not compliant with procedure
+
+* Not following configuration management
+
+* Not following document version control
+
+* Not using template
+
+* Other
+
+* Requirement deficiency
+
+## Inport the data
+
+The data is read in and variables are assigned more programicaly useful names.
+```{r read the data}
+FPA.Raw <- read.csv(file = "./data/First Pass Acceptance.csv", 
+                    stringsAsFactors = FALSE,
+                    col.names = c("sqa",
+                                  "project",
+                                  "application",
+                                  "deliverable",
+                                  "version",
+                                  "docID",
+                                  "status",
+                                  "date",
+                                  "reason",
+                                  "comments"))
+FPA <- FPA.Raw
+```
+
+## format the data
+### factors
+Set the following data as factors:
+
+*SQA
+
+*Application
+
+*Deliverable
+
+*status
+
+```{r}
+FPA$sqa <- as.factor(FPA$sqa)
+FPA$application <- as.factor(FPA$application)
+FPA$deliverable <- as.factor(FPA$deliverable)
+FPA$status <- as.factor(FPA$status)
+```
+
+
+#### Clean up reason
+convert blank fields in status to NA when status is converted to a factor
+```{r}
+FPA$reason <- as.factor(FPA$reason)
+levels(FPA$reason)
+levels(FPA$reason)[1] <- NA
+levels(FPA$reason)
+```
+
+### Date
+```{r}
+FPA$date <- as.Date(FPA$date, format = "%d-%B-%y")
+```
+
