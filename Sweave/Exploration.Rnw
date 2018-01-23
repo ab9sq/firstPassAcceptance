@@ -1,0 +1,38 @@
+\documentclass{article}
+
+\usepackage[toc]{multitoc}
+\renewcommand*{\multicolumntoc}{2}
+%\setlength{\columnseprule}{0.5pt}
+
+
+\title{Potention Metric Items From FPA Spreadsheet}
+\author{Nick Lauerman}
+\date{23 Jan 2017}
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+
+\begin{abstract}
+Evaulation of various potential matrics, performance indicators for the Software
+Quality Assurance collect on the First Pass Acceptance Excel workbook.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+The data is processed using R, Version 3.4.3 named Kite-Eating Tree. The only
+extension (package or library) utilized is lubridate (version 1.7.1) to provide
+key functionality in the processing of dates.
+
+The data is read into R from a comma seperate value (csv) file which is derived
+from the spreadsheet without modification. Additional values are computed as needed.
+
+
+
+
+
+
+\end{document}
