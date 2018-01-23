@@ -165,6 +165,7 @@ FPA$UID <- paste(FPA$project,
 ## Projects worked
 ```{r}
 length(unique(FPA$project))
+as.character(unique(FPA$application))
 ```
 
 ## Number of reviews
