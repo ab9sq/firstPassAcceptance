@@ -25,3 +25,17 @@ clean.FPA <- function(FPA, month = NULL){
      return(FPA)
 }
 
+process <- function(FPA){
+     require(lubridate)
+     FPA$month <- month(FPA$date, label = TRUE)
+     FPA$year <- year(FPA$date)
+     FPA$UID <- paste(FPA$project,
+                      FPA$deliverable,
+                      FPA$docID,
+                      FPA$version,
+                      sep = "-")
+     return(FPA)
+}
+
+
+

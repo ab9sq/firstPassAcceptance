@@ -1,24 +1,25 @@
 \documentclass{article}
 
 \usepackage[toc]{multitoc}
+\usepackage{datetime}
 \renewcommand*{\multicolumntoc}{2}
-%\setlength{\columnseprule}{0.5pt}
+\setlength{\columnseprule}{0.5pt}
 
 
 \title{Potention Metric Items From FPA Spreadsheet}
 \author{Nick Lauerman}
-\date{23 Jan 2017}
+%\date{23 Jan 2017}
 
 
 \usepackage{Sweave}
 \begin{document}
 \input{Exploration-concordance}
-
 \maketitle
 
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators for the Software
 Quality Assurance collect on the First Pass Acceptance Excel workbook.
+\footnote{Date Ran: \today \currenttime} % time not correctly formating
 \end{abstract}
 
 \tableofcontents
@@ -30,6 +31,61 @@ key functionality in the processing of dates.
 
 The data is read into R from a comma seperate value (csv) file which is derived
 from the spreadsheet without modification. Additional values are computed as needed.
+
+This report is prepared in the R enviroment using a collection of packages know as
+Sweave that included knitr which inturn feeds the package into \LaTeXe{} a typeseting
+program to produce a PDF file. \LaTeXe{} is utilizing the folowing packages to control
+style and formating:
+\begin{itemize}
+\item datetime and
+\item multitoc
+\end{itemize}
+
+This will only show point in time data. Or what we did this period.
+
+\section{Data and Calculations}
+\subsection{Data}
+A seperate data diction will be prepared to for both the source data
+and and computed values stored in R.
+
+\subsection{Calculations}
+All calculations presented here are not implemented in R as formulas.
+
+\section{Work Yet to be Completed}
+\subsection{Formula}
+Some calculations would be better implemented as formulas and which matrics those
+are needs to be evulated and the formulas developed.
+\subsection{Trending}
+Eventually the ``System'' will be updated to select the data on a for a calander
+month. After processing the data will be stored in a seperate file to provide the
+results for that month. This will allow for longr term trending of this data.
+\subsection{Graphs}
+When ``trending'' is implented graphs of the trend will also be added.
+
+\section{Quanity Metrics}
+\subsection{Application supported}
+This is a list of all application support this period. This may differ from projects
+supported as some application may have multiple projects in a period.
+\begin{Schunk}
+\begin{Soutput}
+ [1] "Groninger"                   "Assay File Database "       
+ [3] "PCN/SCN"                     "WWLIMS"                     
+ [5] "Pulse"                       "DFCS"                       
+ [7] "DPW"                         "QIMS"                       
+ [9] "Abbott Transfusion Medicine" "Apollo/PHM"                 
+[11] "AFMS"                        "SAS"                        
+[13] "Metrics Library"             "DaVinci"                    
+\end{Soutput}
+\end{Schunk}
+\subsection{Number of Projects}
+The total number of unique projects worked on this period. This may differ from the
+application list becouse some application may have more than one project in a periond.
+\begin{Schunk}
+\begin{Soutput}
+[1] 15
+\end{Soutput}
+\end{Schunk}
+
 
 
 
