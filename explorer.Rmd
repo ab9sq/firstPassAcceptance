@@ -21,8 +21,8 @@ in a spreadsheet for document review and approval.
 
 # Libraries used
 No libriries used yet
-```{r libraries, eval=FALSE}
-#require(tidyverse)
+```{r libraries, eval=TRUE}
+library(lubridate)
 ```
 
 
@@ -137,5 +137,26 @@ levels(FPA$reason)
 ### Date
 ```{r}
 FPA$date <- as.Date(FPA$date, format = "%d-%B-%y")
+```
+
+## Add new fields
+### Month and year
+From date create month and year fields
+```{r}
+FPA$month <- month(FPA$date, label = TRUE)
+FPA$year <- year(FPA$date)
+```
+
+## deliverable UID
+create an unique identification (UID) for each processed item so that each deliverable
+is uniquely identified accross the entire data set. to do this the UID will consist of the
+Project, deliverable, docID and version seperated with a dash
+```{r}
+FPA$UID <- paste(FPA$project,
+                  FPA$deliverable,
+                  FPA$docID,
+                  FPA$version,
+                  sep = "-"
+                  )
 ```
 

@@ -24,7 +24,7 @@ easily brought into the R enviroment in the future.
 this function will read the csv file in and will make required conversions to factors
 or date
 ```{r}
-get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
+get.FPA <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
      FPA <- read.csv( file = file, 
                       stringsAsFactors = FALSE,
                       col.names = c("sqa",
@@ -37,6 +37,28 @@ get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
                                     "date",
                                     "reason",
                                     "comments"))
+}
+
+```
+
+## Test
+### count
+First the fuctin is run creating the FPA data frame. The the number of rows in the 
+data frame is checked again the source data (66 at this time) as well as the number 
+of columns (10)
+```{r}
+FPA <- get.FPA()
+nrow(FPA)
+ncol(FPA)
+dim(FPA)
+str(FPA)
+```
+
+# cleaning Data
+## Factors and Date
+```{r}
+clean.FPA <- function(FPA){
+     require(lubridate)
      FPA$sqa <- as.factor(FPA$sqa)
      FPA$application <- as.factor(FPA$application)
      FPA$deliverable <- as.factor(FPA$deliverable)
@@ -48,21 +70,12 @@ get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
 }
 ```
 
-## Test
-### count
-First the fuctin is run creating the FPA data frame. The the number of rows in the 
-data frame is checked again the source data (66 at this time) as well as the number 
-of columns (10)
+### Test
+Now a count of each factor will be tabulated to verify against the know data and 
+look at data frame structure
 ```{r}
-FPA <- get.csv()
-nrow(FPA)
-ncol(FPA)
-dim(FPA)
-```
-
-### Factors and Date
-Now a count of each factor will be tabulated to verify against the know data
-```{r}
+FPA <- clean.FPA(FPA = FPA)
+str(FPA)
 table(FPA$sqa)
 table(FPA$application)
 table(FPA$deliverable)
@@ -70,5 +83,37 @@ table(FPA$status)
 table(FPA$reason)
 table(FPA$date)
 ```
+
+# Processing
+
+Create a seperate value for Month and Year for the date value.
+
+Create a UID for each deliverable
+```{r}
+process <- function(FPA){
+     require(lubridate)
+     FPA$month <- month(FPA$date, label = TRUE)
+     FPA$year <- year(FPA$date)
+     FPA$UID <- paste(FPA$project,
+                      FPA$deliverable,
+                      FPA$docID,
+                      FPA$version,
+                      sep = "-")
+}
+```
+
+## Test
+inspect the structor of the data frame
+```{r}
+str(FPA)
+```
+
+Now look at at the new values
+```{r}
+table(FPA$month)
+table(FPA$year)
+table((FPA$UID))
+```
+
 
 

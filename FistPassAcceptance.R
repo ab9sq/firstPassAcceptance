@@ -1,4 +1,4 @@
-get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
+get.FPA <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
      FPA <- read.csv( file = file,
                       stringsAsFactors = FALSE,
                       col.names = c("sqa",
@@ -11,6 +11,10 @@ get.csv <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
                                     "date",
                                     "reason",
                                     "comments"))
+}
+
+clean.FPA <- function(FPA, month = NULL){
+     require(lubridate)
      FPA$sqa <- as.factor(FPA$sqa)
      FPA$application <- as.factor(FPA$application)
      FPA$deliverable <- as.factor(FPA$deliverable)
