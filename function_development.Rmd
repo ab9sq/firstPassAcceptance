@@ -1,7 +1,6 @@
 ---
 title: "Functions"
 author: "Nick Lauerman"
-date: "January 22, 2018 @ 4:00 PM"
 output: 
   pdf_document: 
     fig_caption: yes
@@ -14,6 +13,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Last Run 23 Jan 2018 @ 10:17
 
 This is to document the develpoment of functins derived from various other
 activities to support the FPA proejct. It is important to note tha functions
