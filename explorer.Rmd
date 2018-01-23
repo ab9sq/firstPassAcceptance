@@ -161,3 +161,57 @@ FPA$UID <- paste(FPA$project,
                   )
 ```
 
+# Simple count metrics
+## Projects worked
+```{r}
+length(unique(FPA$project))
+```
+
+## Number of reviews
+```{r}
+nrow(FPA)
+```
+
+## Number of Documents Reviewed
+```{r}
+length(unique(FPA$UID))
+
+```
+
+
+## Number of Projects Started
+```{r}
+length(unique(
+     subset(
+          subset(FPA, 
+                 subset = (status == "A" | status == "A-FP")),
+          subset = deliverable == "Software Change Request")$project))
+```
+
+
+## Number of Projects Completed
+```{r}
+length(unique(
+     subset(
+          subset(FPA, 
+                 subset = (status == "A" | status == "A-FP")),
+          subset = deliverable == "System Certification Summary")$project))
+```
+
+## Approval rate
+probability of a document being approved when reviewed
+```{r}
+nrow(unique(
+     subset(FPA, subset = (status == "A" | status == "A-FP"))
+))/nrow(FPA)
+
+```
+
+## First Pass Acceptance
+probability of a document being approved when reviewed the first time
+```{r}
+nrow(unique(
+     subset(FPA, subset = status == "A-FP")
+))/nrow(FPA)
+```
+
