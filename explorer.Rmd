@@ -2,6 +2,7 @@
 title: "Exploration"
 author: "Nick Lauerman"
 
+
 output: 
   pdf_document: 
     fig_caption: yes
@@ -14,7 +15,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-last Run 23 jan 18 @ 10:19
+
 
 # Purpose
 To explore metrics options based on data collected by Software Quality Assurance
