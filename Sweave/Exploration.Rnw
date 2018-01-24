@@ -6,7 +6,7 @@
 \setlength{\columnseprule}{0.5pt}
 
 
-\title{Potention Metric Items From FPA Spreadsheet}
+\title{Potential Metric Items From FPA Spreadsheet}
 \author{Nick Lauerman}
 %\date{23 Jan 2017}
 
@@ -18,7 +18,7 @@
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators for the Software
 Quality Assurance collect on the First Pass Acceptance Excel workbook.
-\footnote{Date Ran: \today \currenttime} % time not correctly formating
+\footnote{Date Ran: \today{} at \currenttime} % time not correctly formating needs a space
 \end{abstract}
 
 \tableofcontents
@@ -82,10 +82,73 @@ application list becouse some application may have more than one project in a pe
 length(unique(FPA$project))
 @
 
+\subsection{Number of reviews}
+This is the number of items reviewed, a document may be counted more than once if it is reviewed
+more than once.
+<<reviews, echo=FALSE>>=
+nrow(FPA)
+@
 
+\subsection{Number of items reviewed}
+This is the number of unique items reviewed, each item is only counted once regardless of
+how many times it is reviewed.
 
+Note: right now this will report low due to certian items having no way to descrimate between
+such as multiple executions of the same test script or results from an IIVP run on different
+computers within the same project.
+<<items reviewed, echo=FALSE>>=
+length(unique(FPA$UID))
+@
 
+\subsection{Number of Projects Started}
+The point at which a project is started is when version 1 of the \textit{Software
+Change Request} is approved.
 
+<<new projects, echo=FALSE>>=
+length(unique(
+     subset(
+          subset(FPA,
+                 subset = ((status == "A" | status == "A-FP") & version == 1)),
+          subset = deliverable == "Software Change Request")$project))
+@
 
+\subsection{Projects Completed}
+
+The point at which a project is considered completed is when version 1 of the
+\textit{System Certification Summary} is approved.
+
+<<finished projects, echo=FALSE>>=
+length(unique(
+     subset(
+          subset(FPA,
+                 subset = (((status == "A" | status == "A-FP") & version == 1))),
+          subset = deliverable == "System Certification Summary")$project))
+@
+
+\section{Rate Metrics}
+\subsection{Document Approval Rate}
+This is portion of documents that are approved upon review.
+
+It is computed by counting the number of approvals (to include first pass)
+and deviding that by the total number of reviews
+
+<<approval rate, echo=FALSE>>=
+nrow(unique(
+     subset(FPA, subset = (status == "A" | status == "A-FP"))
+))/nrow(FPA)
+@
+
+\subsection{First Pass Acceptance}
+this is the portion of documents that are approved on the first review conducted
+by SQA.
+
+It is computed by counting the number of first pass approvals and deviding by
+the number of reviews
+
+<<First Pass,echo=FALSE>>=
+nrow(unique(
+     subset(FPA, subset = status == "A-FP")
+))/nrow(FPA)
+@
 
 \end{document}

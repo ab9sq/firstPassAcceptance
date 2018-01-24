@@ -185,7 +185,7 @@ length(unique(FPA$UID))
 length(unique(
      subset(
           subset(FPA, 
-                 subset = (status == "A" | status == "A-FP")),
+                 subset = ((status == "A" | status == "A-FP") & version == 1)),
           subset = deliverable == "Software Change Request")$project))
 ```
 
@@ -195,7 +195,7 @@ length(unique(
 length(unique(
      subset(
           subset(FPA, 
-                 subset = (status == "A" | status == "A-FP")),
+                 subset = ((status == "A" | status == "A-FP"))),
           subset = deliverable == "System Certification Summary")$project))
 ```
 
