@@ -216,3 +216,20 @@ nrow(unique(
 ))/nrow(FPA)
 ```
 
+## Number of deliverables by type
+THe number of each type of deliverable 
+
+```{r}
+table(FPA[!duplicated(FPA$UID),]$deliverable)
+```
+
+## number od deliverable per application
+```{r}
+table(FPA[!duplicated(FPA$UID),]$application)
+```
+
+## distrubation of result of reviews
+```{r}
+table(FPA$status)
+```
+

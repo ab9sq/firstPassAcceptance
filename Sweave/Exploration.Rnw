@@ -141,6 +141,28 @@ length(unique(
           subset = deliverable == "System Certification Summary")$project))
 @
 
+
+\subsection{Number Of Deliverables By Type}
+This is unique for each deliverable. It only counts each document once so a deliverable
+that is disapproved and then approved is only counted once.
+
+<<number by type, echo=FALSE>>=
+table(FPA[!duplicated(FPA$UID),]$deliverable)
+@
+
+\subsection{Number of deliverable by application}
+This is the number of unique deliverables that each application submitted. Itonly counts
+each document once, regardless of the status.
+<<number by application, echo=FALSE>>=
+table(FPA[!duplicated(FPA$UID),]$application)
+@
+
+\subsection{Number of Approvals, Disapprovals, and First Pass Approvals}
+
+<<FPA Dist, echo=FALSE>>=
+table(FPA$status)
+@
+
 \section{Rate Metrics}
 \subsection{Document Approval Rate}
 This is portion of documents that are approved upon review.
