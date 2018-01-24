@@ -17,55 +17,58 @@
 \maketitle
 
 \begin{abstract}
-Evaulation of various potential matrics, performance indicators for the Software
-Quality Assurance collect on the First Pass Acceptance Excel workbook.
-\footnote{Date Ran: \today{} at \currenttime}
+Evaulation of various potential matrics, performance indicators from the Excel
+workbook that Software Quality Assurance collected called First Pass
+Acceptance.\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
 
 \section{Introduction}
-The data is processed using R, Version 3.4.3 named Kite-Eating Tree. The only
-extension (package or library) utilized is lubridate (version 1.7.1) to provide
-key functionality in the processing of dates.
+The data is processed using R\footnote{RStudio is utilized as an IDE}, Version
+3.4.3 named Kite-Eating Tree. The only extension (package or library) utilized is
+lubridate (version 1.7.1) to provide key functionality in the processing of dates.
 
-The data is read into R from a comma seperate value (csv) file which is derived
+The data is read into R from a comma seperated value (csv) file which is derived (saved)
 from the spreadsheet without modification. Additional values are computed as needed.
 
 This report is prepared in the R enviroment using a collection of packages know as
-Sweave that included knitr which inturn feeds the package into \LaTeXe{} a typeseting
-program to produce a PDF file. \LaTeXe{} is utilizing the folowing packages to control
-style and formating:
+Sweave that included knitr which in turn feeds the package into \LaTeXe{} a typeseting
+program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX. \LaTeXe{} is utilizing
+the folowing packages to control style and formating:
 \begin{itemize}
 \item datetime and
 \item multitoc
 \end{itemize}
 
-This will only show point in time data. Or what we did this period.
+This will only show a point in time summary and no trends.
 
 \section{Data and Calculations}
 \subsection{Data}
-A seperate data diction will be prepared to for both the source data
-and and computed values stored in R.
+A seperate data dictionary will be prepared to for both the source data
+and computed values stored in R.
 
 \subsection{Calculations}
-All calculations presented here are not implemented in R as formulas.
+All calculations presented here have not been implemented in R as formulas.
 
 \section{Work Yet to be Completed}
 \subsection{Formula}
-Some calculations would be better implemented as formulas and which matrics those
-are needs to be evulated and the formulas developed.
+Some calculations would be better implemented as formulas. The calculations need
+to be evulated and the formulas developed where needed.
 \subsection{Trending}
 Eventually the ``System'' will be updated to select the data on a for a calander
-month. After processing the data will be stored in a seperate file to provide the
-results for that month. This will allow for longr term trending of this data.
-\subsection{Graphs}
-When ``trending'' is implented graphs of the trend will also be added.
+month. After processing the resulots will be stored in a seperate file.
+This will allow for longer term trending of this data.
+\subsubsection{Graphs}
+When ``trending'' is implented graphs of the trends will also be added.
+
 
 \section{Quanity Metrics}
 \subsection{Application supported}
-This is a list of all application support this period. This may differ from projects
-supported as some application may have multiple projects in a period.
+This is a list of all application support this period.
+
+\textbf{Note:} Alphabatize the list
+
 \begin{Schunk}
 \begin{Soutput}
  [1] "Groninger"                   "Assay File Database "       
@@ -77,9 +80,12 @@ supported as some application may have multiple projects in a period.
 [13] "Metrics Library"             "DaVinci"                    
 \end{Soutput}
 \end{Schunk}
+
 \subsection{Number of Projects}
-The total number of unique projects worked on this period. This may differ from the
-application list becouse some application may have more than one project in a periond.
+The total number of  projects worked on in this period. This may differ from the
+application list because some applications may have more than one project in
+the periond.
+
 \begin{Schunk}
 \begin{Soutput}
 [1] 15
@@ -87,8 +93,9 @@ application list becouse some application may have more than one project in a pe
 \end{Schunk}
 
 \subsection{Number of reviews}
-This is the number of items reviewed, a document may be counted more than once if it is reviewed
-more than once.
+This is the number of items reviewed, a document will be counted more than once
+if it is reviewed more than once.
+
 \begin{Schunk}
 \begin{Soutput}
 [1] 66
@@ -96,12 +103,13 @@ more than once.
 \end{Schunk}
 
 \subsection{Number of items reviewed}
-This is the number of unique items reviewed, each item is only counted once regardless of
-how many times it is reviewed.
+This is the number of unique items reviewed, each item is only counted once
+regardless of how many times it is reviewed.
 
-Note: right now this will report low due to certian items having no way to descrimate between
-such as multiple executions of the same test script or results from an IIVP run on different
-computers within the same project.
+\textbf{Note:} This is reporting low due to certian items having no way to
+descrimate between such as multiple executions of the same test script or
+results from an IIVP run on different computers within the same project.
+
 \begin{Schunk}
 \begin{Soutput}
 [1] 57
@@ -112,9 +120,8 @@ computers within the same project.
 The point at which a project is started is when version 1 of the \textit{Software
 Change Request} is approved.
 
-There is an issue with this right now, it fails to count projects using the ML process
+\textbf{Note:} There is an issue with this right now; it fails to count projects using the ML process
 as there is no SCR in that process. It is combined into the \testit{Project Plan}.
-
 
 \begin{Schunk}
 \begin{Soutput}
@@ -127,7 +134,7 @@ as there is no SCR in that process. It is combined into the \testit{Project Plan
 The point at which a project is considered completed is when version 1 of the
 \textit{System Certification Summary} is approved.
 
-There is an issue with this right now as it fails to count project, other than ML,
+\textbf{Note:} There is an issue with this right now; as it fails to count projects
 that use the ML report process as there is no system certification.
 
 \begin{Schunk}
@@ -140,8 +147,7 @@ that use the ML report process as there is no system certification.
 \subsection{Document Approval Rate}
 This is portion of documents that are approved upon review.
 
-It is computed by counting the number of approvals (to include first pass)
-and deviding that by the total number of reviews
+It is computed by counting the number of approvals devided that by the total number of reviews.
 
 \begin{Schunk}
 \begin{Soutput}
@@ -153,8 +159,8 @@ and deviding that by the total number of reviews
 this is the portion of documents that are approved on the first review conducted
 by SQA.
 
-It is computed by counting the number of first pass approvals and deviding by
-the number of reviews
+It is computed by counting the number of first pass approvals devided by
+the number of reviews.
 
 \begin{Schunk}
 \begin{Soutput}
