@@ -234,3 +234,9 @@ table(FPA[!duplicated(FPA$UID),]$application)
 table(FPA$status)
 ```
 
+## 2 way table deliverables by application
+```{r}
+table(FPA[!duplicated(FPA$UID),]$application,
+      FPA[!duplicated(FPA$UID),]$deliverable)
+```
+

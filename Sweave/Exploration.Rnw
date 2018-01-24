@@ -163,6 +163,11 @@ table(FPA[!duplicated(FPA$UID),]$application)
 table(FPA$status)
 @
 
+\subsection{Table of deliverables by application}
+<<2 way, echo=FALSE>>=
+table(FPA[!duplicated(FPA$UID),]$application,
+      FPA[!duplicated(FPA$UID),]$deliverable)
+@
 \section{Rate Metrics}
 \subsection{Document Approval Rate}
 This is portion of documents that are approved upon review.
