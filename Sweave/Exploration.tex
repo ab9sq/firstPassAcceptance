@@ -8,7 +8,7 @@
 
 \title{Potential Metric Items From FPA Spreadsheet}
 \author{Nick Lauerman}
-%\date{23 Jan 2017}
+\date{}
 
 
 \usepackage{Sweave}
@@ -19,7 +19,7 @@
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators for the Software
 Quality Assurance collect on the First Pass Acceptance Excel workbook.
-\footnote{Date Ran: \today{} at \currenttime} % time not correctly formating needs a space
+\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
@@ -112,6 +112,10 @@ computers within the same project.
 The point at which a project is started is when version 1 of the \textit{Software
 Change Request} is approved.
 
+There is an issue with this right now, it fails to count projects using the ML process
+as there is no SCR in that process. It is combined into the \testit{Project Plan}.
+
+
 \begin{Schunk}
 \begin{Soutput}
 [1] 2
@@ -122,6 +126,9 @@ Change Request} is approved.
 
 The point at which a project is considered completed is when version 1 of the
 \textit{System Certification Summary} is approved.
+
+There is an issue with this right now as it fails to count project, other than ML,
+that use the ML report process as there is no system certification.
 
 \begin{Schunk}
 \begin{Soutput}
