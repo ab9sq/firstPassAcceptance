@@ -71,13 +71,15 @@ This is a list of all application support this period.
 
 \begin{Schunk}
 \begin{Soutput}
- [1] "Groninger"                   "Assay File Database "       
+ [1] "Groninger"                   "Assay File Database"        
  [3] "PCN/SCN"                     "WWLIMS"                     
  [5] "Pulse"                       "DFCS"                       
  [7] "DPW"                         "QIMS"                       
  [9] "Abbott Transfusion Medicine" "Apollo/PHM"                 
 [11] "AFMS"                        "SAS"                        
 [13] "Metrics Library"             "DaVinci"                    
+[15] "CMSNext"                     "GS Reports"                 
+[17] "IRIS"                        ""                           
 \end{Soutput}
 \end{Schunk}
 
@@ -88,7 +90,7 @@ the periond.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 15
+[1] 25
 \end{Soutput}
 \end{Schunk}
 
@@ -98,7 +100,7 @@ if it is reviewed more than once.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 66
+[1] 274
 \end{Soutput}
 \end{Schunk}
 
@@ -112,7 +114,7 @@ results from an IIVP run on different computers within the same project.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 57
+[1] 122
 \end{Soutput}
 \end{Schunk}
 
@@ -125,7 +127,7 @@ as there is no SCR in that process. It is combined into the \testit{Project Plan
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 2
+[1] 3
 \end{Soutput}
 \end{Schunk}
 
@@ -139,7 +141,7 @@ that use the ML report process as there is no system certification.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0
+[1] 1
 \end{Soutput}
 \end{Schunk}
 
@@ -150,20 +152,26 @@ that is disapproved and then approved is only counted once.
 
 \begin{Schunk}
 \begin{Soutput}
-                           CII            Design Verification 
-                             5                              2 
-                           FRS                   IIVP results 
-                             3                              6 
-                  Project Plan        Software Change Request 
-                             3                              4 
-Software Compliance Assessment   System Certification Summary 
-                             3                              1 
-                 Test Protocol          Test Protocol Results 
-                            18                              5 
-                  Traceability                            URS 
-                             3                              1 
-      User Acceptance Protocol                Validation Plan 
-                             2                              1 
+                                                              CII 
+                               1                                8 
+            Design Documentation              Design Verification 
+                               2                                5 
+                             FRS                             IIVP 
+                               5                                5 
+                    IIVP results               Move to Production 
+                               9                                1 
+                    Project Plan          Software Change Request 
+                               6                                6 
+  Software Compliance Assessment     System Certification Summary 
+                               4                                2 
+                   Test Protocol            Test Protocol Results 
+                              37                               14 
+                    Traceability                              URS 
+                               9                                2 
+        User Acceptance Protocol User Acceptance Protocol results 
+                               3                                1 
+                 Validation Plan 
+                               2 
 \end{Soutput}
 \end{Schunk}
 
@@ -172,20 +180,24 @@ This is the number of unique deliverables that each application submitted. Itonl
 each document once, regardless of the status.
 \begin{Schunk}
 \begin{Soutput}
-Abbott Transfusion Medicine                        AFMS 
-                          1                           7 
-                 Apollo/PHM        Assay File Database  
-                          8                           1 
+                            Abbott Transfusion Medicine 
+                          1                           1 
+                       AFMS                  Apollo/PHM 
+                          8                           9 
+        Assay File Database                     CMSNext 
+                          2                           2 
                     DaVinci                        DFCS 
-                          3                           6 
+                         12                          13 
                         DPW                   Groninger 
+                          4                           1 
+                 GS Reports                        IRIS 
                           3                           1 
             Metrics Library                     PCN/SCN 
-                          1                           2 
+                          3                           6 
                       Pulse                        QIMS 
-                          8                           4 
+                          8                          12 
                         SAS                      WWLIMS 
-                          1                          11 
+                          3                          33 
 \end{Soutput}
 \end{Schunk}
 
@@ -193,55 +205,87 @@ Abbott Transfusion Medicine                        AFMS
 
 \begin{Schunk}
 \begin{Soutput}
-   A A-FP    D 
-  14   37   15 
+        A A-FP    D 
+  98   54   67   55 
 \end{Soutput}
 \end{Schunk}
 
 \subsection{Table of deliverables by application}
 \begin{Schunk}
 \begin{Soutput}
-                              CII Design Verification FRS IIVP results
-  Abbott Transfusion Medicine   0                   0   0            0
-  AFMS                          1                   0   2            0
-  Apollo/PHM                    0                   0   0            3
-  Assay File Database           0                   0   0            0
-  DaVinci                       0                   0   1            0
-  DFCS                          0                   0   0            0
-  DPW                           0                   0   0            0
-  Groninger                     0                   0   0            0
-  Metrics Library               0                   0   0            0
-  PCN/SCN                       0                   0   0            0
-  Pulse                         0                   0   0            1
-  QIMS                          2                   2   0            0
-  SAS                           0                   0   0            0
-  WWLIMS                        2                   0   0            2
+                                 CII Design Documentation Design Verification
+                               1   0                    0                   0
+  Abbott Transfusion Medicine  0   0                    0                   0
+  AFMS                         0   1                    0                   0
+  Apollo/PHM                   0   0                    0                   0
+  Assay File Database          0   0                    0                   0
+  CMSNext                      0   0                    0                   0
+  DaVinci                      0   1                    0                   0
+  DFCS                         0   1                    0                   1
+  DPW                          0   0                    0                   0
+  Groninger                    0   0                    0                   0
+  GS Reports                   0   0                    0                   0
+  IRIS                         0   0                    0                   0
+  Metrics Library              0   0                    2                   0
+  PCN/SCN                      0   0                    0                   1
+  Pulse                        0   0                    0                   0
+  QIMS                         0   2                    0                   2
+  SAS                          0   0                    0                   0
+  WWLIMS                       0   3                    0                   1
+                             
+                              FRS IIVP IIVP results Move to Production
+                                0    0            0                  0
+  Abbott Transfusion Medicine   0    0            0                  0
+  AFMS                          2    0            0                  0
+  Apollo/PHM                    0    0            4                  0
+  Assay File Database           0    0            0                  0
+  CMSNext                       0    0            0                  0
+  DaVinci                       1    1            0                  0
+  DFCS                          0    1            0                  0
+  DPW                           0    0            0                  0
+  Groninger                     0    0            0                  0
+  GS Reports                    0    0            0                  1
+  IRIS                          0    0            1                  0
+  Metrics Library               0    0            0                  0
+  PCN/SCN                       1    1            0                  0
+  Pulse                         0    0            1                  0
+  QIMS                          0    1            1                  0
+  SAS                           0    0            0                  0
+  WWLIMS                        1    1            2                  0
                              
                               Project Plan Software Change Request
+                                         0                       0
   Abbott Transfusion Medicine            0                       0
   AFMS                                   0                       1
   Apollo/PHM                             0                       0
-  Assay File Database                    0                       1
+  Assay File Database                    1                       1
+  CMSNext                                0                       1
   DaVinci                                1                       1
   DFCS                                   1                       1
   DPW                                    0                       0
   Groninger                              0                       0
+  GS Reports                             2                       0
+  IRIS                                   0                       0
   Metrics Library                        1                       0
-  PCN/SCN                                0                       0
+  PCN/SCN                                0                       1
   Pulse                                  0                       0
   QIMS                                   0                       0
   SAS                                    0                       0
   WWLIMS                                 0                       0
                              
                               Software Compliance Assessment
+                                                           0
   Abbott Transfusion Medicine                              1
   AFMS                                                     0
   Apollo/PHM                                               0
   Assay File Database                                      0
+  CMSNext                                                  1
   DaVinci                                                  0
   DFCS                                                     0
   DPW                                                      0
   Groninger                                                0
+  GS Reports                                               0
+  IRIS                                                     0
   Metrics Library                                          0
   PCN/SCN                                                  2
   Pulse                                                    0
@@ -250,52 +294,84 @@ Abbott Transfusion Medicine                        AFMS
   WWLIMS                                                   0
                              
                               System Certification Summary Test Protocol
+                                                         0             0
   Abbott Transfusion Medicine                            0             0
-  AFMS                                                   0             1
+  AFMS                                                   0             2
   Apollo/PHM                                             0             5
   Assay File Database                                    0             0
-  DaVinci                                                0             0
-  DFCS                                                   0             0
+  CMSNext                                                0             0
+  DaVinci                                                0             5
+  DFCS                                                   0             1
   DPW                                                    1             1
   Groninger                                              0             0
+  GS Reports                                             0             0
+  IRIS                                                   0             0
   Metrics Library                                        0             0
   PCN/SCN                                                0             0
   Pulse                                                  0             3
-  QIMS                                                   0             0
-  SAS                                                    0             1
-  WWLIMS                                                 0             7
+  QIMS                                                   0             4
+  SAS                                                    1             1
+  WWLIMS                                                 0            15
                              
                               Test Protocol Results Traceability URS
+                                                  0            0   0
   Abbott Transfusion Medicine                     0            0   0
   AFMS                                            0            0   1
   Apollo/PHM                                      0            0   0
   Assay File Database                             0            0   0
-  DaVinci                                         0            0   0
-  DFCS                                            1            1   0
-  DPW                                             1            0   0
+  CMSNext                                         0            0   0
+  DaVinci                                         0            0   1
+  DFCS                                            2            1   0
+  DPW                                             2            0   0
   Groninger                                       0            1   0
+  GS Reports                                      0            0   0
+  IRIS                                            0            0   0
   Metrics Library                                 0            0   0
   PCN/SCN                                         0            0   0
   Pulse                                           3            1   0
-  QIMS                                            0            0   0
-  SAS                                             0            0   0
-  WWLIMS                                          0            0   0
+  QIMS                                            0            2   0
+  SAS                                             1            0   0
+  WWLIMS                                          6            4   0
                              
-                              User Acceptance Protocol Validation Plan
-  Abbott Transfusion Medicine                        0               0
-  AFMS                                               0               1
-  Apollo/PHM                                         0               0
-  Assay File Database                                0               0
-  DaVinci                                            0               0
-  DFCS                                               2               0
-  DPW                                                0               0
-  Groninger                                          0               0
-  Metrics Library                                    0               0
-  PCN/SCN                                            0               0
-  Pulse                                              0               0
-  QIMS                                               0               0
-  SAS                                                0               0
-  WWLIMS                                             0               0
+                              User Acceptance Protocol
+                                                     0
+  Abbott Transfusion Medicine                        0
+  AFMS                                               0
+  Apollo/PHM                                         0
+  Assay File Database                                0
+  CMSNext                                            0
+  DaVinci                                            0
+  DFCS                                               3
+  DPW                                                0
+  Groninger                                          0
+  GS Reports                                         0
+  IRIS                                               0
+  Metrics Library                                    0
+  PCN/SCN                                            0
+  Pulse                                              0
+  QIMS                                               0
+  SAS                                                0
+  WWLIMS                                             0
+                             
+                              User Acceptance Protocol results Validation Plan
+                                                             0               0
+  Abbott Transfusion Medicine                                0               0
+  AFMS                                                       0               1
+  Apollo/PHM                                                 0               0
+  Assay File Database                                        0               0
+  CMSNext                                                    0               0
+  DaVinci                                                    0               1
+  DFCS                                                       1               0
+  DPW                                                        0               0
+  Groninger                                                  0               0
+  GS Reports                                                 0               0
+  IRIS                                                       0               0
+  Metrics Library                                            0               0
+  PCN/SCN                                                    0               0
+  Pulse                                                      0               0
+  QIMS                                                       0               0
+  SAS                                                        0               0
+  WWLIMS                                                     0               0
 \end{Soutput}
 \end{Schunk}
 \section{Rate Metrics}
@@ -306,7 +382,7 @@ It is computed by counting the number of approvals devided that by the total num
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.7575758
+[1] 0.4343066
 \end{Soutput}
 \end{Schunk}
 
@@ -319,7 +395,7 @@ the number of reviews.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.5454545
+[1] 0.2408759
 \end{Soutput}
 \end{Schunk}
 
