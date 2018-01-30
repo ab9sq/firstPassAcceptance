@@ -240,3 +240,36 @@ table(FPA[!duplicated(FPA$UID),]$application,
       FPA[!duplicated(FPA$UID),]$deliverable)
 ```
 
+## Number of Projects Started revisited
+```{r}
+length(unique(subset(FPA, subset = (((status == "A" | status == "A-FP") 
+                                     & version == 1) 
+                                    & deliverable == "Software Change Request" ))
+              $project)) +
+     length(unique(
+          subset(FPA,
+                 subset = ((((status == "A" | status == "A-FP") 
+                             & version == 1)
+                            & application == "GS Reports")
+                           & deliverable == "Project Plan"))
+          $project))
+
+```
+
+
+## Projects completed round two
+```{r}
+length(unique(
+     subset(
+          subset(FPA,
+                 subset = (((status == "A" | status == "A-FP")
+                            & version == 1))),
+          subset = deliverable == "System Certification Summary")$project)) +
+     length(unique(
+     subset(
+          subset(FPA,
+                 subset = (((status == "A" | status == "A-FP")
+                            & version == 1))),
+          subset = deliverable == "Move to Production")$project))
+```
+

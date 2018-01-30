@@ -112,16 +112,22 @@ length(unique(FPA$UID))
 The point at which a project is started is when version 1 of the \textit{Software
 Change Request} is approved.
 
-\textbf{Note:} There is an issue with this right now; it fails to count projects using the ML process
-as there is no SCR in that process. It is combined into the \testit{Project Plan}.
+\textbf{Note:} This now counts ML type projects (Metrics Library and GS Reports)
+using the Project Plan as the point that a project starts.
 
 <<new projects, echo=FALSE>>=
-length(unique(
-     subset(
+length(unique(subset(FPA, subset = (((status == "A" | status == "A-FP")
+                                     & version == 1)
+                                    & deliverable == "Software Change Request" ))
+              $project)) +
+     length(unique(
           subset(FPA,
-                 subset = ((status == "A" | status == "A-FP")
-                           & version == 1)),
-          subset = deliverable == "Software Change Request")$project))
+                 subset = ((((status == "A" | status == "A-FP")
+                             & version == 1)
+                            & (application == "GS Reports"
+                               | application =="Metrics Library"))
+                           & deliverable == "Project Plan"))
+          $project))
 @
 
 \subsection{Projects Completed}
@@ -138,7 +144,13 @@ length(unique(
           subset(FPA,
                  subset = (((status == "A" | status == "A-FP")
                             & version == 1))),
-          subset = deliverable == "System Certification Summary")$project))
+          subset = deliverable == "System Certification Summary")$project)) +
+     length(unique(
+     subset(
+          subset(FPA,
+                 subset = (((status == "A" | status == "A-FP")
+                            & version == 1))),
+          subset = deliverable == "Move to Production")$project))
 @
 
 
