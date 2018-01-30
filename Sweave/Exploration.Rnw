@@ -135,8 +135,8 @@ length(unique(subset(FPA, subset = (((status == "A" | status == "A-FP")
 The point at which a project is considered completed is when version 1 of the
 \textit{System Certification Summary} is approved.
 
-\textbf{Note:} There is an issue with this right now; as it fails to count projects
-that use the ML report process as there is no system certification.
+\textbf{Note:} now counts GS (Global Service) Reports Move to Production as the end
+of project.
 
 <<finished projects, echo=FALSE>>=
 length(unique(
@@ -180,6 +180,12 @@ table(FPA$status)
 table(FPA[!duplicated(FPA$UID),]$application,
       FPA[!duplicated(FPA$UID),]$deliverable)
 @
+
+
+
+
+
+
 \section{Rate Metrics}
 \subsection{Document Approval Rate}
 This is portion of documents that are approved upon review.

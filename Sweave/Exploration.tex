@@ -79,7 +79,7 @@ This is a list of all application support this period.
 [11] "AFMS"                        "SAS"                        
 [13] "Metrics Library"             "DaVinci"                    
 [15] "CMSNext"                     "GS Reports"                 
-[17] "IRIS"                        ""                           
+[17] "IRIS"                       
 \end{Soutput}
 \end{Schunk}
 
@@ -90,7 +90,7 @@ the periond.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 25
+[1] 24
 \end{Soutput}
 \end{Schunk}
 
@@ -100,7 +100,7 @@ if it is reviewed more than once.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 274
+[1] 176
 \end{Soutput}
 \end{Schunk}
 
@@ -114,7 +114,7 @@ results from an IIVP run on different computers within the same project.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 122
+[1] 121
 \end{Soutput}
 \end{Schunk}
 
@@ -136,8 +136,8 @@ using the Project Plan as the point that a project starts.
 The point at which a project is considered completed is when version 1 of the
 \textit{System Certification Summary} is approved.
 
-\textbf{Note:} There is an issue with this right now; as it fails to count projects
-that use the ML report process as there is no system certification.
+\textbf{Note:} now counts GS (Global Service) Reports Move to Production as the end
+of project.
 
 \begin{Schunk}
 \begin{Soutput}
@@ -152,26 +152,24 @@ that is disapproved and then approved is only counted once.
 
 \begin{Schunk}
 \begin{Soutput}
-                                                              CII 
-                               1                                8 
-            Design Documentation              Design Verification 
-                               2                                5 
-                             FRS                             IIVP 
+                             CII             Design Documentation 
+                               8                                2 
+             Design Verification                              FRS 
                                5                                5 
-                    IIVP results               Move to Production 
-                               9                                1 
-                    Project Plan          Software Change Request 
-                               6                                6 
-  Software Compliance Assessment     System Certification Summary 
-                               4                                2 
-                   Test Protocol            Test Protocol Results 
-                              37                               14 
-                    Traceability                              URS 
-                               9                                2 
-        User Acceptance Protocol User Acceptance Protocol results 
-                               3                                1 
-                 Validation Plan 
-                               2 
+                            IIVP                     IIVP results 
+                               5                                9 
+              Move to Production                     Project Plan 
+                               1                                6 
+         Software Change Request   Software Compliance Assessment 
+                               6                                4 
+    System Certification Summary                    Test Protocol 
+                               2                               37 
+           Test Protocol Results                     Traceability 
+                              14                                9 
+                             URS         User Acceptance Protocol 
+                               2                                3 
+User Acceptance Protocol results                  Validation Plan 
+                               1                                2 
 \end{Soutput}
 \end{Schunk}
 
@@ -180,24 +178,24 @@ This is the number of unique deliverables that each application submitted. Itonl
 each document once, regardless of the status.
 \begin{Schunk}
 \begin{Soutput}
-                            Abbott Transfusion Medicine 
-                          1                           1 
-                       AFMS                  Apollo/PHM 
-                          8                           9 
-        Assay File Database                     CMSNext 
-                          2                           2 
-                    DaVinci                        DFCS 
-                         12                          13 
-                        DPW                   Groninger 
-                          4                           1 
-                 GS Reports                        IRIS 
-                          3                           1 
-            Metrics Library                     PCN/SCN 
-                          3                           6 
-                      Pulse                        QIMS 
-                          8                          12 
-                        SAS                      WWLIMS 
-                          3                          33 
+Abbott Transfusion Medicine                        AFMS 
+                          1                           8 
+                 Apollo/PHM         Assay File Database 
+                          9                           2 
+                    CMSNext                     DaVinci 
+                          2                          12 
+                       DFCS                         DPW 
+                         13                           4 
+                  Groninger                  GS Reports 
+                          1                           3 
+                       IRIS             Metrics Library 
+                          1                           3 
+                    PCN/SCN                       Pulse 
+                          6                           8 
+                       QIMS                         SAS 
+                         12                           3 
+                     WWLIMS 
+                         33 
 \end{Soutput}
 \end{Schunk}
 
@@ -205,76 +203,72 @@ each document once, regardless of the status.
 
 \begin{Schunk}
 \begin{Soutput}
-        A A-FP    D 
-  98   54   67   55 
+   A A-FP    D 
+  54   67   55 
 \end{Soutput}
 \end{Schunk}
 
 \subsection{Table of deliverables by application}
 \begin{Schunk}
 \begin{Soutput}
-                                 CII Design Documentation Design Verification
-                               1   0                    0                   0
-  Abbott Transfusion Medicine  0   0                    0                   0
-  AFMS                         0   1                    0                   0
-  Apollo/PHM                   0   0                    0                   0
-  Assay File Database          0   0                    0                   0
-  CMSNext                      0   0                    0                   0
-  DaVinci                      0   1                    0                   0
-  DFCS                         0   1                    0                   1
-  DPW                          0   0                    0                   0
-  Groninger                    0   0                    0                   0
-  GS Reports                   0   0                    0                   0
-  IRIS                         0   0                    0                   0
-  Metrics Library              0   0                    2                   0
-  PCN/SCN                      0   0                    0                   1
-  Pulse                        0   0                    0                   0
-  QIMS                         0   2                    0                   2
-  SAS                          0   0                    0                   0
-  WWLIMS                       0   3                    0                   1
+                              CII Design Documentation Design Verification FRS
+  Abbott Transfusion Medicine   0                    0                   0   0
+  AFMS                          1                    0                   0   2
+  Apollo/PHM                    0                    0                   0   0
+  Assay File Database           0                    0                   0   0
+  CMSNext                       0                    0                   0   0
+  DaVinci                       1                    0                   0   1
+  DFCS                          1                    0                   1   0
+  DPW                           0                    0                   0   0
+  Groninger                     0                    0                   0   0
+  GS Reports                    0                    0                   0   0
+  IRIS                          0                    0                   0   0
+  Metrics Library               0                    2                   0   0
+  PCN/SCN                       0                    0                   1   1
+  Pulse                         0                    0                   0   0
+  QIMS                          2                    0                   2   0
+  SAS                           0                    0                   0   0
+  WWLIMS                        3                    0                   1   1
                              
-                              FRS IIVP IIVP results Move to Production
-                                0    0            0                  0
-  Abbott Transfusion Medicine   0    0            0                  0
-  AFMS                          2    0            0                  0
-  Apollo/PHM                    0    0            4                  0
-  Assay File Database           0    0            0                  0
-  CMSNext                       0    0            0                  0
-  DaVinci                       1    1            0                  0
-  DFCS                          0    1            0                  0
-  DPW                           0    0            0                  0
-  Groninger                     0    0            0                  0
-  GS Reports                    0    0            0                  1
-  IRIS                          0    0            1                  0
-  Metrics Library               0    0            0                  0
-  PCN/SCN                       1    1            0                  0
-  Pulse                         0    0            1                  0
-  QIMS                          0    1            1                  0
-  SAS                           0    0            0                  0
-  WWLIMS                        1    1            2                  0
+                              IIVP IIVP results Move to Production Project Plan
+  Abbott Transfusion Medicine    0            0                  0            0
+  AFMS                           0            0                  0            0
+  Apollo/PHM                     0            4                  0            0
+  Assay File Database            0            0                  0            1
+  CMSNext                        0            0                  0            0
+  DaVinci                        1            0                  0            1
+  DFCS                           1            0                  0            1
+  DPW                            0            0                  0            0
+  Groninger                      0            0                  0            0
+  GS Reports                     0            0                  1            2
+  IRIS                           0            1                  0            0
+  Metrics Library                0            0                  0            1
+  PCN/SCN                        1            0                  0            0
+  Pulse                          0            1                  0            0
+  QIMS                           1            1                  0            0
+  SAS                            0            0                  0            0
+  WWLIMS                         1            2                  0            0
                              
-                              Project Plan Software Change Request
-                                         0                       0
-  Abbott Transfusion Medicine            0                       0
-  AFMS                                   0                       1
-  Apollo/PHM                             0                       0
-  Assay File Database                    1                       1
-  CMSNext                                0                       1
-  DaVinci                                1                       1
-  DFCS                                   1                       1
-  DPW                                    0                       0
-  Groninger                              0                       0
-  GS Reports                             2                       0
-  IRIS                                   0                       0
-  Metrics Library                        1                       0
-  PCN/SCN                                0                       1
-  Pulse                                  0                       0
-  QIMS                                   0                       0
-  SAS                                    0                       0
-  WWLIMS                                 0                       0
+                              Software Change Request
+  Abbott Transfusion Medicine                       0
+  AFMS                                              1
+  Apollo/PHM                                        0
+  Assay File Database                               1
+  CMSNext                                           1
+  DaVinci                                           1
+  DFCS                                              1
+  DPW                                               0
+  Groninger                                         0
+  GS Reports                                        0
+  IRIS                                              0
+  Metrics Library                                   0
+  PCN/SCN                                           1
+  Pulse                                             0
+  QIMS                                              0
+  SAS                                               0
+  WWLIMS                                            0
                              
                               Software Compliance Assessment
-                                                           0
   Abbott Transfusion Medicine                              1
   AFMS                                                     0
   Apollo/PHM                                               0
@@ -294,7 +288,6 @@ each document once, regardless of the status.
   WWLIMS                                                   0
                              
                               System Certification Summary Test Protocol
-                                                         0             0
   Abbott Transfusion Medicine                            0             0
   AFMS                                                   0             2
   Apollo/PHM                                             0             5
@@ -314,7 +307,6 @@ each document once, regardless of the status.
   WWLIMS                                                 0            15
                              
                               Test Protocol Results Traceability URS
-                                                  0            0   0
   Abbott Transfusion Medicine                     0            0   0
   AFMS                                            0            0   1
   Apollo/PHM                                      0            0   0
@@ -334,7 +326,6 @@ each document once, regardless of the status.
   WWLIMS                                          6            4   0
                              
                               User Acceptance Protocol
-                                                     0
   Abbott Transfusion Medicine                        0
   AFMS                                               0
   Apollo/PHM                                         0
@@ -354,7 +345,6 @@ each document once, regardless of the status.
   WWLIMS                                             0
                              
                               User Acceptance Protocol results Validation Plan
-                                                             0               0
   Abbott Transfusion Medicine                                0               0
   AFMS                                                       0               1
   Apollo/PHM                                                 0               0
@@ -374,6 +364,12 @@ each document once, regardless of the status.
   WWLIMS                                                     0               0
 \end{Soutput}
 \end{Schunk}
+
+
+
+
+
+
 \section{Rate Metrics}
 \subsection{Document Approval Rate}
 This is portion of documents that are approved upon review.
@@ -382,7 +378,7 @@ It is computed by counting the number of approvals devided that by the total num
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.4343066
+[1] 0.6761364
 \end{Soutput}
 \end{Schunk}
 
@@ -395,7 +391,7 @@ the number of reviews.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.2408759
+[1] 0.375
 \end{Soutput}
 \end{Schunk}
 
