@@ -273,3 +273,27 @@ length(unique(
           subset = deliverable == "Move to Production")$project))
 ```
 
+# Defects
+```{r}
+table(FPA$reason)
+```
+
+# to be transfered
+
+## defects verse application
+```{r}
+table(as.character(subset(FPA, subset = (status == "D"))$application), 
+      subset(FPA, subset = (status == "D"))$reason)
+```
+
+## defects verse deliverable
+```{r}
+table(as.character(subset(FPA, subset = (status == "D"))$deliverable), 
+      subset(FPA, subset = (status == "D"))$reason)
+```
+
+## Rejects by deliverable
+```{r}
+table(as.character(subset(FPA, subset = (status == "D"))$deliverable))
+```
+
