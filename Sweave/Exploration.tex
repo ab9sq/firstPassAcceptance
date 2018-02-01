@@ -365,8 +365,218 @@ Abbott Transfusion Medicine                        AFMS
 \end{Soutput}
 \end{Schunk}
 
+\subsection{Table of rejection reasons}
+\begin{Schunk}
+\begin{Soutput}
+                Inaccurate information                        Incorrect scope 
+                                    29                                      1 
+                  Insufficient testing           Not compliant with procedure 
+                                     6                                      9 
+Not following document version control                     Not using template 
+                                     3                                      1 
+                                 Other                 Requirement deficiency 
+                                     1                                      1 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{defects verses application}
+
+\begin{Schunk}
+\begin{Soutput}
+                      Inaccurate information Incorrect scope
+  AFMS                                     0               0
+  Apollo/PHM                               1               0
+  Assay File Database                      0               0
+  CMSNext                                  2               0
+  DaVinci                                 11               0
+  DFCS                                     1               0
+  DPW                                      1               0
+  PCN/SCN                                  2               1
+  Pulse                                    0               0
+  QIMS                                     7               0
+  WWLIMS                                   4               0
+                     
+                      Insufficient testing Not compliant with procedure
+  AFMS                                   0                            4
+  Apollo/PHM                             0                            0
+  Assay File Database                    0                            1
+  CMSNext                                0                            0
+  DaVinci                                0                            2
+  DFCS                                   0                            0
+  DPW                                    0                            0
+  PCN/SCN                                0                            0
+  Pulse                                  0                            1
+  QIMS                                   6                            1
+  WWLIMS                                 0                            0
+                     
+                      Not following document version control Not using template
+  AFMS                                                     0                  0
+  Apollo/PHM                                               0                  0
+  Assay File Database                                      0                  0
+  CMSNext                                                  0                  0
+  DaVinci                                                  1                  0
+  DFCS                                                     0                  1
+  DPW                                                      0                  0
+  PCN/SCN                                                  0                  0
+  Pulse                                                    0                  0
+  QIMS                                                     0                  0
+  WWLIMS                                                   2                  0
+                     
+                      Other Requirement deficiency
+  AFMS                    0                      0
+  Apollo/PHM              0                      0
+  Assay File Database     1                      0
+  CMSNext                 0                      0
+  DaVinci                 0                      1
+  DFCS                    0                      0
+  DPW                     0                      0
+  PCN/SCN                 0                      0
+  Pulse                   0                      0
+  QIMS                    0                      0
+  WWLIMS                  0                      0
+\end{Soutput}
+\end{Schunk}
+
+\subsection{defects verses deliverable}
+
+\begin{Schunk}
+\begin{Sinput}
+> table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
++       subset(FPA, subset = (status == "D"))$reason)
+\end{Sinput}
+\begin{Soutput}
+                                 Inaccurate information Incorrect scope
+  CII                                                 4               0
+  FRS                                                 0               0
+  IIVP                                                2               0
+  IIVP results                                        1               0
+  Project Plan                                        5               0
+  Software Change Request                             2               0
+  Software Compliance Assessment                      1               1
+  System Certification Summary                        1               0
+  Test Protocol                                       7               0
+  Test Protocol Results                               2               0
+  Traceability                                        4               0
+  URS                                                 0               0
+  User Acceptance Protocol                            0               0
+  Validation Plan                                     0               0
+                                
+                                 Insufficient testing
+  CII                                               0
+  FRS                                               0
+  IIVP                                              0
+  IIVP results                                      0
+  Project Plan                                      0
+  Software Change Request                           0
+  Software Compliance Assessment                    0
+  System Certification Summary                      0
+  Test Protocol                                     6
+  Test Protocol Results                             0
+  Traceability                                      0
+  URS                                               0
+  User Acceptance Protocol                          0
+  Validation Plan                                   0
+                                
+                                 Not compliant with procedure
+  CII                                                       0
+  FRS                                                       2
+  IIVP                                                      0
+  IIVP results                                              1
+  Project Plan                                              0
+  Software Change Request                                   1
+  Software Compliance Assessment                            0
+  System Certification Summary                              0
+  Test Protocol                                             1
+  Test Protocol Results                                     1
+  Traceability                                              0
+  URS                                                       2
+  User Acceptance Protocol                                  0
+  Validation Plan                                           1
+                                
+                                 Not following document version control
+  CII                                                                 1
+  FRS                                                                 0
+  IIVP                                                                0
+  IIVP results                                                        0
+  Project Plan                                                        0
+  Software Change Request                                             0
+  Software Compliance Assessment                                      0
+  System Certification Summary                                        0
+  Test Protocol                                                       2
+  Test Protocol Results                                               0
+  Traceability                                                        0
+  URS                                                                 0
+  User Acceptance Protocol                                            0
+  Validation Plan                                                     0
+                                
+                                 Not using template Other
+  CII                                             0     0
+  FRS                                             0     0
+  IIVP                                            0     0
+  IIVP results                                    0     0
+  Project Plan                                    0     1
+  Software Change Request                         0     0
+  Software Compliance Assessment                  0     0
+  System Certification Summary                    0     0
+  Test Protocol                                   0     0
+  Test Protocol Results                           0     0
+  Traceability                                    0     0
+  URS                                             0     0
+  User Acceptance Protocol                        1     0
+  Validation Plan                                 0     0
+                                
+                                 Requirement deficiency
+  CII                                                 0
+  FRS                                                 1
+  IIVP                                                0
+  IIVP results                                        0
+  Project Plan                                        0
+  Software Change Request                             0
+  Software Compliance Assessment                      0
+  System Certification Summary                        0
+  Test Protocol                                       0
+  Test Protocol Results                               0
+  Traceability                                        0
+  URS                                                 0
+  User Acceptance Protocol                            0
+  Validation Plan                                     0
+\end{Soutput}
+\end{Schunk}
 
 
+\subsection{Rejection reason by deliverable}
+
+\begin{Schunk}
+\begin{Soutput}
+                           CII                            FRS 
+                             5                              3 
+                          IIVP                   IIVP results 
+                             2                              2 
+                  Project Plan        Software Change Request 
+                             6                              3 
+Software Compliance Assessment   System Certification Summary 
+                             2                              1 
+                 Test Protocol          Test Protocol Results 
+                            20                              3 
+                  Traceability                            URS 
+                             4                              2 
+      User Acceptance Protocol                Validation Plan 
+                             1                              1 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{number of rejections by project}
+
+\begin{Schunk}
+\begin{Soutput}
+               AFMS          Apollo/PHM Assay File Database             CMSNext 
+                  4                   1                   2                   2 
+            DaVinci                DFCS                 DPW             PCN/SCN 
+                 15                   2                   1                   3 
+              Pulse                QIMS              WWLIMS 
+                  1                  15                   9 
+\end{Soutput}
+\end{Schunk}
 
 
 

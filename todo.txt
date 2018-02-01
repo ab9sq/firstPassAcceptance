@@ -2,3 +2,5 @@ Add number of application for the month to support the listing of applicaiton.
 
 Correct number new projects and number completed projects to deal with
 no SCR from ML process projects.
+
+Be able to filter by month and year

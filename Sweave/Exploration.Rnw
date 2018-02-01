@@ -181,8 +181,37 @@ table(FPA[!duplicated(FPA$UID),]$application,
       FPA[!duplicated(FPA$UID),]$deliverable)
 @
 
+\subsection{Table of rejection reasons}
+<<rejection reason, echo=FALSE>>=
+table(FPA$reason)
+@
+
+\subsection{defects verses application}
+
+<<defects vs apps, echo=FALSE>>=
+table(as.character(subset(FPA, subset = (status == "D"))$application),
+      subset(FPA, subset = (status == "D"))$reason)
+@
+
+\subsection{defects verses deliverable}
+
+<<>>=
+table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
+      subset(FPA, subset = (status == "D"))$reason)
+@
 
 
+\subsection{Rejection reason by deliverable}
+
+<<rejection by deliverable, echo=FALSE>>=
+table(as.character(subset(FPA, subset = (status == "D"))$deliverable))
+@
+
+\subsection{number of rejections by project}
+
+<<rejections by project, echo=FALSE>>=
+table(as.character(subset(FPA, subset = (status == "D"))$application))
+@
 
 
 

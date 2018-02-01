@@ -278,7 +278,7 @@ length(unique(
 table(FPA$reason)
 ```
 
-# to be transfered
+
 
 ## defects verse application
 ```{r}
@@ -295,5 +295,10 @@ table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
 ## Rejects by deliverable
 ```{r}
 table(as.character(subset(FPA, subset = (status == "D"))$deliverable))
+```
+
+##rejections by project
+```{r}
+table(as.character(subset(FPA, subset = (status == "D"))$application))
 ```
 
