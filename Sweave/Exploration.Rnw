@@ -99,7 +99,7 @@ the periond.
 length(unique(FPA$project))
 @
 
-\subsection{Number of reviews}
+\subsection{Number of Reviews}
 This is the number of items reviewed, a document will be counted more than once
 if it is reviewed more than once.
 
@@ -107,7 +107,7 @@ if it is reviewed more than once.
 nrow(FPA)
 @
 
-\subsection{Number of items reviewed}
+\subsection{Number of Items Reviewed}
 This is the number of unique items reviewed, each item is only counted once
 regardless of how many times it is reviewed.
 
@@ -165,7 +165,7 @@ length(unique(
 @
 
 
-\subsection{Number Of Deliverables By Type}
+\subsection{Number Of Deliverables by Type}
 This is unique for each deliverable. It only counts each document once so a deliverable
 that is disapproved and then approved is only counted once.
 
@@ -173,7 +173,7 @@ that is disapproved and then approved is only counted once.
 table(FPA[!duplicated(FPA$UID),]$deliverable)
 @
 
-\subsection{Number of Deliverable By Application}
+\subsection{Number of Deliverable by Application}
 This is the number of unique deliverables that each application submitted. Itonly counts
 each document once, regardless of the status.
 <<number by application, echo=FALSE>>=
@@ -186,7 +186,7 @@ table(FPA[!duplicated(FPA$UID),]$application)
 table(FPA$status)
 @
 
-\subsection{Table of Deliverables By Application}
+\subsection{Table of Deliverables by Application}
 <<2 way, echo=FALSE>>=
 table(FPA[!duplicated(FPA$UID),]$application,
       FPA[!duplicated(FPA$UID),]$deliverable)
@@ -212,13 +212,13 @@ table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
 @
 
 
-\subsection{Rejection Reason By Deliverable}
+\subsection{Rejection Reason by Deliverable}
 
 <<rejection by deliverable, echo=FALSE>>=
 table(as.character(subset(FPA, subset = (status == "D"))$deliverable))
 @
 
-\subsection{Number of Rejections By Project}
+\subsection{Number of Rejections by Project}
 
 <<rejections by project, echo=FALSE>>=
 table(as.character(subset(FPA, subset = (status == "D"))$application))
