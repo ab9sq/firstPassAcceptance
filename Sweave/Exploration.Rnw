@@ -1,9 +1,20 @@
 \documentclass{article}
 
 \usepackage[toc]{multitoc}
-\usepackage{datetime}
 \renewcommand*{\multicolumntoc}{2}
 \setlength{\columnseprule}{0.5pt}
+
+\usepackage{datetime}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={blue!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
+
 
 
 \title{Potential Metric Items From FPA Spreadsheet}
@@ -162,7 +173,7 @@ that is disapproved and then approved is only counted once.
 table(FPA[!duplicated(FPA$UID),]$deliverable)
 @
 
-\subsection{Number of deliverable by application}
+\subsection{Number of Deliverable By Application}
 This is the number of unique deliverables that each application submitted. Itonly counts
 each document once, regardless of the status.
 <<number by application, echo=FALSE>>=
@@ -175,25 +186,25 @@ table(FPA[!duplicated(FPA$UID),]$application)
 table(FPA$status)
 @
 
-\subsection{Table of deliverables by application}
+\subsection{Table of Deliverables By Application}
 <<2 way, echo=FALSE>>=
 table(FPA[!duplicated(FPA$UID),]$application,
       FPA[!duplicated(FPA$UID),]$deliverable)
 @
 
-\subsection{Table of rejection reasons}
+\subsection{Table of Rejection Reasons}
 <<rejection reason, echo=FALSE>>=
 table(FPA$reason)
 @
 
-\subsection{defects verses application}
+\subsection{Defects Verses Application}
 
 <<defects vs apps, echo=FALSE>>=
 table(as.character(subset(FPA, subset = (status == "D"))$application),
       subset(FPA, subset = (status == "D"))$reason)
 @
 
-\subsection{defects verses deliverable}
+\subsection{Defects Verses Deliverable}
 
 <<>>=
 table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
@@ -201,13 +212,13 @@ table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
 @
 
 
-\subsection{Rejection reason by deliverable}
+\subsection{Rejection Reason By Deliverable}
 
 <<rejection by deliverable, echo=FALSE>>=
 table(as.character(subset(FPA, subset = (status == "D"))$deliverable))
 @
 
-\subsection{number of rejections by project}
+\subsection{Number of Rejections By Project}
 
 <<rejections by project, echo=FALSE>>=
 table(as.character(subset(FPA, subset = (status == "D"))$application))
