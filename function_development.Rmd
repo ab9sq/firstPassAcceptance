@@ -24,7 +24,7 @@ easily brought into the R enviroment in the future.
 this function will read the csv file in and will make required conversions to factors
 or date
 ```{r}
-get.FPA <- function(file = "./data/First Pass Acceptance.csv", month = NULL){
+get.FPA <- function(file = "./data/First Pass Acceptance.csv"){
      FPA <- read.csv( file = file, 
                       stringsAsFactors = FALSE,
                       col.names = c("sqa",
@@ -58,14 +58,14 @@ str(FPA)
 ## Factors and Date
 ```{r}
 clean.FPA <- function(FPA){
-     require(lubridate)
+     #require(lubridate)
      FPA$sqa <- as.factor(FPA$sqa)
      FPA$application <- as.factor(FPA$application)
      FPA$deliverable <- as.factor(FPA$deliverable)
      FPA$status <- as.factor(FPA$status)
      FPA$reason <- as.factor(FPA$reason)
      levels(FPA$reason)[1] <- NA
-     FPA$date <- as.Date(FPA$date, format = "%d-%B-%y")
+     FPA$date <- as.Date(FPA$date, format = "%d-%B-%Y")
      return(FPA)
 }
 ```
@@ -90,19 +90,59 @@ Create a seperate value for Month and Year for the date value.
 
 Create a UID for each deliverable
 ```{r}
-process <- function(FPA){
+process <- function(FPA, Month=NULL){
      require(lubridate)
-     FPA$month <- month(FPA$date, label = TRUE)
-     FPA$year <- year(FPA$date)
+     FPA$month <- lubridate::month(FPA$date, label = TRUE)
+     FPA$year <-  lubridate::year(FPA$date)
      FPA$UID <- paste(FPA$project,
                       FPA$deliverable,
                       FPA$docID,
                       FPA$version,
                       sep = "-")
+     
+     if(!(is.null(Month))){
+          # print("Process for not NULL")
+          if(Month %in% levels(FPA$month)){
+               FPA <- subset(FPA,
+                             subset =  month == Month)
+          }else{
+               #print("Process for invlad month")
+               stop(paste("Invalid month. Month must be one of the following: NULL,",
+                          "Jan,",
+                          "Feb,",
+                          "Mar,",
+                          "Apr,",
+                          "May,",
+                          "Jun,",
+                          "Jul,",
+                          "Aug,",
+                          "Sep,",
+                          "Oct,",
+                          "Nov or",
+                          "Dec."))
+          }
+     }
+     return(FPA)     
 }
 ```
 
 ## Test
+### Month Selector
+```{r, error=TRUE}
+FPA <- process(FPA = FPA)
+Junk <- FPA
+table(FPA$month)
+FPA <- process(FPA = FPA,Month = "Jan")
+table(FPA$month)
+FPA <- Junk
+FPA <- process(FPA = FPA,Month = "Feb")
+table(FPA$month)
+FPA <- Junk
+FPA <- process(FPA = FPA,Month = "J")
+FPA <- Junk
+rm(Junk)
+```
+
 inspect the structor of the data frame
 ```{r}
 str(FPA)
