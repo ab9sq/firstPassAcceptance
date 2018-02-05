@@ -162,6 +162,25 @@ FPA$UID <- paste(FPA$project,
                   )
 ```
 
+## Deliverable Month
+
+```{r}
+TEMPJUNK <- FPA
+table(FPA$month)
+FPA <- subset(FPA,
+              subset = month == "Jan")
+table(FPA$month)
+FPA <- TEMPJUNK
+FPA <-subset(FPA,
+              subset = month == "Feb")
+table(FPA$month)
+FPA <- TEMPJUNK
+FPA <- subset(FPA,
+              subset = month == "Jan")
+rm(TEMPJUNK)
+```
+
+
 # Simple count metrics
 ## Projects worked
 ```{r}
