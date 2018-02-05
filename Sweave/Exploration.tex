@@ -30,7 +30,8 @@
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators from the Excel
 workbook that Software Quality Assurance collected called First Pass
-Acceptance.\footnote{Date Ran: \today{} at \currenttime}
+Acceptance. This will only be run for the month of January 2018.
+\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
@@ -90,7 +91,8 @@ This is a list of all application support this period.
 [11] "AFMS"                        "SAS"                        
 [13] "Metrics Library"             "DaVinci"                    
 [15] "CMSNext"                     "GS Reports"                 
-[17] "IRIS"                       
+[17] "IRIS"                        "ideaPoint"                  
+[19] "TODS"                       
 \end{Soutput}
 \end{Schunk}
 
@@ -101,7 +103,7 @@ the periond.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 24
+[1] 30
 \end{Soutput}
 \end{Schunk}
 
@@ -111,7 +113,7 @@ if it is reviewed more than once.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 176
+[1] 241
 \end{Soutput}
 \end{Schunk}
 
@@ -125,7 +127,7 @@ results from an IIVP run on different computers within the same project.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 121
+[1] 165
 \end{Soutput}
 \end{Schunk}
 
@@ -152,7 +154,7 @@ of project.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 2
+[1] 5
 \end{Soutput}
 \end{Schunk}
 
@@ -164,23 +166,27 @@ that is disapproved and then approved is only counted once.
 \begin{Schunk}
 \begin{Soutput}
                              CII             Design Documentation 
-                               8                                2 
+                              10                                2 
              Design Verification                              FRS 
-                               5                                5 
-                            IIVP                     IIVP results 
-                               5                                9 
+                               6                                5 
+                             IDP                             IIVP 
+                               1                                5 
+                    IIVP results                             ISSD 
+                              14                                1 
               Move to Production                     Project Plan 
-                               1                                6 
-         Software Change Request   Software Compliance Assessment 
-                               6                                4 
-    System Certification Summary                    Test Protocol 
-                               2                               37 
-           Test Protocol Results                     Traceability 
-                              14                                9 
-                             URS         User Acceptance Protocol 
-                               2                                3 
-User Acceptance Protocol results                  Validation Plan 
-                               1                                2 
+                               2                                6 
+                   Release Notes          Software Change Request 
+                               1                                7 
+  Software Compliance Assessment     System Certification Summary 
+                               7                                4 
+                   Test Protocol            Test Protocol Results 
+                              46                               26 
+                    Traceability                              URS 
+                              12                                2 
+        User Acceptance Protocol User Acceptance Protocol results 
+                               3                                1 
+                 Validation Plan 
+                               4 
 \end{Soutput}
 \end{Schunk}
 
@@ -190,23 +196,25 @@ each document once, regardless of the status.
 \begin{Schunk}
 \begin{Soutput}
 Abbott Transfusion Medicine                        AFMS 
-                          1                           8 
-                 Apollo/PHM         Assay File Database 
-                          9                           2 
-                    CMSNext                     DaVinci 
-                          2                          12 
-                       DFCS                         DPW 
-                         13                           4 
-                  Groninger                  GS Reports 
-                          1                           3 
+                          1                           9 
+    Alinity Source Verifier                  Apollo/PHM 
+                          0                          10 
+        Assay File Database                     CMSNext 
+                          2                           2 
+                    DaVinci                        DFCS 
+                         22                          13 
+                        DPW                   Groninger 
+                          4                           1 
+                 GS Reports                   ideaPoint 
+                          4                           1 
                        IRIS             Metrics Library 
-                          1                           3 
+                          1                           4 
                     PCN/SCN                       Pulse 
-                          6                           8 
+                          6                          11 
                        QIMS                         SAS 
-                         12                           3 
-                     WWLIMS 
-                         33 
+                         19                           4 
+                       TODS                      WWLIMS 
+                          1                          50 
 \end{Soutput}
 \end{Schunk}
 
@@ -214,8 +222,8 @@ Abbott Transfusion Medicine                        AFMS
 
 \begin{Schunk}
 \begin{Soutput}
-   A A-FP    D 
-  54   67   55 
+        A A-FP    D 
+   0   71   94   76 
 \end{Soutput}
 \end{Schunk}
 
@@ -225,6 +233,7 @@ Abbott Transfusion Medicine                        AFMS
                               CII Design Documentation Design Verification FRS
   Abbott Transfusion Medicine   0                    0                   0   0
   AFMS                          1                    0                   0   2
+  Alinity Source Verifier       0                    0                   0   0
   Apollo/PHM                    0                    0                   0   0
   Assay File Database           0                    0                   0   0
   CMSNext                       0                    0                   0   0
@@ -233,36 +242,64 @@ Abbott Transfusion Medicine                        AFMS
   DPW                           0                    0                   0   0
   Groninger                     0                    0                   0   0
   GS Reports                    0                    0                   0   0
+  ideaPoint                     0                    0                   0   0
   IRIS                          0                    0                   0   0
   Metrics Library               0                    2                   0   0
   PCN/SCN                       0                    0                   1   1
   Pulse                         0                    0                   0   0
   QIMS                          2                    0                   2   0
   SAS                           0                    0                   0   0
-  WWLIMS                        3                    0                   1   1
+  TODS                          0                    0                   0   0
+  WWLIMS                        5                    0                   2   1
                              
-                              IIVP IIVP results Move to Production Project Plan
-  Abbott Transfusion Medicine    0            0                  0            0
-  AFMS                           0            0                  0            0
-  Apollo/PHM                     0            4                  0            0
-  Assay File Database            0            0                  0            1
-  CMSNext                        0            0                  0            0
-  DaVinci                        1            0                  0            1
-  DFCS                           1            0                  0            1
-  DPW                            0            0                  0            0
-  Groninger                      0            0                  0            0
-  GS Reports                     0            0                  1            2
-  IRIS                           0            1                  0            0
-  Metrics Library                0            0                  0            1
-  PCN/SCN                        1            0                  0            0
-  Pulse                          0            1                  0            0
-  QIMS                           1            1                  0            0
-  SAS                            0            0                  0            0
-  WWLIMS                         1            2                  0            0
+                              IDP IIVP IIVP results ISSD Move to Production
+  Abbott Transfusion Medicine   0    0            0    0                  0
+  AFMS                          0    0            0    0                  0
+  Alinity Source Verifier       0    0            0    0                  0
+  Apollo/PHM                    0    0            4    0                  0
+  Assay File Database           0    0            0    0                  0
+  CMSNext                       0    0            0    0                  0
+  DaVinci                       1    1            1    1                  0
+  DFCS                          0    1            0    0                  0
+  DPW                           0    0            0    0                  0
+  Groninger                     0    0            0    0                  0
+  GS Reports                    0    0            0    0                  2
+  ideaPoint                     0    0            0    0                  0
+  IRIS                          0    0            1    0                  0
+  Metrics Library               0    0            0    0                  0
+  PCN/SCN                       0    1            0    0                  0
+  Pulse                         0    0            2    0                  0
+  QIMS                          0    1            1    0                  0
+  SAS                           0    0            0    0                  0
+  TODS                          0    0            0    0                  0
+  WWLIMS                        0    1            5    0                  0
+                             
+                              Project Plan Release Notes
+  Abbott Transfusion Medicine            0             0
+  AFMS                                   0             0
+  Alinity Source Verifier                0             0
+  Apollo/PHM                             0             0
+  Assay File Database                    1             0
+  CMSNext                                0             0
+  DaVinci                                1             1
+  DFCS                                   1             0
+  DPW                                    0             0
+  Groninger                              0             0
+  GS Reports                             2             0
+  ideaPoint                              0             0
+  IRIS                                   0             0
+  Metrics Library                        1             0
+  PCN/SCN                                0             0
+  Pulse                                  0             0
+  QIMS                                   0             0
+  SAS                                    0             0
+  TODS                                   0             0
+  WWLIMS                                 0             0
                              
                               Software Change Request
   Abbott Transfusion Medicine                       0
   AFMS                                              1
+  Alinity Source Verifier                           0
   Apollo/PHM                                        0
   Assay File Database                               1
   CMSNext                                           1
@@ -271,18 +308,21 @@ Abbott Transfusion Medicine                        AFMS
   DPW                                               0
   Groninger                                         0
   GS Reports                                        0
+  ideaPoint                                         0
   IRIS                                              0
   Metrics Library                                   0
   PCN/SCN                                           1
   Pulse                                             0
   QIMS                                              0
   SAS                                               0
+  TODS                                              1
   WWLIMS                                            0
                              
                               Software Compliance Assessment
   Abbott Transfusion Medicine                              1
   AFMS                                                     0
-  Apollo/PHM                                               0
+  Alinity Source Verifier                                  0
+  Apollo/PHM                                               1
   Assay File Database                                      0
   CMSNext                                                  1
   DaVinci                                                  0
@@ -290,55 +330,64 @@ Abbott Transfusion Medicine                        AFMS
   DPW                                                      0
   Groninger                                                0
   GS Reports                                               0
+  ideaPoint                                                1
   IRIS                                                     0
   Metrics Library                                          0
   PCN/SCN                                                  2
-  Pulse                                                    0
+  Pulse                                                    1
   QIMS                                                     0
   SAS                                                      0
+  TODS                                                     0
   WWLIMS                                                   0
                              
                               System Certification Summary Test Protocol
   Abbott Transfusion Medicine                            0             0
-  AFMS                                                   0             2
+  AFMS                                                   0             3
+  Alinity Source Verifier                                0             0
   Apollo/PHM                                             0             5
   Assay File Database                                    0             0
   CMSNext                                                0             0
-  DaVinci                                                0             5
+  DaVinci                                                1             5
   DFCS                                                   0             1
   DPW                                                    1             1
   Groninger                                              0             0
   GS Reports                                             0             0
+  ideaPoint                                              0             0
   IRIS                                                   0             0
   Metrics Library                                        0             0
   PCN/SCN                                                0             0
-  Pulse                                                  0             3
-  QIMS                                                   0             4
-  SAS                                                    1             1
-  WWLIMS                                                 0            15
+  Pulse                                                  1             3
+  QIMS                                                   0             7
+  SAS                                                    1             2
+  TODS                                                   0             0
+  WWLIMS                                                 0            19
                              
                               Test Protocol Results Traceability URS
   Abbott Transfusion Medicine                     0            0   0
   AFMS                                            0            0   1
+  Alinity Source Verifier                         0            0   0
   Apollo/PHM                                      0            0   0
   Assay File Database                             0            0   0
   CMSNext                                         0            0   0
-  DaVinci                                         0            0   1
+  DaVinci                                         4            1   1
   DFCS                                            2            1   0
   DPW                                             2            0   0
   Groninger                                       0            1   0
   GS Reports                                      0            0   0
+  ideaPoint                                       0            0   0
   IRIS                                            0            0   0
   Metrics Library                                 0            0   0
   PCN/SCN                                         0            0   0
   Pulse                                           3            1   0
-  QIMS                                            0            2   0
+  QIMS                                            3            3   0
   SAS                                             1            0   0
-  WWLIMS                                          6            4   0
+  TODS                                            0            0   0
+  WWLIMS                                         11            5   0
                              
                               User Acceptance Protocol
   Abbott Transfusion Medicine                        0
   AFMS                                               0
+  Alinity Source Verifier                            0
   Apollo/PHM                                         0
   Assay File Database                                0
   CMSNext                                            0
@@ -347,17 +396,20 @@ Abbott Transfusion Medicine                        AFMS
   DPW                                                0
   Groninger                                          0
   GS Reports                                         0
+  ideaPoint                                          0
   IRIS                                               0
   Metrics Library                                    0
   PCN/SCN                                            0
   Pulse                                              0
   QIMS                                               0
   SAS                                                0
+  TODS                                               0
   WWLIMS                                             0
                              
                               User Acceptance Protocol results Validation Plan
   Abbott Transfusion Medicine                                0               0
   AFMS                                                       0               1
+  Alinity Source Verifier                                    0               0
   Apollo/PHM                                                 0               0
   Assay File Database                                        0               0
   CMSNext                                                    0               0
@@ -366,13 +418,15 @@ Abbott Transfusion Medicine                        AFMS
   DPW                                                        0               0
   Groninger                                                  0               0
   GS Reports                                                 0               0
+  ideaPoint                                                  0               0
   IRIS                                                       0               0
-  Metrics Library                                            0               0
+  Metrics Library                                            0               1
   PCN/SCN                                                    0               0
   Pulse                                                      0               0
   QIMS                                                       0               0
   SAS                                                        0               0
-  WWLIMS                                                     0               0
+  TODS                                                       0               0
+  WWLIMS                                                     0               1
 \end{Soutput}
 \end{Schunk}
 
@@ -380,13 +434,13 @@ Abbott Transfusion Medicine                        AFMS
 \begin{Schunk}
 \begin{Soutput}
                 Inaccurate information                        Incorrect scope 
-                                    29                                      1 
+                                    34                                      1 
                   Insufficient testing           Not compliant with procedure 
-                                     6                                      9 
+                                     6                                     17 
 Not following document version control                     Not using template 
                                      3                                      1 
                                  Other                 Requirement deficiency 
-                                     1                                      1 
+                                     7                                      1 
 \end{Soutput}
 \end{Schunk}
 
@@ -399,25 +453,27 @@ Not following document version control                     Not using template
   Apollo/PHM                               1               0
   Assay File Database                      0               0
   CMSNext                                  2               0
-  DaVinci                                 11               0
+  DaVinci                                 14               0
   DFCS                                     1               0
   DPW                                      1               0
   PCN/SCN                                  2               1
   Pulse                                    0               0
   QIMS                                     7               0
-  WWLIMS                                   4               0
+  TODS                                     0               0
+  WWLIMS                                   6               0
                      
                       Insufficient testing Not compliant with procedure
   AFMS                                   0                            4
   Apollo/PHM                             0                            0
   Assay File Database                    0                            1
-  CMSNext                                0                            0
-  DaVinci                                0                            2
+  CMSNext                                0                            1
+  DaVinci                                0                            4
   DFCS                                   0                            0
   DPW                                    0                            0
   PCN/SCN                                0                            0
   Pulse                                  0                            1
-  QIMS                                   6                            1
+  QIMS                                   6                            6
+  TODS                                   0                            0
   WWLIMS                                 0                            0
                      
                       Not following document version control Not using template
@@ -431,19 +487,21 @@ Not following document version control                     Not using template
   PCN/SCN                                                  0                  0
   Pulse                                                    0                  0
   QIMS                                                     0                  0
+  TODS                                                     0                  0
   WWLIMS                                                   2                  0
                      
                       Other Requirement deficiency
   AFMS                    0                      0
-  Apollo/PHM              0                      0
+  Apollo/PHM              1                      0
   Assay File Database     1                      0
   CMSNext                 0                      0
-  DaVinci                 0                      1
+  DaVinci                 3                      1
   DFCS                    0                      0
   DPW                     0                      0
   PCN/SCN                 0                      0
   Pulse                   0                      0
-  QIMS                    0                      0
+  QIMS                    2                      0
+  TODS                    0                      0
   WWLIMS                  0                      0
 \end{Soutput}
 \end{Schunk}
@@ -459,15 +517,17 @@ Not following document version control                     Not using template
                                  Inaccurate information Incorrect scope
   CII                                                 4               0
   FRS                                                 0               0
+  IDP                                                 1               0
   IIVP                                                2               0
   IIVP results                                        1               0
   Project Plan                                        5               0
+  Release Notes                                       0               0
   Software Change Request                             2               0
   Software Compliance Assessment                      1               1
-  System Certification Summary                        1               0
-  Test Protocol                                       7               0
+  System Certification Summary                        3               0
+  Test Protocol                                       8               0
   Test Protocol Results                               2               0
-  Traceability                                        4               0
+  Traceability                                        5               0
   URS                                                 0               0
   User Acceptance Protocol                            0               0
   Validation Plan                                     0               0
@@ -475,9 +535,11 @@ Not following document version control                     Not using template
                                  Insufficient testing
   CII                                               0
   FRS                                               0
+  IDP                                               0
   IIVP                                              0
   IIVP results                                      0
   Project Plan                                      0
+  Release Notes                                     0
   Software Change Request                           0
   Software Compliance Assessment                    0
   System Certification Summary                      0
@@ -491,14 +553,16 @@ Not following document version control                     Not using template
                                  Not compliant with procedure
   CII                                                       0
   FRS                                                       2
+  IDP                                                       0
   IIVP                                                      0
   IIVP results                                              1
   Project Plan                                              0
-  Software Change Request                                   1
+  Release Notes                                             1
+  Software Change Request                                   2
   Software Compliance Assessment                            0
   System Certification Summary                              0
   Test Protocol                                             1
-  Test Protocol Results                                     1
+  Test Protocol Results                                     7
   Traceability                                              0
   URS                                                       2
   User Acceptance Protocol                                  0
@@ -507,9 +571,11 @@ Not following document version control                     Not using template
                                  Not following document version control
   CII                                                                 1
   FRS                                                                 0
+  IDP                                                                 0
   IIVP                                                                0
   IIVP results                                                        0
   Project Plan                                                        0
+  Release Notes                                                       0
   Software Change Request                                             0
   Software Compliance Assessment                                      0
   System Certification Summary                                        0
@@ -523,15 +589,17 @@ Not following document version control                     Not using template
                                  Not using template Other
   CII                                             0     0
   FRS                                             0     0
+  IDP                                             0     1
   IIVP                                            0     0
   IIVP results                                    0     0
   Project Plan                                    0     1
+  Release Notes                                   0     1
   Software Change Request                         0     0
-  Software Compliance Assessment                  0     0
+  Software Compliance Assessment                  0     1
   System Certification Summary                    0     0
-  Test Protocol                                   0     0
-  Test Protocol Results                           0     0
-  Traceability                                    0     0
+  Test Protocol                                   0     1
+  Test Protocol Results                           0     1
+  Traceability                                    0     1
   URS                                             0     0
   User Acceptance Protocol                        1     0
   Validation Plan                                 0     0
@@ -539,9 +607,11 @@ Not following document version control                     Not using template
                                  Requirement deficiency
   CII                                                 0
   FRS                                                 1
+  IDP                                                 0
   IIVP                                                0
   IIVP results                                        0
   Project Plan                                        0
+  Release Notes                                       0
   Software Change Request                             0
   Software Compliance Assessment                      0
   System Certification Summary                        0
@@ -561,16 +631,18 @@ Not following document version control                     Not using template
 \begin{Soutput}
                            CII                            FRS 
                              5                              3 
-                          IIVP                   IIVP results 
+                           IDP                           IIVP 
                              2                              2 
-                  Project Plan        Software Change Request 
-                             6                              3 
+                  IIVP results                   Project Plan 
+                             2                              6 
+                 Release Notes        Software Change Request 
+                             2                              5 
 Software Compliance Assessment   System Certification Summary 
-                             2                              1 
+                             3                              3 
                  Test Protocol          Test Protocol Results 
-                            20                              3 
+                            23                             10 
                   Traceability                            URS 
-                             4                              2 
+                             6                              2 
       User Acceptance Protocol                Validation Plan 
                              1                              1 
 \end{Soutput}
@@ -581,11 +653,11 @@ Software Compliance Assessment   System Certification Summary
 \begin{Schunk}
 \begin{Soutput}
                AFMS          Apollo/PHM Assay File Database             CMSNext 
-                  4                   1                   2                   2 
+                  4                   2                   2                   3 
             DaVinci                DFCS                 DPW             PCN/SCN 
-                 15                   2                   1                   3 
-              Pulse                QIMS              WWLIMS 
-                  1                  15                   9 
+                 23                   2                   1                   3 
+              Pulse                QIMS                TODS              WWLIMS 
+                  1                  23                   1                  11 
 \end{Soutput}
 \end{Schunk}
 
@@ -599,7 +671,7 @@ It is computed by counting the number of approvals devided that by the total num
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.6761364
+[1] 0.6763485
 \end{Soutput}
 \end{Schunk}
 
@@ -612,7 +684,7 @@ the number of reviews.
 
 \begin{Schunk}
 \begin{Soutput}
-[1] 0.375
+[1] 0.3858921
 \end{Soutput}
 \end{Schunk}
 

@@ -29,7 +29,8 @@
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators from the Excel
 workbook that Software Quality Assurance collected called First Pass
-Acceptance.\footnote{Date Ran: \today{} at \currenttime}
+Acceptance. This will only be run for the month of January 2018.
+\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
@@ -76,7 +77,7 @@ When ``trending'' is implented graphs of the trends will also be added.
 source("../scripts/FirstPassAcceptance.R")
 FPA <- get.FPA(file = "../data/First Pass Acceptance.csv")
 FPA <- clean.FPA(FPA = FPA)
-FPA <- process(FPA = FPA)
+FPA <- process(FPA = FPA, Month = "Jan")
 @
 
 \section{Quanity Metrics}
