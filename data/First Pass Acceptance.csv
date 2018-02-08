@@ -77,7 +77,7 @@ Nick,1075.001,DaVinci,Project Plan,1,1,D,22-Jan-2018,Inaccurate information,
 Nick,ePAS 16-33266 v12,GS Reports,Project Plan,1,,A,22-Jan-2018,,
 Nick,345.004,SAS,Test Protocol Results,3,1,A-FP,22-Jan-2018,,Sas Micro Biasplot
 Nick,1075.001,DaVinci,Project Plan,1,1,D,22-Jan-2018,Inaccurate information,
-NIck,589.05,CMSNext,Software Compliance Assessment,1,1,A,23-Jan-2018,,
+Nick,589.05,CMSNext,Software Compliance Assessment,1,1,A,23-Jan-2018,,
 Nick,1075.001,DaVinci,Project Plan,1,1,D,23-Jan-2018,Inaccurate information,
 Nick,1075.001,DaVinci,URS,2,1,D,23-Jan-2018,Not compliant with procedure,Approver List
 Nick,1075.001,DaVinci,Validation Plan,1,1,D,23-Jan-2018,Not compliant with procedure,Approver List
@@ -94,7 +94,7 @@ Nick,ePAS 16-38941 V3,GS Reports,Move to Production,1,1,A-FP,24-Jan-2018,,
 Nick,1075.001,DaVinci,Validation Plan,1,1,A,24-Jan-2018,,
 Nick,1075.001,DaVinci,CII,1,1,A,24-Jan-2018,,
 Nick,1075.001,DaVinci,FRS,2,1,A,25-Jan-2018,,
-nick,1075.001,DaVinci,CII,1,1,A,25-Jan-2018,,
+Nick,1075.001,DaVinci,CII,1,1,A,25-Jan-2018,,
 Nick,1075.001,DaVinci,IIVP,1,1,A,25-Jan-2018,,
 Nick,1075.001,DaVinci,Test Protocol,1,1,D,25-Jan-2018,Inaccurate information,
 Nick,1075.001,DaVinci,Test Protocol,1,2,D,25-Jan-2018,Inaccurate information,
@@ -268,4 +268,3 @@ Nick,ePAS 18-2538,Metrics Library,Test Protocol,1,,A-FP,1-Feb-2018,,
 Nick,345.004,SAS,System Certification Summary,1,1,A-FP,1-Feb-2018,,regplot micro
 Nick,750.011,AFMS,Test Protocol Results,2,3,D,1-Feb-2018,Not compliant with procedure,
 Nick,1075.001,DaVinci,IIVP results,1,1 prod,A,2-Feb-2018,,
-Nick,750.011,AFMS,Test Protocol Results,2,3,A,2-Feb-2018,,
