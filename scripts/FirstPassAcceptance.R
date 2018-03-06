@@ -1,19 +1,24 @@
-get.FPA <- function(file = "./data/First Pass Acceptance.csv"){
-     FPA <- read.csv( file = file,
-                      stringsAsFactors = FALSE,
-                      col.names = c("sqa",
-                                    "project",
-                                    "application",
-                                    "deliverable",
-                                    "version",
-                                    "docID",
-                                    "status",
-                                    "date",
-                                    "reason",
-                                    "comments"))
+get.FPA <- function(file = "./data/First Pass Acceptance.csv") {
+     FPA <- read.csv(
+          file = file,
+          stringsAsFactors = FALSE,
+          col.names = c(
+               "sqa",
+               "project",
+               "application",
+               "deliverable",
+               "version",
+               "docID",
+               "status",
+               "date",
+               "reason",
+               "comments"
+          )
+     )
 }
 
-clean.FPA <- function(FPA){
+
+clean.FPA <- function(FPA) {
      #require(lubridate)
      FPA$sqa <- as.factor(FPA$sqa)
      FPA$application <- as.factor(FPA$application)
@@ -25,7 +30,8 @@ clean.FPA <- function(FPA){
      return(FPA)
 }
 
-process <- function(FPA, Month = NULL){
+
+process <- function(FPA, Month = NULL, Year = NULL) {
      #require(lubridate)
      FPA$month <- lubridate::month(FPA$date, label = TRUE)
      FPA$year <- lubridate::year(FPA$date)
@@ -34,26 +40,34 @@ process <- function(FPA, Month = NULL){
                       FPA$docID,
                       FPA$version,
                       sep = "-")
-     if(!(is.null(Month))){
+     if (!(is.null(Year))) {
+          FPA <- subset(FPA,
+                        subset = year == Year)
+     }
+     if (!(is.null(Month))) {
           # print("Process for not NULL")
-          if(Month %in% levels(FPA$month)){
+          if (Month %in% levels(FPA$month)) {
                FPA <- subset(FPA,
                              subset =  month == Month)
-          }else{
+          } else{
                #print("Process for invlad month")
-               stop(paste("Invalid month. Month must be one of the following: NULL,",
-                          "Jan,",
-                          "Feb,",
-                          "Mar,",
-                          "Apr,",
-                          "May,",
-                          "Jun,",
-                          "Jul,",
-                          "Aug,",
-                          "Sep,",
-                          "Oct,",
-                          "Nov or",
-                          "Dec."))
+               stop(
+                    paste(
+                         "Invalid month. Month must be one of the following: NULL,",
+                         "Jan,",
+                         "Feb,",
+                         "Mar,",
+                         "Apr,",
+                         "May,",
+                         "Jun,",
+                         "Jul,",
+                         "Aug,",
+                         "Sep,",
+                         "Oct,",
+                         "Nov or",
+                         "Dec."
+                    )
+               )
           }
      }
      return(FPA)
