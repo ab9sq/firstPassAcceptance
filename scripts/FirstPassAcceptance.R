@@ -26,7 +26,7 @@ clean.FPA <- function(FPA){
 }
 
 process <- function(FPA, Month = NULL){
-     require(lubridate)
+     #require(lubridate)
      FPA$month <- lubridate::month(FPA$date, label = TRUE)
      FPA$year <- lubridate::year(FPA$date)
      FPA$UID <- paste(FPA$project,
