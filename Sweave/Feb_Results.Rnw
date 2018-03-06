@@ -17,8 +17,8 @@
 
 
 
-\title{SQA Metric Items From FPA Spreadsheet \n Feburary 2018}
-\author{Nicholas Lauerman}
+\title{SQA Metric Items From FPA Spreadsheet - Feburary 2018}
+\author{Nick Lauerman}
 \date{}
 
 
