@@ -1,4 +1,4 @@
-get.FPA <- function(file = "./data/First Pass Acceptance.csv") {
+getFPA <- function(file = "./data/First Pass Acceptance.csv") {
      FPA <- read.csv(
           file = file,
           stringsAsFactors = FALSE,
@@ -18,7 +18,7 @@ get.FPA <- function(file = "./data/First Pass Acceptance.csv") {
 }
 
 
-clean.FPA <- function(FPA) {
+cleanFPA <- function(FPA) {
      #require(lubridate)
      FPA$sqa <- as.factor(FPA$sqa)
      FPA$application <- as.factor(FPA$application)
