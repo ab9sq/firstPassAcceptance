@@ -2,8 +2,8 @@ getResults <- function(Month = NULL,
                        Year = NULL,
                        file = "./data/First Pass Acceptance.csv"){
 # load required functins
-     source("./scripts/FirstPassAcceptance.R")
-     source("./scripts/Monthly_Calculation.R")
+     source(file = "./scripts/FirstPassAcceptance.R")
+     source(file = "./scripts/Monthly_Calculation.R")
 
 # Test for inputed values
      if(is.null(Month) | is.na(Month)) {

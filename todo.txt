@@ -4,3 +4,6 @@ Correct number new projects and number completed projects to deal with
 no SCR from ML process projects.
 
 Be able to filter by month and year
+
+in build add control to check if month has been perviously computed.
+     add control to update (delete and add) or error out
