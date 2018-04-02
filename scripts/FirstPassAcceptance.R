@@ -50,7 +50,7 @@ process <- function(FPA, Month = NULL, Year = NULL) {
                FPA <- subset(FPA,
                              subset =  month == Month)
           } else{
-               #print("Process for invlad month")
+               #print("Process for invalid month")
                stop(
                     paste(
                          "Invalid month. Month must be one of the following: NULL,",
