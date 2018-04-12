@@ -31,7 +31,13 @@ monthStats <- function(input = FPA){
                     subset(input,
                            subset = (((status == "A" | status == "A-FP")
                                       & version == 1))),
-                    subset = deliverable == "Move to Production")$project))
+                    subset = deliverable == "Move to Production")$project)) +
+          length(unique(
+               subset(
+                    subset(input,
+                           subset = (((status == "A" | status == "A-FP")
+                                      & version == 1))),
+                    subset = deliverable == "Decommissioning Report")$project))
 
 #No.of reviews
      reviews <- nrow(input)
