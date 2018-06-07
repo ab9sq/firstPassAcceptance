@@ -1,0 +1,11 @@
+results <- getResults(Month = "Jan", Year = 2018)
+temp <- getResults(Month = "Feb", Year = 2018)
+results <- rbind(results, temp)
+temp <- getResults(Month = "Mar", Year = 2018)
+results <- rbind(results, temp)
+temp <- getResults(Month = "Apr", Year = 2018)
+results <- rbind(results, temp)
+temp <- getResults(Month = "May", Year = 2018)
+results <- rbind(results, temp)
+
+write.csv(results, file = "./data/FPA_Stats.csv", row.names = FALSE)
