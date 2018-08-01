@@ -17,7 +17,7 @@
 
 
 
-\title{SQA Metric Items From FPA Spreadsheet - June 2018}
+\title{SQA Metric Items From FPA Spreadsheet - July 2018}
 \author{Nick Lauerman}
 \date{}
 
@@ -77,7 +77,7 @@ When ``trending'' is implented graphs of the trends will also be added.
 source("../scripts/FirstPassAcceptance.R")
 FPA <- getFPA(file = "../data/First Pass Acceptance.csv")
 FPA <- cleanFPA(FPA = FPA)
-FPA <- process(FPA = FPA, Month = "Jun")
+FPA <- process(FPA = FPA, Month = "Jul")
 @
 
 \section{Quanity Metrics}
