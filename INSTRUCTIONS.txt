@@ -1,0 +1,11 @@
+1. download FPA spread sheet from share drive with all updates
+2. save in the ./data directory
+3. save the FPA tab as a CSV file in the same directory.
+4, source the Monthly_Stats.R file
+5. run getResults(Month = "__",  # 3 leter month in quots
+                   Year = )      # 4 digit year as number
+6. report Projects started, projects completed, items reviewed and items rejects
+as whole numbers. Report fpa rate as a percentage with 1 decemial point.
+7. modify RNW file for correct month.
+8. save as monh_results
+9. compile pdf
