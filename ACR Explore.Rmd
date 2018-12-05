@@ -1,0 +1,63 @@
+---
+title: "Explore ACR"
+author: "Nick Lauerman"
+date: "December 5, 2018"
+output: 
+  pdf_document: 
+    fig_caption: yes
+    fig_height: 7.5
+    fig_width: 7.5
+    toc: yes
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Libraries
+```{r}
+#library(lubridate)
+```
+
+# Data
+## read in
+```{r}
+ACR.raw <- read.csv(file = "./data/ACR.csv",
+                    stringsAsFactors = FALSE)
+name <- c("SQA",
+          "Application",
+          "CRNumber",
+          "CRDate",
+          "CRApproved",
+          "IENumber",
+          "IEDate",
+          "IEApproved",
+          "Reason",
+          "Comments")
+names(ACR.raw) <- name
+```
+
+## Format
+### factor
+```{r}
+ACR.raw$SQA <- as.factor(ACR.raw$SQA)
+ACR.raw$Application <- as.factor(ACR.raw$Application)
+ACR.raw$CRApproved <- as.factor(ACR.raw$CRApproved)
+ACR.raw$IEApproved <- as.factor(ACR.raw$IEApproved)
+levels(ACR.raw$IEApproved)[1] <- NA
+ACR.raw$Reason <- as.factor(ACR.raw$Reason)
+levels(ACR.raw$Reason)[1] <- NA
+```
+
+### Dates
+```{r}
+ACR.raw$CRDate <- as.Date(ACR.raw$CRDate, format = "%d-%b-%y")
+ACR.raw$IEDate<- as.Date(ACR.raw$IEDate, format = "%d-%b-%y")
+```
+
+## Structure
+```{r}
+str(ACR.raw)
+```
+
+# Metrics
