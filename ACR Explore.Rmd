@@ -35,29 +35,116 @@ name <- c("SQA",
           "Reason",
           "Comments")
 names(ACR.raw) <- name
+rm(name)
+ACR <- ACR.raw
 ```
 
 ## Format
 ### factor
 ```{r}
-ACR.raw$SQA <- as.factor(ACR.raw$SQA)
-ACR.raw$Application <- as.factor(ACR.raw$Application)
-ACR.raw$CRApproved <- as.factor(ACR.raw$CRApproved)
-ACR.raw$IEApproved <- as.factor(ACR.raw$IEApproved)
-levels(ACR.raw$IEApproved)[1] <- NA
-ACR.raw$Reason <- as.factor(ACR.raw$Reason)
-levels(ACR.raw$Reason)[1] <- NA
+ACR$SQA <- as.factor(ACR$SQA)
+ACR$Application <- as.factor(ACR$Application)
+ACR$CRApproved <- as.factor(ACR$CRApproved)
+ACR$IEApproved <- as.factor(ACR$IEApproved)
+levels(ACR$IEApproved)[1] <- NA
+ACR$Reason <- as.factor(ACR$Reason)
+levels(ACR$Reason)[1] <- NA
 ```
 
 ### Dates
 ```{r}
-ACR.raw$CRDate <- as.Date(ACR.raw$CRDate, format = "%d-%b-%y")
-ACR.raw$IEDate<- as.Date(ACR.raw$IEDate, format = "%d-%b-%y")
+ACR$CRDate <- as.Date(ACR$CRDate, format = "%d-%b-%y")
+ACR$IEDate<- as.Date(ACR$IEDate, format = "%d-%b-%y")
+ACR$CRmonth <- lubridate::month(ACR$CRDate, label = TRUE)
+ACR$CRyear <- lubridate::year(ACR$CRDate)
+ACR$IEmonth <- lubridate::month(ACR$IEDate, label = TRUE)
+ACR$IEyear <- lubridate::year(ACR$IEDate)          
 ```
 
 ## Structure
 ```{r}
-str(ACR.raw)
+str(ACR)
 ```
 
 # Metrics
+## Select nomth
+```{r}
+work <- subset(ACR,
+               subset = (CRmonth == "Nov" & CRyear == 2018) |
+                    (subset = IEmonth == "Nov" & IEyear == 2018))
+workCR <- subset(ACR,
+               subset = CRmonth == "Nov" & CRyear == 2018)
+workIE <- subset(ACR,
+               subset = IEmonth == "Nov" & IEyear == 2018)
+```
+
+## Counts
+### Data Changes Request Approved
+```{r}
+nrow(subset(workCR,
+            subset = (CRApproved == "A" |
+                           CRApproved == "A-FP")))
+```
+### Data Change Request Disapproved
+```{r}
+nrow(subset(workCR,
+            subset = (CRApproved == "D")))
+```
+
+### IE Approved
+```{r}
+nrow(subset(workIE,
+            subset = (IEApproved == "A" |
+                           IEApproved == "A-FP")))
+```
+
+### IE Disapproved
+```{r}
+nrow(subset(workIE,
+            subset = (CRApproved == "D")))
+```
+## First pass acceptance
+
+### CR
+```{r}
+nrow(subset(workCR,
+            subset = CRApproved == "A-FP")) / 
+     nrow(workCR) * 100
+```
+
+### IE
+```{r}
+nrow(subset(workIE,
+            subset = CRApproved == "A-FP")) / 
+     nrow(workIE) * 100
+```
+
+### Total Process
+```{r}
+nrow(subset(work,
+            subset = (CRApproved == "A-FP" & IEApproved == "A-FP"))) /
+     nrow(work) * 100
+```
+
+# Time to complete a data change
+This is the interval between CR approval and IE approval
+```{r}
+work.all <- subset(ACR,
+                   subset = ((CRApproved == "A" | CRApproved == "A-FP") &
+                                  (IEApproved == "A" | IEApproved == "A-FP")))
+work.all <- subset(work.all,
+                   subset = (IEmonth == "Nov" & IEyear == 2018))
+
+nrow(work.all)
+work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
+table(work.all$Application)
+summary(work.all$Interval)
+sd(work.all$Interval)
+table(work.all$Interval)
+quantile(work.all$Interval)
+hist(work.all$Interval)
+boxplot(work.all$Interval)
+boxplot(work.all$Interval,
+        outline = FALSE)
+```
+
