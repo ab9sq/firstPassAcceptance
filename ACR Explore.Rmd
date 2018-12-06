@@ -137,14 +137,60 @@ work.all <- subset(work.all,
 
 nrow(work.all)
 work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
-table(work.all$Application)
 summary(work.all$Interval)
 sd(work.all$Interval)
 table(work.all$Interval)
 quantile(work.all$Interval)
-hist(work.all$Interval)
+hist(work.all$Interval,
+     breaks = 20)
 boxplot(work.all$Interval)
 boxplot(work.all$Interval,
+        outline = FALSE)
+```
+
+# Number by Application
+## Opened
+```{r}
+table(subset(workCR, 
+             subset = CRApproved != "D")$Application)
+table(subset(workCR, 
+             subset = CRApproved != "D")$SQA)
+```
+## Completed
+```{r}
+table(subset(workIE, 
+             subset = IEApproved != "D")$Application)
+
+table(subset(workIE, 
+             subset = CRApproved != "D")$SQA)
+```
+
+## Total
+```{r}
+table(subset(workCR, 
+             subset = CRApproved != "D")$Application) +
+     table(subset(workIE, 
+             subset = IEApproved != "D")$Application)
+table(subset(workCR, 
+             subset = CRApproved != "D")$SQA) +
+     table(subset(workIE, 
+             subset = CRApproved != "D")$SQA)
+```
+
+# Number of days that currently open CR have been pending
+```{r}
+work.open <- subset(ACR,
+                    subset = (CRApproved == "A-FP" | CRApproved == "A") & 
+                         is.na(IEApproved))
+work.open$daysOpen <- as.numeric(as.Date("1-Dec-18", format = "%d-%b-%y") - 
+                                      work.open$CRDate)
+nrow(work.open)
+summary(work.open$daysOpen)
+quantile(work.open$daysOpen)
+hist(work.open$daysOpen,
+     breaks = 20)
+boxplot(work.open$daysOpen)
+boxplot(work.open$daysOpen,
         outline = FALSE)
 ```
 
