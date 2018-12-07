@@ -162,7 +162,7 @@ table(subset(workIE,
              subset = IEApproved != "D")$Application)
 
 table(subset(workIE, 
-             subset = CRApproved != "D")$SQA)
+             subset = IEApproved != "D")$SQA)
 ```
 
 ## Total
