@@ -16,11 +16,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 # Libraries
 ```{r}
-#library(lubridate)
+library(lubridate)
 ```
 
 # Data
-## read in
+## Read Data In
+The data is a CSV file that is created by saving the ACR tab of the FPA Excel
+Workbook.
 ```{r}
 ACR.raw <- read.csv(file = "./data/ACR.csv",
                     stringsAsFactors = FALSE)
@@ -39,8 +41,8 @@ rm(name)
 ACR <- ACR.raw
 ```
 
-## Format
-### factor
+## Format the Data
+### Convert to Factor
 ```{r}
 ACR$SQA <- as.factor(ACR$SQA)
 ACR$Application <- as.factor(ACR$Application)
@@ -51,7 +53,7 @@ ACR$Reason <- as.factor(ACR$Reason)
 levels(ACR$Reason)[1] <- NA
 ```
 
-### Dates
+### Convert to Dates
 ```{r}
 ACR$CRDate <- as.Date(ACR$CRDate, format = "%d-%b-%y")
 ACR$IEDate<- as.Date(ACR$IEDate, format = "%d-%b-%y")
@@ -61,41 +63,47 @@ ACR$IEmonth <- lubridate::month(ACR$IEDate, label = TRUE)
 ACR$IEyear <- lubridate::year(ACR$IEDate)          
 ```
 
-## Structure
+## Structure of The Data
 ```{r}
 str(ACR)
 ```
 
 # Metrics
-## Select nomth
+## Select Data
+Data is selected first for the Month and Year of interest. The selection is based
+on boththe CR and I&E dates. This selelction is used as a master dataframe. Two 
+additional dataframes are prduced the first of the approval of the CR inthe month
+and the second for the approval of the I&E in the month.
 ```{r}
+#create master dataframe
 work <- subset(ACR,
                subset = (CRmonth == "Nov" & CRyear == 2018) |
                     (subset = IEmonth == "Nov" & IEyear == 2018))
+# Create the CR data fram
 workCR <- subset(ACR,
                subset = CRmonth == "Nov" & CRyear == 2018)
+# create the IE data frame.
 workIE <- subset(ACR,
                subset = IEmonth == "Nov" & IEyear == 2018)
 ```
 
 ## Counts
-### Data Changes Request Approved
+### Data Changes (CR) Request Approved
 ```{r}
 nrow(subset(workCR,
-            subset = (CRApproved == "A" |
-                           CRApproved == "A-FP")))
+            subset = (CRApproved == "A" | CRApproved == "A-FP")))
 ```
+
 ### Data Change Request Disapproved
 ```{r}
 nrow(subset(workCR,
             subset = (CRApproved == "D")))
 ```
 
-### IE Approved
+### Implementation and Effectivity (IE) Approved
 ```{r}
 nrow(subset(workIE,
-            subset = (IEApproved == "A" |
-                           IEApproved == "A-FP")))
+            subset = (IEApproved == "A" | IEApproved == "A-FP")))
 ```
 
 ### IE Disapproved
@@ -103,8 +111,8 @@ nrow(subset(workIE,
 nrow(subset(workIE,
             subset = (CRApproved == "D")))
 ```
-## First pass acceptance
 
+## First pass acceptance
 ### CR
 ```{r}
 nrow(subset(workCR,
@@ -115,48 +123,29 @@ nrow(subset(workCR,
 ### IE
 ```{r}
 nrow(subset(workIE,
-            subset = CRApproved == "A-FP")) / 
+            subset = IEApproved == "A-FP")) / 
      nrow(workIE) * 100
 ```
 
 ### Total Process
+This is the number of data changes that had both the CR and IE approved on first
+pass.
 ```{r}
 nrow(subset(work,
             subset = (CRApproved == "A-FP" & IEApproved == "A-FP"))) /
      nrow(work) * 100
 ```
 
-# Time to complete a data change
-This is the interval between CR approval and IE approval
-```{r}
-work.all <- subset(ACR,
-                   subset = ((CRApproved == "A" | CRApproved == "A-FP") &
-                                  (IEApproved == "A" | IEApproved == "A-FP")))
-work.all <- subset(work.all,
-                   subset = (IEmonth == "Nov" & IEyear == 2018))
-
-nrow(work.all)
-work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
-summary(work.all$Interval)
-sd(work.all$Interval)
-table(work.all$Interval)
-quantile(work.all$Interval)
-hist(work.all$Interval,
-     breaks = 20)
-boxplot(work.all$Interval)
-boxplot(work.all$Interval,
-        outline = FALSE)
-```
-
-# Number by Application
-## Opened
+## Number by Application
+### Opened
 ```{r}
 table(subset(workCR, 
              subset = CRApproved != "D")$Application)
 table(subset(workCR, 
              subset = CRApproved != "D")$SQA)
 ```
-## Completed
+
+### Completed
 ```{r}
 table(subset(workIE, 
              subset = IEApproved != "D")$Application)
@@ -165,7 +154,7 @@ table(subset(workIE,
              subset = IEApproved != "D")$SQA)
 ```
 
-## Total
+### Total
 ```{r}
 table(subset(workCR, 
              subset = CRApproved != "D")$Application) +
@@ -177,20 +166,56 @@ table(subset(workCR,
              subset = CRApproved != "D")$SQA)
 ```
 
-# Number of days that currently open CR have been pending
+## Time to Complete A Data Change
+This is the interval between CR approval and IE approval
 ```{r}
-work.open <- subset(ACR,
-                    subset = (CRApproved == "A-FP" | CRApproved == "A") & 
-                         is.na(IEApproved))
-work.open$daysOpen <- as.numeric(as.Date("1-Dec-18", format = "%d-%b-%y") - 
-                                      work.open$CRDate)
-nrow(work.open)
-summary(work.open$daysOpen)
-quantile(work.open$daysOpen)
-hist(work.open$daysOpen,
-     breaks = 20)
-boxplot(work.open$daysOpen)
-boxplot(work.open$daysOpen,
+# select records that have been approved (both CR adn IE)
+work.all <- subset(ACR,
+                   subset = ((CRApproved == "A" | CRApproved == "A-FP") &
+                                  (IEApproved == "A" | IEApproved == "A-FP")))
+# now further select records from above that were completed in the correct month
+work.all <- subset(work.all,
+                   subset = (IEmonth == "Nov" & IEyear == 2018))
+# compute interval
+work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
+# results
+nrow(work.all)
+summary(work.all$Interval)
+sd(work.all$Interval)
+table(work.all$Interval)
+quantile(work.all$Interval)
+hist(work.all$Interval,
+     breaks = 20,
+     main = "Histogram of Days to Complete A Change Request",
+     xlab = "Day to Complete")
+boxplot(work.all$Interval,
+        main = "Box Plot of Days to Complete")
+boxplot(work.all$Interval,
+        main = "Box Plot of Days to Complete With Outliers Removed",
         outline = FALSE)
 ```
 
+## Number of Days That Currently Open CR Have Been Pending
+```{r}
+# selected records that have approved CR but no IE
+work.open <- subset(ACR,
+                    subset = (CRApproved == "A-FP" | CRApproved == "A") & 
+                         is.na(IEApproved))
+# compute days open
+work.open$daysOpen <- as.numeric(as.Date("1-Dec-18", format = "%d-%b-%y") - 
+                                      work.open$CRDate)
+# Results
+nrow(work.open)
+summary(work.open$daysOpen)
+sd(work.open$daysOpen)
+quantile(work.open$daysOpen)
+hist(work.open$daysOpen,
+     breaks = 20,
+     main = "Histogram of Days Request Open With No IE",
+     xlab = "Day to Complete")
+boxplot(work.open$daysOpen,
+        main = "Box Plot of Days Request Open With No IE")
+boxplot(work.open$daysOpen,
+        main = "Box Plot of Days Request Open With No IE With Outliers Removed",
+        outline = FALSE)
+```
