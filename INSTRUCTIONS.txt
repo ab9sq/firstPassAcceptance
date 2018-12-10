@@ -9,4 +9,4 @@ as whole numbers. Report fpa rate as a percentage with 1 decemial point.
 7. modify Results_Tempate.RNW file for correct month.
 8. save as month_results
 9. compile pdf
-
+10. run Trending_Build.R to add to the month stats data set for trending.
