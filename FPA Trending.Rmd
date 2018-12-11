@@ -1,0 +1,43 @@
+---
+title: "Building sample trends for SLC deliverables"
+author: "Nick Lauerman"
+date: "December 11, 2018"
+output: 
+  pdf_document: 
+    fig_caption: yes
+    fig_height: 6.5
+    fig_width: 6.5
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+# libraries used
+```{r}
+library(ggplot2)
+```
+
+# Load data
+The data has been processed and and a dataframe built of the month results
+```{r}
+load(file = "./data/FPA.RData")
+str(FPA)
+head(FPA)
+```
+
+## add 
+```{r}
+FPA$date <- as.Date(paste("1",
+                          as.character(FPA$Month),
+                          as.character(FPA$Year)), 
+                    format = "%d %b %Y")
+```
+
+# data overview
+```{r}
+summary(FPA)
+```
+
