@@ -12,11 +12,10 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
 ```
 
-# libraries used
-```{r}
+
+```{r, echo =FALSE}
 library(ggplot2)
 ```
 
@@ -28,8 +27,8 @@ str(FPA)
 head(FPA)
 ```
 
-## add 
-```{r}
+
+```{r , echo=FALSE}
 FPA$date <- as.Date(paste("1",
                           as.character(FPA$Month),
                           as.character(FPA$Year)), 
@@ -37,7 +36,175 @@ FPA$date <- as.Date(paste("1",
 ```
 
 # data overview
-```{r}
+```{r, echo=FALSE}
 summary(FPA)
 ```
+
+# Trends
+## First pass acceptance
+The regression line is included which is showing a downward trend.
+Hwever, the analysis indicates a very low probability of corrolation between
+date and the FPA rate (8.2%).
+
+```{r, echo=FALSE}
+plot(x=FPA$date, y=FPA$First_Pass_Acceptance, 
+     type = "b",
+     main = "Trend for First Pass Acceptance",
+     xlab = "Month",
+     ylab = "First Pass Acceptance (%)",
+     col = "blue",
+     pch = 8)
+abline(h=mean(FPA$First_Pass_Acceptance),
+       lty = 3)
+abline(h=(mean(FPA$First_Pass_Acceptance) + 
+              sd(FPA$First_Pass_Acceptance)), 
+      lty = 2,
+      col = "green")
+abline(h=(mean(FPA$First_Pass_Acceptance) - 
+              sd(FPA$First_Pass_Acceptance)), 
+      lty = 2,
+      col = "green")
+linear<- lm(FPA$First_Pass_Acceptance ~ FPA$date)
+# summary(linear)
+abline(a = linear$coefficients[1],
+       b = linear$coefficients[2],
+       lty = 4,
+       col = "red")
+legend("topright",
+       c("FPA Rate",
+         "one standard dev",
+         "linear regression"),
+       col = c("blue",
+               "green",
+               "red"),
+       lty = c(3, 2, 4),
+       pch = c(8,NA,NA),
+       cex = 0.5)
+```
+
+## Documents reviewed
+The regression line is included which is showing a downward trend.
+Hwever, the analysis indicates a very low probability of corrolation between
+date and the FPA rate (6.2%).
+
+```{r, echo=FALSE}
+plot(x=FPA$date, y=FPA$Reviews_Completed,
+     type = "b",
+     main = "Trend for Documents Reviewed",
+     xlab = "Month",
+     ylab = "Number of Documents",
+     col = "blue",
+     pch = 8)
+abline(h=mean(FPA$Reviews_Completed),
+       lty = 3)
+abline(h=(mean(FPA$Reviews_Completed) +
+               sd(FPA$Reviews_Completed)),
+       lty = 2,
+       col = "green")
+abline(h=(mean(FPA$Reviews_Completed) -
+               sd(FPA$Reviews_Completed)),
+       lty = 2,
+       col = "green")
+linear<- lm(FPA$Reviews_Completed ~ FPA$date)
+# summary(linear)
+abline(a = linear$coefficients[1],
+       b = linear$coefficients[2],
+       lty = 4,
+       col = "red")
+legend("bottomleft",
+       c("documents reviewed",
+         "one standard dev",
+         "linear regression"),
+       col = c("blue",
+               "green",
+               "red"),
+       lty = c(3, 2, 4),
+       pch = c(8,NA,NA),
+       cex = 0.5)
+
+```
+
+## Projects Started
+The regression line is included which is showing a downward trend.
+Hwever, the analysis indicates a very low probability of corrolation between
+date and the FPA rate (1.6%). 
+
+```{r, echo=FALSE}
+plot(x=FPA$date, y=FPA$Projects_Started,
+     type = "b",
+     main = "Trend for Projects Started",
+     xlab = "Month",
+     ylab = "Number of Projects Started",
+     col = "blue",
+     pch = 8)
+abline(h=mean(FPA$Projects_Started),
+       lty = 3)
+abline(h=(mean(FPA$Projects_Started) +
+               sd(FPA$Projects_Started)),
+       lty = 2,
+       col = "green")
+abline(h=(mean(FPA$Projects_Started) -
+               sd(FPA$Projects_Started)),
+       lty = 2,
+       col = "green")
+linear<- lm(FPA$Projects_Started ~ FPA$date)
+# summary(linear)
+abline(a = linear$coefficients[1],
+       b = linear$coefficients[2],
+       lty = 4,
+       col = "red")
+legend("top",
+       c("projects started",
+         "one standard dev",
+         "linear regression"),
+       col = c("blue",
+               "green",
+               "red"),
+       lty = c(3, 2, 4),
+       pch = c(8,NA,NA),
+       cex = 0.5)
+```
+
+## Projects Completed
+The regression line is included which is showing a downward trend.
+Hwever, the analysis indicates a very low probability of corrolation between
+date and the FPA rate (2.5%). 
+
+```{r, echo=FALSE}
+plot(x = FPA$date, y = FPA$Projects_Completed,
+     type = "b",
+     main = "Trend for Projects Completed",
+     xlab = "Month",
+     ylab = "Number of Projects Completed",
+     col = "blue",
+     pch = 8)
+abline(h=mean(FPA$Projects_Completed),
+       lty = 3)
+abline(h=(mean(FPA$Projects_Completed) +
+               sd(FPA$Projects_Completed)),
+       lty = 2,
+       col = "green")
+abline(h=(mean(FPA$Projects_Completed) -
+               sd(FPA$Projects_Completed)),
+       lty = 2,
+       col = "green")
+linear<- lm(FPA$Projects_Completed ~ FPA$date)
+# summary(linear)
+abline(a = linear$coefficients[1],
+       b = linear$coefficients[2],
+       lty = 4,
+       col = "red")
+legend("top",
+       c("projects completed",
+         "one standard dev",
+         "linear regression"),
+       col = c("blue",
+               "green",
+               "red"),
+       lty = c(3, 2, 4),
+       pch = c(8,NA,NA),
+       cex = 0.5)
+
+```
+
 
