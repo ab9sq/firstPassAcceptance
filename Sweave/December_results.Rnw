@@ -17,7 +17,7 @@
 
 
 
-\title{SQA Metric Items From FPA Spreadsheet - October 2018}
+\title{SQA Metric Items From FPA Spreadsheet - December 2018}
 \author{Nick Lauerman}
 \date{}
 
@@ -29,7 +29,7 @@
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators from the Excel
 workbook that Software Quality Assurance collected called First Pass
-Acceptance. This will only be run for the month of October 2018.
+Acceptance. This will only be run for the month of December 2018.
 \footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 

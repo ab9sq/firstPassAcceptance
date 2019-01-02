@@ -77,14 +77,14 @@ and the second for the approval of the I&E in the month.
 ```{r}
 #create master dataframe
 work <- subset(ACR,
-               subset = (CRmonth == "Nov" & CRyear == 2018) |
-                    (subset = IEmonth == "Nov" & IEyear == 2018))
+               subset = (CRmonth == "Dec" & CRyear == 2018) |
+                    (subset = IEmonth == "Dec" & IEyear == 2018))
 # Create the CR data fram
 workCR <- subset(ACR,
-               subset = CRmonth == "Nov" & CRyear == 2018)
+               subset = CRmonth == "Dec" & CRyear == 2018)
 # create the IE data frame.
 workIE <- subset(ACR,
-               subset = IEmonth == "Nov" & IEyear == 2018)
+               subset = IEmonth == "Dec" & IEyear == 2018)
 ```
 
 ## Counts
@@ -175,7 +175,7 @@ work.all <- subset(ACR,
                                   (IEApproved == "A" | IEApproved == "A-FP")))
 # now further select records from above that were completed in the correct month
 work.all <- subset(work.all,
-                   subset = (IEmonth == "Nov" & IEyear == 2018))
+                   subset = (IEmonth == "Dec" & IEyear == 2018))
 # compute interval
 work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
 # results

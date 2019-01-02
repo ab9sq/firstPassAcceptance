@@ -1,0 +1,2052 @@
+\documentclass{article}
+
+\usepackage[toc]{multitoc}
+\renewcommand*{\multicolumntoc}{2}
+\setlength{\columnseprule}{0.5pt}
+
+\usepackage{datetime}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks = true,
+    linkcolor={blue!80!black},
+    citecolor={blue!80!black},
+    urlcolor={blue!80!black}
+}
+
+
+
+\title{SQA Metric Items From FPA Spreadsheet - December 2018}
+\author{Nick Lauerman}
+\date{}
+
+
+\usepackage{Sweave}
+\begin{document}
+\input{December_results-concordance}
+\maketitle
+
+\begin{abstract}
+Evaulation of various potential matrics, performance indicators from the Excel
+workbook that Software Quality Assurance collected called First Pass
+Acceptance. This will only be run for the month of December 2018.
+\footnote{Date Ran: \today{} at \currenttime}
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+The data is processed using R\footnote{RStudio is utilized as an IDE}, Version
+3.5.1 named ``Feather Spray''. The only extension (package or library) utilized is
+lubridate (version 1.7.4) to provide key functionality in the processing of dates.
+
+The data is read into R from a comma seperated value (csv) file which is derived (saved)
+from the spreadsheet without modification. Additional values are computed as needed.
+
+This report is prepared in the R enviroment using a collection of packages know as
+Sweave that included knitr which in turn feeds the package into \LaTeXe{} a typeseting
+program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX. \LaTeXe{} is utilizing
+the folowing packages to control style and formating:
+\begin{itemize}
+\item datetime and
+\item multitoc
+\end{itemize}
+
+This will only show a point in time summary and no trends.
+
+\section{Data and Calculations}
+\subsection{Data}
+A seperate data dictionary will be prepared to for both the source data
+and computed values stored in R.
+
+\subsection{Calculations}
+All calculations presented here have not been implemented in R as formulas.
+
+\section{Work Yet to be Completed}
+\subsection{Formula}
+Some calculations would be better implemented as formulas. The calculations need
+to be evulated and the formulas developed where needed.
+\subsection{Trending}
+Eventually the ``System'' will be updated to select the data on a for a calander
+month. After processing the resulots will be stored in a seperate file.
+This will allow for longer term trending of this data.
+\subsubsection{Graphs}
+When ``trending'' is implented graphs of the trends will also be added.
+
+
+\section{Quanity Metrics}
+\subsection{Application supported}
+This is a list of all application support this period.
+
+\textbf{Note:} Alphabatize the list
+
+\begin{Schunk}
+\begin{Soutput}
+ [1] "R&D Data Management Dashboard"                            
+ [2] "WWLIMS"                                                   
+ [3] "QIMS"                                                     
+ [4] "DFCS"                                                     
+ [5] "Clinical Chemistry Excel Spreadsheet for Digital Printing"
+ [6] "Pulse"                                                    
+ [7] "BioXpert"                                                 
+ [8] "PEAR"                                                     
+ [9] "Acceptance Sampling Plan Generator (ASPG)"                
+[10] "GDSN/GS1"                                                 
+[11] "eNovator"                                                 
+[12] "GS Reports"                                               
+[13] "IDA Reporting"                                            
+[14] "Metrics Library"                                          
+[15] "TODS"                                                     
+[16] "AFMS"                                                     
+[17] "TrendReader"                                              
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Projects}
+The total number of  projects worked on in this period. This may differ from the
+application list because some applications may have more than one project in
+the periond.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 27
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Reviews}
+This is the number of items reviewed, a document will be counted more than once
+if it is reviewed more than once.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 193
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Items Reviewed}
+This is the number of unique items reviewed, each item is only counted once
+regardless of how many times it is reviewed.
+
+\textbf{Note:} This is reporting low due to certian items having no way to
+descrimate between such as multiple executions of the same test script or
+results from an IIVP run on different computers within the same project.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 148
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Projects Started}
+The point at which a project is started is when version 1 of the \textit{Software
+Change Request} is approved.
+
+\textbf{Note:} This now counts ML type projects (Metrics Library and GS Reports)
+using the Project Plan as the point that a project starts.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 4
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Projects Completed}
+
+The point at which a project is considered completed is when version 1 of the
+\textit{System Certification Summary} is approved.
+
+\textbf{Note:} now counts GS (Global Service) Reports Move to Production as the end
+of project.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 4
+\end{Soutput}
+\end{Schunk}
+
+
+\subsection{Number Of Deliverables by Type}
+This is unique for each deliverable. It only counts each document once so a deliverable
+that is disapproved and then approved is only counted once.
+
+\begin{Schunk}
+\begin{Soutput}
+                    Cancellation                              CII 
+                               0                                3 
+             Data Migration Plan                Data Privacy Plan 
+                               0                                0 
+          Decommissioning Report             Design Documentation 
+                               0                                2 
+             Design Verification                             ERES 
+                              28                                2 
+                             FRS                              IDP 
+                               6                                1 
+                            IIVP                     IIVP results 
+                               9                                6 
+                    IIVP Results                             ISSD 
+                               9                                1 
+                Maintenance Plan               Move to Production 
+                               2                                2 
+                           Other                     Project Plan 
+                               0                                3 
+                   Release Notes                  Risk Assessment 
+                               0                                2 
+         Software Change Request   Software Compliance Assessment 
+                               5                                0 
+    System Certification Summary                    Test protocol 
+                               2                                0 
+                   Test Protocol            Test Protocol Results 
+                              33                               21 
+                    Traceability                              URS 
+                               7                                3 
+                         URS/FRS         User Acceptance Protocol 
+                               1                                0 
+User Acceptance Protocol results                  Validation Plan 
+                               0                                0 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Deliverable by Application}
+This is the number of unique deliverables that each application submitted. Itonly counts
+each document once, regardless of the status.
+\begin{Schunk}
+\begin{Soutput}
+                              Abbott Transfusion Medicine 
+                                                        0 
+                Acceptance Sampling Plan Generator (ASPG) 
+                                                        2 
+                 ADD Shop Floor Paper (SFP) Report System 
+                                                        0 
+                                                     AFMS 
+                                                        2 
+                          Alinity S Non-LIMS spreadsheets 
+                                                        0 
+                                  Alinity Source Verifier 
+                                                        0 
+                                                      AMM 
+                                                        0 
+                                                AP 24 CIP 
+                                                        0 
+                                               Apollo/PHM 
+                                                        0 
+                                                     ASPG 
+                                                        0 
+                                      Assay File Database 
+                                                        0 
+                            BioCommand Batch Control Plus 
+                                                        0 
+                                                 BioXpert 
+                                                        3 
+                                                    CHaRM 
+                                                        0 
+Clinical Chemistry Excel Spreadsheet for Digital Printing 
+                                                        8 
+                                                  CMSnext 
+                                                        0 
+                                                  CMSNext 
+                                                        0 
+                                   DARA Filler DHM and RU 
+                                                        0 
+                                                  DaVinci 
+                                                        0 
+                                                     DFCS 
+                                                        9 
+                                                      DPW 
+                                                        0 
+                                                     EDMS 
+                                                        0 
+                                                 eNovator 
+                                                       24 
+                                             EP Evaluator 
+                                                        0 
+                                                 GDSN/GS1 
+                                                        5 
+                                                Groninger 
+                                                        0 
+                                               GS Reports 
+                                                        4 
+                                                   Helios 
+                                                        0 
+                             Helios Global Contact Center 
+                                                        0 
+                                            IDA Reporting 
+                                                        2 
+                                                ideaPoint 
+                                                        0 
+                                                     IRIS 
+                                                        0 
+                                     Knowledge Management 
+                                                        0 
+                                          Metrics Library 
+                                                        1 
+                                             MQA Protocol 
+                                                        0 
+                                                Navigator 
+                                                        0 
+                                                  PCN/SCN 
+                                                        0 
+                                                     PEAR 
+                                                        5 
+                                                 Power BI 
+                                                        0 
+                                          Print on Demand 
+                                                        0 
+                                                    Pulse 
+                                                        1 
+                                                     QIMS 
+                                                       42 
+                                                      QPI 
+                                                        0 
+                            R&D Data Management Dashboard 
+                                                        4 
+                                          Reliasoft Xfmea 
+                                                        0 
+                                                    RSLMS 
+                                                        0 
+                                                      SAS 
+                                                        0 
+                                             TestComplete 
+                                                        0 
+                                                     TODS 
+                                                       16 
+                                              TrendReader 
+                                                        4 
+                                                   WWLIMS 
+                                                       16 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Approvals, Disapprovals, and First Pass Approvals}
+
+\begin{Schunk}
+\begin{Soutput}
+   A A-FP    D 
+  62   77   54 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Table of Deliverables by Application}
+\begin{Schunk}
+\begin{Soutput}
+                                                            Cancellation CII
+  Abbott Transfusion Medicine                                          0   0
+  Acceptance Sampling Plan Generator (ASPG)                            0   0
+  ADD Shop Floor Paper (SFP) Report System                             0   0
+  AFMS                                                                 0   0
+  Alinity S Non-LIMS spreadsheets                                      0   0
+  Alinity Source Verifier                                              0   0
+  AMM                                                                  0   0
+  AP 24 CIP                                                            0   0
+  Apollo/PHM                                                           0   0
+  ASPG                                                                 0   0
+  Assay File Database                                                  0   0
+  BioCommand Batch Control Plus                                        0   0
+  BioXpert                                                             0   0
+  CHaRM                                                                0   0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing            0   0
+  CMSnext                                                              0   0
+  CMSNext                                                              0   0
+  DARA Filler DHM and RU                                               0   0
+  DaVinci                                                              0   0
+  DFCS                                                                 0   0
+  DPW                                                                  0   0
+  EDMS                                                                 0   0
+  eNovator                                                             0   0
+  EP Evaluator                                                         0   0
+  GDSN/GS1                                                             0   0
+  Groninger                                                            0   0
+  GS Reports                                                           0   0
+  Helios                                                               0   0
+  Helios Global Contact Center                                         0   0
+  IDA Reporting                                                        0   0
+  ideaPoint                                                            0   0
+  IRIS                                                                 0   0
+  Knowledge Management                                                 0   0
+  Metrics Library                                                      0   0
+  MQA Protocol                                                         0   0
+  Navigator                                                            0   0
+  PCN/SCN                                                              0   0
+  PEAR                                                                 0   1
+  Power BI                                                             0   0
+  Print on Demand                                                      0   0
+  Pulse                                                                0   0
+  QIMS                                                                 0   2
+  QPI                                                                  0   0
+  R&D Data Management Dashboard                                        0   0
+  Reliasoft Xfmea                                                      0   0
+  RSLMS                                                                0   0
+  SAS                                                                  0   0
+  TestComplete                                                         0   0
+  TODS                                                                 0   0
+  TrendReader                                                          0   0
+  WWLIMS                                                               0   0
+                                                           
+                                                            Data Migration Plan
+  Abbott Transfusion Medicine                                                 0
+  Acceptance Sampling Plan Generator (ASPG)                                   0
+  ADD Shop Floor Paper (SFP) Report System                                    0
+  AFMS                                                                        0
+  Alinity S Non-LIMS spreadsheets                                             0
+  Alinity Source Verifier                                                     0
+  AMM                                                                         0
+  AP 24 CIP                                                                   0
+  Apollo/PHM                                                                  0
+  ASPG                                                                        0
+  Assay File Database                                                         0
+  BioCommand Batch Control Plus                                               0
+  BioXpert                                                                    0
+  CHaRM                                                                       0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                   0
+  CMSnext                                                                     0
+  CMSNext                                                                     0
+  DARA Filler DHM and RU                                                      0
+  DaVinci                                                                     0
+  DFCS                                                                        0
+  DPW                                                                         0
+  EDMS                                                                        0
+  eNovator                                                                    0
+  EP Evaluator                                                                0
+  GDSN/GS1                                                                    0
+  Groninger                                                                   0
+  GS Reports                                                                  0
+  Helios                                                                      0
+  Helios Global Contact Center                                                0
+  IDA Reporting                                                               0
+  ideaPoint                                                                   0
+  IRIS                                                                        0
+  Knowledge Management                                                        0
+  Metrics Library                                                             0
+  MQA Protocol                                                                0
+  Navigator                                                                   0
+  PCN/SCN                                                                     0
+  PEAR                                                                        0
+  Power BI                                                                    0
+  Print on Demand                                                             0
+  Pulse                                                                       0
+  QIMS                                                                        0
+  QPI                                                                         0
+  R&D Data Management Dashboard                                               0
+  Reliasoft Xfmea                                                             0
+  RSLMS                                                                       0
+  SAS                                                                         0
+  TestComplete                                                                0
+  TODS                                                                        0
+  TrendReader                                                                 0
+  WWLIMS                                                                      0
+                                                           
+                                                            Data Privacy Plan
+  Abbott Transfusion Medicine                                               0
+  Acceptance Sampling Plan Generator (ASPG)                                 0
+  ADD Shop Floor Paper (SFP) Report System                                  0
+  AFMS                                                                      0
+  Alinity S Non-LIMS spreadsheets                                           0
+  Alinity Source Verifier                                                   0
+  AMM                                                                       0
+  AP 24 CIP                                                                 0
+  Apollo/PHM                                                                0
+  ASPG                                                                      0
+  Assay File Database                                                       0
+  BioCommand Batch Control Plus                                             0
+  BioXpert                                                                  0
+  CHaRM                                                                     0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                 0
+  CMSnext                                                                   0
+  CMSNext                                                                   0
+  DARA Filler DHM and RU                                                    0
+  DaVinci                                                                   0
+  DFCS                                                                      0
+  DPW                                                                       0
+  EDMS                                                                      0
+  eNovator                                                                  0
+  EP Evaluator                                                              0
+  GDSN/GS1                                                                  0
+  Groninger                                                                 0
+  GS Reports                                                                0
+  Helios                                                                    0
+  Helios Global Contact Center                                              0
+  IDA Reporting                                                             0
+  ideaPoint                                                                 0
+  IRIS                                                                      0
+  Knowledge Management                                                      0
+  Metrics Library                                                           0
+  MQA Protocol                                                              0
+  Navigator                                                                 0
+  PCN/SCN                                                                   0
+  PEAR                                                                      0
+  Power BI                                                                  0
+  Print on Demand                                                           0
+  Pulse                                                                     0
+  QIMS                                                                      0
+  QPI                                                                       0
+  R&D Data Management Dashboard                                             0
+  Reliasoft Xfmea                                                           0
+  RSLMS                                                                     0
+  SAS                                                                       0
+  TestComplete                                                              0
+  TODS                                                                      0
+  TrendReader                                                               0
+  WWLIMS                                                                    0
+                                                           
+                                                            Decommissioning Report
+  Abbott Transfusion Medicine                                                    0
+  Acceptance Sampling Plan Generator (ASPG)                                      0
+  ADD Shop Floor Paper (SFP) Report System                                       0
+  AFMS                                                                           0
+  Alinity S Non-LIMS spreadsheets                                                0
+  Alinity Source Verifier                                                        0
+  AMM                                                                            0
+  AP 24 CIP                                                                      0
+  Apollo/PHM                                                                     0
+  ASPG                                                                           0
+  Assay File Database                                                            0
+  BioCommand Batch Control Plus                                                  0
+  BioXpert                                                                       0
+  CHaRM                                                                          0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                      0
+  CMSnext                                                                        0
+  CMSNext                                                                        0
+  DARA Filler DHM and RU                                                         0
+  DaVinci                                                                        0
+  DFCS                                                                           0
+  DPW                                                                            0
+  EDMS                                                                           0
+  eNovator                                                                       0
+  EP Evaluator                                                                   0
+  GDSN/GS1                                                                       0
+  Groninger                                                                      0
+  GS Reports                                                                     0
+  Helios                                                                         0
+  Helios Global Contact Center                                                   0
+  IDA Reporting                                                                  0
+  ideaPoint                                                                      0
+  IRIS                                                                           0
+  Knowledge Management                                                           0
+  Metrics Library                                                                0
+  MQA Protocol                                                                   0
+  Navigator                                                                      0
+  PCN/SCN                                                                        0
+  PEAR                                                                           0
+  Power BI                                                                       0
+  Print on Demand                                                                0
+  Pulse                                                                          0
+  QIMS                                                                           0
+  QPI                                                                            0
+  R&D Data Management Dashboard                                                  0
+  Reliasoft Xfmea                                                                0
+  RSLMS                                                                          0
+  SAS                                                                            0
+  TestComplete                                                                   0
+  TODS                                                                           0
+  TrendReader                                                                    0
+  WWLIMS                                                                         0
+                                                           
+                                                            Design Documentation
+  Abbott Transfusion Medicine                                                  0
+  Acceptance Sampling Plan Generator (ASPG)                                    0
+  ADD Shop Floor Paper (SFP) Report System                                     0
+  AFMS                                                                         0
+  Alinity S Non-LIMS spreadsheets                                              0
+  Alinity Source Verifier                                                      0
+  AMM                                                                          0
+  AP 24 CIP                                                                    0
+  Apollo/PHM                                                                   0
+  ASPG                                                                         0
+  Assay File Database                                                          0
+  BioCommand Batch Control Plus                                                0
+  BioXpert                                                                     0
+  CHaRM                                                                        0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                    0
+  CMSnext                                                                      0
+  CMSNext                                                                      0
+  DARA Filler DHM and RU                                                       0
+  DaVinci                                                                      0
+  DFCS                                                                         0
+  DPW                                                                          0
+  EDMS                                                                         0
+  eNovator                                                                     0
+  EP Evaluator                                                                 0
+  GDSN/GS1                                                                     0
+  Groninger                                                                    0
+  GS Reports                                                                   0
+  Helios                                                                       0
+  Helios Global Contact Center                                                 0
+  IDA Reporting                                                                0
+  ideaPoint                                                                    0
+  IRIS                                                                         0
+  Knowledge Management                                                         0
+  Metrics Library                                                              1
+  MQA Protocol                                                                 0
+  Navigator                                                                    0
+  PCN/SCN                                                                      0
+  PEAR                                                                         0
+  Power BI                                                                     0
+  Print on Demand                                                              0
+  Pulse                                                                        0
+  QIMS                                                                         0
+  QPI                                                                          0
+  R&D Data Management Dashboard                                                1
+  Reliasoft Xfmea                                                              0
+  RSLMS                                                                        0
+  SAS                                                                          0
+  TestComplete                                                                 0
+  TODS                                                                         0
+  TrendReader                                                                  0
+  WWLIMS                                                                       0
+                                                           
+                                                            Design Verification
+  Abbott Transfusion Medicine                                                 0
+  Acceptance Sampling Plan Generator (ASPG)                                   0
+  ADD Shop Floor Paper (SFP) Report System                                    0
+  AFMS                                                                        0
+  Alinity S Non-LIMS spreadsheets                                             0
+  Alinity Source Verifier                                                     0
+  AMM                                                                         0
+  AP 24 CIP                                                                   0
+  Apollo/PHM                                                                  0
+  ASPG                                                                        0
+  Assay File Database                                                         0
+  BioCommand Batch Control Plus                                               0
+  BioXpert                                                                    0
+  CHaRM                                                                       0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                   0
+  CMSnext                                                                     0
+  CMSNext                                                                     0
+  DARA Filler DHM and RU                                                      0
+  DaVinci                                                                     0
+  DFCS                                                                        9
+  DPW                                                                         0
+  EDMS                                                                        0
+  eNovator                                                                    0
+  EP Evaluator                                                                0
+  GDSN/GS1                                                                    0
+  Groninger                                                                   0
+  GS Reports                                                                  0
+  Helios                                                                      0
+  Helios Global Contact Center                                                0
+  IDA Reporting                                                               0
+  ideaPoint                                                                   0
+  IRIS                                                                        0
+  Knowledge Management                                                        0
+  Metrics Library                                                             0
+  MQA Protocol                                                                0
+  Navigator                                                                   0
+  PCN/SCN                                                                     0
+  PEAR                                                                        1
+  Power BI                                                                    0
+  Print on Demand                                                             0
+  Pulse                                                                       0
+  QIMS                                                                        0
+  QPI                                                                         0
+  R&D Data Management Dashboard                                               1
+  Reliasoft Xfmea                                                             0
+  RSLMS                                                                       0
+  SAS                                                                         0
+  TestComplete                                                                0
+  TODS                                                                       16
+  TrendReader                                                                 0
+  WWLIMS                                                                      1
+                                                           
+                                                            ERES FRS IDP IIVP
+  Abbott Transfusion Medicine                                  0   0   0    0
+  Acceptance Sampling Plan Generator (ASPG)                    0   0   0    0
+  ADD Shop Floor Paper (SFP) Report System                     0   0   0    0
+  AFMS                                                         0   1   0    0
+  Alinity S Non-LIMS spreadsheets                              0   0   0    0
+  Alinity Source Verifier                                      0   0   0    0
+  AMM                                                          0   0   0    0
+  AP 24 CIP                                                    0   0   0    0
+  Apollo/PHM                                                   0   0   0    0
+  ASPG                                                         0   0   0    0
+  Assay File Database                                          0   0   0    0
+  BioCommand Batch Control Plus                                0   0   0    0
+  BioXpert                                                     1   0   0    0
+  CHaRM                                                        0   0   0    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing    0   0   0    2
+  CMSnext                                                      0   0   0    0
+  CMSNext                                                      0   0   0    0
+  DARA Filler DHM and RU                                       0   0   0    0
+  DaVinci                                                      0   0   0    0
+  DFCS                                                         0   0   0    0
+  DPW                                                          0   0   0    0
+  EDMS                                                         0   0   0    0
+  eNovator                                                     0   0   0    3
+  EP Evaluator                                                 0   0   0    0
+  GDSN/GS1                                                     0   0   1    0
+  Groninger                                                    0   0   0    0
+  GS Reports                                                   0   0   0    0
+  Helios                                                       0   0   0    0
+  Helios Global Contact Center                                 0   0   0    0
+  IDA Reporting                                                0   0   0    0
+  ideaPoint                                                    0   0   0    0
+  IRIS                                                         0   0   0    0
+  Knowledge Management                                         0   0   0    0
+  Metrics Library                                              0   0   0    0
+  MQA Protocol                                                 0   0   0    0
+  Navigator                                                    0   0   0    0
+  PCN/SCN                                                      0   0   0    0
+  PEAR                                                         0   0   0    1
+  Power BI                                                     0   0   0    0
+  Print on Demand                                              0   0   0    0
+  Pulse                                                        0   0   0    0
+  QIMS                                                         0   1   0    3
+  QPI                                                          0   0   0    0
+  R&D Data Management Dashboard                                1   0   0    0
+  Reliasoft Xfmea                                              0   0   0    0
+  RSLMS                                                        0   0   0    0
+  SAS                                                          0   0   0    0
+  TestComplete                                                 0   0   0    0
+  TODS                                                         0   0   0    0
+  TrendReader                                                  0   0   0    0
+  WWLIMS                                                       0   4   0    0
+                                                           
+                                                            IIVP results
+  Abbott Transfusion Medicine                                          0
+  Acceptance Sampling Plan Generator (ASPG)                            0
+  ADD Shop Floor Paper (SFP) Report System                             0
+  AFMS                                                                 0
+  Alinity S Non-LIMS spreadsheets                                      0
+  Alinity Source Verifier                                              0
+  AMM                                                                  0
+  AP 24 CIP                                                            0
+  Apollo/PHM                                                           0
+  ASPG                                                                 0
+  Assay File Database                                                  0
+  BioCommand Batch Control Plus                                        0
+  BioXpert                                                             0
+  CHaRM                                                                0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing            1
+  CMSnext                                                              0
+  CMSNext                                                              0
+  DARA Filler DHM and RU                                               0
+  DaVinci                                                              0
+  DFCS                                                                 0
+  DPW                                                                  0
+  EDMS                                                                 0
+  eNovator                                                             0
+  EP Evaluator                                                         0
+  GDSN/GS1                                                             0
+  Groninger                                                            0
+  GS Reports                                                           0
+  Helios                                                               0
+  Helios Global Contact Center                                         0
+  IDA Reporting                                                        0
+  ideaPoint                                                            0
+  IRIS                                                                 0
+  Knowledge Management                                                 0
+  Metrics Library                                                      0
+  MQA Protocol                                                         0
+  Navigator                                                            0
+  PCN/SCN                                                              0
+  PEAR                                                                 1
+  Power BI                                                             0
+  Print on Demand                                                      0
+  Pulse                                                                0
+  QIMS                                                                 4
+  QPI                                                                  0
+  R&D Data Management Dashboard                                        0
+  Reliasoft Xfmea                                                      0
+  RSLMS                                                                0
+  SAS                                                                  0
+  TestComplete                                                         0
+  TODS                                                                 0
+  TrendReader                                                          0
+  WWLIMS                                                               0
+                                                           
+                                                            IIVP Results ISSD
+  Abbott Transfusion Medicine                                          0    0
+  Acceptance Sampling Plan Generator (ASPG)                            0    0
+  ADD Shop Floor Paper (SFP) Report System                             0    0
+  AFMS                                                                 0    0
+  Alinity S Non-LIMS spreadsheets                                      0    0
+  Alinity Source Verifier                                              0    0
+  AMM                                                                  0    0
+  AP 24 CIP                                                            0    0
+  Apollo/PHM                                                           0    0
+  ASPG                                                                 0    0
+  Assay File Database                                                  0    0
+  BioCommand Batch Control Plus                                        0    0
+  BioXpert                                                             0    0
+  CHaRM                                                                0    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing            0    0
+  CMSnext                                                              0    0
+  CMSNext                                                              0    0
+  DARA Filler DHM and RU                                               0    0
+  DaVinci                                                              0    0
+  DFCS                                                                 0    0
+  DPW                                                                  0    0
+  EDMS                                                                 0    0
+  eNovator                                                             4    0
+  EP Evaluator                                                         0    0
+  GDSN/GS1                                                             1    1
+  Groninger                                                            0    0
+  GS Reports                                                           0    0
+  Helios                                                               0    0
+  Helios Global Contact Center                                         0    0
+  IDA Reporting                                                        0    0
+  ideaPoint                                                            0    0
+  IRIS                                                                 0    0
+  Knowledge Management                                                 0    0
+  Metrics Library                                                      0    0
+  MQA Protocol                                                         0    0
+  Navigator                                                            0    0
+  PCN/SCN                                                              0    0
+  PEAR                                                                 0    0
+  Power BI                                                             0    0
+  Print on Demand                                                      0    0
+  Pulse                                                                0    0
+  QIMS                                                                 0    0
+  QPI                                                                  0    0
+  R&D Data Management Dashboard                                        0    0
+  Reliasoft Xfmea                                                      0    0
+  RSLMS                                                                0    0
+  SAS                                                                  0    0
+  TestComplete                                                         0    0
+  TODS                                                                 0    0
+  TrendReader                                                          4    0
+  WWLIMS                                                               0    0
+                                                           
+                                                            Maintenance Plan
+  Abbott Transfusion Medicine                                              0
+  Acceptance Sampling Plan Generator (ASPG)                                0
+  ADD Shop Floor Paper (SFP) Report System                                 0
+  AFMS                                                                     0
+  Alinity S Non-LIMS spreadsheets                                          0
+  Alinity Source Verifier                                                  0
+  AMM                                                                      0
+  AP 24 CIP                                                                0
+  Apollo/PHM                                                               0
+  ASPG                                                                     0
+  Assay File Database                                                      0
+  BioCommand Batch Control Plus                                            0
+  BioXpert                                                                 0
+  CHaRM                                                                    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                1
+  CMSnext                                                                  0
+  CMSNext                                                                  0
+  DARA Filler DHM and RU                                                   0
+  DaVinci                                                                  0
+  DFCS                                                                     0
+  DPW                                                                      0
+  EDMS                                                                     0
+  eNovator                                                                 1
+  EP Evaluator                                                             0
+  GDSN/GS1                                                                 0
+  Groninger                                                                0
+  GS Reports                                                               0
+  Helios                                                                   0
+  Helios Global Contact Center                                             0
+  IDA Reporting                                                            0
+  ideaPoint                                                                0
+  IRIS                                                                     0
+  Knowledge Management                                                     0
+  Metrics Library                                                          0
+  MQA Protocol                                                             0
+  Navigator                                                                0
+  PCN/SCN                                                                  0
+  PEAR                                                                     0
+  Power BI                                                                 0
+  Print on Demand                                                          0
+  Pulse                                                                    0
+  QIMS                                                                     0
+  QPI                                                                      0
+  R&D Data Management Dashboard                                            0
+  Reliasoft Xfmea                                                          0
+  RSLMS                                                                    0
+  SAS                                                                      0
+  TestComplete                                                             0
+  TODS                                                                     0
+  TrendReader                                                              0
+  WWLIMS                                                                   0
+                                                           
+                                                            Move to Production
+  Abbott Transfusion Medicine                                                0
+  Acceptance Sampling Plan Generator (ASPG)                                  0
+  ADD Shop Floor Paper (SFP) Report System                                   0
+  AFMS                                                                       0
+  Alinity S Non-LIMS spreadsheets                                            0
+  Alinity Source Verifier                                                    0
+  AMM                                                                        0
+  AP 24 CIP                                                                  0
+  Apollo/PHM                                                                 0
+  ASPG                                                                       0
+  Assay File Database                                                        0
+  BioCommand Batch Control Plus                                              0
+  BioXpert                                                                   0
+  CHaRM                                                                      0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                  0
+  CMSnext                                                                    0
+  CMSNext                                                                    0
+  DARA Filler DHM and RU                                                     0
+  DaVinci                                                                    0
+  DFCS                                                                       0
+  DPW                                                                        0
+  EDMS                                                                       0
+  eNovator                                                                   0
+  EP Evaluator                                                               0
+  GDSN/GS1                                                                   0
+  Groninger                                                                  0
+  GS Reports                                                                 2
+  Helios                                                                     0
+  Helios Global Contact Center                                               0
+  IDA Reporting                                                              0
+  ideaPoint                                                                  0
+  IRIS                                                                       0
+  Knowledge Management                                                       0
+  Metrics Library                                                            0
+  MQA Protocol                                                               0
+  Navigator                                                                  0
+  PCN/SCN                                                                    0
+  PEAR                                                                       0
+  Power BI                                                                   0
+  Print on Demand                                                            0
+  Pulse                                                                      0
+  QIMS                                                                       0
+  QPI                                                                        0
+  R&D Data Management Dashboard                                              0
+  Reliasoft Xfmea                                                            0
+  RSLMS                                                                      0
+  SAS                                                                        0
+  TestComplete                                                               0
+  TODS                                                                       0
+  TrendReader                                                                0
+  WWLIMS                                                                     0
+                                                           
+                                                            Other Project Plan
+  Abbott Transfusion Medicine                                   0            0
+  Acceptance Sampling Plan Generator (ASPG)                     0            1
+  ADD Shop Floor Paper (SFP) Report System                      0            0
+  AFMS                                                          0            0
+  Alinity S Non-LIMS spreadsheets                               0            0
+  Alinity Source Verifier                                       0            0
+  AMM                                                           0            0
+  AP 24 CIP                                                     0            0
+  Apollo/PHM                                                    0            0
+  ASPG                                                          0            0
+  Assay File Database                                           0            0
+  BioCommand Batch Control Plus                                 0            0
+  BioXpert                                                      0            0
+  CHaRM                                                         0            0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing     0            0
+  CMSnext                                                       0            0
+  CMSNext                                                       0            0
+  DARA Filler DHM and RU                                        0            0
+  DaVinci                                                       0            0
+  DFCS                                                          0            0
+  DPW                                                           0            0
+  EDMS                                                          0            0
+  eNovator                                                      0            0
+  EP Evaluator                                                  0            0
+  GDSN/GS1                                                      0            0
+  Groninger                                                     0            0
+  GS Reports                                                    0            1
+  Helios                                                        0            0
+  Helios Global Contact Center                                  0            0
+  IDA Reporting                                                 0            1
+  ideaPoint                                                     0            0
+  IRIS                                                          0            0
+  Knowledge Management                                          0            0
+  Metrics Library                                               0            0
+  MQA Protocol                                                  0            0
+  Navigator                                                     0            0
+  PCN/SCN                                                       0            0
+  PEAR                                                          0            0
+  Power BI                                                      0            0
+  Print on Demand                                               0            0
+  Pulse                                                         0            0
+  QIMS                                                          0            0
+  QPI                                                           0            0
+  R&D Data Management Dashboard                                 0            0
+  Reliasoft Xfmea                                               0            0
+  RSLMS                                                         0            0
+  SAS                                                           0            0
+  TestComplete                                                  0            0
+  TODS                                                          0            0
+  TrendReader                                                   0            0
+  WWLIMS                                                        0            0
+                                                           
+                                                            Release Notes
+  Abbott Transfusion Medicine                                           0
+  Acceptance Sampling Plan Generator (ASPG)                             0
+  ADD Shop Floor Paper (SFP) Report System                              0
+  AFMS                                                                  0
+  Alinity S Non-LIMS spreadsheets                                       0
+  Alinity Source Verifier                                               0
+  AMM                                                                   0
+  AP 24 CIP                                                             0
+  Apollo/PHM                                                            0
+  ASPG                                                                  0
+  Assay File Database                                                   0
+  BioCommand Batch Control Plus                                         0
+  BioXpert                                                              0
+  CHaRM                                                                 0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing             0
+  CMSnext                                                               0
+  CMSNext                                                               0
+  DARA Filler DHM and RU                                                0
+  DaVinci                                                               0
+  DFCS                                                                  0
+  DPW                                                                   0
+  EDMS                                                                  0
+  eNovator                                                              0
+  EP Evaluator                                                          0
+  GDSN/GS1                                                              0
+  Groninger                                                             0
+  GS Reports                                                            0
+  Helios                                                                0
+  Helios Global Contact Center                                          0
+  IDA Reporting                                                         0
+  ideaPoint                                                             0
+  IRIS                                                                  0
+  Knowledge Management                                                  0
+  Metrics Library                                                       0
+  MQA Protocol                                                          0
+  Navigator                                                             0
+  PCN/SCN                                                               0
+  PEAR                                                                  0
+  Power BI                                                              0
+  Print on Demand                                                       0
+  Pulse                                                                 0
+  QIMS                                                                  0
+  QPI                                                                   0
+  R&D Data Management Dashboard                                         0
+  Reliasoft Xfmea                                                       0
+  RSLMS                                                                 0
+  SAS                                                                   0
+  TestComplete                                                          0
+  TODS                                                                  0
+  TrendReader                                                           0
+  WWLIMS                                                                0
+                                                           
+                                                            Risk Assessment
+  Abbott Transfusion Medicine                                             0
+  Acceptance Sampling Plan Generator (ASPG)                               0
+  ADD Shop Floor Paper (SFP) Report System                                0
+  AFMS                                                                    0
+  Alinity S Non-LIMS spreadsheets                                         0
+  Alinity Source Verifier                                                 0
+  AMM                                                                     0
+  AP 24 CIP                                                               0
+  Apollo/PHM                                                              0
+  ASPG                                                                    0
+  Assay File Database                                                     0
+  BioCommand Batch Control Plus                                           0
+  BioXpert                                                                1
+  CHaRM                                                                   0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing               0
+  CMSnext                                                                 0
+  CMSNext                                                                 0
+  DARA Filler DHM and RU                                                  0
+  DaVinci                                                                 0
+  DFCS                                                                    0
+  DPW                                                                     0
+  EDMS                                                                    0
+  eNovator                                                                0
+  EP Evaluator                                                            0
+  GDSN/GS1                                                                0
+  Groninger                                                               0
+  GS Reports                                                              0
+  Helios                                                                  0
+  Helios Global Contact Center                                            0
+  IDA Reporting                                                           0
+  ideaPoint                                                               0
+  IRIS                                                                    0
+  Knowledge Management                                                    0
+  Metrics Library                                                         0
+  MQA Protocol                                                            0
+  Navigator                                                               0
+  PCN/SCN                                                                 0
+  PEAR                                                                    0
+  Power BI                                                                0
+  Print on Demand                                                         0
+  Pulse                                                                   1
+  QIMS                                                                    0
+  QPI                                                                     0
+  R&D Data Management Dashboard                                           0
+  Reliasoft Xfmea                                                         0
+  RSLMS                                                                   0
+  SAS                                                                     0
+  TestComplete                                                            0
+  TODS                                                                    0
+  TrendReader                                                             0
+  WWLIMS                                                                  0
+                                                           
+                                                            Software Change Request
+  Abbott Transfusion Medicine                                                     0
+  Acceptance Sampling Plan Generator (ASPG)                                       0
+  ADD Shop Floor Paper (SFP) Report System                                        0
+  AFMS                                                                            0
+  Alinity S Non-LIMS spreadsheets                                                 0
+  Alinity Source Verifier                                                         0
+  AMM                                                                             0
+  AP 24 CIP                                                                       0
+  Apollo/PHM                                                                      0
+  ASPG                                                                            0
+  Assay File Database                                                             0
+  BioCommand Batch Control Plus                                                   0
+  BioXpert                                                                        1
+  CHaRM                                                                           0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                       1
+  CMSnext                                                                         0
+  CMSNext                                                                         0
+  DARA Filler DHM and RU                                                          0
+  DaVinci                                                                         0
+  DFCS                                                                            0
+  DPW                                                                             0
+  EDMS                                                                            0
+  eNovator                                                                        2
+  EP Evaluator                                                                    0
+  GDSN/GS1                                                                        0
+  Groninger                                                                       0
+  GS Reports                                                                      0
+  Helios                                                                          0
+  Helios Global Contact Center                                                    0
+  IDA Reporting                                                                   0
+  ideaPoint                                                                       0
+  IRIS                                                                            0
+  Knowledge Management                                                            0
+  Metrics Library                                                                 0
+  MQA Protocol                                                                    0
+  Navigator                                                                       0
+  PCN/SCN                                                                         0
+  PEAR                                                                            0
+  Power BI                                                                        0
+  Print on Demand                                                                 0
+  Pulse                                                                           0
+  QIMS                                                                            1
+  QPI                                                                             0
+  R&D Data Management Dashboard                                                   0
+  Reliasoft Xfmea                                                                 0
+  RSLMS                                                                           0
+  SAS                                                                             0
+  TestComplete                                                                    0
+  TODS                                                                            0
+  TrendReader                                                                     0
+  WWLIMS                                                                          0
+                                                           
+                                                            Software Compliance Assessment
+  Abbott Transfusion Medicine                                                            0
+  Acceptance Sampling Plan Generator (ASPG)                                              0
+  ADD Shop Floor Paper (SFP) Report System                                               0
+  AFMS                                                                                   0
+  Alinity S Non-LIMS spreadsheets                                                        0
+  Alinity Source Verifier                                                                0
+  AMM                                                                                    0
+  AP 24 CIP                                                                              0
+  Apollo/PHM                                                                             0
+  ASPG                                                                                   0
+  Assay File Database                                                                    0
+  BioCommand Batch Control Plus                                                          0
+  BioXpert                                                                               0
+  CHaRM                                                                                  0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                              0
+  CMSnext                                                                                0
+  CMSNext                                                                                0
+  DARA Filler DHM and RU                                                                 0
+  DaVinci                                                                                0
+  DFCS                                                                                   0
+  DPW                                                                                    0
+  EDMS                                                                                   0
+  eNovator                                                                               0
+  EP Evaluator                                                                           0
+  GDSN/GS1                                                                               0
+  Groninger                                                                              0
+  GS Reports                                                                             0
+  Helios                                                                                 0
+  Helios Global Contact Center                                                           0
+  IDA Reporting                                                                          0
+  ideaPoint                                                                              0
+  IRIS                                                                                   0
+  Knowledge Management                                                                   0
+  Metrics Library                                                                        0
+  MQA Protocol                                                                           0
+  Navigator                                                                              0
+  PCN/SCN                                                                                0
+  PEAR                                                                                   0
+  Power BI                                                                               0
+  Print on Demand                                                                        0
+  Pulse                                                                                  0
+  QIMS                                                                                   0
+  QPI                                                                                    0
+  R&D Data Management Dashboard                                                          0
+  Reliasoft Xfmea                                                                        0
+  RSLMS                                                                                  0
+  SAS                                                                                    0
+  TestComplete                                                                           0
+  TODS                                                                                   0
+  TrendReader                                                                            0
+  WWLIMS                                                                                 0
+                                                           
+                                                            System Certification Summary
+  Abbott Transfusion Medicine                                                          0
+  Acceptance Sampling Plan Generator (ASPG)                                            0
+  ADD Shop Floor Paper (SFP) Report System                                             0
+  AFMS                                                                                 0
+  Alinity S Non-LIMS spreadsheets                                                      0
+  Alinity Source Verifier                                                              0
+  AMM                                                                                  0
+  AP 24 CIP                                                                            0
+  Apollo/PHM                                                                           0
+  ASPG                                                                                 0
+  Assay File Database                                                                  0
+  BioCommand Batch Control Plus                                                        0
+  BioXpert                                                                             0
+  CHaRM                                                                                0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                            0
+  CMSnext                                                                              0
+  CMSNext                                                                              0
+  DARA Filler DHM and RU                                                               0
+  DaVinci                                                                              0
+  DFCS                                                                                 0
+  DPW                                                                                  0
+  EDMS                                                                                 0
+  eNovator                                                                             2
+  EP Evaluator                                                                         0
+  GDSN/GS1                                                                             0
+  Groninger                                                                            0
+  GS Reports                                                                           0
+  Helios                                                                               0
+  Helios Global Contact Center                                                         0
+  IDA Reporting                                                                        0
+  ideaPoint                                                                            0
+  IRIS                                                                                 0
+  Knowledge Management                                                                 0
+  Metrics Library                                                                      0
+  MQA Protocol                                                                         0
+  Navigator                                                                            0
+  PCN/SCN                                                                              0
+  PEAR                                                                                 0
+  Power BI                                                                             0
+  Print on Demand                                                                      0
+  Pulse                                                                                0
+  QIMS                                                                                 0
+  QPI                                                                                  0
+  R&D Data Management Dashboard                                                        0
+  Reliasoft Xfmea                                                                      0
+  RSLMS                                                                                0
+  SAS                                                                                  0
+  TestComplete                                                                         0
+  TODS                                                                                 0
+  TrendReader                                                                          0
+  WWLIMS                                                                               0
+                                                           
+                                                            Test protocol
+  Abbott Transfusion Medicine                                           0
+  Acceptance Sampling Plan Generator (ASPG)                             0
+  ADD Shop Floor Paper (SFP) Report System                              0
+  AFMS                                                                  0
+  Alinity S Non-LIMS spreadsheets                                       0
+  Alinity Source Verifier                                               0
+  AMM                                                                   0
+  AP 24 CIP                                                             0
+  Apollo/PHM                                                            0
+  ASPG                                                                  0
+  Assay File Database                                                   0
+  BioCommand Batch Control Plus                                         0
+  BioXpert                                                              0
+  CHaRM                                                                 0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing             0
+  CMSnext                                                               0
+  CMSNext                                                               0
+  DARA Filler DHM and RU                                                0
+  DaVinci                                                               0
+  DFCS                                                                  0
+  DPW                                                                   0
+  EDMS                                                                  0
+  eNovator                                                              0
+  EP Evaluator                                                          0
+  GDSN/GS1                                                              0
+  Groninger                                                             0
+  GS Reports                                                            0
+  Helios                                                                0
+  Helios Global Contact Center                                          0
+  IDA Reporting                                                         0
+  ideaPoint                                                             0
+  IRIS                                                                  0
+  Knowledge Management                                                  0
+  Metrics Library                                                       0
+  MQA Protocol                                                          0
+  Navigator                                                             0
+  PCN/SCN                                                               0
+  PEAR                                                                  0
+  Power BI                                                              0
+  Print on Demand                                                       0
+  Pulse                                                                 0
+  QIMS                                                                  0
+  QPI                                                                   0
+  R&D Data Management Dashboard                                         0
+  Reliasoft Xfmea                                                       0
+  RSLMS                                                                 0
+  SAS                                                                   0
+  TestComplete                                                          0
+  TODS                                                                  0
+  TrendReader                                                           0
+  WWLIMS                                                                0
+                                                           
+                                                            Test Protocol
+  Abbott Transfusion Medicine                                           0
+  Acceptance Sampling Plan Generator (ASPG)                             0
+  ADD Shop Floor Paper (SFP) Report System                              0
+  AFMS                                                                  0
+  Alinity S Non-LIMS spreadsheets                                       0
+  Alinity Source Verifier                                               0
+  AMM                                                                   0
+  AP 24 CIP                                                             0
+  Apollo/PHM                                                            0
+  ASPG                                                                  0
+  Assay File Database                                                   0
+  BioCommand Batch Control Plus                                         0
+  BioXpert                                                              0
+  CHaRM                                                                 0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing             2
+  CMSnext                                                               0
+  CMSNext                                                               0
+  DARA Filler DHM and RU                                                0
+  DaVinci                                                               0
+  DFCS                                                                  0
+  DPW                                                                   0
+  EDMS                                                                  0
+  eNovator                                                              4
+  EP Evaluator                                                          0
+  GDSN/GS1                                                              0
+  Groninger                                                             0
+  GS Reports                                                            0
+  Helios                                                                0
+  Helios Global Contact Center                                          0
+  IDA Reporting                                                         0
+  ideaPoint                                                             0
+  IRIS                                                                  0
+  Knowledge Management                                                  0
+  Metrics Library                                                       0
+  MQA Protocol                                                          0
+  Navigator                                                             0
+  PCN/SCN                                                               0
+  PEAR                                                                  1
+  Power BI                                                              0
+  Print on Demand                                                       0
+  Pulse                                                                 0
+  QIMS                                                                 15
+  QPI                                                                   0
+  R&D Data Management Dashboard                                         0
+  Reliasoft Xfmea                                                       0
+  RSLMS                                                                 0
+  SAS                                                                   0
+  TestComplete                                                          0
+  TODS                                                                  0
+  TrendReader                                                           0
+  WWLIMS                                                               11
+                                                           
+                                                            Test Protocol Results
+  Abbott Transfusion Medicine                                                   0
+  Acceptance Sampling Plan Generator (ASPG)                                     0
+  ADD Shop Floor Paper (SFP) Report System                                      0
+  AFMS                                                                          0
+  Alinity S Non-LIMS spreadsheets                                               0
+  Alinity Source Verifier                                                       0
+  AMM                                                                           0
+  AP 24 CIP                                                                     0
+  Apollo/PHM                                                                    0
+  ASPG                                                                          0
+  Assay File Database                                                           0
+  BioCommand Batch Control Plus                                                 0
+  BioXpert                                                                      0
+  CHaRM                                                                         0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                     0
+  CMSnext                                                                       0
+  CMSNext                                                                       0
+  DARA Filler DHM and RU                                                        0
+  DaVinci                                                                       0
+  DFCS                                                                          0
+  DPW                                                                           0
+  EDMS                                                                          0
+  eNovator                                                                      6
+  EP Evaluator                                                                  0
+  GDSN/GS1                                                                      0
+  Groninger                                                                     0
+  GS Reports                                                                    1
+  Helios                                                                        0
+  Helios Global Contact Center                                                  0
+  IDA Reporting                                                                 1
+  ideaPoint                                                                     0
+  IRIS                                                                          0
+  Knowledge Management                                                          0
+  Metrics Library                                                               0
+  MQA Protocol                                                                  0
+  Navigator                                                                     0
+  PCN/SCN                                                                       0
+  PEAR                                                                          0
+  Power BI                                                                      0
+  Print on Demand                                                               0
+  Pulse                                                                         0
+  QIMS                                                                         13
+  QPI                                                                           0
+  R&D Data Management Dashboard                                                 0
+  Reliasoft Xfmea                                                               0
+  RSLMS                                                                         0
+  SAS                                                                           0
+  TestComplete                                                                  0
+  TODS                                                                          0
+  TrendReader                                                                   0
+  WWLIMS                                                                        0
+                                                           
+                                                            Traceability URS
+  Abbott Transfusion Medicine                                          0   0
+  Acceptance Sampling Plan Generator (ASPG)                            0   1
+  ADD Shop Floor Paper (SFP) Report System                             0   0
+  AFMS                                                                 0   1
+  Alinity S Non-LIMS spreadsheets                                      0   0
+  Alinity Source Verifier                                              0   0
+  AMM                                                                  0   0
+  AP 24 CIP                                                            0   0
+  Apollo/PHM                                                           0   0
+  ASPG                                                                 0   0
+  Assay File Database                                                  0   0
+  BioCommand Batch Control Plus                                        0   0
+  BioXpert                                                             0   0
+  CHaRM                                                                0   0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing            1   0
+  CMSnext                                                              0   0
+  CMSNext                                                              0   0
+  DARA Filler DHM and RU                                               0   0
+  DaVinci                                                              0   0
+  DFCS                                                                 0   0
+  DPW                                                                  0   0
+  EDMS                                                                 0   0
+  eNovator                                                             2   0
+  EP Evaluator                                                         0   0
+  GDSN/GS1                                                             1   1
+  Groninger                                                            0   0
+  GS Reports                                                           0   0
+  Helios                                                               0   0
+  Helios Global Contact Center                                         0   0
+  IDA Reporting                                                        0   0
+  ideaPoint                                                            0   0
+  IRIS                                                                 0   0
+  Knowledge Management                                                 0   0
+  Metrics Library                                                      0   0
+  MQA Protocol                                                         0   0
+  Navigator                                                            0   0
+  PCN/SCN                                                              0   0
+  PEAR                                                                 0   0
+  Power BI                                                             0   0
+  Print on Demand                                                      0   0
+  Pulse                                                                0   0
+  QIMS                                                                 3   0
+  QPI                                                                  0   0
+  R&D Data Management Dashboard                                        0   0
+  Reliasoft Xfmea                                                      0   0
+  RSLMS                                                                0   0
+  SAS                                                                  0   0
+  TestComplete                                                         0   0
+  TODS                                                                 0   0
+  TrendReader                                                          0   0
+  WWLIMS                                                               0   0
+                                                           
+                                                            URS/FRS
+  Abbott Transfusion Medicine                                     0
+  Acceptance Sampling Plan Generator (ASPG)                       0
+  ADD Shop Floor Paper (SFP) Report System                        0
+  AFMS                                                            0
+  Alinity S Non-LIMS spreadsheets                                 0
+  Alinity Source Verifier                                         0
+  AMM                                                             0
+  AP 24 CIP                                                       0
+  Apollo/PHM                                                      0
+  ASPG                                                            0
+  Assay File Database                                             0
+  BioCommand Batch Control Plus                                   0
+  BioXpert                                                        0
+  CHaRM                                                           0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing       0
+  CMSnext                                                         0
+  CMSNext                                                         0
+  DARA Filler DHM and RU                                          0
+  DaVinci                                                         0
+  DFCS                                                            0
+  DPW                                                             0
+  EDMS                                                            0
+  eNovator                                                        0
+  EP Evaluator                                                    0
+  GDSN/GS1                                                        0
+  Groninger                                                       0
+  GS Reports                                                      0
+  Helios                                                          0
+  Helios Global Contact Center                                    0
+  IDA Reporting                                                   0
+  ideaPoint                                                       0
+  IRIS                                                            0
+  Knowledge Management                                            0
+  Metrics Library                                                 0
+  MQA Protocol                                                    0
+  Navigator                                                       0
+  PCN/SCN                                                         0
+  PEAR                                                            0
+  Power BI                                                        0
+  Print on Demand                                                 0
+  Pulse                                                           0
+  QIMS                                                            0
+  QPI                                                             0
+  R&D Data Management Dashboard                                   1
+  Reliasoft Xfmea                                                 0
+  RSLMS                                                           0
+  SAS                                                             0
+  TestComplete                                                    0
+  TODS                                                            0
+  TrendReader                                                     0
+  WWLIMS                                                          0
+                                                           
+                                                            User Acceptance Protocol
+  Abbott Transfusion Medicine                                                      0
+  Acceptance Sampling Plan Generator (ASPG)                                        0
+  ADD Shop Floor Paper (SFP) Report System                                         0
+  AFMS                                                                             0
+  Alinity S Non-LIMS spreadsheets                                                  0
+  Alinity Source Verifier                                                          0
+  AMM                                                                              0
+  AP 24 CIP                                                                        0
+  Apollo/PHM                                                                       0
+  ASPG                                                                             0
+  Assay File Database                                                              0
+  BioCommand Batch Control Plus                                                    0
+  BioXpert                                                                         0
+  CHaRM                                                                            0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                        0
+  CMSnext                                                                          0
+  CMSNext                                                                          0
+  DARA Filler DHM and RU                                                           0
+  DaVinci                                                                          0
+  DFCS                                                                             0
+  DPW                                                                              0
+  EDMS                                                                             0
+  eNovator                                                                         0
+  EP Evaluator                                                                     0
+  GDSN/GS1                                                                         0
+  Groninger                                                                        0
+  GS Reports                                                                       0
+  Helios                                                                           0
+  Helios Global Contact Center                                                     0
+  IDA Reporting                                                                    0
+  ideaPoint                                                                        0
+  IRIS                                                                             0
+  Knowledge Management                                                             0
+  Metrics Library                                                                  0
+  MQA Protocol                                                                     0
+  Navigator                                                                        0
+  PCN/SCN                                                                          0
+  PEAR                                                                             0
+  Power BI                                                                         0
+  Print on Demand                                                                  0
+  Pulse                                                                            0
+  QIMS                                                                             0
+  QPI                                                                              0
+  R&D Data Management Dashboard                                                    0
+  Reliasoft Xfmea                                                                  0
+  RSLMS                                                                            0
+  SAS                                                                              0
+  TestComplete                                                                     0
+  TODS                                                                             0
+  TrendReader                                                                      0
+  WWLIMS                                                                           0
+                                                           
+                                                            User Acceptance Protocol results
+  Abbott Transfusion Medicine                                                              0
+  Acceptance Sampling Plan Generator (ASPG)                                                0
+  ADD Shop Floor Paper (SFP) Report System                                                 0
+  AFMS                                                                                     0
+  Alinity S Non-LIMS spreadsheets                                                          0
+  Alinity Source Verifier                                                                  0
+  AMM                                                                                      0
+  AP 24 CIP                                                                                0
+  Apollo/PHM                                                                               0
+  ASPG                                                                                     0
+  Assay File Database                                                                      0
+  BioCommand Batch Control Plus                                                            0
+  BioXpert                                                                                 0
+  CHaRM                                                                                    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                                0
+  CMSnext                                                                                  0
+  CMSNext                                                                                  0
+  DARA Filler DHM and RU                                                                   0
+  DaVinci                                                                                  0
+  DFCS                                                                                     0
+  DPW                                                                                      0
+  EDMS                                                                                     0
+  eNovator                                                                                 0
+  EP Evaluator                                                                             0
+  GDSN/GS1                                                                                 0
+  Groninger                                                                                0
+  GS Reports                                                                               0
+  Helios                                                                                   0
+  Helios Global Contact Center                                                             0
+  IDA Reporting                                                                            0
+  ideaPoint                                                                                0
+  IRIS                                                                                     0
+  Knowledge Management                                                                     0
+  Metrics Library                                                                          0
+  MQA Protocol                                                                             0
+  Navigator                                                                                0
+  PCN/SCN                                                                                  0
+  PEAR                                                                                     0
+  Power BI                                                                                 0
+  Print on Demand                                                                          0
+  Pulse                                                                                    0
+  QIMS                                                                                     0
+  QPI                                                                                      0
+  R&D Data Management Dashboard                                                            0
+  Reliasoft Xfmea                                                                          0
+  RSLMS                                                                                    0
+  SAS                                                                                      0
+  TestComplete                                                                             0
+  TODS                                                                                     0
+  TrendReader                                                                              0
+  WWLIMS                                                                                   0
+                                                           
+                                                            Validation Plan
+  Abbott Transfusion Medicine                                             0
+  Acceptance Sampling Plan Generator (ASPG)                               0
+  ADD Shop Floor Paper (SFP) Report System                                0
+  AFMS                                                                    0
+  Alinity S Non-LIMS spreadsheets                                         0
+  Alinity Source Verifier                                                 0
+  AMM                                                                     0
+  AP 24 CIP                                                               0
+  Apollo/PHM                                                              0
+  ASPG                                                                    0
+  Assay File Database                                                     0
+  BioCommand Batch Control Plus                                           0
+  BioXpert                                                                0
+  CHaRM                                                                   0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing               0
+  CMSnext                                                                 0
+  CMSNext                                                                 0
+  DARA Filler DHM and RU                                                  0
+  DaVinci                                                                 0
+  DFCS                                                                    0
+  DPW                                                                     0
+  EDMS                                                                    0
+  eNovator                                                                0
+  EP Evaluator                                                            0
+  GDSN/GS1                                                                0
+  Groninger                                                               0
+  GS Reports                                                              0
+  Helios                                                                  0
+  Helios Global Contact Center                                            0
+  IDA Reporting                                                           0
+  ideaPoint                                                               0
+  IRIS                                                                    0
+  Knowledge Management                                                    0
+  Metrics Library                                                         0
+  MQA Protocol                                                            0
+  Navigator                                                               0
+  PCN/SCN                                                                 0
+  PEAR                                                                    0
+  Power BI                                                                0
+  Print on Demand                                                         0
+  Pulse                                                                   0
+  QIMS                                                                    0
+  QPI                                                                     0
+  R&D Data Management Dashboard                                           0
+  Reliasoft Xfmea                                                         0
+  RSLMS                                                                   0
+  SAS                                                                     0
+  TestComplete                                                            0
+  TODS                                                                    0
+  TrendReader                                                             0
+  WWLIMS                                                                  0
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Table of Rejection Reasons}
+\begin{Schunk}
+\begin{Soutput}
+                Inaccurate information                    Incorrect Approvers 
+                                    15                                      6 
+          Incorrect Objective Evidence                        Incorrect scope 
+                                     6                                      1 
+                  Insufficient testing              Insufficient traceability 
+                                     1                                      0 
+                                   N/A           Not compliant with procedure 
+                                     1                                      5 
+Not following configuration management Not following document version control 
+                                     0                                      0 
+                    Not using template                                  other 
+                                     2                                      1 
+                                 Other                 Requirement deficiency 
+                                    11                                      1 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Defects Verses Application}
+
+\begin{Schunk}
+\begin{Soutput}
+                                                            Inaccurate information
+  Acceptance Sampling Plan Generator (ASPG)                                      0
+  AFMS                                                                           0
+  BioXpert                                                                       1
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                      4
+  DFCS                                                                           0
+  eNovator                                                                       4
+  GDSN/GS1                                                                       1
+  QIMS                                                                           4
+  R&D Data Management Dashboard                                                  0
+  TODS                                                                           0
+  WWLIMS                                                                         0
+                                                           
+                                                            Incorrect Approvers
+  Acceptance Sampling Plan Generator (ASPG)                                   2
+  AFMS                                                                        0
+  BioXpert                                                                    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                   1
+  DFCS                                                                        0
+  eNovator                                                                    0
+  GDSN/GS1                                                                    0
+  QIMS                                                                        3
+  R&D Data Management Dashboard                                               0
+  TODS                                                                        0
+  WWLIMS                                                                      0
+                                                           
+                                                            Incorrect Objective Evidence
+  Acceptance Sampling Plan Generator (ASPG)                                            0
+  AFMS                                                                                 0
+  BioXpert                                                                             0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                            0
+  DFCS                                                                                 0
+  eNovator                                                                             0
+  GDSN/GS1                                                                             0
+  QIMS                                                                                 6
+  R&D Data Management Dashboard                                                        0
+  TODS                                                                                 0
+  WWLIMS                                                                               0
+                                                           
+                                                            Incorrect scope
+  Acceptance Sampling Plan Generator (ASPG)                               0
+  AFMS                                                                    0
+  BioXpert                                                                0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing               0
+  DFCS                                                                    0
+  eNovator                                                                1
+  GDSN/GS1                                                                0
+  QIMS                                                                    0
+  R&D Data Management Dashboard                                           0
+  TODS                                                                    0
+  WWLIMS                                                                  0
+                                                           
+                                                            Insufficient testing
+  Acceptance Sampling Plan Generator (ASPG)                                    0
+  AFMS                                                                         0
+  BioXpert                                                                     0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                    1
+  DFCS                                                                         0
+  eNovator                                                                     0
+  GDSN/GS1                                                                     0
+  QIMS                                                                         0
+  R&D Data Management Dashboard                                                0
+  TODS                                                                         0
+  WWLIMS                                                                       0
+                                                           
+                                                            Insufficient traceability
+  Acceptance Sampling Plan Generator (ASPG)                                         0
+  AFMS                                                                              0
+  BioXpert                                                                          0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                         0
+  DFCS                                                                              0
+  eNovator                                                                          0
+  GDSN/GS1                                                                          0
+  QIMS                                                                              0
+  R&D Data Management Dashboard                                                     0
+  TODS                                                                              0
+  WWLIMS                                                                            0
+                                                           
+                                                            N/A
+  Acceptance Sampling Plan Generator (ASPG)                   0
+  AFMS                                                        0
+  BioXpert                                                    0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing   0
+  DFCS                                                        0
+  eNovator                                                    0
+  GDSN/GS1                                                    0
+  QIMS                                                        1
+  R&D Data Management Dashboard                               0
+  TODS                                                        0
+  WWLIMS                                                      0
+                                                           
+                                                            Not compliant with procedure
+  Acceptance Sampling Plan Generator (ASPG)                                            0
+  AFMS                                                                                 0
+  BioXpert                                                                             0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                            0
+  DFCS                                                                                 0
+  eNovator                                                                             4
+  GDSN/GS1                                                                             0
+  QIMS                                                                                 0
+  R&D Data Management Dashboard                                                        1
+  TODS                                                                                 0
+  WWLIMS                                                                               0
+                                                           
+                                                            Not following configuration management
+  Acceptance Sampling Plan Generator (ASPG)                                                      0
+  AFMS                                                                                           0
+  BioXpert                                                                                       0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                                      0
+  DFCS                                                                                           0
+  eNovator                                                                                       0
+  GDSN/GS1                                                                                       0
+  QIMS                                                                                           0
+  R&D Data Management Dashboard                                                                  0
+  TODS                                                                                           0
+  WWLIMS                                                                                         0
+                                                           
+                                                            Not following document version control
+  Acceptance Sampling Plan Generator (ASPG)                                                      0
+  AFMS                                                                                           0
+  BioXpert                                                                                       0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                                      0
+  DFCS                                                                                           0
+  eNovator                                                                                       0
+  GDSN/GS1                                                                                       0
+  QIMS                                                                                           0
+  R&D Data Management Dashboard                                                                  0
+  TODS                                                                                           0
+  WWLIMS                                                                                         0
+                                                           
+                                                            Not using template
+  Acceptance Sampling Plan Generator (ASPG)                                  0
+  AFMS                                                                       0
+  BioXpert                                                                   0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                  0
+  DFCS                                                                       0
+  eNovator                                                                   0
+  GDSN/GS1                                                                   0
+  QIMS                                                                       2
+  R&D Data Management Dashboard                                              0
+  TODS                                                                       0
+  WWLIMS                                                                     0
+                                                           
+                                                            other Other
+  Acceptance Sampling Plan Generator (ASPG)                     0     0
+  AFMS                                                          0     0
+  BioXpert                                                      0     0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing     0     0
+  DFCS                                                          0     1
+  eNovator                                                      1     2
+  GDSN/GS1                                                      0     0
+  QIMS                                                          0     0
+  R&D Data Management Dashboard                                 0     0
+  TODS                                                          0     8
+  WWLIMS                                                        0     0
+                                                           
+                                                            Requirement deficiency
+  Acceptance Sampling Plan Generator (ASPG)                                      0
+  AFMS                                                                           1
+  BioXpert                                                                       0
+  Clinical Chemistry Excel Spreadsheet for Digital Printing                      0
+  DFCS                                                                           0
+  eNovator                                                                       0
+  GDSN/GS1                                                                       0
+  QIMS                                                                           0
+  R&D Data Management Dashboard                                                  0
+  TODS                                                                           0
+  WWLIMS                                                                         0
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Defects Verses Deliverable}
+
+\begin{Schunk}
+\begin{Sinput}
+> table(as.character(subset(FPA, subset = (status == "D"))$deliverable),
++       subset(FPA, subset = (status == "D"))$reason)
+\end{Sinput}
+\begin{Soutput}
+                               Inaccurate information Incorrect Approvers
+  Design Verification                               0                   0
+  FRS                                               0                   1
+  IIVP                                              3                   0
+  IIVP results                                      0                   1
+  ISSD                                              1                   0
+  Project Plan                                      0                   1
+  Software Change Request                           2                   1
+  System Certification Summary                      0                   0
+  Test Protocol                                     4                   0
+  Test Protocol Results                             1                   1
+  Traceability                                      3                   0
+  URS                                               0                   1
+                              
+                               Incorrect Objective Evidence Incorrect scope
+  Design Verification                                     0               0
+  FRS                                                     0               0
+  IIVP                                                    0               0
+  IIVP results                                            0               0
+  ISSD                                                    0               0
+  Project Plan                                            0               0
+  Software Change Request                                 0               1
+  System Certification Summary                            0               0
+  Test Protocol                                           0               0
+  Test Protocol Results                                   6               0
+  Traceability                                            0               0
+  URS                                                     0               0
+                              
+                               Insufficient testing Insufficient traceability
+  Design Verification                             0                         0
+  FRS                                             0                         0
+  IIVP                                            0                         0
+  IIVP results                                    0                         0
+  ISSD                                            0                         0
+  Project Plan                                    0                         0
+  Software Change Request                         0                         0
+  System Certification Summary                    0                         0
+  Test Protocol                                   1                         0
+  Test Protocol Results                           0                         0
+  Traceability                                    0                         0
+  URS                                             0                         0
+                              
+                               N/A Not compliant with procedure
+  Design Verification            0                            1
+  FRS                            0                            0
+  IIVP                           0                            0
+  IIVP results                   0                            0
+  ISSD                           0                            0
+  Project Plan                   0                            0
+  Software Change Request        0                            4
+  System Certification Summary   0                            0
+  Test Protocol                  0                            0
+  Test Protocol Results          1                            0
+  Traceability                   0                            0
+  URS                            0                            0
+                              
+                               Not following configuration management
+  Design Verification                                               0
+  FRS                                                               0
+  IIVP                                                              0
+  IIVP results                                                      0
+  ISSD                                                              0
+  Project Plan                                                      0
+  Software Change Request                                           0
+  System Certification Summary                                      0
+  Test Protocol                                                     0
+  Test Protocol Results                                             0
+  Traceability                                                      0
+  URS                                                               0
+                              
+                               Not following document version control
+  Design Verification                                               0
+  FRS                                                               0
+  IIVP                                                              0
+  IIVP results                                                      0
+  ISSD                                                              0
+  Project Plan                                                      0
+  Software Change Request                                           0
+  System Certification Summary                                      0
+  Test Protocol                                                     0
+  Test Protocol Results                                             0
+  Traceability                                                      0
+  URS                                                               0
+                              
+                               Not using template other Other
+  Design Verification                           0     0     9
+  FRS                                           0     0     0
+  IIVP                                          0     0     1
+  IIVP results                                  0     0     0
+  ISSD                                          0     0     0
+  Project Plan                                  0     0     0
+  Software Change Request                       0     0     0
+  System Certification Summary                  0     1     0
+  Test Protocol                                 1     0     0
+  Test Protocol Results                         1     0     0
+  Traceability                                  0     0     1
+  URS                                           0     0     0
+                              
+                               Requirement deficiency
+  Design Verification                               0
+  FRS                                               1
+  IIVP                                              0
+  IIVP results                                      0
+  ISSD                                              0
+  Project Plan                                      0
+  Software Change Request                           0
+  System Certification Summary                      0
+  Test Protocol                                     0
+  Test Protocol Results                             0
+  Traceability                                      0
+  URS                                               0
+\end{Soutput}
+\end{Schunk}
+
+
+\subsection{Rejection Reason by Deliverable}
+
+\begin{Schunk}
+\begin{Soutput}
+         Design Verification                          FRS 
+                          10                            2 
+                        IIVP                 IIVP results 
+                           4                            1 
+                        ISSD                 Project Plan 
+                           1                            1 
+     Software Change Request System Certification Summary 
+                           9                            2 
+               Test Protocol        Test Protocol Results 
+                           8                           11 
+                Traceability                          URS 
+                           4                            1 
+\end{Soutput}
+\end{Schunk}
+
+\subsection{Number of Rejections by Project}
+
+\begin{Schunk}
+\begin{Soutput}
+                Acceptance Sampling Plan Generator (ASPG) 
+                                                        2 
+                                                     AFMS 
+                                                        1 
+                                                 BioXpert 
+                                                        1 
+Clinical Chemistry Excel Spreadsheet for Digital Printing 
+                                                        6 
+                                                     DFCS 
+                                                        1 
+                                                 eNovator 
+                                                       15 
+                                                 GDSN/GS1 
+                                                        1 
+                                                     QIMS 
+                                                       17 
+                            R&D Data Management Dashboard 
+                                                        1 
+                                                     TODS 
+                                                        8 
+                                                   WWLIMS 
+                                                        1 
+\end{Soutput}
+\end{Schunk}
+
+
+
+\section{Rate Metrics}
+\subsection{Document Approval Rate}
+This is portion of documents that are approved upon review.
+
+It is computed by counting the number of approvals devided that by the total number of reviews.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 0.7098446
+\end{Soutput}
+\end{Schunk}
+
+\subsection{First Pass Acceptance}
+this is the portion of documents that are approved on the first review conducted
+by SQA.
+
+It is computed by counting the number of first pass approvals devided by
+the number of reviews.
+
+\begin{Schunk}
+\begin{Soutput}
+[1] 0.3989637
+\end{Soutput}
+\end{Schunk}
+
+\end{document}
