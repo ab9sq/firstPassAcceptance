@@ -202,7 +202,7 @@ work.open <- subset(ACR,
                     subset = (CRApproved == "A-FP" | CRApproved == "A") & 
                          is.na(IEApproved))
 # compute days open
-work.open$daysOpen <- as.numeric(as.Date("1-Dec-18", format = "%d-%b-%y") - 
+work.open$daysOpen <- as.numeric(as.Date("2-Jan-19", format = "%d-%b-%y") - 
                                       work.open$CRDate)
 # Results
 nrow(work.open)
