@@ -2,6 +2,7 @@ getFPA <- function(file = "./data/First Pass Acceptance.csv") {
      FPA <- read.csv(
           file = file,
           stringsAsFactors = FALSE,
+          row.names = NULL,
           col.names = c(
                "sqa",
                "project",

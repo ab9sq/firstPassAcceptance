@@ -1,7 +1,7 @@
 ---
 title: "Explore ACR"
 author: "Nick Lauerman"
-date: "December 5, 2018"
+date: "Feb 4, 2019"
 output: 
   pdf_document: 
     fig_caption: yes
@@ -77,14 +77,14 @@ and the second for the approval of the I&E in the month.
 ```{r}
 #create master dataframe
 work <- subset(ACR,
-               subset = (CRmonth == "Dec" & CRyear == 2018) |
-                    (subset = IEmonth == "Dec" & IEyear == 2018))
+               subset = (CRmonth == "Jan" & CRyear == 2019) |
+                    (subset = IEmonth == "Jan" & IEyear == 2019))
 # Create the CR data fram
 workCR <- subset(ACR,
-               subset = CRmonth == "Dec" & CRyear == 2018)
+               subset = CRmonth == "Jan" & CRyear == 2019)
 # create the IE data frame.
 workIE <- subset(ACR,
-               subset = IEmonth == "Dec" & IEyear == 2018)
+               subset = IEmonth == "Jan" & IEyear == 2019)
 ```
 
 ## Counts
@@ -141,8 +141,7 @@ nrow(subset(work,
 ```{r}
 table(subset(workCR, 
              subset = CRApproved != "D")$Application)
-table(subset(workCR, 
-             subset = CRApproved != "D")$SQA)
+
 ```
 
 ### Completed
@@ -150,8 +149,7 @@ table(subset(workCR,
 table(subset(workIE, 
              subset = IEApproved != "D")$Application)
 
-table(subset(workIE, 
-             subset = IEApproved != "D")$SQA)
+
 ```
 
 ### Total
@@ -160,10 +158,7 @@ table(subset(workCR,
              subset = CRApproved != "D")$Application) +
      table(subset(workIE, 
              subset = IEApproved != "D")$Application)
-table(subset(workCR, 
-             subset = CRApproved != "D")$SQA) +
-     table(subset(workIE, 
-             subset = CRApproved != "D")$SQA)
+
 ```
 
 ## Time to Complete A Data Change
@@ -175,7 +170,7 @@ work.all <- subset(ACR,
                                   (IEApproved == "A" | IEApproved == "A-FP")))
 # now further select records from above that were completed in the correct month
 work.all <- subset(work.all,
-                   subset = (IEmonth == "Dec" & IEyear == 2018))
+                   subset = (IEmonth == "Jan" & IEyear == 2019))
 # compute interval
 work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
 # results

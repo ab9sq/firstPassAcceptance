@@ -77,7 +77,7 @@ When ``trending'' is implented graphs of the trends will also be added.
 source("../scripts/FirstPassAcceptance.R")
 FPA <- getFPA(file = "../data/First Pass Acceptance.csv")
 FPA <- cleanFPA(FPA = FPA)
-FPA <- process(FPA = FPA, Month = "Dec", Year = 2018)
+FPA <- process(FPA = FPA, Month = "Jan", Year = 2019)
 @
 
 \section{Quanity Metrics}
