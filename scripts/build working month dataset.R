@@ -137,10 +137,77 @@ legend("topleft",
        pch = c(3))
 
 plot(x=MonthlyResults$date,
+     y=MonthlyResults$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = "Since January 2018",
+     ylab = "reviews",
+     pch = 3)
+abline(h=mean(MonthlyResults$Reviews_Completed),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(MonthlyResults$Reviews_Completed) -
+            sd(MonthlyResults$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(MonthlyResults$Reviews_Completed) +
+            sd(MonthlyResults$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+
+legend("topleft",
+       legend = c("reviews",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3,
+               NA,
+               NA))
+
+plot(x=MonthlyResults$date,
      y=MonthlyResults$First_Pass_Acceptance,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
      xlab = "Since January 2018",
      ylab = "FPA (%)",
-     pch = 3)
+     pch = 3,
+     lty = "solid")
+
+plot(x=MonthlyResults$date,
+     y=MonthlyResults$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA)",
+     xlab = "Since January 2018",
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(MonthlyResults$First_Pass_Acceptance),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(MonthlyResults$First_Pass_Acceptance) -
+            sd(MonthlyResults$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(MonthlyResults$First_Pass_Acceptance) +
+            sd(MonthlyResults$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("FPA",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
