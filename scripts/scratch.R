@@ -39,3 +39,27 @@ legend("bottomleft",
        lty = c(3, 2, 4),
        pch = c(8,NA,NA),
        cex = 0.5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+junk <- data.frame(Month = "Jan",
+                   Year = 2018,
+                   stringsAsFactors = FALSE)
+junk$MD <- paste("1",junk$Month, junk$Year, sep = "-")
+junk
+junk$date <- as.Date(junk$MD, format = "%d-%b-%Y")
+junk
+junk$end <- paste(format(junk$date, format = "%Y-%m"), "-", days_in_month(junk$date), sep="")
+junk
+str(junk)
+junk
