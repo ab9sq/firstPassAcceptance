@@ -160,7 +160,8 @@ getResults <- function(Month = NULL,
 
 # create and output results
      series <- data.frame(Month = Month,
-                          Year = Year)
+                          Year = Year,
+                          stringsAsFactors = FALSE)
      results <- cbind(series, results)
      return(results)
 }
