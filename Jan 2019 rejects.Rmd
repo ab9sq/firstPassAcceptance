@@ -1,0 +1,34 @@
+---
+title: "Details for Jan 2019 Deliverable Rejections"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("./scripts/FirstPassAcceptance.R")
+work <- getFPA()
+work <- cleanFPA(work)
+work <- process(work, Month = "Jan", Year = 2019)
+```
+
+# Reasons for rejection
+```{r, echo = FALSE}
+temp <- table(factor(subset(work, status == "D")$reason))
+temp[order(temp, decreasing = TRUE)]
+```
+
+# Comments for reason being other
+```{r, echo=FALSE}
+temp <- table(subset(work, (status == "D" & reason == "Other"))$comment)
+temp[order(temp, decreasing = TRUE)]
+```
+Note: on of the Rejections did have a comment
+
+# Application with rejections and number of rejections
+```{r, echo=FALSE}
+temp <- table(factor(subset(work, status == "D")$application))
+temp[order(temp, decreasing = TRUE)]
+```
+
