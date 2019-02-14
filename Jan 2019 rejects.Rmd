@@ -32,3 +32,8 @@ temp <- table(factor(subset(work, status == "D")$application))
 temp[order(temp, decreasing = TRUE)]
 ```
 
+```{r, echo=FALSE}
+temp <- table(factor(subset(work, status == "D")$deliverable))
+temp[order(temp, decreasing = TRUE)]
+```
+
