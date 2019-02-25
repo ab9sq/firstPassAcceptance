@@ -1,0 +1,49 @@
+\documentclass{article}
+
+
+\usepackage[toc]{multitoc}
+\renewcommand*{\multicolumntoc}{2}
+\setlength{\columnseprule}{0.5pt}
+
+\usepackage{datetime}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks = true,
+    linkcolor={blue!80!black},
+    citecolor={blue!80!black},
+    urlcolor={blue!80!black}
+}
+
+
+\newcommand{\reportMonth}{Janurary }
+\newcommand{\reportYear}{2019}
+\newcommand{\Rvers}{Version 3.5.2 named ``Eggshell Igloo'' }
+
+
+\title{SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
+\author{Nick Lauerman}
+\date{}
+
+
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+
+\begin{abstract}
+Evaulation of various potential matrics, performance indicators from the Excel
+workbook that Software Quality Assurance collected called First Pass
+Acceptance. This will only be run for the month of \reportMonth \reportYear.
+\footnote{Date Ran: \today{} at \currenttime}
+\end{abstract}
+
+\section{Introduction}
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers. The only extension (package or library) utilized is
+lubridate (version 1.7.4) to provide key functionality in the processing of dates.
+
+
+\end{document}
