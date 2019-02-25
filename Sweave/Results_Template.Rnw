@@ -14,30 +14,42 @@
     citecolor={blue!80!black},
     urlcolor={blue!80!black}
 }
+%
+%  <<<<<<<<<< Update for month of run along with first R block
+%
+\newcommand{\reportMonth}{Janurary }
+\newcommand{\reportYear}{2019}
+%
+% <<<<<<<<<< Update for new R version
+\newcommand{\Rvers}{Version 3.5.2 named ``Eggshell Igloo'' }
 
 
-
-\title{SQA Metric Items From FPA Spreadsheet - October 2018}
+\title{SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
 \author{Nick Lauerman}
 \date{}
 
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
+% update for month of run or analysis
+<<setup, echo = FALSE>>=
+Month <- "Jan"
+Year <- 2019
+@
+
 \maketitle
 
 \begin{abstract}
 Evaulation of various potential matrics, performance indicators from the Excel
 workbook that Software Quality Assurance collected called First Pass
-Acceptance. This will only be run for the month of October 2018.
+Acceptance. This will only be run for the month of \reportMonth \reportYear.
 \footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
 
 \section{Introduction}
-The data is processed using R\footnote{RStudio is utilized as an IDE}, Version
-3.5.1 named ``Feather Spray''. The only extension (package or library) utilized is
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers. The only extension (package or library) utilized is
 lubridate (version 1.7.4) to provide key functionality in the processing of dates.
 
 The data is read into R from a comma seperated value (csv) file which is derived (saved)
@@ -48,11 +60,13 @@ Sweave that included knitr which in turn feeds the package into \LaTeXe{} a type
 program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX. \LaTeXe{} is utilizing
 the folowing packages to control style and formating:
 \begin{itemize}
-\item datetime and
-\item multitoc
+     \item datetime and
+     \item multitoc
+     \item hyperref
+     \item xcolor
 \end{itemize}
 
-This will only show a point in time summary and no trends.
+This will only show a point in time summary and no long term trending.
 
 \section{Data and Calculations}
 \subsection{Data}
@@ -77,7 +91,7 @@ When ``trending'' is implented graphs of the trends will also be added.
 source("../scripts/FirstPassAcceptance.R")
 FPA <- getFPA(file = "../data/First Pass Acceptance.csv")
 FPA <- cleanFPA(FPA = FPA)
-FPA <- process(FPA = FPA, Month = "Dec", Year = 2018)
+FPA <- process(FPA = FPA, Month = Month, Year = Year)
 @
 
 \section{Quanity Metrics}
