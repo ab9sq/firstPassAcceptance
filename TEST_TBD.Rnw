@@ -46,4 +46,21 @@ The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers. T
 lubridate (version 1.7.4) to provide key functionality in the processing of dates.
 
 
+<<setup, echo = FALSE>>=
+Month <- "Jan"
+Year <- 2019
+@
+
+<<data, echo=FALSE>>=
+source("./scripts/FirstPassAcceptance.R")
+FPA <- getFPA(file = "./data/First Pass Acceptance.csv")
+FPA <- cleanFPA(FPA = FPA)
+FPA <- process(FPA = FPA, Month = Month, Year = Year)
+@
+
+<<apps listing, echo = FALSE>>=
+#str(FPA)
+as.character(unique(FPA$application))[order(as.character(unique(FPA$application)))]
+@
+
 \end{document}

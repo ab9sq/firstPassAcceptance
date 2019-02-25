@@ -1,7 +1,7 @@
 getResults <- function(Month = NULL,
                        Year = NULL,
                        file = "./data/First Pass Acceptance.csv"){
-# load required functins
+     # load required functins
      #source(file = "./scripts/FirstPassAcceptance.R")
      getFPA <- function(file = "./data/First Pass Acceptance.csv") {
           FPA <- read.csv(
@@ -73,6 +73,11 @@ getResults <- function(Month = NULL,
                     )
                }
           }
+          FPA$application <- droplevels(FPA$application)
+          FPA$sqa <- droplevels(FPA$sqa)
+          FPA$deliverable <- droplevels(FPA$deliverable)
+          FPA$status <- droplevels(FPA$status)
+          FPA$reason <- droplevels(FPA$reason)
           return(FPA)
      }
 
@@ -95,7 +100,8 @@ getResults <- function(Month = NULL,
                     subset = ((((status == "A" | status == "A-FP")
                                 & version == 1)
                                & (application == "GS Reports"
-                                  | application == "Metrics Library")
+                                  | application == "Metrics Library"
+                                  | application == "Poser BI")
                     )
                     & deliverable == "Project Plan")
                )$project))
@@ -107,12 +113,17 @@ getResults <- function(Month = NULL,
                            subset = (((status == "A" | status == "A-FP")
                                       & version == 1))),
                     subset = deliverable == "System Certification Summary")$project)) +
+
                length(unique(
                     subset(
-                         subset(input,
+                         subset(FPA,
                                 subset = (((status == "A" | status == "A-FP")
-                                           & version == 1))),
-                         subset = deliverable == "Move to Production")$project)) +
+                                           & version == 1
+                                           &(application == "GS Reports"
+                                             | application =="Metrics Library"
+                                             | application =="Power BI")))),
+                         subset = deliverable == "Move to Production")$project))+
+
                length(unique(
                     subset(
                          subset(input,
@@ -141,7 +152,7 @@ getResults <- function(Month = NULL,
           return(results)
      }
 
-# Test for inputed values
+     # Test for inputed values
      if(is.null(Month) | is.na(Month)) {
           stop("Must supply a valid month")
      }
@@ -150,15 +161,15 @@ getResults <- function(Month = NULL,
           stop("Must supply a valid year")
      }
 
-# obtain and clean data
+     # obtain and clean data
      got <- getFPA()
      cleaned <- cleanFPA(got)
      processed <- process(cleaned, Month = Month, Year = Year)
 
-# Get statistics
+     # Get statistics
      results <- monthStats(input = processed)
 
-# create and output results
+     # create and output results
      series <- data.frame(Month = Month,
                           Year = Year,
                           stringsAsFactors = FALSE)

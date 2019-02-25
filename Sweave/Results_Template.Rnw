@@ -21,7 +21,8 @@
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{Version 3.5.2 named ``Eggshell Igloo'' }
+\newcommand{\Rvers}{version 3.5.2 named ``Eggshell Igloo'' }
+\newcommand{\lubdateVersion}{version 1.7.4}
 
 
 \title{SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
@@ -37,6 +38,13 @@ Month <- "Jan"
 Year <- 2019
 @
 
+<<data, echo=FALSE>>=
+source("../scripts/FirstPassAcceptance.R")
+FPA <- getFPA(file = "../data/First Pass Acceptance.csv")
+FPA <- cleanFPA(FPA = FPA)
+FPA <- process(FPA = FPA, Month = Month, Year = Year)
+@
+
 \maketitle
 
 \begin{abstract}
@@ -49,16 +57,18 @@ Acceptance. This will only be run for the month of \reportMonth \reportYear.
 \tableofcontents
 
 \section{Introduction}
-The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers. The only extension (package or library) utilized is
-lubridate (version 1.7.4) to provide key functionality in the processing of dates.
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
+The only extension (package or library) utilized is lubridate (\lubdateVersion)
+to provide key functionality in the processing of dates.
 
-The data is read into R from a comma seperated value (csv) file which is derived (saved)
-from the spreadsheet without modification. Additional values are computed as needed.
+The data is read into R from a comma seperated value (csv) file which is derived
+(saved) from the spreadsheet without modification. Additional values that are
+needed are are computed in R as needed.
 
-This report is prepared in the R enviroment using a collection of packages know as
-Sweave that included knitr which in turn feeds the package into \LaTeXe{} a typeseting
-program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX. \LaTeXe{} is utilizing
-the folowing packages to control style and formating:
+This report is prepared in the R enviroment using a collection of packages know
+as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
+typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
+\LaTeXe{} is utilizing the folowing packages to control style and formating:
 \begin{itemize}
      \item datetime and
      \item multitoc
@@ -77,32 +87,25 @@ and computed values stored in R.
 All calculations presented here have not been implemented in R as formulas.
 
 \section{Work Yet to be Completed}
-\subsection{Formula}
-Some calculations would be better implemented as formulas. The calculations need
-to be evulated and the formulas developed where needed.
+\subsection{Functions}
+Some calculations would be better implemented as functions The calculations need
+to be evulated and the functions developed where needed.
 \subsection{Trending}
-Eventually the ``System'' will be updated to select the data on a for a calander
-month. After processing the resulots will be stored in a seperate file.
+Eventually the ``application'' will be updated to select the data on a for a calander
+month. After processing the results will be stored in a seperate file.
 This will allow for longer term trending of this data.
 \subsubsection{Graphs}
 When ``trending'' is implented graphs of the trends will also be added.
 
-<<data, echo=FALSE>>=
-source("../scripts/FirstPassAcceptance.R")
-FPA <- getFPA(file = "../data/First Pass Acceptance.csv")
-FPA <- cleanFPA(FPA = FPA)
-FPA <- process(FPA = FPA, Month = Month, Year = Year)
-@
 
 \section{Quanity Metrics}
 \subsection{Application supported}
 This is a list of all application support this period.
 
-\textbf{Note:} Alphabatize the list
 
 <<apps listing, echo = FALSE>>=
 #str(FPA)
-as.character(unique(FPA$application))
+as.character(unique(FPA$application))[order(as.character(unique(FPA$application)))]
 @
 
 \subsection{Number of Projects}
@@ -136,7 +139,8 @@ length(unique(FPA$UID))
 
 \subsection{Number of Projects Started}
 The point at which a project is started is when version 1 of the \textit{Software
-Change Request} is approved.
+Change Request} is approved or the \testit{Project Plan} for \textit{GS Reports},
+\textit{Metrics Library} or \textit{Power BI}.
 
 \textbf{Note:} This now counts ML type projects (Metrics Library and GS Reports)
 using the Project Plan as the point that a project starts.
@@ -151,7 +155,8 @@ length(unique(subset(FPA, subset = (((status == "A" | status == "A-FP")
                  subset = ((((status == "A" | status == "A-FP")
                              & version == 1)
                             & (application == "GS Reports"
-                               | application =="Metrics Library"))
+                               | application =="Metrics Library"
+                               | application =="Power BI"))
                            & deliverable == "Project Plan"))
           $project))
 @
@@ -159,10 +164,9 @@ length(unique(subset(FPA, subset = (((status == "A" | status == "A-FP")
 \subsection{Projects Completed}
 
 The point at which a project is considered completed is when version 1 of the
-\textit{System Certification Summary} is approved.
-
-\textbf{Note:} now counts GS (Global Service) Reports Move to Production as the end
-of project.
+\textit{System Certification Summary} or a \testit{Decommissioning Report} is
+approved  or the \testit{Project Plan} for \textit{GS Reports}, \textit{Metrics
+Library} or \textit{Power BI}.
 
 <<finished projects, echo=FALSE>>=
 length(unique(
@@ -175,8 +179,17 @@ length(unique(
      subset(
           subset(FPA,
                  subset = (((status == "A" | status == "A-FP")
-                            & version == 1))),
-          subset = deliverable == "Move to Production")$project))
+                            & version == 1
+                            &(application == "GS Reports"
+                               | application =="Metrics Library"
+                               | application =="Power BI")))),
+          subset = deliverable == "Move to Production")$project)) +
+                    length(unique(
+                    subset(
+                         subset(FPA,
+                                subset = (((status == "A" | status == "A-FP")
+                                           & version == 1))),
+                         subset = deliverable == "Decommissioning Report")$project))
 @
 
 
@@ -203,8 +216,8 @@ table(FPA$status)
 
 \subsection{Table of Deliverables by Application}
 <<2 way, echo=FALSE>>=
-table(FPA[!duplicated(FPA$UID),]$application,
-      FPA[!duplicated(FPA$UID),]$deliverable)
+table(FPA[!duplicated(FPA$UID),]$deliverable,
+      FPA[!duplicated(FPA$UID),]$application)
 @
 
 \subsection{Table of Rejection Reasons}

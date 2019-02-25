@@ -1,3 +1,4 @@
+# update Monthly Stats.R for any changes below.
 getFPA <- function(file = "./data/First Pass Acceptance.csv") {
      FPA <- read.csv(
           file = file,
@@ -33,7 +34,6 @@ cleanFPA <- function(FPA) {
 
 
 process <- function(FPA, Month = NULL, Year = NULL) {
-     #require(lubridate)
      FPA$month <- lubridate::month(FPA$date, label = TRUE)
      FPA$year <- lubridate::year(FPA$date)
      FPA$UID <- paste(FPA$project,
@@ -41,6 +41,7 @@ process <- function(FPA, Month = NULL, Year = NULL) {
                       FPA$docID,
                       FPA$version,
                       sep = "-")
+
      if (!(is.null(Year))) {
           FPA <- subset(FPA,
                         subset = year == Year)
@@ -70,7 +71,13 @@ process <- function(FPA, Month = NULL, Year = NULL) {
                     )
                )
           }
+
      }
+     FPA$application <- droplevels(FPA$application)
+     FPA$sqa <- droplevels(FPA$sqa)
+     FPA$deliverable <- droplevels(FPA$deliverable)
+     FPA$status <- droplevels(FPA$status)
+     FPA$reason <- droplevels(FPA$reason)
      return(FPA)
 }
 
