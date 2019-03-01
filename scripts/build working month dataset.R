@@ -50,6 +50,10 @@ temp <- getResults(Month = "Jan",
                    Year = 2019)
 results <- rbind(results,
                  temp)
+temp <- getResults(Month = "Feb",
+                   Year = 2019)
+results <- rbind(results,
+                 temp)
 
 results$date <- paste("1",
                     results$Month,

@@ -1,0 +1,302 @@
+\documentclass{article}
+
+\usepackage[toc]{multitoc}
+\renewcommand*{\multicolumntoc}{2}
+\setlength{\columnseprule}{0.5pt}
+
+\usepackage{datetime}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks = true,
+    linkcolor={blue!80!black},
+    citecolor={blue!80!black},
+    urlcolor={blue!80!black}
+}
+%
+%  <<<<<<<<<< Update for month of run along with first R block
+%
+\newcommand{\reportMonth}{February }
+\newcommand{\reportYear}{2019}
+%
+% <<<<<<<<<< Update for new R version
+\newcommand{\Rvers}{version 3.5.2 named ``Eggshell Igloo'' }
+\newcommand{\lubdateVersion}{version 1.7.4}
+
+
+\title{SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
+\author{Nick Lauerman}
+\date{}
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+% update for month of run or analysis
+<<setup, echo = FALSE>>=
+Month <- "Feb"
+Year <- 2019
+@
+
+<<data, echo=FALSE>>=
+source("../scripts/Monthly_Stats.R")
+require(lubridate)
+FPA <- getResults(Month = Month,
+                  Year = Year,
+                  file = "../data/First Pass Acceptance.csv")
+
+plotData <- getResults(Month = "Jan",
+                      Year = 2018,
+                      file = "../data/First Pass Acceptance.csv")
+temp <- getResults(Month = "Feb",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Mar",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Apr",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "May",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Jun",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Jul",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Aug",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Sep",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Oct",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Nov",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Dec",
+                   Year = 2018,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Jan",
+                   Year = 2019,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+temp <- getResults(Month = "Feb",
+                   Year = 2019,
+                   file = "../data/First Pass Acceptance.csv")
+plotData <- rbind(plotData,
+                 temp)
+
+plotData$date <- paste("1",
+                    plotData$Month,
+                    plotData$Year,
+                    sep = "-")
+plotData$date <- as.Date(plotData$date,
+                        format = "%d-%b-%Y")
+rm(temp)
+
+
+@
+
+\maketitle
+
+\begin{abstract}
+Presentation of First Pass Acceptance of SLC documentation. This is derived from
+the Excel workbook that Software Quality Assurance collected called ``First Pass
+Acceptance.xlsx''. This is for the month of \reportMonth \reportYear.
+\footnote{Date Ran: \today{} at \currenttime}
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
+The only extension (package or library) utilized is lubridate (\lubdateVersion)
+to provide key functionality in the processing of dates.
+
+The data is read into R from a comma seperated value (csv) file which is derived
+(saved) from the spreadsheet without modification. Additional values that are
+needed are are computed in R as needed.
+
+This report is prepared in the R enviroment using a collection of packages know
+as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
+typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
+\LaTeXe{} is utilizing the folowing packages to control style and formating:
+\begin{itemize}
+     \item datetime and
+     \item multitoc
+     \item hyperref
+     \item xcolor
+\end{itemize}
+
+
+
+\section{First Pass Acceptance Results}
+For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
+Metrics results
+\begin{description}
+     \item[Projects Started]\Sexpr{FPA$Projects_Started}
+     \item[Projects Completed]\Sexpr{FPA$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{FPA$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{FPA$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{FPA$First_Pass_Acceptance} \%
+\end{description}
+
+\section{Trending Graphs}
+\subsection{Projects Started and Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=plotData$date,
+     y=plotData$Projects_Started,
+     col = "blue",
+     type = "b",
+     main = "Projects Started and Completed",
+     xlab = "Since January 2018",
+     ylab = "projects",
+     pch = 3)
+lines(x=plotData$date,
+      y=plotData$Projects_Completed,
+      col = "red",
+      type = "b",
+      pch = 4)
+legend("topleft",
+       legend = c("Started",
+                  "Completed"),
+       col = c("blue",
+               "red"),
+       lty = 1,
+       pch = c(3,
+               4))
+@
+
+\subsection{Reviews Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=plotData$date,
+     y=plotData$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = "Since January 2018",
+     ylab = "reviews",
+     pch = 3)
+legend("topleft",
+       legend = "reviews",
+       col = "blue",
+       lty = 1,
+       pch = c(3))
+@
+
+\subsection{Reviews Completed with Control Lines}
+<<fig=TRUE, echo=false>>=
+plot(x=plotData$date,
+     y=plotData$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = "Since January 2018",
+     ylab = "reviews",
+     pch = 3)
+abline(h=mean(plotData$Reviews_Completed),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(plotData$Reviews_Completed) -
+            sd(plotData$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(plotData$Reviews_Completed) +
+            sd(plotData$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+
+legend("topleft",
+       legend = c("reviews",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3,
+               NA,
+               NA))
+@
+
+\subsection{First Pass Acceptance}
+<<fig=TRUE, echo=false>>=
+
+plot(x=plotData$date,
+     y=plotData$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA)",
+     xlab = "Since January 2018",
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsection{First Pass Acceptance with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=plotData$date,
+     y=plotData$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA)",
+     xlab = "Since January 2018",
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(plotData$First_Pass_Acceptance),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(plotData$First_Pass_Acceptance) -
+            sd(plotData$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(plotData$First_Pass_Acceptance) +
+            sd(plotData$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("FPA",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+\end{document}

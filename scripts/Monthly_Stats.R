@@ -142,6 +142,7 @@ getResults <- function(Month = NULL,
           FPA <- nrow(unique(subset(input,
                                     subset = status == "A-FP"))) /
                nrow(input) * 100
+          FPA <- round(FPA, 1)
 
           # create and outpu results
           results <- data.frame(Projects_Started = number_started,
@@ -162,7 +163,7 @@ getResults <- function(Month = NULL,
      }
 
      # obtain and clean data
-     got <- getFPA()
+     got <- getFPA(file = file)
      cleaned <- cleanFPA(got)
      processed <- process(cleaned, Month = Month, Year = Year)
 
