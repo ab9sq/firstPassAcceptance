@@ -84,7 +84,7 @@ getResults <- function(Month = NULL,
 
      #source(file= "./scripts/Monthly_calculation.R")
 
-     monthStats <- function(input = FPA){
+     monthStats <- function(input){
           #Projects started SCR
           number_started <-
                length(unique(subset(
@@ -116,7 +116,7 @@ getResults <- function(Month = NULL,
 
                length(unique(
                     subset(
-                         subset(FPA,
+                         subset(input,
                                 subset = (((status == "A" | status == "A-FP")
                                            & version == 1
                                            &(application == "GS Reports"
