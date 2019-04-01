@@ -21,7 +21,7 @@
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.5.2 named ``Eggshell Igloo'' }
+\newcommand{\Rvers}{version 3.5.3 named ``Great Truth'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
