@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with first R block
 %
-\newcommand{\reportMonth}{February } % Update Setup below
+\newcommand{\reportMonth}{March }  % update setup
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
@@ -34,7 +34,7 @@
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
 <<setup, echo = FALSE>>=
-Month <- "Feb"  # update trened builder below
+Month <- "Mar"
 Year <- 2019
 @
 
@@ -45,8 +45,6 @@ FPA <- getResults(Month = Month,
                   Year = Year,
                   file = "../data/First Pass Acceptance.csv")
 
-#
-# ------ Trend Builder -------------- update at end
 plotData <- getResults(Month = "Jan",
                       Year = 2018,
                       file = "../data/First Pass Acceptance.csv")
@@ -115,11 +113,11 @@ temp <- getResults(Month = "Feb",
                    file = "../data/First Pass Acceptance.csv")
 plotData <- rbind(plotData,
                  temp)
-temp <- getResults(Month = "Mar",                            # start of update
+temp <- getResults(Month = "Mar",
                    Year = 2019,
                    file = "../data/First Pass Acceptance.csv")
 plotData <- rbind(plotData,
-                 temp)                                       # end of update
+                 temp)
 
 plotData$date <- paste("1",
                     plotData$Month,
