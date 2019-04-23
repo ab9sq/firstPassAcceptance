@@ -1,12 +1,12 @@
 ---
 title: "March ACR"
 author: "Nick Lauerman"
-date: "1 April 2019"
+date: "23 April 2019"
 output: 
   pdf_document: 
     fig_caption: yes
-    fig_height: 7.5
-    fig_width: 7.5
+    fig_height: 4
+    fig_width: 4
     toc: yes
     toc_depth: 4
 ---
@@ -20,12 +20,19 @@ library(lubridate)
 ```
 
 # Data
+## Variables used
+```{r}
+month <- "Mar"
+year <- 2019
+
+```
+
 ## Read Data In
 The data is a CSV file that is created by saving the ACR tab of the FPA Excel
 Workbook.
 ```{r}
-ACR.raw <- read.csv(file = "./data/ACR.csv",
-                    stringsAsFactors = FALSE)
+ACR <- read.csv(file = "./data/ACR.csv",
+                stringsAsFactors = FALSE)
 name <- c("SQA",
           "Application",
           "CRNumber",
@@ -36,9 +43,8 @@ name <- c("SQA",
           "IEApproved",
           "Reason",
           "Comments")
-names(ACR.raw) <- name
+names(ACR) <- name
 rm(name)
-ACR <- ACR.raw
 ```
 
 ## Format the Data
@@ -77,21 +83,23 @@ and the second for the approval of the I&E in the month.
 ```{r}
 #create master dataframe
 work <- subset(ACR,
-               subset = (CRmonth == "Mar" & CRyear == 2019) |
-                    (subset = IEmonth == "Mar" & IEyear == 2019))
+               subset = (CRmonth == month & CRyear == year) |
+                    (subset = IEmonth == month & IEyear == year))
 # Create the CR data fram
 workCR <- subset(ACR,
-               subset = CRmonth == "Mar" & CRyear == 2019)
+               subset = CRmonth == month & CRyear == year)
 # create the IE data frame.
 workIE <- subset(ACR,
-               subset = IEmonth == "Mar" & IEyear == 2019)
+               subset = IEmonth == month & IEyear == year)
 ```
 
 ## Counts
 ### Data Changes (CR) Request Approved
 ```{r}
 nrow(subset(workCR,
-            subset = (CRApproved == "A" | CRApproved == "A-FP")))
+            subset = (CRApproved == "A" | CRApproved == "A-FP"))) -
+  nrow(subset(workCR,
+            subset = (IEApproved == "D")))
 ```
 
 ### Data Change Request Disapproved
@@ -138,14 +146,14 @@ nrow(subset(work,
 
 ## Number by Application
 ### Opened
-```{r}
+```{r, eval=FALSE}
 table(subset(workCR, 
              subset = CRApproved != "D")$Application)
 
 ```
 
 ### Completed
-```{r}
+```{r, eval=FALSE}
 table(subset(workIE, 
              subset = IEApproved != "D")$Application)
 
@@ -153,7 +161,7 @@ table(subset(workIE,
 ```
 
 ### Total
-```{r}
+```{r, eval=FALSE}
 table(subset(workCR, 
              subset = CRApproved != "D")$Application) +
      table(subset(workIE, 
@@ -164,13 +172,12 @@ table(subset(workCR,
 ## Time to Complete A Data Change
 This is the interval between CR approval and IE approval
 ```{r}
-# select records that have been approved (both CR adn IE)
-work.all <- subset(ACR,
-                   subset = ((CRApproved == "A" | CRApproved == "A-FP") &
-                                  (IEApproved == "A" | IEApproved == "A-FP")))
-# now further select records from above that were completed in the correct month
-work.all <- subset(work.all,
-                   subset = (IEmonth == "Mar" & IEyear == 2019))
+# select from work all that had approved IE for the month
+work.all <- subset(work,
+                   subset = (IEApproved == "A" | IEApproved == "A-FP"))
+# need to figure out a way to make this unique and selected the correct record
+
+
 # compute interval
 work.all$Interval <- as.numeric(work.all$IEDate - work.all$CRDate)
 # results
@@ -197,7 +204,7 @@ work.open <- subset(ACR,
                     subset = (CRApproved == "A-FP" | CRApproved == "A") & 
                          is.na(IEApproved))
 # compute days open
-work.open$daysOpen <- as.numeric(as.Date("2-Jan-19", format = "%d-%b-%y") - 
+work.open$daysOpen <- as.numeric(as.Date("31-Mar-19", format = "%d-%b-%y") - 
                                       work.open$CRDate)
 # Results
 nrow(work.open)
