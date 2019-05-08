@@ -17,11 +17,11 @@
 %
 %  <<<<<<<<<< Update for month of run along with first R block
 %
-\newcommand{\reportMonth}{February }
+\newcommand{\reportMonth}{May }
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.5.2 named ``Eggshell Igloo'' }
+\newcommand{\Rvers}{version 3.6.0 named ``Planting of a Tree'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
@@ -34,7 +34,7 @@
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
 <<setup, echo = FALSE>>=
-Month <- "Feb"
+Month <- "May"
 Year <- 2019
 @
 

@@ -22,7 +22,7 @@ library(lubridate)
 # Data
 ## Variables used
 ```{r}
-month <- "Apr"
+month <- "May"
 year <- 2019
 
 ```
