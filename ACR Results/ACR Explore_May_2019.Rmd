@@ -1,7 +1,7 @@
 ---
 title: "May 2019 ACR"
 author: "Nick Lauerman"
-date: "1 May 2019"
+date: "3 June 2019"
 output: 
   pdf_document: 
     fig_caption: yes
@@ -12,6 +12,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+                                                   # Update Title and date above
 knitr::opts_chunk$set(echo = TRUE)
 ```
 # Libraries
@@ -22,7 +23,7 @@ library(lubridate)
 # Data
 ## Variables used
 ```{r}
-month <- "May"
+month <- "May"                                                # update line 208
 year <- 2019
 
 ```
@@ -203,8 +204,9 @@ boxplot(work.all$Interval,
 work.open <- subset(ACR,
                     subset = (CRApproved == "A-FP" | CRApproved == "A") & 
                          is.na(IEApproved))
-# compute days open
-work.open$daysOpen <- as.numeric(as.Date("31-Mar-19", format = "%d-%b-%y") - 
+# compute days open                             Set below to first of next month
+work.open$daysOpen <- as.numeric(as.Date("1-Jun-19", 
+                                         format = "%d-%b-%y") - 
                                       work.open$CRDate)
 # Results
 nrow(work.open)
