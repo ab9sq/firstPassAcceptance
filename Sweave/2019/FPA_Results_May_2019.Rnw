@@ -15,7 +15,7 @@
     urlcolor={blue!80!black}
 }
 %
-%  <<<<<<<<<< Update for month of run along with first R block
+%  <<<<<<<<<< Update for month of run along with first R block and in chart builder
 %
 \newcommand{\reportMonth}{May } % Update Setup below
 \newcommand{\reportYear}{2019}
@@ -34,7 +34,7 @@
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
 <<setup, echo = FALSE>>=
-Month <- "Feb"  # update trened builder below
+Month <- "May"                                                    # update trened builder below
 Year <- 2019
 @
 
