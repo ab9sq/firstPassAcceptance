@@ -34,7 +34,7 @@
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
 <<setup, echo = FALSE>>=
-Month <- "Jun"  # update trend builder below
+Month <- "Jun"  # update trened builder below
 Year <- 2019
 @
 
@@ -125,20 +125,19 @@ temp <- getResults(Month = "Apr",
                    file = "../data/First Pass Acceptance.csv")
 plotData <- rbind(plotData,
                  temp)
+
+
 temp <- getResults(Month = "May",
                    Year = 2019,
                    file = "../data/First Pass Acceptance.csv")
 plotData <- rbind(plotData,
                  temp)
 
-#                                          <><><><><><><><><><><><><><><><><><>
-# start of update
-temp <- getResults(Month = "Jun",
+temp <- getResults(Month = "Jun",                                            # start of update
                    Year = 2019,
                    file = "../data/First Pass Acceptance.csv")
 plotData <- rbind(plotData,
-                 temp)
-# end of update
+                 temp)                                                       # end of update
 
 plotData$date <- paste("1",
                     plotData$Month,
