@@ -36,115 +36,117 @@
 <<setup, echo = FALSE>>=
 Month <- "Jun"  # update trend builder below
 Year <- 2019
+DivFile <- "../data/First Pass Acceptance.csv"
 @
 
 <<data, echo=FALSE>>=
 source("../scripts/Monthly_Stats.R")
 require(lubridate)
-FPA <- getResults(Month = Month,
+DivFPA <- getResults(Month = Month,
                   Year = Year,
-                  file = "../data/First Pass Acceptance.csv")
+                  file = DivFile)
+
 
 #
 # ------ Trend Builder -------------- update at end
-plotData <- getResults(Month = "Jan",
+DivPlotData <- getResults(Month = "Jan",
                       Year = 2018,
-                      file = "../data/First Pass Acceptance.csv")
+                      file = DivFile)
 temp <- getResults(Month = "Feb",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Mar",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Apr",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "May",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Jun",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Jul",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Aug",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Sep",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Oct",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Nov",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Dec",
                    Year = 2018,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Jan",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Feb",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Mar",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "Apr",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 temp <- getResults(Month = "May",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
 temp <- getResults(Month = "Jun",
                    Year = 2019,
-                   file = "../data/First Pass Acceptance.csv")
-plotData <- rbind(plotData,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
                  temp)
 # end of update
 
-plotData$date <- paste("1",
-                    plotData$Month,
-                    plotData$Year,
+DivPlotData$date <- paste("1",
+                    DivPlotData$Month,
+                    DivPlotData$Year,
                     sep = "-")
-plotData$date <- as.Date(plotData$date,
+DivPlotData$date <- as.Date(DivPlotData$date,
                         format = "%d-%b-%Y")
 rm(temp)
 
@@ -198,16 +200,16 @@ Metrics results
 \section{Trending Graphs}
 \subsection{Projects Started and Completed}
 <<fig=TRUE, echo=false>>=
-plot(x=plotData$date,
-     y=plotData$Projects_Started,
+plot(x=DivPlotData$date,
+     y=DivPlotData$Projects_Started,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
      xlab = "Since January 2018",
      ylab = "projects",
      pch = 3)
-lines(x=plotData$date,
-      y=plotData$Projects_Completed,
+lines(x=DivPlotData$date,
+      y=DivPlotData$Projects_Completed,
       col = "red",
       type = "b",
       pch = 4)
@@ -223,8 +225,8 @@ legend("topleft",
 
 \subsection{Reviews Completed}
 <<fig=TRUE, echo=false>>=
-plot(x=plotData$date,
-     y=plotData$Reviews_Completed,
+plot(x=DivPlotData$date,
+     y=DivPlotData$Reviews_Completed,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
@@ -240,23 +242,23 @@ legend("topleft",
 
 \subsection{Reviews Completed with Control Lines}
 <<fig=TRUE, echo=false>>=
-plot(x=plotData$date,
-     y=plotData$Reviews_Completed,
+plot(x=DivPlotData$date,
+     y=DivPlotData$Reviews_Completed,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
      xlab = "Since January 2018",
      ylab = "reviews",
      pch = 3)
-abline(h=mean(plotData$Reviews_Completed),
+abline(h=mean(DivPlotData$Reviews_Completed),
        lty = "dotted",
        col = "red")
-abline(h=mean(plotData$Reviews_Completed) -
-            sd(plotData$Reviews_Completed),
+abline(h=mean(DivPlotData$Reviews_Completed) -
+            sd(DivPlotData$Reviews_Completed),
        lty = "dashed",
        col = "red")
-abline(h=mean(plotData$Reviews_Completed) +
-            sd(plotData$Reviews_Completed),
+abline(h=mean(DivPlotData$Reviews_Completed) +
+            sd(DivPlotData$Reviews_Completed),
        lty = "dashed",
        col = "red")
 
@@ -278,8 +280,8 @@ legend("topleft",
 \subsection{First Pass Acceptance}
 <<fig=TRUE, echo=false>>=
 
-plot(x=plotData$date,
-     y=plotData$First_Pass_Acceptance,
+plot(x=DivPlotData$date,
+     y=DivPlotData$First_Pass_Acceptance,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
@@ -292,8 +294,8 @@ plot(x=plotData$date,
 \subsection{First Pass Acceptance with Control Lines}
 <<fig=TRUE, echo=false>>=
 
-plot(x=plotData$date,
-     y=plotData$First_Pass_Acceptance,
+plot(x=DivPlotData$date,
+     y=DivPlotData$First_Pass_Acceptance,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
@@ -301,15 +303,15 @@ plot(x=plotData$date,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
-abline(h=mean(plotData$First_Pass_Acceptance),
+abline(h=mean(DivPlotData$First_Pass_Acceptance),
        lty = "dotted",
        col = "red")
-abline(h=mean(plotData$First_Pass_Acceptance) -
-            sd(plotData$First_Pass_Acceptance),
+abline(h=mean(DivPlotData$First_Pass_Acceptance) -
+            sd(DivPlotData$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
-abline(h=mean(plotData$First_Pass_Acceptance) +
-            sd(plotData$First_Pass_Acceptance),
+abline(h=mean(DivPlotData$First_Pass_Acceptance) +
+            sd(DivPlotData$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
 legend("topright",
