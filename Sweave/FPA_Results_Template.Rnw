@@ -21,7 +21,7 @@
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.0 named ``Planting a Tree'' }
+\newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
@@ -33,8 +33,9 @@
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
+% update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jun"  # update trend builder below
+Month <- "Jul"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/First Pass Acceptance.csv"
 @
@@ -132,10 +133,15 @@ temp <- getResults(Month = "May",
                    file = DivFile)
 DivPlotData <- rbind(DivPlotData,
                  temp)
+temp <- getResults(Month = "Jun",
+                   Year = 2019,
+                   file = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                 temp)
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
-temp <- getResults(Month = "Jun",
+temp <- getResults(Month = "Jul",
                    Year = 2019,
                    file = DivFile)
 DivPlotData <- rbind(DivPlotData,
@@ -190,11 +196,11 @@ typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
 For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
 Metrics results
 \begin{description}
-     \item[Projects Started]\Sexpr{FPA$Projects_Started}
-     \item[Projects Completed]\Sexpr{FPA$Projects_Completed}
-     \item[Items Reviewed]\Sexpr{FPA$Reviews_Completed}
-     \item[Items Rejected]\Sexpr{FPA$Items_Rejected}
-     \item[First Pass Acceptance Rate]\Sexpr{FPA$First_Pass_Acceptance} \%
+     \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
+     \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
 \end{description}
 
 \section{Trending Graphs}

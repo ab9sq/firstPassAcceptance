@@ -21,7 +21,7 @@
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.0 named ``Planting of a Tree'' }
+\newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
@@ -33,8 +33,9 @@
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
+% scroll down and update build monthly
 <<setup, echo = FALSE>>=
-Month <- "May"
+Month <- "Jul"
 Year <- 2019
 @
 
