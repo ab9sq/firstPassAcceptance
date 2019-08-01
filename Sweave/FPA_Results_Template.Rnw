@@ -201,6 +201,7 @@ Metrics results
      \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
      \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
      \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
+     \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
 \end{description}
 
 \section{Trending Graphs}
@@ -322,6 +323,57 @@ abline(h=mean(DivPlotData$First_Pass_Acceptance) +
        col = "red")
 legend("topright",
        legend = c("FPA",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+
+\subsection{Rejection Rate}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = "Since January 2018",
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsection{Rejection Rate with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = "Since January 2018",
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(DivPlotData$Rejection_Rate),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotData$Rejection_Ratee) -
+            sd(DivPlotData$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotData$Rejection_Rate) +
+            sd(DivPlotData$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("Rejection Rate",
                   "Mean",
                   " +/- 1 SD"),
        col = c("blue",

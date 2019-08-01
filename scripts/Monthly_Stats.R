@@ -144,12 +144,18 @@ getResults <- function(Month = NULL,
                nrow(input) * 100
           FPA <- round(FPA, 1)
 
+          # rejection rate
+          reject <- rejections/
+                  nrow(input) * 100
+          reject <- round(reject, 1)
+
           # create and outpu results
           results <- data.frame(Projects_Started = number_started,
                                 Projects_Completed = system_certs,
                                 Reviews_Completed = reviews,
                                 Items_Rejected = rejections,
-                                First_Pass_Acceptance = FPA)
+                                First_Pass_Acceptance = FPA,
+                                Rejection_Rate = reject)
           return(results)
      }
 
