@@ -25,7 +25,7 @@
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
-\title{SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
+\title{Dallas SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
 \author{Nick Lauerman}
 \date{}
 
