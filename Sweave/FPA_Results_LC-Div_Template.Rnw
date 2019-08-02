@@ -37,7 +37,7 @@
 <<setup, echo = FALSE>>=
 Month <- "Jul"                                 # update trend builder below
 Year <- 2019
-DivFile <- "../data/First Pass Acceptance.csv"
+DivFile <- "../data/Div First Pass Acceptance.csv"
 @
 
 <<data, echo=FALSE>>=
