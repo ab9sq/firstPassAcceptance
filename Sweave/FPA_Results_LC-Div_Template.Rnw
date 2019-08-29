@@ -54,14 +54,13 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 
 #
 # ------ Trend Builder -------------- update at end
-DivPlotData <- getResultsCHaRM(Month = "Jan",
-                               Year = 2018,
-                               file = DivFile)
-temp <- getResultsCHaRM(Month = "Feb",
+# # for update:
+# #      1) Reset name of Second getResults,
+# #      2) delete first gerResults and
+# #      3) delete first rbind
+DivPlotData <- getResultsCHaRM(Month = "Feb",
                         Year = 2018,
                         file = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 temp <- getResultsCHaRM(Month = "Mar",
                         Year = 2018,
                         file = DivFile)
