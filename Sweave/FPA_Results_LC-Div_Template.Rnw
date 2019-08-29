@@ -224,6 +224,7 @@ test protocols having multible test cases contained witin.
 
 
 \section{Trending Graphs}
+Trend Graphs only reflect the past 18 months of data.
 The following graphics do not include data from CHaRM Test Protocols.
 
 \subsection{Projects Started and Completed}
