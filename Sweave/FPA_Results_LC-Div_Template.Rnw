@@ -42,110 +42,114 @@ DivFile <- "../data/Div First Pass Acceptance.csv"
 
 <<data, echo=FALSE>>=
 source("../scripts/Monthly_Stats.R")
+source("../scripts/Monthly_Stats_CHaRM.R")
 require(lubridate)
 DivFPA <- getResults(Month = Month,
                   Year = Year,
                   file = DivFile)
+DivFPACHaRM <- getResultsCHaRM(Month = Month,
+                               Year = Year,
+                               file = DivFile)
 
 
 #
 # ------ Trend Builder -------------- update at end
-DivPlotData <- getResults(Month = "Jan",
-                      Year = 2018,
-                      file = DivFile)
-temp <- getResults(Month = "Feb",
-                   Year = 2018,
-                   file = DivFile)
+DivPlotData <- getResultsCHaRM(Month = "Jan",
+                               Year = 2018,
+                               file = DivFile)
+temp <- getResultsCHaRM(Month = "Feb",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Mar",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Mar",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Apr",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Apr",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "May",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "May",
+                        Year = 2018,
+                        file = DivFile)
+DivPlotData <- rbindCHaRM(DivPlotData,
+                          temp)
+temp <- getResultsCHaRM(Month = "Jun",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Jun",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Jul",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Jul",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Aug",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Aug",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Sep",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Sep",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Oct",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Oct",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Nov",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Nov",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Dec",
+                        Year = 2018,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Dec",
-                   Year = 2018,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Jan",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Jan",
-                   Year = 2019,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Feb",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Feb",
-                   Year = 2019,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Mar",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Mar",
-                   Year = 2019,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Apr",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Apr",
-                   Year = 2019,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "May",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "May",
-                   Year = 2019,
-                   file = DivFile)
+                     temp)
+temp <- getResultsCHaRM(Month = "Jun",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
-temp <- getResults(Month = "Jun",
-                   Year = 2019,
-                   file = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                 temp)
+                     temp)
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
-temp <- getResults(Month = "Jul",
-                   Year = 2019,
-                   file = DivFile)
+temp <- getResultsCHaRM(Month = "Jul",
+                        Year = 2019,
+                        file = DivFile)
 DivPlotData <- rbind(DivPlotData,
-                 temp)
+                     temp)
 # end of update
 
 DivPlotData$date <- paste("1",
@@ -204,7 +208,25 @@ Metrics results
      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
 \end{description}
 
+\subsection{FPA Without CHarm Test Protocols}
+For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
+Metrics results with the CHaRM Test Protocols removed. This was done due to the
+large volume of test protocols (test cases) in the application and fact that
+approvals are at the test case verses the test protocol level, with typical
+test protocols having multible test cases contained witin.
+\begin{description}
+     \item[Projects Started]\Sexpr{DivFPACHaRM$Projects_Started}
+     \item[Projects Completed]\Sexpr{DivFPACHaRM$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{DivFPACHaRM$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{DivFPACHaRM$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{DivFPACHaRM$First_Pass_Acceptance} \%
+     \item[Rejection Rate] \Sexpr{DivFPACHaRM$Rejection_Rate} \%
+\end{description}
+
+
 \section{Trending Graphs}
+The following graphics do not include data from CHaRM Test Protocols.
+
 \subsection{Projects Started and Completed}
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
