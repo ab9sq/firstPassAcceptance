@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with first R block
 %
-\newcommand{\reportMonth}{July } % Update Setup below
+\newcommand{\reportMonth}{August } % Update Setup below
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jul"                                 # update trend builder below
+Month <- "Aug"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Div First Pass Acceptance.csv"
 @
@@ -141,10 +141,15 @@ temp <- getResultsCHaRM(Month = "Jun",
                         file = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+temp <- getResultsCHaRM(Month = "Jul",
+                        Year = 2019,
+                        file = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
-temp <- getResultsCHaRM(Month = "Jul",
+temp <- getResultsCHaRM(Month = "Aug",
                         Year = 2019,
                         file = DivFile)
 DivPlotData <- rbind(DivPlotData,
