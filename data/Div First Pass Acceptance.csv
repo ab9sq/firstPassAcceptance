@@ -4472,3 +4472,501 @@ Nick,1003,CHaRM,Test Protocol,1,AQC>CHaRM Validation Testing > Configuration Tes
 Nick,ePAS 13-19391 v7,GS Reports,Test Protocol Results,1,1,A-FP,31-Jul-2019,,
 Nick,ePAS 19-1212 v2,GS Reports,Move to Production,1,1,A-FP,31-Jul-2019,,
 Nick,ePAS 19-26038,Metrics Library,Test Protocol,1,1,A-FP,31-Jul-2019,,
+Beilah,011036.003,R&D Data Management Dashboard,System Certification Summary,1,,D,1-Aug-2019,Inaccurate information,
+Beilah,011036.003,R&D Data Management Dashboard,System Certification Summary,1,,A,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,2,Test Protocol 04-IRIS Product Category Form_Results,A,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,2,Test Protocol 02-IRIS Country Information Form_Results,D,1-Aug-2019,Incorrect Objective Evidence,
+Beilah,01094.003,IRIS,Test Protocol Results,2,Test Protocol 02-IRIS Country Information Form_Results,A,1-Aug-2019,,
+Beilah,01101.003,QIMS,Software Change Request,1,,A,1-Aug-2019,,resubmitted
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 16- IRIS Verify Update Chapter Submission Workflow_Results,A-FP,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 17- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 12)_Results,A-FP,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 07-IRIS Verify ISO Certificate Workflow,A-FP,1-Aug-2019,,parent 01094.000 updated
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 18- IRIS (Approve Only) New Country Specific Technical Documents Workflow,A-FP,1-Aug-2019,,parent 01094.000 updated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 21- IRIS Empty Folder Workflow_Results,A-FP,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 15-IRIS CIF Others fields and Legal Documents Test_Results,A-FP,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 04-IRIS Product Category Form,A-FP,1-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 05-IRIS Certificate Category and Chapter Category Forms_Results,A-FP,1-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 02-IRIS Country Information Form,A-FP,2-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 16- IRIS Verify Update Chapter Submission Workflow,A-FP,2-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 17- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 12),A-FP,2-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 21- IRIS Empty Folder Workflow,A-FP,2-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 22- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 35)_Results,A-FP,2-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 05-IRIS Certificate Category and Chapter Category Forms,A-FP,2-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 34-IRIS IPMF Chapter Update Category_Results,A-FP,2-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 35- IRIS IPMF Translated Chapter Category_Results,A-FP,2-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 19- IRIS (Approve Only) Addendum Workflow_Results,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,2,Test Protocol 12-IRIS Verify Update Certificates Licenses Letters Workflow_Results,A-FP,5-Aug-2019,,
+Beilah,01101.003,QIMS,Release Notes,9,,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 22- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 35),A-FP,5-Aug-2019,,parent 01094.000; updates
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 34-IRIS IPMF Chapter Update Category_Results,A-FP,5-Aug-2019,,parent 01094.000; updates
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 35- IRIS IPMF Translated Chapter Category,A-FP,5-Aug-2019,,parent 01094.000; updates
+Beilah,01101.003,QIMS,CII,1,,A-FP,5-Aug-2019,,
+Beilah,01101.003,QIMS,Test Protocol,1,Test Protocol 13 - QIMS– Regression Testing,A-FP,5-Aug-2019,,Parent 00994.000: Link
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 24-IRIS New Platform Folder Workflow_Results,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 28-IRIS Verify New Chapter Submission Workflow_Results,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 25 – IRIS New Existing System No Doorway Workflow_Results,A-FP,5-Aug-2019,,
+Beilah,01006.004,Alinity Source Verifier,IIVP results,2,production,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 20-IRIS CIF Conditional Logics Test_Results,A-FP,5-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 25 - IRIS New Existing System No Doorway Workflow,A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 12-IRIS Verify Update Certificates Licenses Letters Workflow,A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 19- IRIS (Approve Only) Addendum Workflow,A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 24-IRIS New Platform Folder Workflow,A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 28-IRIS Verify New Chapter Submission Workflow,A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 33-IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 15)_Results,D,6-Aug-2019,Incorrect Objective Evidence,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 33-IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 15)_Results,A,6-Aug-2019,,
+Beilah,01101.003,QIMS,Test Protocol,1,Test Protocol 15 - Barcode Scanning Printing – Regression Testing,A-FP,6-Aug-2019,,Parent 00994.000: Link
+Beilah,01101.003,QIMS,Test Protocol,1,Test Protocol - QIMS Application Checkout,A-FP,6-Aug-2019,,Parent 01155.000: Link
+Beilah,00898.000,DRW,IIVP results,1,Production,D,6-Aug-2019,Inaccurate information,
+Beilah,00898.000,DRW,IIVP results,1,Production,D,6-Aug-2019,Inaccurate information,
+Beilah,00898.000,DRW,IIVP results,1,Production,A,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 33-IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 15),A-FP,6-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 39-IRIS Platform Subfolder Category_Results,A-FP,6-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 39-IRIS Platform Subfolder Category_Results,A-FP,7-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 30 - IRIS Obsolete Chapter Workflow_Results,A-FP,6-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 30 - IRIS Obsolete Chapter Workflow_Results,A-FP,7-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Validation Plan,3,,D,6-Aug-2019,Inaccurate information,in email
+Beilah,01094.003,IRIS,Validation Plan,3,,D,7-Aug-2019,Inaccurate information,in email
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 40-IRIS IPMF Addendum Category_Results,A-FP,7-Aug-2019,,
+Beilah,01101.003,QIMS,Project Plan,9,,A,7-Aug-2019,,parent 00417.000; resubmitted
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 32- IRIS WorkflowInit Category_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 23- IRIS (Approve Only)Update Country Specific Technical Documents Workflow_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 23- IRIS (Approve Only)Update Country Specific Technical Documents Workflow_Results,A-FP,7-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 27 - IRIS IPMF Obsolete Chapter_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 41-IRIS Folders (Security Testing)_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 26- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 26)_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 26- IRIS Copy STEDCSDT Chapter Folders Workflow Map (Set of 26)_Results,A-FP,7-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 40-IRIS IPMF Addendum Category,A-FP,8-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 41-IRIS Folders (Security Testing),A-FP,8-Aug-2019,,parent 01094.000; update
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 37 -IRIS PRSF Test_Results,A-FP,8-Aug-2019,,
+Beilah,01162.000,WWLIMS,Software Change Request,1,,A-FP,9-Aug-2019,,
+Beilah,01096.002,IRIS,IIVP,1,etech,A-FP,9-Aug-2019,,
+Beilah,01094.003,IRIS,CII,1,utilities,A-FP,9-Aug-2019,,parent 01094.000 
+Beilah,01101.003,QIMS,IIVP,1,,A-FP,9-Aug-2019,,Link to 01101.002
+Beilah,01094.003,IRIS,CII,1,utilities,A,9-Aug-2019,,resubmitted parent 01094.000
+Beilah,01094.003,IRIS,CII,3,IRIS,A-FP,9-Aug-2019,,parent 01094.000 
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 42-IRIS (Approve Only) Update Chapter Submission Workflow_Results,A-FP,9-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 42-IRIS (Approve Only) Update Chapter Submission Workflow_Results,A-FP,9-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 29-IRIS (Approve Only) New Chapter Submission Workflow_Results,A-FP,9-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 29-IRIS (Approve Only) New Chapter Submission Workflow_Results,A-FP,9-Aug-2019,,parent 01094.000 udated
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 49- IRIS Workflow Notifications_Results,A-FP,9-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 49- IRIS Workflow Notifications_Results,A-FP,9-Aug-2019,,parent 01094.000 udated
+Beilah,01162.000,WWLIMS,ERES,1,,A-FP,9-Aug-2019,,link to 00109.003
+Beilah,01096.002,IRIS,CII,2,etech,A-FP,9-Aug-2019,,parent 01096.000
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 38 -IRIS CIF Security Test_Results,A-FP,12-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 38 -IRIS CIF Security Test,A-FP,12-Aug-2019,,parent 01094.000; updates
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 43 -IRIS PRSF Security Test_Results,A-FP,12-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 43 -IRIS PRSF Security Test_Results,A-FP,12-Aug-2019,,parent 01094.000; updates
+Beilah,01101.003,QIMS,Project Plan,9,,A,12-Aug-2019,,parent 00417.000; resubmitted
+Beilah,01096.002,IRIS,Traceability,7,e-Tech URS/FRS to Test Protocol Trace,D,12-Aug-2019,Inaccurate information,parent 01096.000
+Beilah,01096.002,IRIS,Traceability,7,e-Tech URS/FRS to Test Protocol Trace,A,13-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP results,1,GISULCL3Q51N: QA,A-FP,12-Aug-2019,,
+Beilah,01162.000,WWLIMS,FRS,6,Background Task Manager,A-FP,12-Aug-2019,,Parent 00058.000
+Beilah,01162.000,WWLIMS,FRS,40,Document level,A-FP,12-Aug-2019,,Parent 00403.000
+Beilah,01101.003,QIMS,IIVP results,1,GISULCV106326,A-FP,12-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP results,2,GISULCV106326,A-FP,14-Aug-2019,,
+Beilah,01094.003,IRIS,Validation Plan,3,,A,13-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP,2,,A-FP,13-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP,1,Barcode,A-FP,13-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 46-IRIS-COGNOS Country Contact Report_Results,A-FP,14-Aug-2019,,
+Beilah,00849.011,PEAR,Software Compliance Assessment,1,,A-FP,15-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP,1,Zebra printer,A-FP,16-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,3,Test Protocol 06-IRIS Lookup forms field validation,A-FP,16-Aug-2019,,parent 01094.000; update
+Beilah,01101.003,QIMS,IIVP results,2, GISULCL3QX51N ,A-FP,16-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP results,1,GISULCL3QX51N: scanner,A-FP,16-Aug-2019,,
+Beilah,01101.003,QIMS,IIVP results,1,GISULCL3QX51Nr: printer,A,16-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 47- IRIS-COGNOS Country Registration Information Report_Results,A-FP,19-Aug-2019,,
+Beilah,00849.011,PEAR,Software Change Request,1,,A-FP,19-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 44-IRIS- COGNOS PRSF and PCF Reports_Results,A-FP,19-Aug-2019,,
+Beilah,01101.003,QIMS,Test Protocol Results,1,EM Barcode Printing and Scanning - Regression Testing - Results,A-FP,19-Aug-2019,,
+Beilah,01101.003,QIMS,Test Protocol Results,1,QIMS- Regression Testing - Results,A-FP,19-Aug-2019,,
+Beilah,01162.000,WWLIMS,FRS,19,Calculation Libray,A-FP,19-Aug-2019,,parent 00008.000
+Beilah,01101.003,QIMS,Test Protocol Results,1,application check out,A-FP,19-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 48-IRIS-COGNOS Country Requirement Report_Results,A-FP,20-Aug-2019,,
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 48-IRIS-COGNOS Country Requirement Report_Results,D,20-Aug-2019,Inaccurate information,Parent 01094.000
+Beilah,01094.003,IRIS,Test Protocol,2,Test Protocol 48-IRIS-COGNOS Country Requirement Report_Results,A,20-Aug-2019,,Parent 01094.000
+Beilah,01094.003,IRIS,Test Protocol Results,1,Test Protocol 45-COGNOS Framework_Results,A-FP,20-Aug-2019,,
+Beilah,01101.003,QIMS,Traceability,11,FRS Section 1 Traceability Matrix (for QIMS 2.53),D,22-Aug-2019,Inaccurate information,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,11,FRS Section 1 Traceability Matrix (for QIMS 2.53),A,23-Aug-2019,,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,9,FRS Section 2 Traceability Matrix (for QIMS 2.53),D,22-Aug-2019,Inaccurate information,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,9,FRS Section 2 Traceability Matrix (for QIMS 2.53),A,23-Aug-2019,,parent 00417.000
+Beilah,01094.003,IRIS,CII,3,IRIS,A,23-Aug-2019,,resubmitted
+Suresh,01032.000,Pulse,Project Plan,16,,D,1-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Project Plan,16,,D,2-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Project Plan,16,,A,2-Aug-2019,,
+Suresh,01032.000,Pulse,Other,1,Vodori document ,A-FP,2-Aug-2019,,
+Suresh,01032.000,Pulse,Validation Plan,3,,D,1-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Validation Plan,3,,A,2-Aug-2019,,
+Suresh,01032.000,Pulse,IDP,3,INSTALLATION AND DEPLOYMENT PLAN-01 Version-03,A-FP,2-Aug-2019,,
+Suresh,01035.000,Pulse,Other,5,Validation Frameowrk - Public Websites_v5,A-FP,2-Aug-2019,,
+Suresh,01073.002,Groninger,Software Compliance Assessment,1,,D,5-Aug-2019,Inaccurate information,
+Suresh,01073.002,Groninger,Software Compliance Assessment,1,,A,5-Aug-2019,,
+Suresh,01142.000,BioXpert,Test Protocol,1,,D,5-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Project Plan,16,SOFTWARE PROJECT PLAN-01 Version-04,D,5-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Project Plan,16,SOFTWARE PROJECT PLAN-01 Version-04,A,5-Aug-2019,,
+Suresh,01032.000,Pulse,Maintenance Plan,9,MAINTENANCE PLAN-01 Version-09,D,5-Aug-2019,Inaccurate information,email
+Suresh,01073.002,Groninger,Software Change Request,1,,D,6-Aug-2019,Inaccurate information,email
+Suresh,01032.000,Pulse,Maintenance Plan,9,MAINTENANCE PLAN-01 Version-09,A,6-Aug-2019,,
+Suresh,01073.002,Groninger,Software Change Request,,,D,6-Aug-2019,Inaccurate information,email
+Suresh,01142.000,BioXpert,Test Protocol,1,,A,7-Aug-2019,,
+Suresh,01073.002,Groninger,Software Change Request,1,,D,7-Aug-2019,Inaccurate information,
+Suresh,01142.000,BioXpert,Test Protocol Results,1,,D,7-Aug-2019,Incorrect Objective Evidence,email
+Suresh,01142.000,BioXpert,Test Protocol Results,1,,D,7-Aug-2019,Inaccurate information,email
+Suresh,01073.002,Groninger,Software Change Request,1,,D,8-Aug-2019,Inaccurate information,
+Suresh,00046.034,PRISM Metrics,IIVP,1,Installation Instructions and Verification Protocol PRISM Callers,D,8-Aug-2019,Inaccurate information,email
+Suresh,00046.034,PRISM Metrics,IIVP,1,Verification Protocol - Loader All databases,D,8-Aug-2019,Inaccurate information,email
+Suresh,01073.002,Groninger,URS,2,,D,8-Aug-2019,Inaccurate information,
+Suresh,01073.002,Groninger,FRS,2,,D,8-Aug-2019,Inaccurate information,
+Suresh,01073.002,Groninger,URS,2,,A,8-Aug-2019,,
+Suresh,01073.002,Groninger,FRS,2,,A,8-Aug-2019,,
+Suresh,01142.000,BioXpert,Test Protocol Results,1,,D,9-Aug-2019,Inaccurate information,email
+Suresh,01142.000,BioXpert,CII,1,,D,13-Aug-2019,Inaccurate information,email
+Suresh,01142.000,BioXpert,Test Protocol Results,1,,D,13-Aug-2019,Inaccurate information,email
+Suresh,01142.000,BioXpert,CII,1,,D,14-Aug-2019,Inaccurate information,
+Suresh,01142.000,BioXpert,CII,1,,A,14-Aug-2019,,
+Suresh,00634.019,GDSN/GS1,Software Change Request,1,,D,14-Aug-2019,Inaccurate information,email
+Suresh,01142.000,BioXpert,Release Notes,1,,D,14-Aug-2019,Inaccurate information,email
+Suresh,01032.000,PULSE,URS,42,,A-FP,15-Aug-2019,,
+Suresh,01142.000,BioXpert,IDP,1,,A-FP,15-Aug-2019,,
+Suresh,01142.000,BioXpert,Maintenance Plan,1,,A-FP,15-Aug-2019,,
+Suresh,01142.000,BioXpert,ISSD,1,,A-FP,15-Aug-2015,,
+Suresh,00136.004,Print on Demand,Design Verification,1,,A-FP,15-Aug-2019,,
+Suresh,00634.019,GDSN/GS1,Software Change Request,1,,A,15-Aug-2019,,
+Suresh,00634.019,GDSN/GS1,Test Protocol,1,,A-FP,15-Aug-2019,,
+Suresh,00634.019,GDSN/GS1,Test Protocol Results,1,,A-FP,16-Aug-2019,,
+Suresh,00634.019,GDSN/GS1,IDP,1,,A-FP,16-Aug-2019,,
+Suresh,01142.000,BioXpert,Test Protocol Results,1,,A,19-Aug-2019,,
+Suresh,01142.000,BioXpert,ISSD,1,,A-FP,19-Aug-2019,,
+Suresh,01038.000,Pulse,FRS,20,,A-FP,20-Aug-2019,,
+Suresh,01034.000,Pulse,FRS,9,Pulse - Module Level - Pulse CMS,A-FP,20-Aug-2019,,
+Suresh,01033.026,Pulse,Software Change Request,2,,D,20-Aug-2019,Inaccurate information,email
+Suresh,00634.019,GDSN/GS1,System Certification Summary,1,,A-FP,16-Aug-2019,,
+Suresh,01033.026,Pulse,Software Change Request,2,,A,20-Aug-2019,,
+Suresh,00136.004,Print on Demand,IIVP,1,,D,20-Aug-2019,Inaccurate information,
+Suresh,01142.000,BioXpert,Traceability,1,,D,21-Aug-2019,Inadequate Description of Change,email
+Suresh,01142.000,BioXpert,Traceability,1,,D,21-Aug-2019,Inaccurate information,
+Suresh,01142.000,BioXpert,Traceability,1,,A,21-Aug-2019,,
+Suresh,00136.004,Print on Demand,IIVP,1,,A,23-Aug-2019,,
+Suresh,00864.002,ICQ Filler Data Collection,Software Change Request,1,,D,22-Aug-2019,Inaccurate information,
+Suresh,00864.002,ICQ Filler Data Collection,Software Change Request,1,,A,22-Aug-2019,,
+Suresh,01142.000,BioXpert,URS/FRS,4,,A-FP,22-Aug-2019,,
+Suresh,00864.002,ICQ Filler Data Collection,IIVP results,1,,D,23-Aug-2019,Incorrect Approvers,
+Suresh,00864.002,ICQ Filler Data Collection,IIVP results,1,,A,23-Aug-2019,,
+Suresh,00864.002,ICQ Filler Data Collection,System Certification Summary,1,,D,23-Aug-2019,Inaccurate information,
+Suresh,00136.004,Print on Demand,Test Protocol,1,,D,23-Aug-2019,Inaccurate information,email
+Suresh,00136.004,Print on Demand,Test Protocol,1,,A,23-Aug-2019,,
+Suresh,00136.004,Print on Demand,Test Protocol,2,,A-FP,26-Aug-2019,,
+Suresh,01035.000,Pulse,FRS,9,Module Level - Public Websites,A-FP,26-Aug-2019,,
+Suresh,01033.026,Pulse,Software Change Request,3,,A-FP,26-Aug-2019,,
+Suresh,01142.000,BioXpert,Test Protocol,1,Protocol -02,A-FP,26-Aug-2019,,
+Suresh,00136.000,Print on Demand,IIVP results,1,,D,26-Aug-2019,Incorrect Objective Evidence,
+Suresh,01034.000,Pulse,FRS,10,Pulse - Module Level - Pulse CMS,D,26-Aug-2019,Inaccurate information,
+Suresh,01038.000,Pulse,FRS,21,Pulse - Module Level - Customer Portal,A-FP,26-Aug-2019,,
+Suresh,00136.000,Print on Demand,IIVP results,1,,A,26-Aug-2019,,
+Suresh,01034.000,Pulse,FRS,10,Pulse - Module Level - Pulse CMS,A,27-Aug-2019,,
+Suresh,01033.026,Pulse,CII,1,,D,27-Aug-2019,Inaccurate information,
+Suresh,01033.026,Pulse,Design Verification,1,Unit test,A-FP,27-Aug-2019,,
+Suresh,01038.000,Pulse,Test Protocol,2,TEST PROTOCOL-26 Version-02,A-FP,27-Aug-2019,,
+Suresh,01037.000,Pulse,Test Protocol,,TEST PROTOCOL-12 Version-02,A-FP,27-Aug-2019,,
+Suresh,00136.000,Pulse,Test Protocol Results,1,,D,28-Aug-2019,Incorrect Objective Evidence,
+Suresh,00136.000,Pulse,Test Protocol Results,1,,A,28-Aug-2019,,
+Suresh,01038.000,Pulse,Test Protocol,1,TEST PROTOCOL-28 Version-01,A-FP,28-Aug-2019,,
+Suresh,01033.026,Pulse,CII,1,,A,28-Aug-2019,,
+Suresh,00136.004,Print on Demand,CII,1,,D,28-Aug-2019,Inaccurate information,
+Suresh,00136.004,Print on Demand,Test Protocol,3,,A-FP,28-Aug-2019,,
+Suresh,00136.004,Print on Demand,CII,3,,A,28-Aug-2019,,
+Suresh,00136.004,Print on Demand,IDP,1,,A-FP,28-Aug-2019,,
+Suresh,00136.004,Print on Demand,Traceability,1,,A-FP,28-Aug-2019,,
+Suresh,01032.000,Pulse,Traceability,1,,A-FP,28-Aug-2019,,
+Suresh,00136.004,Print on Demand,System Certification Summary,1,,D,29-Aug-2019,Inaccurate information,
+Suresh,01035.000,Pulse,Test Protocol,5,,A-FP,29-Aug-2019,,
+Suresh,01035.000,Pulse,Test Protocol,1,protocol 08,D,30-Aug-2019,Inaccurate information,
+Suresh,01038.000,Pulse,Test Protocol,1,CP3000 Value Assignment_Protocol,A-FP,30-Aug-2019,,
+Suresh,00136.004,Print on Demand,System Certification Summary,1,,D,30-Aug-2019,Inaccurate information,
+Suresh,01035.000,Pulse,Test Protocol,5,TEST PROTOCOL-08 Version-05,A-FP,30-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,1,6,A-FP,2-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,1,8,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > Create_ComplaintTicket_ProductReturnChild,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > Create_ReportableServiceticket_Productevaluation_ChildRecord,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > Verify_ComplaintTicket_UnauthorizedUser_Productevaluation_ProductLot_Negative,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > Verify_ReportableServiceTicket_UnauthorizedUser_Productevaluation_ProductLot_Negative,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > View_ComplaintTicket_Productevaluation_AutogeneratedChildRecord,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > View_ComplaintTicket_Productevaluation_Likelycause_Yes,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > View_InquiryTicket_NoAutogeneratedProductevaluation,A-FP,2-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > Create_ComplaintTicket_Productevaluation,A,2-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,3,1,A-FP,2-Aug-2019,,
+Nick,1153,Qualtrics,IIVP Results,2,1 Prod,D,2-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,2,5,A-FP,2-Aug-2019,,
+Nick,1153,Qualtrics,IIVP Results,2,1 Prod,A,5-Aug-2019,,
+Nick,500.057,CMSNext,Test Protocol Results,1,17 - fail,A-FP,5-Aug-2019,,
+Nick,500.057,CMSNext,Test Protocol,3,19,A-FP,5-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,3,5,D,5-Aug-2019,Inaccurate information,Author not approving
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 >View_ComplaintTicket_ProductReturnInfo,A-FP,5-Aug-2019,,
+Nick,500.057,CMSNext,Software Change Request,3,1,D,5-Aug-2019,Not compliant with procedure,revision history missing entries
+Nick,500.057,CMSNext,Test Protocol,2,9,A-FP,6-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,3,5,A,6-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > View_NonReportableServicetTicket_NoAutogeneratedProductevaluation,A-FP,6-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Product Evaluation > Protocol 21 > View_NonReportableServicetTicket_NoAutogeneratedProductevaluation,A-FP,6-Aug-2019,,
+Nick,ePAS 19-24651,Power BI,Test Protocol Results,1,1,A-FP,6-Aug-2019,,
+Nick,ePAS 19-27683 ,Metrics Library,Test Protocol,1,1,A-FP,7-Aug-2019,,
+Nick,ePAS 19-27664,Metrics Library,Test Protocol Results,1,1,A-FP,7-Aug-2019,,
+Nick,500.057,CMSNext,Software Change Request,3,1,A,8-Aug-2019,,
+Nick,581.023,TODS,Test Protocol Results,1,4,A-FP,8-Aug-2019,,
+Nick,581.023,TODS,Test Protocol Results,1,8,D,8-Aug-2019,Other,Need to identify at least resolution (IPDR opened and reference the IPDR number) in the table at the start of section 5.
+Nick,581.023,TODS,Test Protocol Results,1,8,A,8-Aug-2019,,
+Nick,500.057,CMSNext,Software Compliance Assessment,2,1,D,9-Aug-2019,Not compliant with procedure,
+Nick,ePAS 19-27674,Metrics Library,Test Protocol,1,1,A-FP,9-Aug-2019,,
+Nick,1170,R - Stats Packages,Test Protocol,1,1,D,6-Aug-2019,Other,Extra files in the container
+Nick,1170,R - Stats Packages,Test Protocol,1,1,A,12-Aug-2019,,
+Nick,500.057,CMSNext,Test Protocol,2,1,D,12-Aug-2019,Inaccurate information,
+Nick,500.057,CMSNext,Test Protocol,2,18,D,12-Aug-2019,Not following document version control,Non documetned changes
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Field Action CAPA > Protocol 11 > 001_Create_TicketReviewRecord_StaticSearch,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 >  002_Create_MedicalEval_KILog,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 > 003_Create_MedicalEvalRecord_Service,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 > 004_Create_MedicalEvalRecord_Inquiry_Negative,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 > 005_Create_MedicalEval_FAD_ServiceRequest,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 > 006_Create_MedicalEval_FAD_Complaint,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 >  007_Create_MedicalEval_FAD_onClosedMedEval_Negative,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 >  008_Update_MedicalEval_IWD_Negative,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 27 >  009_Create_MedicalEval_TargetAssessmentDate,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 >  001_Create_MedicalEval_MDIEMDR,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 >  002_Create_MedicalEval_MDIEMDR_Negative,A-FP,12-Aug-2019,,
+Nick,928.011,Apollo/PHM,Traceability,6,1,D,12-Aug-2019,Not following configuration management,Wrong version number in header
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 >  003_Create_MedicalEval_MDIEMDR_InClosedMedEval_Negative,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 > 004_Create_MedicalEval_MDIEMDR_Reportable_Negative,A-FP,12-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 > 005_Create_MedicalEval_Country_Negative,A-FP,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 > 006_Create_MedicalEval_Country_SubmissionReq,A-FP,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 > 007_Create_MedicalEval_Country_AESubmissionReq,A-FP,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Configuration > Medical Evaluation > Protocol 30 > 008_Create_MedicalEval_Country_DeathSubmissionReq,A-FP,13-Aug-2019,,
+Nick,928.011,Apollo/PHM,Traceability,6,1,D,13-Aug-2019,Multible Errors,
+Nick,500.057,CMSNext,Validation Plan,2,1,D,8-Aug-2019,Other,via email
+Nick,500.057,CMSNext,Validation Plan,2,1,A,13-Aug-2019,,
+Nick,500.057,CMSNext,Test Protocol,2,1,A,13-Aug-2019,,
+Nick,ePAS 12-36508 v6,GS Reports,Project Plan,1,1,D,13-Aug-2019,Other,
+Nick,500.057,CMSNext,Test Protocol,2,18,A,13-Aug-2019,,
+Nick,500.057,CMSNext,Test Protocol,1,20,D,13-Aug-2019,Other,Expected results do not align with test objectives.
+Nick,581.023,TODS,Test Protocol Results,1,1,D,13-Aug-2019,Other,Missing signed and dated
+Nick,581.023,TODS,Test Protocol Results,1,1,A,13-Aug-2019,,
+Nick,581.023,TODS,Test Protocol Results,1,3,A-FP,13-Aug-2019,,
+Nick,ePAS 12-36508 v6,GS Reports,Project Plan,1,1,A,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 06_Customer Responses,A-FP,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_04_Comments,A-FP,13-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_24_Submission Type,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_06_Concomitant Products (D11),A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(Critical)_02_ClosedNonRepoCompl,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_07_Returns,D,14-Aug-2019,Other,Steps are not in correct order step 2 is before step 1
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 16_AdhocTranslation,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 18_Complaint Comments,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 11_Products,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 13_MedEvlTask,A-FP,14-Aug-2019,,
+Nick,ePAS 19-28967 ,GS Reports,Move to Production,1,1,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 10_MDIs,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_28_Primary Reporter,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_29_Complaint Investigator,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_21_Type of report,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_23_Type of report,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_28_Primary Reporter,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_10_H1 - Type of Reportable Event,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_30_Action Taken,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_15_Overall Reportable Status,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_08_Device Use,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_32_Created By,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_20_Type of report,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_25_Submission Type,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_27_Primary Reporter,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_01_Classification of incident,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_19_H10 & H11,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_03_Classification of incident,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_11_H1 - Type of Reportable Event,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_13_Reportable,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_16_Overall Reportable Status,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_12_Reportable,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_02_Classification of incident,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_12_Reportable,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_31_Reason for Action Taken Code,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_04_Comments,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_05_Legacy Customer Response,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_26_Contact Email,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_18_H10 & H11,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 > 001_Verify_SystemAccess_CreatePermissionSets,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  002_Verify_SystemAccess_PermissionSetAccess,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  003_Verify_SystemAccess_LogoutSession,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  004_Verify_SystemAccess_ActiveInactiveUsers,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  007_Verify_SystemAccess_AssignRemove_PermissionSets_ForUsers,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  008_Verify_SystemAccess_BusinessAdmin_CountryObject,A-FP,14-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 2 >  009_Verify_SystemAccess_BusinessAdmin_TranslationVendorObject,A-FP,14-Aug-2019,,
+Nick,500.057,CMSNext,Software Compliance Assessment,2,1,A,14-Aug-2019,,
+Nick,500.057,CMSNext,CII,2,2,D,14-Aug-2019,Not following document version control,
+Nick,1003,CHaRM,Test Protocol,1,Config > Customer Response > Protocol 16 > 003_Create_CustomerResponseRecord_Complaint,A-FP,15-Aug-2019,,738
+Nick,1003,CHaRM,Test Protocol,1,Config > Customer Response > Protocol 16 > 002_Create_CustomerResponseMaster_Void,A-FP,15-Aug-2019,,740
+Nick,1003,CHaRM,Test Protocol,1,Config > Customer Response > Protocol 16 > 004_Void_CustomerResponseRecord_fromCMSNext,A-FP,15-Aug-2019,,741
+Nick,1003,CHaRM,Test Protocol,1,Config > Regulated System Requirements . Protocol 50 > 001_Verify_Record_Access_Retrievability,A-FP,15-Aug-2019,,761
+Nick,1003,CHaRM,Test Protocol,1,Config > Regulated System Requirements . Protocol 50 > 002_Verify_Login_Role_Account,A-FP,15-Aug-2019,,762
+Nick,1003,CHaRM,Test Protocol,1,Config > Regulated System Requirements . Protocol 50 > 004_Verify_Audit_Trail,A-FP,15-Aug-2019,,764
+Nick,1003,CHaRM,Test Protocol,1,Config > Regulated System Requirements . Protocol 50 > 005_Verify_Electronic_Signature,A-FP,15-Aug-2019,,765
+Nick,589.054,CMSNext,Software Change Request,1,1,D,15-Aug-2019,Inaccurate information,
+Nick,1003,CHaRM,Test Protocol,1,MIG_eMDRtoCHaRM_01_Record Count,A-FP,16-Aug-2019,,211
+Nick,1003,CHaRM,Test Protocol,1,MIG_eMDRtoCHaRM_01_Sampling(ALL),A-FP,16-Aug-2019,,212
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 07_Returns,D,16-Aug-2019,Incorrect scope,214
+Nick,1003,CHaRM,Test Protocol,1,MIG_MLtoCHaRM_COUNT_1,A-FP,16-Aug-2019,,217
+Nick,1003,CHaRM,Test Protocol,1,MIG_MLtoCHaRM_01_SAMPLING(ALL)_Trend Item,A-FP,16-Aug-2019,,229
+Nick,1003,CHaRM,Test Protocol,1,MIG_MLtoCHaRM_02_SAMPLING(ALL)_Trend Item - Product,A-FP,16-Aug-2019,,230
+Nick,1003,CHaRM,Test Protocol,1,MIG_MLtoCHaRM_03_SAMPLING(ALL)_Trend Item - Issue Code,A-FP,16-Aug-2019,,231
+Nick,1003,CHaRM,Test Protocol,1,MIG_MLtoCHaRM_04_SAMPLING(ALL)_Trend Item - Trend Bucket,A-FP,16-Aug-2019,,232
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_COUNT_1,D,16-Aug-2019,Inaccurate information,673 Missing attached file
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_07_Device Use,D,16-Aug-2019,Incorrect scope,681
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_09_H1 - Type of Reportable Event,A-FP,16-Aug-2019,,683
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 005_Verify_SystemAccess_ChildRecordsCreation,A-FP,16-Aug-2019,,366
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 006_Verify_SystemAccess_LookupFilters_AddRemove,A-FP,16-Aug-2019,,367
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 009_Verify_SystemAccess_BusinessAdmin_TranslationVendorObject,A-FP,16-Aug-2019,,370
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 010_Verify_SystemAccess_BusinessAdmin_RegisteredSiteFields,A-FP,16-Aug-2019,,371
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 011_Verify_SystemAccess_BusinessAdmin_TPMObject,A-FP,16-Aug-2019,,372
+Nick,1003,CHaRM,Test Protocol,1,Config > Regulated System Requirements > Protocol 50 >  003_Verify_Change_Control,A-FP,16-Aug-2019,,763
+Nick,500.057,CMSNext,Test Protocol Results,2,18,A-FP,16-Aug-2019,,
+Nick,581.023,TODS,Test Protocol Results,1,8 - retest,D,16-Aug-2019,Other,Executed prior to IIVP
+Nick,500.057,CMSNext,IIVP Results,1,1 - Second,A-FP,16-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 012_Verify_SystemAccess_BusinessAdmin_QualityInfoFields_ProductRecord,A-FP,16-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_SAMPLING(ALL)_ 07_Returns,A,19-Aug-2019,,214
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_COUNT_1,A,19-Aug-2019,,673
+Nick,500.057,CMSNext,Test Protocol,1,20,A,19-Aug-2019,,
+Nick,928.011,Apollo/PHM,Test Protocol,1,2,A-FP,19-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,MIG_iQtoCHaRM_TRANSFORM_07_Device Use,A,20-Aug-2019,,681
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext and CHaRM > Protocol 41 > 001_Verify_Complaint_Ticket_Contact_Account_CMSNext_to_CHaRM,A-FP,20-Aug-2019,,
+Nick,1173,R - Stats Packages,Software Compliance Assessment,1,1,A-FP,20-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext and CHaRM > Protocol 40 >  001_Verify_Ticket_Conversion_Inquiry_to_Service,A-FP,20-Aug-2019,,652
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext and CHaRM > Protocol 40 > 002_Verify_Ticket_Conversion_Service_to_Complaint,A-FP,20-Aug-2019,,653
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext and CHaRM > Protocol 40 > 003_Verify_Ticket_Conversion_Service_to_Inquiry,A-FP,20-Aug-2019,,654
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext and CHaRM > Protocol 40 > 004_Verify_Ticket_Conversion_Reportable_Service_to_Complaint,A-FP,20-Aug-2019,,655
+Nick,ePAS 19-28751,Metrics Library,Test Protocol,1,1,A-FP,20-Aug-2019,,
+Nick,ePAS 19-28777,Metrics Library,Test Protocol,1,1,A-FP,20-Aug-2019,,
+Nick,589.054,CMSNext,Software Change Request,1,1,A,21-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 12 > 001_CreateView_SearchChildRecords_StaticSearch,A-FP,21-Aug-2019,,788
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 12 > 002_CreatenView_SearchChildRecords_RecurrenceSearch14Days,A-FP,21-Aug-2019,,789
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 12 > 003_CreatenView_SearchChildRecords_RecurrenceSearch30Days,A-FP,21-Aug-2019,,790
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 12 > 004_View_TicketSearch Results,A-FP,21-Aug-2019,,791
+Nick,581.023,TODS,IIVP Results,1,1 - QA 2,A-FP,22-Aug-2019,,
+Nick,ePAS 19-28899,Metrics Library,Test Protocol,1,1,A-FP,22-Aug-2019,,
+Nick,928.011,Apollo/PHM,Traceability,1,6,A-FP,22-Aug-2019,,
+Nick,1003,CHaRM,Validation Plan,1,3,D,19-Aug-2019,Other,Via email
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.01_COMP_REP_REOPEN_CREATE_FOLLOW-UP,D,22-Aug-2019,Multible Errors,405 Missing approver and incomplete instruction in set up step
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.02_COMP_REP_REOPEN_TEST_CUSTOMER_RETURN,D,22-Aug-2019,Incorrect Approvers,406
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.03_COMP_REP_REOPEN_ADD_NEW_MED_EVAL,D,22-Aug-2019,Incorrect Approvers,407
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.04_COMP_REP_REOPEN_CHANGE_RESPONSE,D,22-Aug-2019,Incorrect Approvers,408
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.05_COMP_REP_REOPEN_RESPOND_CMSNEXT_CHANGE,D,22-Aug-2019,Multible Errors,409 Missing approver and incomplete instruction in set-up step
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.06_COMP_NOTREP_REOPEN_TEST_CUSTOMER_RETURN,D,22-Aug-2019,Incorrect Approvers,410
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.07_COMP_NOTREP_REOPEN_CHANGE_RESPONSE,A-FP,22-Aug-2019,,411
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.08_COMP_NOTREP_REOPEN_RESPOND_CMSNEXT_CHANGE,D,22-Aug-2019,Multible Errors,412
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.09_COMP_NOTREP_REOPEN_ADD_PROD_EVAL,D,22-Aug-2019,Multible Errors,413
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.10_COMP_WITHSUB_CREATE_INITIAL_FOLLOW-UP_1,D,22-Aug-2019,Multible Errors,474 missing approver and missing attachement called for in step 40
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.11_COMP_WITHSUB_CREATE_2ND_FOLLOW-UP,D,22-Aug-2019,Incorrect Approvers,498
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.21_COMP_CREATE SUBMISSION,D,22-Aug-2019,Multible Errors,693 Missing approver and Missing attachement
+Nick,500.057,CMSNext,Test Protocol Results,1,17,A-FP,22-Aug-2019,,
+Nick,1003,CHaRM,IIVP,1,1 - Data Migration - ML,A,22-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Action CAPA > Protocol 11 > 001_Create_TicketReviewRecord_StaticSearch,A-FP,22-Aug-2019,,108
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Action CAPA > Protocol 11 > 002_View_CAPARecord,A-FP,22-Aug-2019,,109
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Action CAPA > Protocol 11 > 003_Create_TicketReviewRecord_RecurrenceSearch_14 Days,A-FP,22-Aug-2019,,110
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Action CAPA > Protocol 11 > 004_Create_TicketReviewRecord_RecurrenceSearch_30 Days,A-FP,22-Aug-2019,,111
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 22 > 001_View_Productevaluation_ProductReturns_LifecycleStates,A-FP,22-Aug-2019,,798
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 22 > 002_View_Productevaluation_ProductReturns_LifecycleStates,A-FP,22-Aug-2019,,799
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 22 > 003_Create_View_Productevaluation_Return Form Master,A-FP,22-Aug-2019,,800
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 24 > 001_View_add_LeveragedProductEvaluation,A-FP,22-Aug-2019,,868
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 24 > 002_View_Add_Delete_LeveragedProductEvaluationTask_ProductEvaluation,A-FP,22-Aug-2019,,869
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 24 > 003_Create_View_Productevaluation_KILog,A-FP,22-Aug-2019,,870
+Nick,1003,CHaRM,Test Protocol,1,Config > Product Eval > Protocol 24 > 004_Apply_Productevaluation_KILog,A-FP,22-Aug-2019,,871
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.01_COMP_REP_REOPEN_CREATE_FOLLOW-UP,A,23-Aug-2019,,405
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig functional > complaints > MIG_4.02_COMP_REP_REOPEN_TEST_CUSTOMER_RETURN,A-FP,23-Aug-2019,,406
+Nick,1003,CHaRM,Test Protocol,1,Config > Customer Response > Protocol 16 > 001_Create_CustomerResponseMaster,A-FP,23-Aug-2019,,739
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext - Charm > Protocol 41 > 002_Verify_Complaint_Ticket_Contact_CMSNext_to_CHaRM,A-FP,23-Aug-2019,,784
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext - Charm > Protocol 39 > 001_Verify_Complaint_Ticket_pRE_CMSNext_to_CHaRM,A-FP,23-Aug-2019,,877
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext - Charm > Protocol 39 > 002_Verify_Complaint_Ticket_MDR_Customer_Response_CHaRM_to_CMSNext,A-FP,23-Aug-2019,,878
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext - Charm > Protocol 39 > 003_Verify_Complaint_Ticket_Meaningful_Data_CMSNext_to_CHaRM,A-FP,23-Aug-2019,,879
+Nick,ePAS 19-28899,Metrics Library,Test Protocol,1,1,A-FP,23-Aug-2019,,
+Nick,581.023,TODS,Test Protocol Results,1,8 - retest - pass,A,23-Aug-2019,,
+Nick,1171,Helios,Software Compliance Assessment,1,1,D,23-Aug-2019,Inaccurate information,Privicy
+Nick,1170,R - Stats Packages,Test Protocol,2,1,A-FP,26-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.03_COMP_REP_REOPEN_ADD_NEW_MED_EVAL,A,26-Aug-2019,,407
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.04_COMP_REP_REOPEN_CHANGE_RESPONSE,A,26-Aug-2019,,408
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.05_COMP_REP_REOPEN_RESPOND_CMSNEXT_CHANGE,A,26-Aug-2019,,409
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function >  Complaints > MIG_4.06_COMP_NOTREP_REOPEN_TEST_CUSTOMER_RETURN,A,26-Aug-2019,,410
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints >  MIG_4.07_COMP_NOTREP_REOPEN_CHANGE_RESPONSE,A,26-Aug-2019,,411
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints >  MIG_4.07_COMP_NOTREP_REOPEN_CHANGE_RESPONSE,A,26-Aug-2019,,412
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.09_COMP_NOTREP_REOPEN_ADD_PROD_EVAL,A,26-Aug-2019,,413
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.11_COMP_WITHSUB_CREATE_2ND_FOLLOW-UP,A,26-Aug-2019,,498
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.21_COMP_CREATE SUBMISSION,A,26-Aug-2019,,693
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Function > Complaints > MIG_4.10_COMP_WITHSUB_CREATE_INITIAL_FOLLOW-UP_1,A,26-Aug-2019,,474
+Nick,1003,CHaRM,Test Protocol,1,Config > System Access and Admin > Protocol 02 > 013_Verify_View or CreateRecords_UsersProfile,A-FP,26-Aug-2019,,374
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 > 005_Categorize_TicketsinSearchResultspage,A-FP,26-Aug-2019,,792
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 > 006_Verify_EmailNotificationsDueDate_SearchFrequency_14Days or 30Days,A-FP,26-Aug-2019,,793
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 >  007_Verify_EmailNotificationsDueDate+3Day_SearchFrequency_14Days or 30Days,A-FP,26-Aug-2019,,794
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 > 008_Verify_EmailNotificationsSearchAction_SearchFrequency_14Days or 30Days,A-FP,26-Aug-2019,,795
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 > 009_Verify_EmailNotifications_InactiveRecurrenceSearch_InactiveStaticSearch,A-FP,26-Aug-2019,,796
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > protocol12 > 010_View_TickerSearchRecordsin_Ticket Layout,A-FP,26-Aug-2019,,797
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral >  MIG_4.12_1_GEN_TICKET_REVIEW_SEARCHES,A-FP,27-Aug-2019,,656
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral > MIG_4.12_2_GEN_TICKET_REVIEW_SEARCHES,A-FP,27-Aug-2019,,657
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral > MIG_4.13_GEN_GENERAL_SEARCHES_1,A-FP,27-Aug-2019,,658
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral >  MIG_4.13_GEN_GENERAL_SEARCHES_2,A-FP,27-Aug-2019,,659
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral > MIG_4.14_GEN_PROD_EVAL_TASK_SEARCHES,A-FP,27-Aug-2019,,660
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral > MIG_4.15_1_GEN_WORKQUEUES,A-FP,27-Aug-2019,,661
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Gereral > MIG_4.15_2_GEN_MDC,A-FP,27-Aug-2019,,662
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Services >  MIG_4.19_SERV_PRE_NONREP_REOPEN_MAKE_REPORTABLE,A-FP,27-Aug-2019,,663
+Nick,1165,Helios C360,Software Compliance Assessment,1,1,D,27-Aug-2019,Not compliant with procedure,
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig Functional > Mig Services > MIG_4.20_SERV_PRE_NONREP_RECLASSIFY_CMSNEXT,A-FP,27-Aug-2019,,664
+Nick,1003,CHaRM,Test Protocol,1,Config > Inquirey > Protocol 14 > 002_Verify_Inquiry_LifecycleWithoutTranslationTask,A-FP,27-Aug-2019,,860
+Nick,1003,CHaRM,Test Protocol,1,Config > Inquirey > Protocol 14 >  003_Verify_Inquiry_LifecycleWithNOChild,A-FP,27-Aug-2019,,861
+Nick,ePAS 19-28751,Metrics Library,Test Protocol,1,1,A-FP,27-Aug-2019,,
+Nick,ePAS 19-28903,Metrics Library,Test Protocol,1,1,A-FP,27-Aug-2019,,
+Nick,eAPS 19-28895,Metrics Library,Test Protocol,1,1,A-FP,27-Aug-2019,,
+Nick,ePAS 19-28893,Metrics Library,Test Protocol,1,1,A-FP,27-Aug-2019,,
+Nick,ePAS 13-37349 v4,GS Reports,Project Plan,1,1,A-FP,27-Aug-2019,,
+Nick,1171,Helios Web Service,Software Compliance Assessment,1,1,A,27-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig iQ-eMDR to Charm Closed eMDR > MIG_iQ-eMDRtoCHaRM_01_Closed eMDR & MDI for Open Ticket,A-FP,28-Aug-2019,,213
+Nick,500.057,CMSNext,Test Protocol Results,1,20,A-FP,28-Aug-2019,,
+Nick,1170,R - Stats Packages,Test Protocol Results,2,1,A-FP,28-Aug-2019,,
+Nick,1170,R - Stats Packages,System Certification Summary,1,1,A-FP,28-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext - Charm > Protocol 42 > 001_Verify_Complaint_Ticket_Reagent_CMSNext_to_CHaRM,A-FP,28-Aug-2019,,873
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext - Charm > Protocol 42 > 003_Verify_Complaint_Ticket_UDI_List-Number_CMSNext_to_CHaRM,A-FP,28-Aug-2019,,874
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext - Charm > Protocol 43 > 004_Verify_Complaint_Ticket_Serialized_UDI_CMSNext_to_CHaRM,A-FP,28-Aug-2019,,876
+Nick,1003,CHaRM,Test Protocol,1,Config > Inquiry > Protocol 14 > 001_Verify_Inquiry_ClosedDoneReopenLifecycle,A-FP,28-Aug-2019,,859
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext - CHaRM > Protocol 43 > 005_Verify_Complaint_Ticket_Related-Instruments_CMSNext_to_CHaRM,A-FP,28-Aug-2019,,1024
+Nick,581.023,TODS,IIVP,2,1,A-FP,29-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Inquiry > Protocol 14 > 004_Verify_Inquiry_LifecycleClosedVoided,A-FP,29-Aug-2019,,862
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 006_General_OutOfOffice_Timeframe,A-FP,29-Aug-2019,,885
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 007_General_ViewOpenTickets_Customerfields_inquiry,A-FP,29-Aug-2019,,886
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 19 > 001_View_Complaint_ProductEval_MedEval_TicketVersion_01,A-FP,29-Aug-2019,,910
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 19 > 002_View_Complaint_ProductEval_MedEval_TicketVersion,A-FP,29-Aug-2019,,911
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 19 > 003_View_Service_ProductEval_TicketVersion_N,A-FP,29-Aug-2019,,912
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 19 > 004_View_Inquiry_ProductEval_MedEval_TicketVersion_N,A-FP,30-Aug-2019,,913
+Nick,1003,CHaRM,Validation Plan,3,1,A-FP,30-Aug-2019,,
+Nick,ePAS 18-5565 v3.,GS Reports,Project Plan,1,1,A-FP,30-Aug-2019,,
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 001_General_CalculateCumulativeCycleTime,A-FP,30-Aug-2019,,880
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 002_General_SalesforceGeneralRules,A-FP,30-Aug-2019,,881
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 003_General_Inquiry_StatusReport,A-FP,30-Aug-2019,,882
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 004_General_Service_StatusReport,A-FP,30-Aug-2019,,883
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 005_General_Complaint StatusReport,A-FP,30-Aug-2019,,884
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 19 > 005_Verify_OverallReportableStatus_Reportable,A-FP,30-Aug-2019,,914
+Nick,1003,CHaRM,IIVP,1,unknown,D,30-Aug-2019,Inaccurate information,via mail
+Beilah,01162.000,WWLIMS,Validation Plan,1,,A-FP,26-Aug-2019,,
+Beilah,01101.003,QIMS,Traceability,13,Section 4 to do list,A-FP,26-Aug-2019,,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,13,Section 7 test results,A-FP,26-Aug-2019,,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,8,Section 8 asset management,A-FP,26-Aug-2019,,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,8,Section 8 materials management,A-FP,26-Aug-2019,,parent 00417.000
+Beilah,01101.003,QIMS,Traceability,7,section 11 administration,A-FP,26-Aug-2019,,parent 00417.000
+Beilah,01162.000,WWLIMS,FRS,19,,A,26-Aug-2019,,parent 00008.000; resubmitted
+Beilah,01094.003,IRIS,IIVP results,1,CS10.0,D,26-Aug-2019,Not following document version control,
+Beilah,01094.003,IRIS,IIVP results,1,CS10.0,D,27-Aug-2019,Inaccurate information,
+Beilah,01094.003,IRIS,IIVP results,1,CS10.0,A,27-Aug-2019,,
+Beilah,01162.000,WWLIMS,FRS,5,TCP COA_Run,A-FP,28-Aug-2019,,Parent 00013.000
+Beilah,01101.003,QIMS,System Certification Summary,1,,D,29-Aug-2019,Inaccurate information,
+Beilah,01096.002,IRIS,IIVP results,1,e-tech,D,29-Aug-2019,Inaccurate information,
+Beilah,01162.000,WWLIMS,Traceability,6,TPSYREQ,A-FP,29-Aug-2019,,     

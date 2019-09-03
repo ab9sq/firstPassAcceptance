@@ -1,4 +1,4 @@
-getResultsCharm <- function(Month = NULL,
+getResultsCHaRM <- function(Month = NULL,
                        Year = NULL,
                        file = "./data/First Pass Acceptance.csv"){
      # load required functins
@@ -79,7 +79,7 @@ getResultsCharm <- function(Month = NULL,
           FPA$status <- droplevels(FPA$status)
           FPA$reason <- droplevels(FPA$reason)
           FPA <- subset(FPA,
-                        ((applicaition != "CHaRM") &
+                        ((application != "CHaRM") &
                                  deliverable != "Test Protocol"))
           return(FPA)
      }
