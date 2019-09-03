@@ -17,8 +17,8 @@
 %
 %  <<<<<<<<<< Update for month of run along with first R block
 %
-\newcommand{\reportMonth}{June } % Update Setup below
-\newcommand{\reportYear}{2019}
+\newcommand{\reportMonth}{August } % Update Setup below
+\newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jul"                                 # update trend builder below
+Month <- "Aug"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
