@@ -1,9 +1,9 @@
 getResults <- function(Month = NULL,
                        Year = NULL,
-                       file = "./data/First Pass Acceptance.csv"){
+                       File = "./data/Div First Pass Acceptance.csv"){
      # load required functins
      #source(file = "./scripts/FirstPassAcceptance.R")
-     getFPA <- function(file = "./data/First Pass Acceptance.csv") {
+     getFPA <- function(file = "./data/Div First Pass Acceptance.csv") {
           FPA <- read.csv(
                file = file,
                stringsAsFactors = FALSE,
@@ -169,7 +169,7 @@ getResults <- function(Month = NULL,
      }
 
      # obtain and clean data
-     got <- getFPA(file = file)
+     got <- getFPA(file = File)
      cleaned <- cleanFPA(got)
      processed <- process(cleaned, Month = Month, Year = Year)
 

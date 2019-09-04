@@ -1,9 +1,9 @@
 getResultsCHaRM <- function(Month = NULL,
                        Year = NULL,
-                       file = "./data/First Pass Acceptance.csv"){
+                       File = "./data/Div First Pass Acceptance.csv"){
      # load required functins
      #source(file = "./scripts/FirstPassAcceptance.R")
-     getFPA <- function(file = "./data/First Pass Acceptance.csv") {
+     getFPA <- function(file = File) {
           FPA <- read.csv(
                file = file,
                stringsAsFactors = FALSE,
@@ -78,9 +78,14 @@ getResultsCHaRM <- function(Month = NULL,
           FPA$deliverable <- droplevels(FPA$deliverable)
           FPA$status <- droplevels(FPA$status)
           FPA$reason <- droplevels(FPA$reason)
+          FPA$testApp <- FPA$application == "CHaRM"
+          FPA$testDel <- FPA$deliverable == "Test Protocol"
+          FPA$Select <- FPA$testApp & FPA$testDel
           FPA <- subset(FPA,
-                        ((application != "CHaRM") &
-                                 deliverable != "Test Protocol"))
+                        subset = FPA$Select == FALSE)
+          FPA$testApp <- NULL
+          FPA$testDel <- NULL
+          FPA$Select <- NULL
           return(FPA)
      }
 
@@ -172,7 +177,7 @@ getResultsCHaRM <- function(Month = NULL,
      }
 
      # obtain and clean data
-     got <- getFPA(file = file)
+     got <- getFPA(file = File)
      cleaned <- cleanFPA(got)
      processed <- process(cleaned, Month = Month, Year = Year)
 
