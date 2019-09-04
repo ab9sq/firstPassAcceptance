@@ -209,7 +209,7 @@ Metrics results
      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
 \end{description}
 
-\subsection{FPA Without CHarm Test Protocols}
+\subsection{FPA Without CHaRM Test Protocols}
 For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
 Metrics results with the CHaRM Test Protocols removed. This was done due to the
 large volume of test protocols (test cases) in the application and fact that
