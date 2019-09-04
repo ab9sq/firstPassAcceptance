@@ -46,10 +46,10 @@ source("../scripts/Monthly_Stats_CHaRM.R")
 require(lubridate)
 DivFPA <- getResults(Month = Month,
                   Year = Year,
-                  file = DivFile)
+                  File = DivFile)
 DivFPACHaRM <- getResultsCHaRM(Month = Month,
                                Year = Year,
-                               file = DivFile)
+                               File = DivFile)
 
 
 #
@@ -60,86 +60,86 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 # #      3) delete first rbind
 DivPlotData <- getResultsCHaRM(Month = "Mar",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 
 temp <- getResultsCHaRM(Month = "Apr",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "May",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                           temp)
 temp <- getResultsCHaRM(Month = "Jun",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Jul",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Aug",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Sep",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Oct",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Nov",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Dec",
                         Year = 2018,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Jan",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Feb",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Mar",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Apr",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "May",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Jun",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCHaRM(Month = "Jul",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
@@ -147,7 +147,7 @@ DivPlotData <- rbind(DivPlotData,
 # start of update
 temp <- getResultsCHaRM(Month = "Aug",
                         Year = 2019,
-                        file = DivFile)
+                        File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 # end of update

@@ -45,21 +45,21 @@ source("../scripts/Monthly_Stats.R")
 require(lubridate)
 DivFPA <- getResults(Month = Month,
                   Year = Year,
-                  file = DivFile)
+                  File = DivFile)
 
 
 #
 # ------ Trend Builder -------------- update at end
 DivPlotData <- getResults(Month = "Aug",
                       Year = 2018,
-                      file = DivFile)
+                      File = DivFile)
 
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
 # temp <- getResults(Month = "Aug",
 #                    Year = 2019,
-#                    file = DivFile)
+#                    File = DivFile)
 # DivPlotData <- rbind(DivPlotData,
 #                  temp)
 # # end of update
