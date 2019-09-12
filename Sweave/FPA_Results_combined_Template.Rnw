@@ -9,16 +9,18 @@
 
 \usepackage{xcolor}
 \hypersetup{
-    colorlinks = true,
-    linkcolor={blue!80!black},
-    citecolor={blue!80!black},
-    urlcolor={blue!80!black}
+colorlinks = true,
+linkcolor={blue!80!black},
+citecolor={blue!80!black},
+urlcolor={blue!80!black}
 }
 %
-%  <<<<<<<<<< Update for month of run along with first R block
+%  <<<<<<<<<< Update for month of run along with R blocks.
+%             Update plot data for correct month in title "Since March 2018"
+%                      Used find and replace tool.
 %
-\newcommand{\reportMonth}{AUG } % Update Setup below
-\newcommand{\reportYear}{2019 }
+\newcommand{\reportMonth}{Aug } %                                               <<<<<<<update>>>>>>>
+\newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
@@ -32,18 +34,24 @@
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
-% update for month of run or analysis
+% update for month of run or analysis                                           <<<<<<<update>>>>>>>
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                 # update trend builder below
+Month <- "Aug"
 Year <- 2019
 file1 = "../data/Div First Pass Acceptance.csv"
 file2 = "../data/Dallas First Pass Acceptance.csv"
 @
 
-<<data, echo=FALSE>>=
+<<scripts and libraries, echo=FALSE>>=
+# scripts/custom functions
 source("../scripts/Monthly_Stats_Combined.R")
+source("../scripts/Monthly_Stats_Combined_CHaRM.R")
+# libraries
 require(lubridate)
+@
+
+<<data, echo=FALSE>>=
 FPA <- getResultsCombined(Month = Month,
                           Year = Year,
                           File1 = file1,
@@ -51,7 +59,7 @@ FPA <- getResultsCombined(Month = Month,
 
 
 #
-# ------ Trend Builder -------------- update at end
+# ------ Trend Builder --------------                                           <<<<<<<update>>>>>>>
 # # for update:
 # #      1) Reset name of Second getResultsCombined,
 # #      2) delete first gerResults and
@@ -59,102 +67,102 @@ FPA <- getResultsCombined(Month = Month,
 DivPlotData <- getResultsCombined(Month = "Mar",
                                   Year = 2018,
                                   File1 = file1,
-                          File2 = file2)
+                                  File2 = file2)
 
 temp <- getResultsCombined(Month = "Apr",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "May",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Jun",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Jul",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Aug",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Sep",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Oct",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Nov",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Dec",
                            Year = 2018,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Jan",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Feb",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Mar",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Apr",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "May",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Jun",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 temp <- getResultsCombined(Month = "Jul",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
@@ -163,7 +171,7 @@ DivPlotData <- rbind(DivPlotData,
 temp <- getResultsCombined(Month = "Aug",
                            Year = 2019,
                            File1 = file1,
-                          File2 = file2)
+                           File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 # end of update
@@ -181,141 +189,137 @@ rm(temp)
 
 % Remove CHaRM Test Protocols
 <<data, echo=FALSE>>=
-source("../scripts/Monthly_Stats_Combined_CHaRM.R")
-
 FPA_CHaRM <- getResultsCombinedCHaRM(Month = Month,
-                          Year = Year,
-                          File1 = file1,
-                          File2 = file2)
+                                     Year = Year,
+                                     File1 = file1,
+                                     File2 = file2)
 
 
 #
-# ------ Trend Builder -------------- update at end
+# ------ Trend Builder --------------                                           <<<<<<<update>>>>>>>
 # # for update:
 # #      1) Reset name of Second getResultsCombinedCHaRM,
 # #      2) delete first gerResults and
 # #      3) delete first rbind
 DivPlotDataCHaRM <- getResultsCombinedCHaRM(Month = "Mar",
-                                  Year = 2018,
-                                  File1 = file1,
-                          File2 = file2)
+                                            Year = 2018,
+                                            File1 = file1,
+                                            File2 = file2)
 
 temp <- getResultsCombinedCHaRM(Month = "Apr",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "May",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Jun",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Jul",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Aug",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Sep",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Oct",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Nov",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Dec",
-                           Year = 2018,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2018,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Jan",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Feb",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Mar",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Apr",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "May",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Jun",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 temp <- getResultsCombinedCHaRM(Month = "Jul",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
 temp <- getResultsCombinedCHaRM(Month = "Aug",
-                           Year = 2019,
-                           File1 = file1,
-                          File2 = file2)
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                     temp)
+                          temp)
 # end of update
 
 DivPlotDataCHaRM$date <- paste("1",
-                          DivPlotDataCHaRM$Month,
-                          DivPlotDataCHaRM$Year,
-                          sep = "-")
+                               DivPlotDataCHaRM$Month,
+                               DivPlotDataCHaRM$Year,
+                               sep = "-")
 DivPlotDataCHaRM$date <- as.Date(DivPlotDataCHaRM$date,
-                            format = "%d-%b-%Y")
+                                 format = "%d-%b-%Y")
 rm(temp)
-
-
 @
 
 \maketitle
@@ -343,10 +347,10 @@ as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
 typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
 \LaTeXe{} is utilizing the folowing packages to control style and formating:
 \begin{itemize}
-     \item datetime and
-     \item multitoc
-     \item hyperref
-     \item xcolor
+\item datetime and
+\item multitoc
+\item hyperref
+\item xcolor
 \end{itemize}
 
 \textbf{Note: } The charts provided only contain data for the Dallas team starting
@@ -358,12 +362,12 @@ from September 2019.
 For the Month of \reportMonth \reportYear
 the follow are the First Pass Acceptance Metrics results.
 \begin{description}
-     \item[Projects Started]\Sexpr{FPA$Projects_Started}
-     \item[Projects Completed]\Sexpr{FPA$Projects_Completed}
-     \item[Items Reviewed]\Sexpr{FPA$Reviews_Completed}
-     \item[Items Rejected]\Sexpr{FPA$Items_Rejected}
-     \item[First Pass Acceptance Rate]\Sexpr{FPA$First_Pass_Acceptance} \%
-     \item[Rejection Rate] \Sexpr{FPA$Rejection_Rate} \%
+\item[Projects Started]\Sexpr{FPA$Projects_Started}
+\item[Projects Completed]\Sexpr{FPA$Projects_Completed}
+\item[Items Reviewed]\Sexpr{FPA$Reviews_Completed}
+\item[Items Rejected]\Sexpr{FPA$Items_Rejected}
+\item[First Pass Acceptance Rate]\Sexpr{FPA$First_Pass_Acceptance} \%
+\item[Rejection Rate] \Sexpr{FPA$Rejection_Rate} \%
 \end{description}
 
 
@@ -378,7 +382,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "projects",
      pch = 3)
 lines(x=DivPlotData$date,
@@ -403,7 +407,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "reviews",
      pch = 3)
 legend("topleft",
@@ -420,18 +424,18 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "reviews",
      pch = 3)
 abline(h=mean(DivPlotData$Reviews_Completed),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotData$Reviews_Completed) -
-            sd(DivPlotData$Reviews_Completed),
+           sd(DivPlotData$Reviews_Completed),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotData$Reviews_Completed) +
-            sd(DivPlotData$Reviews_Completed),
+           sd(DivPlotData$Reviews_Completed),
        lty = "dashed",
        col = "red")
 
@@ -458,7 +462,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -472,7 +476,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -480,11 +484,11 @@ abline(h=mean(DivPlotData$First_Pass_Acceptance),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotData$First_Pass_Acceptance) -
-            sd(DivPlotData$First_Pass_Acceptance),
+           sd(DivPlotData$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotData$First_Pass_Acceptance) +
-            sd(DivPlotData$First_Pass_Acceptance),
+           sd(DivPlotData$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
 legend("topright",
@@ -509,7 +513,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -523,7 +527,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -531,11 +535,11 @@ abline(h=mean(DivPlotData$Rejection_Rate),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotData$Rejection_Rate) -
-            sd(DivPlotData$Rejection_Rate),
+           sd(DivPlotData$Rejection_Rate),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotData$Rejection_Rate) +
-            sd(DivPlotData$Rejection_Rate),
+           sd(DivPlotData$Rejection_Rate),
        lty = "dashed",
        col = "red")
 legend("topright",
@@ -556,12 +560,12 @@ legend("topright",
 For the Month of \reportMonth \reportYear
 the follow are the First Pass Acceptance Metrics results.
 \begin{description}
-     \item[Projects Started]\Sexpr{FPA_CHaRM$Projects_Started}
-     \item[Projects Completed]\Sexpr{FPA_CHaRM$Projects_Completed}
-     \item[Items Reviewed]\Sexpr{FPA_CHaRM$Reviews_Completed}
-     \item[Items Rejected]\Sexpr{FPA_CHaRM$Items_Rejected}
-     \item[First Pass Acceptance Rate]\Sexpr{FPA_CHaRM$First_Pass_Acceptance} \%
-     \item[Rejection Rate] \Sexpr{FPA_CHaRM$Rejection_Rate} \%
+\item[Projects Started]\Sexpr{FPA_CHaRM$Projects_Started}
+\item[Projects Completed]\Sexpr{FPA_CHaRM$Projects_Completed}
+\item[Items Reviewed]\Sexpr{FPA_CHaRM$Reviews_Completed}
+\item[Items Rejected]\Sexpr{FPA_CHaRM$Items_Rejected}
+\item[First Pass Acceptance Rate]\Sexpr{FPA_CHaRM$First_Pass_Acceptance} \%
+\item[Rejection Rate] \Sexpr{FPA_CHaRM$Rejection_Rate} \%
 \end{description}
 
 
@@ -576,7 +580,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "projects",
      pch = 3)
 lines(x=DivPlotDataCHaRM$date,
@@ -601,7 +605,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "reviews",
      pch = 3)
 legend("topleft",
@@ -618,18 +622,18 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "reviews",
      pch = 3)
 abline(h=mean(DivPlotDataCHaRM$Reviews_Completed),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$Reviews_Completed) -
-            sd(DivPlotDataCHaRM$Reviews_Completed),
+           sd(DivPlotDataCHaRM$Reviews_Completed),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$Reviews_Completed) +
-            sd(DivPlotDataCHaRM$Reviews_Completed),
+           sd(DivPlotDataCHaRM$Reviews_Completed),
        lty = "dashed",
        col = "red")
 
@@ -656,7 +660,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA without CHaRM Protocols)",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -670,7 +674,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA without CHaRM test protocols)",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -678,11 +682,11 @@ abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance) -
-            sd(DivPlotDataCHaRM$First_Pass_Acceptance),
+           sd(DivPlotDataCHaRM$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance) +
-            sd(DivPlotDataCHaRM$First_Pass_Acceptance),
+           sd(DivPlotDataCHaRM$First_Pass_Acceptance),
        lty = "dashed",
        col = "red")
 legend("topright",
@@ -707,7 +711,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -721,7 +725,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = "Since March 2018",
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -729,11 +733,11 @@ abline(h=mean(DivPlotDataCHaRM$Rejection_Rate),
        lty = "dotted",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$Rejection_Rate) -
-            sd(DivPlotDataCHaRM$Rejection_Rate),
+           sd(DivPlotDataCHaRM$Rejection_Rate),
        lty = "dashed",
        col = "red")
 abline(h=mean(DivPlotDataCHaRM$Rejection_Rate) +
-            sd(DivPlotDataCHaRM$Rejection_Rate),
+           sd(DivPlotDataCHaRM$Rejection_Rate),
        lty = "dashed",
        col = "red")
 legend("topright",
