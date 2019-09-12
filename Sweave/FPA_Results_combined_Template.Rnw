@@ -179,6 +179,145 @@ rm(temp)
 
 @
 
+% Remove CHaRM Test Protocols
+<<data, echo=FALSE>>=
+source("../scripts/Monthly_Stats_Combined_CHaRM.R")
+
+FPA_CHaRM <- getResultsCombinedCHaRM(Month = Month,
+                          Year = Year,
+                          File1 = file1,
+                          File2 = file2)
+
+
+#
+# ------ Trend Builder -------------- update at end
+# # for update:
+# #      1) Reset name of Second getResultsCombinedCHaRM,
+# #      2) delete first gerResults and
+# #      3) delete first rbind
+DivPlotDataCHaRM <- getResultsCombinedCHaRM(Month = "Mar",
+                                  Year = 2018,
+                                  File1 = file1,
+                          File2 = file2)
+
+temp <- getResultsCombinedCHaRM(Month = "Apr",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "May",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Jun",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Jul",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Aug",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Sep",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Oct",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Nov",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Dec",
+                           Year = 2018,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Jan",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Feb",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Mar",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Apr",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "May",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Jun",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+temp <- getResultsCombinedCHaRM(Month = "Jul",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+
+#                                          <><><><><><><><><><><><><><><><><><>
+# start of update
+temp <- getResultsCombinedCHaRM(Month = "Aug",
+                           Year = 2019,
+                           File1 = file1,
+                          File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                     temp)
+# end of update
+
+DivPlotDataCHaRM$date <- paste("1",
+                          DivPlotDataCHaRM$Month,
+                          DivPlotDataCHaRM$Year,
+                          sep = "-")
+DivPlotDataCHaRM$date <- as.Date(DivPlotDataCHaRM$date,
+                            format = "%d-%b-%Y")
+rm(temp)
+
+
+@
+
 \maketitle
 
 \begin{abstract}
@@ -210,12 +349,14 @@ typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
      \item xcolor
 \end{itemize}
 
+\textbf{Note: } The charts provided only contain data for the Dallas team starting
+from September 2019.
 
 
-\section{First Pass Acceptance Results}
+\section{Combined (all)}
+\subsection{First Pass Acceptance Results}
 For the Month of \reportMonth \reportYear
-the follow are the First Pass Acceptance
-Metrics results
+the follow are the First Pass Acceptance Metrics results.
 \begin{description}
      \item[Projects Started]\Sexpr{FPA$Projects_Started}
      \item[Projects Completed]\Sexpr{FPA$Projects_Completed}
@@ -226,11 +367,11 @@ Metrics results
 \end{description}
 
 
-\section{Trending Graphs}
+\subsection{Trending Graphs}
 Trend Graphs only reflect the past 18 months of data.
 The following graphics do not include data from CHaRM Test Protocols.
 
-\subsection{Projects Started and Completed}
+\subsubsection{Projects Started and Completed}
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Projects_Started,
@@ -255,7 +396,7 @@ legend("topleft",
                4))
 @
 
-\subsection{Reviews Completed}
+\subsubsection{Reviews Completed}
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Reviews_Completed,
@@ -272,7 +413,7 @@ legend("topleft",
        pch = c(3))
 @
 
-\subsection{Reviews Completed with Control Lines}
+\subsubsection{Reviews Completed with Control Lines}
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Reviews_Completed,
@@ -309,7 +450,7 @@ legend("topleft",
                NA))
 @
 
-\subsection{First Pass Acceptance}
+\subsubsection{First Pass Acceptance}
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -323,7 +464,7 @@ plot(x=DivPlotData$date,
      lty = "solid")
 @
 
-\subsection{First Pass Acceptance with Control Lines}
+\subsubsection{First Pass Acceptance with Control Lines}
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -360,7 +501,7 @@ legend("topright",
 @
 
 
-\subsection{Rejection Rate}
+\subsubsection{Rejection Rate}
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -374,7 +515,7 @@ plot(x=DivPlotData$date,
      lty = "solid")
 @
 
-\subsection{Rejection Rate with Control Lines}
+\subsubsection{Rejection Rate with Control Lines}
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -395,6 +536,204 @@ abline(h=mean(DivPlotData$Rejection_Rate) -
        col = "red")
 abline(h=mean(DivPlotData$Rejection_Rate) +
             sd(DivPlotData$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("Rejection Rate",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+\section{Combined (CHaRM Test Protocols Removed)}
+\subsection{First Pass Acceptance Results}
+For the Month of \reportMonth \reportYear
+the follow are the First Pass Acceptance Metrics results.
+\begin{description}
+     \item[Projects Started]\Sexpr{FPA_CHaRM$Projects_Started}
+     \item[Projects Completed]\Sexpr{FPA_CHaRM$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{FPA_CHaRM$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{FPA_CHaRM$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{FPA_CHaRM$First_Pass_Acceptance} \%
+     \item[Rejection Rate] \Sexpr{FPA_CHaRM$Rejection_Rate} \%
+\end{description}
+
+
+\subsection{Trending Graphs}
+Trend Graphs only reflect the past 18 months of data.
+The following graphics do not include data from CHaRM Test Protocols.
+
+\subsubsection{Projects Started and Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$Projects_Started,
+     col = "blue",
+     type = "b",
+     main = "Projects Started and Completed",
+     xlab = "Since January 2018",
+     ylab = "projects",
+     pch = 3)
+lines(x=DivPlotDataCHaRM$date,
+      y=DivPlotDataCHaRM$Projects_Completed,
+      col = "red",
+      type = "b",
+      pch = 4)
+legend("topleft",
+       legend = c("Started",
+                  "Completed"),
+       col = c("blue",
+               "red"),
+       lty = 1,
+       pch = c(3,
+               4))
+@
+
+\subsubsection{Reviews Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = "Since January 2018",
+     ylab = "reviews",
+     pch = 3)
+legend("topleft",
+       legend = "reviews",
+       col = "blue",
+       lty = 1,
+       pch = c(3))
+@
+
+\subsubsection{Reviews Completed with Control Lines}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = "Since January 2018",
+     ylab = "reviews",
+     pch = 3)
+abline(h=mean(DivPlotDataCHaRM$Reviews_Completed),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$Reviews_Completed) -
+            sd(DivPlotDataCHaRM$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$Reviews_Completed) +
+            sd(DivPlotDataCHaRM$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+
+legend("topleft",
+       legend = c("reviews",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3,
+               NA,
+               NA))
+@
+
+\subsubsection{First Pass Acceptance}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA without CHaRM Protocols)",
+     xlab = "Since January 2018",
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsubsection{First Pass Acceptance with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA without CHaRM test protocols)",
+     xlab = "Since January 2018",
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance) -
+            sd(DivPlotDataCHaRM$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$First_Pass_Acceptance) +
+            sd(DivPlotDataCHaRM$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("FPA",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+
+\subsubsection{Rejection Rate}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = "Since January 2018",
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsubsection{Rejection Rate with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotDataCHaRM$date,
+     y=DivPlotDataCHaRM$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = "Since January 2018",
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(DivPlotDataCHaRM$Rejection_Rate),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$Rejection_Rate) -
+            sd(DivPlotDataCHaRM$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotDataCHaRM$Rejection_Rate) +
+            sd(DivPlotDataCHaRM$Rejection_Rate),
        lty = "dashed",
        col = "red")
 legend("topright",
