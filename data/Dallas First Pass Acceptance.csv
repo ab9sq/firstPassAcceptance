@@ -105,155 +105,175 @@ Carole,DA-S01509.000,ESD,IIVP results,2,Install-01,D,22-Aug-2019,Mutlible Errors
 Carole,DA-S01509.000,ESD,IIVP results,2,Install-01,A,22-Aug-2019,N/A,
 Carole,DA-S01509.000,ESD,Other,3,Deployment Plan (Post IQ)-01,D,22-Aug-2019,Inaccurate information,Email
 Carole,DA-S01509.000,ESD,Other,3,Deployment Plan (Post IQ)-01,A,23-Aug-2019,N/A,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Ken,DA-S01449.000,PRISM OMT Test Fixture,Test Protocol,1,Protocol-02,D,3-Sep-2019,Other,Not complete
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,2,SCR-09,D,9-Sep-2019,Inaccurate information,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,2,SCR-09,A,9-Sep-2019,,
+Ken,DA-S01194.000,APLM - QSR Workflow,Software Change Request,2,SQA-08,A,16-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,URS/FRS,13,SRS-01,D,16-Sep-2019,Requirement deficiency,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,URS/FRS,13,SRS-01,A,16-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Design Documentation,12,SDD-01 (SCR-09),A-FP,12-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,IIVP,1,Install-10 (SCR-09),A-FP,12-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,1,Protocol-21 (SCR-09),D,12-Sep-2019,Mutlible Errors,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,1,Protocol-21 (SCR-09),D,13-Sep-2019,Inaccurate information,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,1,Protocol-21 (SCR-09),A,16-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Traceability,10,TMatrixUSPro-01,D,16-Sep-2019,Inaccurate information,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Traceability,10,TMatrixUSPro-01,A,16-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,1,SCR-10,D,10-Sep-2019,Inaccurate information,Copied of SCR-09 without complete review 
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,1,SCR-10,A,12-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,IIVP,1,Install-11 (SCR-10),A-FP,12-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,2,Protocol-17,A-FP,12-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol Results,2,Protocol-17 Result,D,27-Sep-2019,Inaccurate information,
+Ken,DA-S 01190.003,Abbott Product Lifecycle Management (APLM),Software Change Request,2,SCR-12,D,13-Sep-2019,Inadequate Description of Change,
+Ken,DA-S01449.000,PRISM OMT Test Fixture,IIVP results,1,Install-01 Results,D,17-Sep-2019,Incorrect Objective Evidence,
+Ken,DA-S01449.000,PRISM OMT Test Fixture,IIVP results,1,Install-01 Results,A,17-Sep-2019,,
+Ken,DA-S01449.000,PRISM OMT Test Fixture,Test Protocol,1,Protocol-02,D,17-Sep-2019,Not compliant with procedure,
+Ken,DA-S01449.000,PRISM OMT Test Fixture,Test Protocol,1,Protocol-02,A,18-Sep-2019,,
+Ken,DA-S 01190.003,Abbott Product Lifecycle Management (APLM),Software Change Request,2,SCR-12,A,17-Sep-2019,,
+Ken,DA-S 01194.001,APLM - QSR Workflow,Other,1,"Pointer to base  validation for common deliverables eRIM, BIA, etc.",A-FP,18-Sep-2019,,
+Ken,DA-S 01514.000,SBM System Level Event Tracking,Other,1,Pointer to base  validation for eRIM,A-FP,18-Sep-2019,,
+Ken,DA-S 01514.000,SBM System Level Event Tracking,Other,1,Pointer to base  validation for BIA,A-FP,18-Sep-2019,,
+Ken,DA-S01194.000,APLM - QSR Workflow,Software Change Request,3,SQA-08,D,27-Sep-2019,Incorrect Approvers,
+Ken,DA-S01194.000,APLM - QSR Workflow,Software Change Request,3,SQA-08,A,27-Sep-2019,,
+Arun,DA-S01519.000,CMIA Reader Tester Software ,Software Change Request,1,SCR-01,D,25-Sep-2019,Multiple Errors,Email
+Arun,DA-S01519.000,CMIA Reader Tester Software ,Software Compliance Assessment,1,Assessment-01,D,24-Sep-2019,Multiple Errors,Email
+Arun,DA-S01194.001,APLM - QSR Workflow,Software Change Request,1,SCR-02,D,19-Sep-2019,Not compliant with procedure,Email
+Arun,DA-S01194.001,APLM - QSR Workflow,Software Change Request,1,SCR-02,D,25-Sep-2019,Not compliant with procedure,Email
+Arun,DA-S01194.001,APLM - QSR Workflow,Software Change Request,1,SCR-02,D,27-Sep-2019,Not compliant with procedure,Email
+Arun,DA-S01194.001,APLM - QSR Workflow,Software Change Request,1,SCR-02,D,30-Sep-2019,Multiple Errors,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),IIVP,2,Install-16,D,19-Sep-2019,Multiple Errors,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),IIVP,2,Install-16,A,25-Sep-2019,,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),IIVP,2,Install-15,D,19-Sep-2019,,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),IIVP,2,Install-15,A,25-Sep-2019,Multiple Errors,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),IIVP,1,Install -19,A,23-Sep-2019,,NPV
+Arun,DA-S01190.003,Abbott Product Lifecycle Management (APLM),CII,10,VDD-01,A,23-Sep-2019,,NPV
+Arun,DA-S 01194 . 001,APLM - QSR Workflow,Software Change Request,3,SCR-01 - Pointer to the base validation deliverable SCR-08,A,24-Sep-2019,,NPV
+Arun,DA-S 01194 . 001,APLM - QSR Workflow,Test Protocol,2,Protocol -02 Pointer ,A,27-Sep-2019,,
+Arun,DA-S 01194 . 001,APLM - QSR Workflow,ERES,1,ERESRisk-01 to the pointer,A,27-Sep-2019,,
+Lan,DA-S 00622 . 008,GPPM DB Server Move,Software Change Request,1,SCR-31,D,2-Sep-2019,Multiple Errors,Email
+Lan,DA-S 00622 . 008,GPPM DB Server Move,Software Change Request,1,SCR-31,A,5-Sep-2019,,NPV
+Lan,DA-S 00622 . 008,GPPM DB Server Move,IIVP,15,Install-1,D,2-Sep-2019,Multiple Errors,NPV
+Lan,DA-S 00622 . 008,GPPM DB Server Move,IIVP,15,Install-1,A,5-Sep-2019,,NPV
+Lan,DA-S 00622 . 008,GPPM DB Server Move,Install Result ,1,Install-15 Result,A-FP,28-Sep-2019,,
+Lan,DA-S 00622 . 008,GPPM DB Server Move,MtP for QA,1,MtP-62 ,A-FP,21-Sep-2019,,
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Software Change Request,1,SCR-35 ,D,2-Sep-2019,Multiple Errors,Email
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Software Change Request,1,SCR-35 ,A,5-Sep-2019,,NPV
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,IIVP,7,Install-1,D,2-Sep-2019,Multiple Errors,NPV
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,IIVP,7,Install-1,A,5-Sep-2019,,NPV
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Install Result ,7,Install-1 Result,A-FP,28-Sep-2019,,
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Install Result ,1,Protocol-46,D,18-Sep-2019,Multiple Errors,Email
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Install Result ,1,Protocol-46,D,18-Sep-2019,Multiple Errors,Email
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,Install Result ,1,Protocol-46,A,21-Sep-2019,,
+Lan,DA-S 00562.005 ,Ticket Code Tool Server move,MtP for QA,1,MtP-81,A-FP,21-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Software Change Request,1,SCR-04,D,23-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Software Change Request,1,SCR-04,D,25-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Software Change Request,1,SCR-04,A,27-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,User Requirement Specifications (URS),2,URS-01,D,25-Sep-2019,Multiple Errors,Email
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,User Requirement Specifications (URS),2,URS-01,A,27-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Functional Requirements Specification (FRS),2,FRS-01,D,25-Sep-2019,Multiple Errors,Email
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Functional Requirements Specification (FRS),2,FRS-01,A,27-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,2,Prortocol-1,D,23-Sep-2019,Not compliant with procedure,Email
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,2,Prortocol-1,A,30-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,1,Protocol-17,D,24-Sep-2019,Not compliant with procedure,Email
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,1,Protocol-17,A,30-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,1,Protocol-18,A-FP,30-Sep-2019,,
+Lan,DA-S 1332.003,ICQDeviceSim v1.3.4 ,Protocol,1,Protocol-19,A-FP,30-Sep-2019,,
+Lan,DA-S 1254.000,IDA (Instrument Data Analytics),Software Change Request,1,SCR-08,D,27-Sep-2019,Not compliant with procedure,NPV
+Lan,DA-S 1254.000,IDA (Instrument Data Analytics),Software Change Request,1,SCR-08,D,30-Sep-2019,Not compliant with procedure,NPV
+Lan,DA-S 1254.000,IDA (Instrument Data Analytics),Software Change Request,1,SCR-08,A,30-Sep-2019,,
+Lan,DA-S 1497.000 ,Abbott Collaborative Environment (ACE),Software Change Request,2,SCR-02,D,18-Sep-2019,Multiple Errors,Email
+Lan,DA-S 1497.000 ,Abbott Collaborative Environment (ACE),Software Change Request,2,SCR-02,A,19-Sep-2019,,
+Lan,DA-S 1475.001,LOG-ICAL,Project Plan,1,SPP-01,D,19-Aug-2019,Multiple Errors,Email
+Lan,DA-S 1475.001,LOG-ICAL,Project Plan,1,SPP-01,D,24-Sep-2019,Multiple Errors,Email
+Lan,DA-S 1475.001,LOG-ICAL,Project Plan,1,SPP-01,A,30-Sep-2019,,
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,Test Protocol,1,USTest-03 ,A,21-Sep-2019,,
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,Test Protocol,1,USTest-03 Result,D,21-Sep-2019,Incorrect Objective Evidence,Email
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,Test Protocol,2,USTest-03,D,21-Sep-2019,Mutlible Errors,Email
+Lan,DA-S 01069.004,QIST : Quality Impact Score Tool 3.3,Test Protocol,2,USTest-03,A,30-Sep-2019,,
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,CII,1,VDD-03,D,27-Sep-2019,Mutlible Errors,
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,CII,1,VDD-03,D,29-Sep-2019,Mutlible Errors,
+Lan,DA-S 01069.003,QIST : Quality Impact Score Tool 3.2,CII,1,VDD-03,A,30-Sep-2019,,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-56,D,12-Sep-2019,Incorrect Objective Evidence,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-56,D,21-Sep-2019,Incorrect Objective Evidence,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-56,D,25-Sep-2019,Mutlible Errors,
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-56,A,25-Sep-2019,,
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-59,D,12-Sep-2019,Incorrect Objective Evidence,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-59,D,25-Sep-2019,Mutlible Errors,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-59,D,25-Sep-2019,Mutlible Errors,NPV
+Lan,DA-S 00536.004,GSS Reliability Database,Test Protocol Results,1,Protocol-59,A,25-Sep-2019,,
+Lan,DA-S 01520.000,GSS Reliability Database,Test Protocol Results,1,SCA-01,D,25-Sep-2019,Mutlible Errors,NPV
+Lan,DA-S 01520.000,GSS Reliability Database,Test Protocol Results,1,SCA-01,A,25-Sep-2019,,
+Carole,DA-S00931.001 ,ADMS Order Management,Software Change Request,1,SCR-20,D,4-Sep-2019,Multiple Errors,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Software Change Request,1,SCR-20,A,10-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-20-Results,D,4-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-20-Results,D,9-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-20-Results,A,17-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,2,Protocol-19-Results,D,4-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,2,Protocol-19-Results,D,9-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,2,Protocol-19-Results,A,17-Sep-2019,N/A,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-08-Results,D,4-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-08-Results,A,16-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,2,Protocol-02-Results,D,4-Sep-2019,Multiple Errors,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol,3,Protocol-02,A,12-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,3,Protocol-02,A,16-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,Software Change Request,1,SCR-21,D,11-Sep-2019,Multiple Errors,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Software Change Request,1,SCR-21,D,12-Sep-2019,Inadequate Description of Change,Email
+Carole,DA-S00931.001 ,ADMS Order Management,Software Change Request,1,SCR-21,A,30-Sep-2019,N/A,
+Carole,DA-S00931.001 ,ADMS Order Management,IIVP results,1,Install-02,D,19-Sep-2019,Inaccurate information,Email
+Carole,DA-S00931.001 ,ADMS Order Management,IIVP results,1,Install-02,A,26-Sep-2019,N/A,
+Carole,DA-S01509.000,ESD,Software Change Request,1,SCR-02,D,9-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,Software Change Request,1,SCR-02,D,11-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,Software Change Request,1,SCR-02,A,12-Sep-2019,N/A,
+Carole,DA-S01509.000,ESD,URS,3,URS-01,D,11-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,URS,3,URS-01,A,13-Sep-2019,N/A,
+Carole,DA-S01509.000,ESD,Traceability,2,TMatrixUSPro-01,D,12-Sep-2019,Other,Email
+Carole,DA-S01509.000,ESD,Traceability,2,TMatrixUSPro-01,A,13-Sep-2019,N/A,
+Carole,DA-S01509.000,ESD,Test Protocol,1,Protocol-04,D,11-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,Test Protocol,1,Protocol-04,D,12-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,Test Protocol,1,Protocol-04,D,12-Sep-2019,Multiple Errors,Email
+Carole,DA-S01509.000,ESD,Test Protocol,1,Protocol-04,A,13-Sep-2019,N/A,
+Carole,DA-S01509.000,ESD,Test Protocol Results,1,Protocol-04 Results,D,13-Sep-2019,Inaccurate information,Email
+Carole,DA-S01509.000,ESD,Test Protocol Results,1,Protocol-04 Results,A,13-Sep-2019,,
+Carole,DA-S01509.000,ESD,IIVP results,2,Installation instructions and Verification Protocol Results-01,A,16-Sep-2019,,
+Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,D,5-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,D,6-Sep-2019,Inadequate Description of Change,Email
+Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,D,12-Sep-2019,Inadequate Description of Change,Email
+Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,A,16-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-82,D,6-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-82,D,10-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-82,A,18-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-80,D,9-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-80,A,25-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol,2,Protocol-80,A-FP,25-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-81,D,9-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-81,A,18-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Traceability,2,TMatrixUSPro-01,D,18-Sep-2019,Other,Email
+Carole,DA-S01510.000,Camstar,Traceability,2,TMatrixUSPro-01,A,18-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,CII,2,VDD-01,D,17-Sep-2019,Incorrect Approvers,Email
+Carole,DA-S01510.000,Camstar,IIVP,1,Install-06,D,17-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,IIVP,1,Install-06,D,18-Sep-2019,Multiple Errors,Email
+Carole,DA-S01510.000,Camstar,IIVP,1,Install-06,A,18-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,IIVP results,1,Install-06-Results,A,19-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,IIVP results,1,Install-06-Results,A,27-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol Results,1,Protocol-82-Results,A-FP,26-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol Results,1,Protocol-81-Results,A,20-Sep-2019,N/A,
+Carole,DA-S01510.000,Camstar,Test Protocol Results,1,Protocol-80-Results,D,23-Sep-2019,Incorrect Objective Evidence,Email
+Carole,DA-S01510.000,Camstar,Test Protocol Results,2,Protocol-80-Results,A,26-Sep-2019,N/A,
+Carole,DA-S00919.004,ADMS Global Module,IIVP results,1,Install-04-Results,A,11-Sep-2019,N/A,
+Carole,DA-S00921.001,ADMS Inventory,Software Change Request,1,SCR-11,D,27-Sep-2019,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS Inventory,URS,1,URS-06,D,30-Sep-2019,Incorrect Approvers,Email
+Carole,DA-S00921.001,ADMS Inventory,FRS,1,SRS-07,D,30-Sep-2019,N/A,
+Carole,DA-S00922.001,ADMS Purchasing,Software Change Request,1,SCR-41,D,30-Sep-2019,Inadequate Description of Change,Email
+Carole,DA-S00923.001,ADMS Work in Progress,Software Change Request,1,SCR-05,D,27-Sep-2019,Multiple Errors,Email
+Carole,DA-S00923.001,ADMS Work in Progress,URS,1,URS-03,D,30-Sep-2019,Incorrect Approvers,Email
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol Results,1,Protocol-17 Result,A,27-Sep-2019,,
+Ken,DA-S 01194.001,APLM - QSR Workflow,Software Compliance Assessment,1,Assessment-01,D,18-Sep-2019,Incorrect Approvers,
+Ken,DA-S 01194.001,APLM - QSR Workflow,Software Compliance Assessment,1,Assessment-01,A,27-Sep-2019,,
+Ken,DA-S 01194.001,APLM - QSR Workflow,CII,1,VDD-01,D,30-Sep-2019,Inaccurate information,Email
+Ken,DA-S 01194.001,APLM - QSR Workflow,CII,1,VDD-01,A,30-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,2,Protocol-21 (SCR-09),D,30-Sep-2019,Insufficient testing,Update to incorporate corrections found during execution
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,Test Protocol,2,Protocol-21 ,A,30-Sep-2019,,
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,System Certification Summary,1,VVSR-10v01,D,30-Sep-2019,Inaccurate information,Email
+Ken,DA-S00893.006,Mashup - Product Defect Tracking,System Certification Summary,1,VVSR-10v01,A,30-Sep-2019,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
