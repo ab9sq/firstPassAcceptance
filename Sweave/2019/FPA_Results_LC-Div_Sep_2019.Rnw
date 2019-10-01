@@ -1,0 +1,424 @@
+\documentclass{article}
+
+\usepackage[toc]{multitoc}
+\renewcommand*{\multicolumntoc}{2}
+\setlength{\columnseprule}{0.5pt}
+
+\usepackage{datetime}
+\usepackage{hyperref}
+
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks = true,
+    linkcolor={blue!80!black},
+    citecolor={blue!80!black},
+    urlcolor={blue!80!black}
+}
+%
+%  <<<<<<<<<< Update for month of run along with R blocks.
+%             Update plot data for correct month in title "Since March 2018"
+%                      Used find and replace tool.
+%
+\newcommand{\reportMonth}{September } % Update Setup below
+\newcommand{\reportYear}{2019 }
+%
+% <<<<<<<<<< Update for new R version
+\newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
+\newcommand{\lubdateVersion}{version 1.7.4}
+
+
+\title{LC/Div SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
+\author{Nick Lauerman}
+\date{}
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+% update for month of run or analysis
+% update trend builder as well below
+<<setup, echo = FALSE>>=
+Month <- "Sep"                                 # update trend builder below
+Year <- 2019
+DivFile <- "../data/Div First Pass Acceptance.csv"
+XLabel <- "Since April 2018"
+@
+
+<<data, echo=FALSE>>=
+source("../scripts/Monthly_Stats.R")
+source("../scripts/Monthly_Stats_CHaRM.R")
+require(lubridate)
+DivFPA <- getResults(Month = Month,
+                  Year = Year,
+                  File = DivFile)
+DivFPACHaRM <- getResultsCHaRM(Month = Month,
+                               Year = Year,
+                               File = DivFile)
+
+
+#
+# ------ Trend Builder -------------- update at end
+# # for update:
+# #      1) Reset name of Second getResults,
+# #      2) delete first gerResults and
+# #      3) delete first rbind+
+# #      4) Update last data for this month
+
+DivPlotData <- getResultsCHaRM(Month = "Apr",
+                        Year = 2018,
+                        File = DivFile)
+
+temp <- getResultsCHaRM(Month = "May",
+                        Year = 2018,
+                        File = DivFile)
+
+DivPlotData <- rbind(DivPlotData,
+                          temp)
+
+temp <- getResultsCHaRM(Month = "Jun",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Jul",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Aug",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Sep",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Oct",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Nov",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Dec",
+                        Year = 2018,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Jan",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Feb",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Mar",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "Apr",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+temp <- getResultsCHaRM(Month = "May",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResultsCHaRM(Month = "Jun",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResultsCHaRM(Month = "Jul",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResultsCHaRM(Month = "Aug",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+
+#                                          ********************************
+# start of update
+temp <- getResultsCHaRM(Month = "Sep",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+# end of update
+#                                          ********************************
+
+DivPlotData$date <- paste("1",
+                    DivPlotData$Month,
+                    DivPlotData$Year,
+                    sep = "-")
+DivPlotData$date <- as.Date(DivPlotData$date,
+                        format = "%d-%b-%Y")
+rm(temp)
+
+
+@
+
+\maketitle
+
+\begin{abstract}
+Presentation of First Pass Acceptance of SLC documentation. This is derived from
+the Excel workbook that Software Quality Assurance collected called ``First Pass
+Acceptance.xlsx''. This is for the month of \reportMonth \reportYear.
+\footnote{Date Ran: \today{} at \currenttime}
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
+The only extension (package or library) utilized is lubridate (\lubdateVersion)
+to provide key functionality in the processing of dates.
+
+The data is read into R from a comma seperated value (csv) file which is derived
+(saved) from the spreadsheet without modification. Additional values that are
+needed are are computed in R as needed.
+
+This report is prepared in the R enviroment using a collection of packages know
+as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
+typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
+\LaTeXe{} is utilizing the folowing packages to control style and formating:
+\begin{itemize}
+     \item datetime and
+     \item multitoc
+     \item hyperref
+     \item xcolor
+\end{itemize}
+
+
+
+\section{First Pass Acceptance Results}
+For the Month of \reportMonth \reportYear
+the follow are the First Pass Acceptance
+Metrics results
+\begin{description}
+     \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
+     \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
+     \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
+\end{description}
+
+\subsection{FPA Without CHaRM Test Protocols}
+For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
+Metrics results with the CHaRM Test Protocols removed. This was done due to the
+large volume of test protocols (test cases) in the application and fact that
+approvals are at the test case verses the test protocol level, with typical
+test protocols having multible test cases contained witin.
+\begin{description}
+     \item[Projects Started]\Sexpr{DivFPACHaRM$Projects_Started}
+     \item[Projects Completed]\Sexpr{DivFPACHaRM$Projects_Completed}
+     \item[Items Reviewed]\Sexpr{DivFPACHaRM$Reviews_Completed}
+     \item[Items Rejected]\Sexpr{DivFPACHaRM$Items_Rejected}
+     \item[First Pass Acceptance Rate]\Sexpr{DivFPACHaRM$First_Pass_Acceptance} \%
+     \item[Rejection Rate] \Sexpr{DivFPACHaRM$Rejection_Rate} \%
+\end{description}
+
+
+\section{Trending Graphs}
+Trend Graphs only reflect the past 18 months of data.
+The following graphics do not include data from CHaRM Test Protocols.
+
+\subsection{Projects Started and Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotData$date,
+     y=DivPlotData$Projects_Started,
+     col = "blue",
+     type = "b",
+     main = "Projects Started and Completed",
+     xlab = XLabel,
+     ylab = "projects",
+     pch = 3)
+lines(x=DivPlotData$date,
+      y=DivPlotData$Projects_Completed,
+      col = "red",
+      type = "b",
+      pch = 4)
+legend("topleft",
+       legend = c("Started",
+                  "Completed"),
+       col = c("blue",
+               "red"),
+       lty = 1,
+       pch = c(3,
+               4))
+@
+
+\subsection{Reviews Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotData$date,
+     y=DivPlotData$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = XLabel,
+     ylab = "reviews",
+     pch = 3)
+legend("topleft",
+       legend = "reviews",
+       col = "blue",
+       lty = 1,
+       pch = c(3))
+@
+
+\subsection{Reviews Completed with Control Lines}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotData$date,
+     y=DivPlotData$Reviews_Completed,
+     col = "blue",
+     type = "b",
+     main = "Reviews Completed",
+     xlab = XLabel,
+     ylab = "reviews",
+     pch = 3)
+abline(h=mean(DivPlotData$Reviews_Completed),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotData$Reviews_Completed) -
+            sd(DivPlotData$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotData$Reviews_Completed) +
+            sd(DivPlotData$Reviews_Completed),
+       lty = "dashed",
+       col = "red")
+
+legend("topleft",
+       legend = c("reviews",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3,
+               NA,
+               NA))
+@
+
+\subsection{First Pass Acceptance}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA)",
+     xlab = XLabel,
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsection{First Pass Acceptance with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$First_Pass_Acceptance,
+     col = "blue",
+     type = "b",
+     main = "First Pass Acceptance (FPA)",
+     xlab = XLabel,
+     ylab = "FPA (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(DivPlotData$First_Pass_Acceptance),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotData$First_Pass_Acceptance) -
+            sd(DivPlotData$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotData$First_Pass_Acceptance) +
+            sd(DivPlotData$First_Pass_Acceptance),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("FPA",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+
+\subsection{Rejection Rate}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = XLabel,
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+@
+
+\subsection{Rejection Rate with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+plot(x=DivPlotData$date,
+     y=DivPlotData$Rejection_Rate,
+     col = "blue",
+     type = "b",
+     main = "Rejection Rate",
+     xlab = XLabel,
+     ylab = "Rejection Rate (%)",
+     pch = 3,
+     lty = "solid")
+abline(h=mean(DivPlotData$Rejection_Rate),
+       lty = "dotted",
+       col = "red")
+abline(h=mean(DivPlotData$Rejection_Rate) -
+            sd(DivPlotData$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+abline(h=mean(DivPlotData$Rejection_Rate) +
+            sd(DivPlotData$Rejection_Rate),
+       lty = "dashed",
+       col = "red")
+legend("topright",
+       legend = c("Rejection Rate",
+                  "Mean",
+                  " +/- 1 SD"),
+       col = c("blue",
+               "red",
+               "red"),
+       lty = c("solid",
+               "dotted",
+               "dashed"),
+       pch = c(3, NA, NA))
+@
+
+\end{document}
