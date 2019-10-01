@@ -40,6 +40,7 @@
 Month <- "Sep"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
+XLabel <-  "Since August 2019"
 @
 
 <<data, echo=FALSE>>=
@@ -58,7 +59,7 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 DivPlotData <- getResults(Month = "Aug",
-                          Year = 2018,
+                          Year = 2019,
                           File = DivFile)
 
 temp <- getResults(Month = "Sep",
@@ -144,7 +145,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "Projects Started and Completed",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "projects",
 %      pch = 3)
 % lines(x=DivPlotData$date,
@@ -169,7 +170,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "Reviews Completed",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "reviews",
 %      pch = 3)
 % legend("topleft",
@@ -186,7 +187,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "Reviews Completed",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "reviews",
 %      pch = 3)
 % abline(h=mean(DivPlotData$Reviews_Completed),
@@ -224,7 +225,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "First Pass Acceptance (FPA)",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "FPA (%)",
 %      pch = 3,
 %      lty = "solid")
@@ -238,7 +239,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "First Pass Acceptance (FPA)",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "FPA (%)",
 %      pch = 3,
 %      lty = "solid")
@@ -275,7 +276,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "Rejection Rate",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "Rejection Rate (%)",
 %      pch = 3,
 %      lty = "solid")
@@ -289,7 +290,7 @@ No trending chart at this time due to lack of data.
 %      col = "blue",
 %      type = "b",
 %      main = "Rejection Rate",
-%      xlab = "Since January 2018",
+%      xlab = XLabel,
 %      ylab = "Rejection Rate (%)",
 %      pch = 3,
 %      lty = "solid")
