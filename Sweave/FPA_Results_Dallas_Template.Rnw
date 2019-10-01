@@ -15,9 +15,11 @@
     urlcolor={blue!80!black}
 }
 %
-%  <<<<<<<<<< Update for month of run along with first R block
+%  <<<<<<<<<< Update for month of run along with R blocks.
+%             Update plot data for correct month in title "Since March 2018"
+%                      Used find and replace tool.
 %
-\newcommand{\reportMonth}{August } % Update Setup below
+\newcommand{\reportMonth}{September } % Update Setup below
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,7 +37,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                 # update trend builder below
+Month <- "Sep"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
@@ -47,17 +49,28 @@ DivFPA <- getResults(Month = Month,
                   Year = Year,
                   File = DivFile)
 
-
 #
 # ------ Trend Builder -------------- update at end
+# # for update:
+# #      1) Reset name of Second getResults,
+# #      2) delete first gerResults and
+# #      3) delete first rbind+
+# #      4) Update last data for this month
+
 DivPlotData <- getResults(Month = "Aug",
-                      Year = 2018,
-                      File = DivFile)
+                          Year = 2018,
+                          File = DivFile)
+
+temp <- getResults(Month = "Sep",
+                   Year = 2019,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
-# temp <- getResults(Month = "Aug",
+# temp <- getResults(Month = "Oct",
 #                    Year = 2019,
 #                    File = DivFile)
 # DivPlotData <- rbind(DivPlotData,

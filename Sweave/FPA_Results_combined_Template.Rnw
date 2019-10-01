@@ -16,10 +16,8 @@ urlcolor={blue!80!black}
 }
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
-%             Update plot data for correct month in title "Since March 2018"
-%                      Used find and replace tool.
 %
-\newcommand{\reportMonth}{Aug } %                                               <<<<<<<update>>>>>>>
+\newcommand{\reportMonth}{September } %        <<< UPDATE
 \newcommand{\reportYear}{2019}
 %
 % <<<<<<<<<< Update for new R version
@@ -34,13 +32,14 @@ urlcolor={blue!80!black}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
-% update for month of run or analysis                                           <<<<<<<update>>>>>>>
+% update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"
+Month <- "Sep"
 Year <- 2019
 file1 = "../data/Div First Pass Acceptance.csv"
 file2 = "../data/Dallas First Pass Acceptance.csv"
+XLabel <- "Since April 2018"
 @
 
 <<scripts and libraries, echo=FALSE>>=
@@ -57,108 +56,117 @@ FPA <- getResultsCombined(Month = Month,
                           File1 = file1,
                           File2 = file2)
 
-
 #
-# ------ Trend Builder --------------                                           <<<<<<<update>>>>>>>
+# ------ Trend Builder -------------- update at end
 # # for update:
-# #      1) Reset name of Second getResultsCombined,
+# #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
-# #      3) delete first rbind
-DivPlotData <- getResultsCombined(Month = "Mar",
-                                  Year = 2018,
-                                  File1 = file1,
-                                  File2 = file2)
+# #      3) delete first rbind+
+# #      4) Update last data for this month
 
-temp <- getResultsCombined(Month = "Apr",
+DivPlotData <- getResultsCombined(Month = "Apr",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
+
 temp <- getResultsCombined(Month = "May",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Jun",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Jul",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Aug",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Sep",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Oct",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Nov",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Dec",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Jan",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Feb",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Mar",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Apr",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "May",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Jun",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCombined(Month = "Jul",
                            Year = 2019,
                            File1 = file1,
@@ -166,15 +174,22 @@ temp <- getResultsCombined(Month = "Jul",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-#                                          <><><><><><><><><><><><><><><><><><>
-# start of update
 temp <- getResultsCombined(Month = "Aug",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+#                                          ***********************************
+# start of update
+temp <- getResultsCombined(Month = "Sep",
+                           Year = 2019,
+                           File1 = file1,
+                           File2 = file2)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 # end of update
+#                                          ***********************************
 
 DivPlotData$date <- paste("1",
                           DivPlotData$Month,
@@ -382,7 +397,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "projects",
      pch = 3)
 lines(x=DivPlotData$date,
@@ -407,7 +422,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 legend("topleft",
@@ -424,7 +439,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 abline(h=mean(DivPlotData$Reviews_Completed),
@@ -462,7 +477,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -476,7 +491,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -513,7 +528,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -527,7 +542,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -580,7 +595,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "projects",
      pch = 3)
 lines(x=DivPlotDataCHaRM$date,
@@ -605,7 +620,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 legend("topleft",
@@ -622,7 +637,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 abline(h=mean(DivPlotDataCHaRM$Reviews_Completed),
@@ -660,7 +675,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA without CHaRM Protocols)",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -674,7 +689,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA without CHaRM test protocols)",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -711,7 +726,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -725,7 +740,7 @@ plot(x=DivPlotDataCHaRM$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since March 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")

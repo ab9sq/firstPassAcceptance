@@ -15,9 +15,11 @@
     urlcolor={blue!80!black}
 }
 %
-%  <<<<<<<<<< Update for month of run along with first R block
+%  <<<<<<<<<< Update for month of run along with R blocks.
+%             Update plot data for correct month in title "Since March 2018"
+%                      Used find and replace tool.
 %
-\newcommand{\reportMonth}{AUG } % Update Setup below
+\newcommand{\reportMonth}{September } % Update Setup below
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,9 +37,10 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                 # update trend builder below
+Month <- "Sep"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Div First Pass Acceptance.csv"
+XLabel <- "Since April 2018"
 @
 
 <<data, echo=FALSE>>=
@@ -57,21 +60,20 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 # # for update:
 # #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
-# #      3) delete first rbind
-DivPlotData <- getResultsCHaRM(Month = "Mar",
+# #      3) delete first rbind+
+# #      4) Update last data for this month
+
+DivPlotData <- getResultsCHaRM(Month = "Apr",
                         Year = 2018,
                         File = DivFile)
 
-temp <- getResultsCHaRM(Month = "Apr",
-                        Year = 2018,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 temp <- getResultsCHaRM(Month = "May",
                         Year = 2018,
                         File = DivFile)
+
 DivPlotData <- rbind(DivPlotData,
                           temp)
+
 temp <- getResultsCHaRM(Month = "Jun",
                         Year = 2018,
                         File = DivFile)
@@ -132,25 +134,35 @@ temp <- getResultsCHaRM(Month = "May",
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCHaRM(Month = "Jun",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
 temp <- getResultsCHaRM(Month = "Jul",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-#                                          <><><><><><><><><><><><><><><><><><>
-# start of update
 temp <- getResultsCHaRM(Month = "Aug",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
+
+#                                          ********************************
+# start of update
+temp <- getResultsCHaRM(Month = "Sep",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 # end of update
+#                                          ********************************
 
 DivPlotData$date <- paste("1",
                     DivPlotData$Month,
@@ -236,7 +248,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Projects Started and Completed",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "projects",
      pch = 3)
 lines(x=DivPlotData$date,
@@ -261,7 +273,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 legend("topleft",
@@ -278,7 +290,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Reviews Completed",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "reviews",
      pch = 3)
 abline(h=mean(DivPlotData$Reviews_Completed),
@@ -316,7 +328,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -330,7 +342,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "First Pass Acceptance (FPA)",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "FPA (%)",
      pch = 3,
      lty = "solid")
@@ -367,7 +379,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
@@ -381,7 +393,7 @@ plot(x=DivPlotData$date,
      col = "blue",
      type = "b",
      main = "Rejection Rate",
-     xlab = "Since January 2018",
+     xlab = XLabel,
      ylab = "Rejection Rate (%)",
      pch = 3,
      lty = "solid")
