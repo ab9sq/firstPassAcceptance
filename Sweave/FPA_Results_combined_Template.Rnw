@@ -9,16 +9,16 @@
 
 \usepackage{xcolor}
 \hypersetup{
-colorlinks = true,
-linkcolor={blue!80!black},
-citecolor={blue!80!black},
-urlcolor={blue!80!black}
+    colorlinks = true,
+    linkcolor={blue!80!black},
+    citecolor={blue!80!black},
+    urlcolor={blue!80!black}
 }
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
 \newcommand{\reportMonth}{September } %        <<< UPDATE
-\newcommand{\reportYear}{2019}
+\newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }

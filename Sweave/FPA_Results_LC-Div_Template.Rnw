@@ -16,8 +16,6 @@
 }
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
-%             Update plot data for correct month in title "Since March 2018"
-%                      Used find and replace tool.
 %
 \newcommand{\reportMonth}{September } % Update Setup below
 \newcommand{\reportYear}{2019 }
