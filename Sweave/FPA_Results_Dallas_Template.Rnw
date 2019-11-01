@@ -219,7 +219,7 @@ plot(x=DivPlotData$date,
         pch = c(3,
                 NA,
                 NA))
- @
+@
 
 \subsection{First Pass Acceptance}
 <<fig=TRUE, echo=false>>=

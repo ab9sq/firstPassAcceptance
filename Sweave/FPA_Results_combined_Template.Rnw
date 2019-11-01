@@ -68,8 +68,6 @@ DivPlotData <- getResultsCombined(Month = "May",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCombined(Month = "Jun",
                            Year = 2018,
