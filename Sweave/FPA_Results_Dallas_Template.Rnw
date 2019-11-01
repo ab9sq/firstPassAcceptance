@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{September } % Update Setup below
+\newcommand{\reportMonth}{October } % Update Setup below
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Sep"                                 # update trend builder below
+Month <- "Oct"                                 # update trend builder below
 Year <- 2019
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 XLabel <-  "Since August 2019"
@@ -66,6 +66,12 @@ temp <- getResults(Month = "Sep",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Oct",
+                   Year = 2019,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
@@ -76,13 +82,13 @@ DivPlotData <- rbind(DivPlotData,
 #                  temp)
 # # end of update
 #
-# DivPlotData$date <- paste("1",
-#                     DivPlotData$Month,
-#                     DivPlotData$Year,
-#                     sep = "-")
-# DivPlotData$date <- as.Date(DivPlotData$date,
-#                         format = "%d-%b-%Y")
-# rm(temp)
+DivPlotData$date <- paste("1",
+                          DivPlotData$Month,
+                          DivPlotData$Year,
+                          sep = "-")
+DivPlotData$date <- as.Date(DivPlotData$date,
+                            format = "%d-%b-%Y")
+rm(temp)
 
 
 @
@@ -134,186 +140,185 @@ Metrics results
 
 \section{Trending Graphs}
 
-No trending chart at this time due to lack of data.
+% No trending chart at this time due to lack of data.
 
-% \subsection{Projects Started and Completed}
-% <<fig=TRUE, echo=false>>=
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$Projects_Started,
-%      col = "blue",
-%      type = "b",
-%      main = "Projects Started and Completed",
-%      xlab = XLabel,
-%      ylab = "projects",
-%      pch = 3)
-% lines(x=DivPlotData$date,
-%       y=DivPlotData$Projects_Completed,
-%       col = "red",
-%       type = "b",
-%       pch = 4)
-% legend("topleft",
-%        legend = c("Started",
-%                   "Completed"),
-%        col = c("blue",
-%                "red"),
-%        lty = 1,
-%        pch = c(3,
-%                4))
-% @
-%
-% \subsection{Reviews Completed}
-% <<fig=TRUE, echo=false>>=
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$Reviews_Completed,
-%      col = "blue",
-%      type = "b",
-%      main = "Reviews Completed",
-%      xlab = XLabel,
-%      ylab = "reviews",
-%      pch = 3)
-% legend("topleft",
-%        legend = "reviews",
-%        col = "blue",
-%        lty = 1,
-%        pch = c(3))
-% @
+\subsection{Projects Started and Completed}
+<<fig=TRUE, echo=false>>=
+plot(x=DivPlotData$date,
+  y=DivPlotData$Projects_Started,
+  col = "blue",
+      type = "b",
+      main = "Projects Started and Completed",
+      xlab = XLabel,
+      ylab = "projects",
+      pch = 3)
+ lines(x=DivPlotData$date,
+       y=DivPlotData$Projects_Completed,
+       col = "red",
+       type = "b",
+       pch = 4)
+ legend("topleft",
+        legend = c("Started",
+                   "Completed"),
+        col = c("blue",
+                "red"),
+        lty = 1,
+        pch = c(3,
+                4))
+@
 
-% \subsection{Reviews Completed with Control Lines}
-% <<fig=TRUE, echo=false>>=
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$Reviews_Completed,
-%      col = "blue",
-%      type = "b",
-%      main = "Reviews Completed",
-%      xlab = XLabel,
-%      ylab = "reviews",
-%      pch = 3)
-% abline(h=mean(DivPlotData$Reviews_Completed),
-%        lty = "dotted",
-%        col = "red")
-% abline(h=mean(DivPlotData$Reviews_Completed) -
-%             sd(DivPlotData$Reviews_Completed),
-%        lty = "dashed",
-%        col = "red")
-% abline(h=mean(DivPlotData$Reviews_Completed) +
-%             sd(DivPlotData$Reviews_Completed),
-%        lty = "dashed",
-%        col = "red")
-%
-% legend("topleft",
-%        legend = c("reviews",
-%                   "Mean",
-%                   " +/- 1 SD"),
-%        col = c("blue",
-%                "red",
-%                "red"),
-%        lty = c("solid",
-%                "dotted",
-%                "dashed"),
-%        pch = c(3,
-%                NA,
-%                NA))
-% @
-%
-% \subsection{First Pass Acceptance}
-% <<fig=TRUE, echo=false>>=
-%
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$First_Pass_Acceptance,
-%      col = "blue",
-%      type = "b",
-%      main = "First Pass Acceptance (FPA)",
-%      xlab = XLabel,
-%      ylab = "FPA (%)",
-%      pch = 3,
-%      lty = "solid")
-% @
-%
-% \subsection{First Pass Acceptance with Control Lines}
-% <<fig=TRUE, echo=false>>=
-%
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$First_Pass_Acceptance,
-%      col = "blue",
-%      type = "b",
-%      main = "First Pass Acceptance (FPA)",
-%      xlab = XLabel,
-%      ylab = "FPA (%)",
-%      pch = 3,
-%      lty = "solid")
-% abline(h=mean(DivPlotData$First_Pass_Acceptance),
-%        lty = "dotted",
-%        col = "red")
-% abline(h=mean(DivPlotData$First_Pass_Acceptance) -
-%             sd(DivPlotData$First_Pass_Acceptance),
-%        lty = "dashed",
-%        col = "red")
-% abline(h=mean(DivPlotData$First_Pass_Acceptance) +
-%             sd(DivPlotData$First_Pass_Acceptance),
-%        lty = "dashed",
-%        col = "red")
-% legend("topright",
-%        legend = c("FPA",
-%                   "Mean",
-%                   " +/- 1 SD"),
-%        col = c("blue",
-%                "red",
-%                "red"),
-%        lty = c("solid",
-%                "dotted",
-%                "dashed"),
-%        pch = c(3, NA, NA))
-% @
-%
-%
-% \subsection{Rejection Rate}
-% <<fig=TRUE, echo=false>>=
-%
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$Rejection_Rate,
-%      col = "blue",
-%      type = "b",
-%      main = "Rejection Rate",
-%      xlab = XLabel,
-%      ylab = "Rejection Rate (%)",
-%      pch = 3,
-%      lty = "solid")
-% @
-%
-% \subsection{Rejection Rate with Control Lines}
-% <<fig=TRUE, echo=false>>=
-%
-% plot(x=DivPlotData$date,
-%      y=DivPlotData$Rejection_Rate,
-%      col = "blue",
-%      type = "b",
-%      main = "Rejection Rate",
-%      xlab = XLabel,
-%      ylab = "Rejection Rate (%)",
-%      pch = 3,
-%      lty = "solid")
-% abline(h=mean(DivPlotData$Rejection_Rate),
-%        lty = "dotted",
-%        col = "red")
-% abline(h=mean(DivPlotData$Rejection_Ratee) -
-%             sd(DivPlotData$Rejection_Rate),
-%        lty = "dashed",
-%        col = "red")
-% abline(h=mean(DivPlotData$Rejection_Rate) +
-%             sd(DivPlotData$Rejection_Rate),
-%        lty = "dashed",
-%        col = "red")
-% legend("topright",
-%        legend = c("Rejection Rate",
-%                   "Mean",
-%                   " +/- 1 SD"),
-%        col = c("blue",
-%                "red",
-%                "red"),
-%        lty = c("solid",
-%                "dotted",
-%                "dashed"),
-%        pch = c(3, NA, NA))
-% @
+\subsection{Reviews Completed}
+<<fig=TRUE, echo=false>>=
+ plot(x=DivPlotData$date,
+      y=DivPlotData$Reviews_Completed,
+      col = "blue",
+      type = "b",
+      main = "Reviews Completed",
+      xlab = XLabel,
+      ylab = "reviews",
+      pch = 3)
+ legend("topleft",
+        legend = "reviews",
+        col = "blue",
+        lty = 1,
+        pch = c(3))
+@
+
+\subsection{Reviews Completed with Control Lines}
+<<fig=TRUE, echo=false>>=
+ plot(x=DivPlotData$date,
+      y=DivPlotData$Reviews_Completed,
+      col = "blue",
+      type = "b",
+      main = "Reviews Completed",
+      xlab = XLabel,
+      ylab = "reviews",
+      pch = 3)
+ abline(h=mean(DivPlotData$Reviews_Completed),
+        lty = "dotted",
+        col = "red")
+ abline(h=mean(DivPlotData$Reviews_Completed) -
+             sd(DivPlotData$Reviews_Completed),
+    lty = "dashed",
+        col = "red")
+ abline(h=mean(DivPlotData$Reviews_Completed) +
+             sd(DivPlotData$Reviews_Completed),
+        lty = "dashed",
+        col = "red")
+
+ legend("topleft",
+        legend = c("reviews",
+                   "Mean",
+                   " +/- 1 SD"),
+        col = c("blue",
+                "red",
+                "red"),
+        lty = c("solid",
+                "dotted",
+                "dashed"),
+        pch = c(3,
+                NA,
+                NA))
+ @
+
+\subsection{First Pass Acceptance}
+<<fig=TRUE, echo=false>>=
+
+ plot(x=DivPlotData$date,
+      y=DivPlotData$First_Pass_Acceptance,
+      col = "blue",
+      type = "b",
+      main = "First Pass Acceptance (FPA)",
+      xlab = XLabel,
+      ylab = "FPA (%)",
+      pch = 3,
+      lty = "solid")
+@
+
+\subsection{First Pass Acceptance with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+ plot(x=DivPlotData$date,
+      y=DivPlotData$First_Pass_Acceptance,
+      col = "blue",
+      type = "b",
+      main = "First Pass Acceptance (FPA)",
+      xlab = XLabel,
+      ylab = "FPA (%)",
+      pch = 3,
+      lty = "solid")
+ abline(h=mean(DivPlotData$First_Pass_Acceptance),
+        lty = "dotted",
+        col = "red")
+ abline(h=mean(DivPlotData$First_Pass_Acceptance) -
+             sd(DivPlotData$First_Pass_Acceptance),
+        lty = "dashed",
+        col = "red")
+ abline(h=mean(DivPlotData$First_Pass_Acceptance) +
+             sd(DivPlotData$First_Pass_Acceptance),
+        lty = "dashed",
+        col = "red")
+ legend("topright",
+        legend = c("FPA",
+                   "Mean",
+                   " +/- 1 SD"),
+        col = c("blue",
+                "red",
+                "red"),
+        lty = c("solid",
+                "dotted",
+                "dashed"),
+        pch = c(3, NA, NA))
+@
+
+\subsection{Rejection Rate}
+<<fig=TRUE, echo=false>>=
+
+ plot(x=DivPlotData$date,
+      y=DivPlotData$Rejection_Rate,
+      col = "blue",
+      type = "b",
+      main = "Rejection Rate",
+      xlab = XLabel,
+      ylab = "Rejection Rate (%)",
+      pch = 3,
+      lty = "solid")
+@
+
+\subsection{Rejection Rate with Control Lines}
+<<fig=TRUE, echo=false>>=
+
+ plot(x=DivPlotData$date,
+      y=DivPlotData$Rejection_Rate,
+      col = "blue",
+      type = "b",
+      main = "Rejection Rate",
+      xlab = XLabel,
+      ylab = "Rejection Rate (%)",
+      pch = 3,
+      lty = "solid")
+ abline(h=mean(DivPlotData$Rejection_Rate),
+        lty = "dotted",
+        col = "red")
+ abline(h=mean(DivPlotData$Rejection_Ratee) -
+             sd(DivPlotData$Rejection_Rate),
+        lty = "dashed",
+        col = "red")
+ abline(h=mean(DivPlotData$Rejection_Rate) +
+             sd(DivPlotData$Rejection_Rate),
+        lty = "dashed",
+        col = "red")
+ legend("topright",
+        legend = c("Rejection Rate",
+                   "Mean",
+                   " +/- 1 SD"),
+        col = c("blue",
+                "red",
+                "red"),
+        lty = c("solid",
+                "dotted",
+                "dashed"),
+        pch = c(3, NA, NA))
+@
 
 \end{document}

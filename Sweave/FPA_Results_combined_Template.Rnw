@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{September } %        <<< UPDATE
+\newcommand{\reportMonth}{October } %        <<< UPDATE
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,11 +35,11 @@
 % update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Sep"
+Month <- "Oct"
 Year <- 2019
 file1 = "../data/Div First Pass Acceptance.csv"
 file2 = "../data/Dallas First Pass Acceptance.csv"
-XLabel <- "Since April 2018"
+XLabel <- "Since May 2018"
 @
 
 <<scripts and libraries, echo=FALSE>>=
@@ -64,12 +64,7 @@ FPA <- getResultsCombined(Month = Month,
 # #      3) delete first rbind+
 # #      4) Update last data for this month
 
-DivPlotData <- getResultsCombined(Month = "Apr",
-                           Year = 2018,
-                           File1 = file1,
-                           File2 = file2)
-
-temp <- getResultsCombined(Month = "May",
+DivPlotData <- getResultsCombined(Month = "May",
                            Year = 2018,
                            File1 = file1,
                            File2 = file2)
@@ -180,9 +175,17 @@ temp <- getResultsCombined(Month = "Aug",
                            File2 = file2)
 DivPlotData <- rbind(DivPlotData,
                      temp)
+
+temp <- getResultsCombined(Month = "Sep",
+                           Year = 2019,
+                           File1 = file1,
+                           File2 = file2)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ***********************************
 # start of update
-temp <- getResultsCombined(Month = "Sep",
+temp <- getResultsCombined(Month = "Oct",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2)
@@ -216,101 +219,103 @@ FPA_CHaRM <- getResultsCombinedCHaRM(Month = Month,
 # #      1) Reset name of Second getResultsCombinedCHaRM,
 # #      2) delete first gerResults and
 # #      3) delete first rbind
-DivPlotDataCHaRM <- getResultsCombinedCHaRM(Month = "Mar",
-                                            Year = 2018,
-                                            File1 = file1,
-                                            File2 = file2)
 
-temp <- getResultsCombinedCHaRM(Month = "Apr",
+DivPlotDataCHaRM <- getResultsCombinedCHaRM(Month = "May",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
-DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                          temp)
-temp <- getResultsCombinedCHaRM(Month = "May",
-                                Year = 2018,
-                                File1 = file1,
-                                File2 = file2)
-DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
-                          temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Jun",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Jul",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Aug",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Sep",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Oct",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Nov",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Dec",
                                 Year = 2018,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Jan",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Feb",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Mar",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Apr",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "May",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Jun",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
+
 temp <- getResultsCombinedCHaRM(Month = "Jul",
                                 Year = 2019,
                                 File1 = file1,
@@ -318,9 +323,22 @@ temp <- getResultsCombinedCHaRM(Month = "Jul",
 DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
                           temp)
 
+temp <- getResultsCombinedCHaRM(Month = "Aug",
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                          temp)
+
+temp <- getResultsCombinedCHaRM(Month = "Sep",
+                                Year = 2019,
+                                File1 = file1,
+                                File2 = file2)
+DivPlotDataCHaRM <- rbind(DivPlotDataCHaRM,
+                          temp)
 #                                          <><><><><><><><><><><><><><><><><><>
 # start of update
-temp <- getResultsCombinedCHaRM(Month = "Aug",
+temp <- getResultsCombinedCHaRM(Month = "Oct",
                                 Year = 2019,
                                 File1 = file1,
                                 File2 = file2)
