@@ -15,12 +15,12 @@
     urlcolor={blue!80!black}
 }
 %
-%  <<<<<<<<<< Update for month of run along with R blocks.
+%  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{SOctober } % Update Setup below
+\newcommand{\reportMonth}{October } %  Update Setup below
 \newcommand{\reportYear}{2019 }
 %
-% <<<<<<<<<< Update for new R version
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Oct"                                 # update trend builder below
+Month <- "Oct"                                     # update trend builder below
 Year <- 2019
 DivFile <- "../data/Div First Pass Acceptance.csv"
 XLabel <- "Since May 2018"
@@ -54,7 +54,7 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 
 
 #
-# ------ Trend Builder -------------- update at end
+# ------ Trend Builder -------------- <<<<<<<<<<<<<<<<<<<<<<<<<<<<update at end
 # # for update:
 # #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
