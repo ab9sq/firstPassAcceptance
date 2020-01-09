@@ -17,11 +17,11 @@
 %
 %  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{November } %  Update Setup below
+\newcommand{\reportMonth}{December } %  Update Setup below
 \newcommand{\reportYear}{2019 }
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.1 named ``Action of the Toes'' }
+\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
@@ -35,10 +35,10 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Nov"                                     # update trend builder below
+Month <- "Dec"                                     # update trend builder below
 Year <- 2019
 DivFile <- "../data/Div First Pass Acceptance.csv"
-XLabel <- "Since May 2018"
+XLabel <- "Since July 2018"
 @
 
 <<data, echo=FALSE>>=
@@ -61,15 +61,9 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 # #      3) delete first rbind+
 # #      4) Update last data for this month
 
-DivPlotData <- getResultsCHaRM(Month = "Jun",
+DivPlotData <- getResultsCHaRM(Month = "Jul",
                         Year = 2018,
                         File = DivFile)
-
-temp <- getResultsCHaRM(Month = "Jul",
-                        Year = 2018,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCHaRM(Month = "Aug",
                         Year = 2018,
@@ -161,9 +155,15 @@ temp <- getResultsCHaRM(Month = "Oct",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCHaRM(Month = "Nov",
+                        Year = 2019,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResultsCHaRM(Month = "Nov",
+temp <- getResultsCHaRM(Month = "Dec",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
