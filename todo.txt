@@ -7,3 +7,6 @@ Be able to filter by month and year
 
 in build add control to check if month has been perviously computed.
      add control to update (delete and add) or error out
+
+
+Update Combined to do Wiesbaden as well.
