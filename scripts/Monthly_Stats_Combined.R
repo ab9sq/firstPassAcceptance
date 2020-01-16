@@ -1,7 +1,8 @@
 getResultsCombined <- function(Month = NULL,
                        Year = NULL,
                        File1 = "./data/Div First Pass Acceptance.csv",
-                       File2 = "./data/Dallas First Pass Acceptance.csv"){
+                       File2 = "./data/Dallas First Pass Acceptance.csv"
+                       File3 = "./data/Wiesbaden First Pass Acceptance.csv"){
      # load required functins
      #source(file = "./scripts/FirstPassAcceptance.R")
      getFPA <- function(file = "./data/Div First Pass Acceptance.csv") {
@@ -172,7 +173,9 @@ getResultsCombined <- function(Month = NULL,
      # obtain and clean data
      got1 <- getFPA(file = File1)
      got2 <- getFPA(file = File2)
+     got3 <- getFPA(file = File3)
      got <- rbind(got1,got2)
+     got <- rbind(got,got3)
 
      cleaned <- cleanFPA(got)
      processed <- process(cleaned, Month = Month, Year = Year)
