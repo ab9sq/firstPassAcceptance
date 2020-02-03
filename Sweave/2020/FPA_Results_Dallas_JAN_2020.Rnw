@@ -14,8 +14,8 @@
     citecolor={blue!80!black},
     urlcolor={blue!80!black}
 }
-%
-%  <<<<<<<<<< Update for month of run along with R blocks.
+%of
+%  <<<<<<<<<< Update for month run along with R blocks.
 %
 \newcommand{\reportMonth}{January } % Update Setup below
 \newcommand{\reportYear}{2020 }

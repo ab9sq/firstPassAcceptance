@@ -17,8 +17,8 @@
 %
 %  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{December } %  Update Setup below
-\newcommand{\reportYear}{2019 }
+\newcommand{\reportMonth}{January } %  Update Setup below
+\newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
@@ -35,8 +35,8 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Dec"                                     # update trend builder below
-Year <- 2019
+Month <- "Jan"                                     # update trend builder below
+Year <- 2020
 DivFile <- "../data/Wiesbaden First Pass Acceptance.csv"
 XLabel <- "Since Jan 2020"
 @
@@ -57,18 +57,18 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCHaRM(Month = "Nov",
-                        Year = 2019,
+DivPlotData <- getResults(Month = "Jan",
+                        Year = 2020,
                         File = DivFile)
 
 
 #                                          ********************************
 # start of update
-temp <- getResultsCHaRM(Month = "Dec",
-                        Year = 2019,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
+#temp <- getResults(Month = "Dec",
+#                        Year = 2019,
+#                        File = DivFile)
+#DivPlotData <- rbind(DivPlotData,
+#                     temp)
 # end of update
 #                                          ********************************
 
