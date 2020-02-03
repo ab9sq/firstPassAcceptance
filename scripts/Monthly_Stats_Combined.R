@@ -1,7 +1,7 @@
 getResultsCombined <- function(Month = NULL,
                        Year = NULL,
                        File1 = "./data/Div First Pass Acceptance.csv",
-                       File2 = "./data/Dallas First Pass Acceptance.csv"
+                       File2 = "./data/Dallas First Pass Acceptance.csv",
                        File3 = "./data/Wiesbaden First Pass Acceptance.csv"){
      # load required functins
      #source(file = "./scripts/FirstPassAcceptance.R")
