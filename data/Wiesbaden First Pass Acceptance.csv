@@ -1,0 +1,66 @@
+SQA,Project ID,Application,Deliverable,Doc Version,"Doc ID, if needed","Approve or 
+Disapprove?",Date of Approval or Disapproval,Reason for Disapproval,Comments
+Harald,Release 3.1,MFCS,TP,1,N/A,D,06-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,06-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,D,10-Jan-20,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,N/A,D,10-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,10-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,CII,1,N/A,D,14-Jan-20,Inaccurate information,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,15-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,D,16-Jan-20,Inaccurate information,
+Philip,Release 02.21.00,ADOC,IA,1,N/A,D,17-Jan-20,Inaccurate information,Mismatch of documentation impact vs. reality
+Philip,Release 02.21.00,ADOC,SPVP,1,N/A,D,17-Jan-20,Inaccurate information,Schedule summary out of date
+Philip,Release 02.21.00,ADOC,URS/FRS/TM,15,Incoming,D,17-Jan-20,Multiple Errors,"Revision history incomplete, tracing incorrect"
+Harald,Release 3.1,MFCS,CII,1,N/A,D,17-Jan-20,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,N/A,D,17-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,17-Jan-20,Multiple Errors,
+Philip,Release 02.21.00,ADOC,IA,1,N/A,D,20-Jan-20,Inaccurate information,Test execution planning incorrect
+Philip,Release 02.21.00,ADOC,TP,10,TP53,D,20-Jan-20,Inaccurate information,"Revision history incorrect, table name duplicate"
+Harald,Release 3.1,MFCS,TP,1,N/A,D,20-Jan-20,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,20-Jan-20,Multiple Errors,
+Philip,Release 02.21.00,ADOC,DV-UT,1,Incoming,A-FP,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,IA,1,N/A,A,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,IDP/IIVP,1,N/A,A-FP,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,SPVP,1,N/A,A,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,TP,2,TP60,A-FP,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,TP,10,TP53,A,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,URS/FRS/TM,15,Incoming,A,21-Jan-20,,
+Philip,Release 02.21.00,ADOC,CII,1,N/A,A-FP,22-Jan-20,,
+Philip,Release 02.21.00,ADOC,IVR,1,GER400,D,22-Jan-20,Inaccurate information,Signature entry missing for post-turnover steps
+Philip,Release 02.21.00,ADOC,IVR,1,GER400,A,22-Jan-20,,
+Philip,Release 01.05.00,LIC,SPR,1,A2000006,D,22-Jan-20,Inaccurate information,Impact analysis insufficient
+Philip,Release 01.05.00,LIC,SPR,1,A2000006,A,22-Jan-20,,
+Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,A,22-Jan-20,,
+Harald,Release 3.1,MFCS,TP,1,N/A,A,22-Jan-20,,
+Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,A,22-Jan-20,,
+Philip,Release 02.21.00,ADOC,SCS/RN,1,N/A,D,23-Jan-20,Inaccurate information,Test execution analysis missing
+Philip,Release 02.21.00,ADOC,SCS/RN,1,N/A,A,23-Jan-20,,
+Philip,Release 02.21.00,ADOC,TPR,1,TP60,A-FP,23-Jan-20,,
+Philip,Release 02.21.00,ADOC,TPR,1,TP53,A-FP,23-Jan-20,,
+Harald,Release 3.1,MFCS,CII,1,N/A,A,23-Jan-20,,
+Philip,Release 02.21.00,ADOC,IVR,1,GER42,A-FP,27-Jan-20,,
+Philip,Release 02.21.00,ADOC,SCR,1,A1900137,A-FP,27-Jan-20,,
+Philip,Release 02.21.00,ADOC,SPR,1,A2000003,A-FP,27-Jan-20,,
+Philip,Release 01.05.00,LIC,SPVP,1,N/A,D,27-Jan-20,Inaccurate information,
+Philip,Release 01.05.00,LIC,URS/FRS/TM,8,N/A,D,27-Jan-20,Multiple Errors,
+Philip,Release 01.05.00,LIC,SPVP,1,N/A,D,29-Jan-20,Other,Needs to include related upcoming ADOC release
+Philip,Release 4.0.0,POD,IVR,1,N/A,D,29-Jan-20,Inaccurate information,"Printer exchange, several explanations missing"
+Philip,Release 4.0.0,POD,IVR,1,N/A,A,29-Jan-20,,Printer exchange
+Philip,Release 02.21.01,ADOC,SPR,1,A2000010,A-FP,30-Jan-20,,
+Philip,Release 01.05.00,LIC,IA,1,N/A,D,30-Jan-20,Inaccurate information,"Tailoring justifications missing, deliverables missing"
+Philip,Release 01.05.00,LIC,SPVP,1,N/A,D,30-Jan-20,Other,Dependencies between LIC & ADOC releases missing
+Philip,Release 01.05.00,LIC,SPVP,1,N/A,A,30-Jan-20,,
+Philip,Release 01.05.00,LIC,URS/FRS/TM,8,N/A,D,30-Jan-20,Inaccurate information,Traceability information incorrect
+Philip,Release 02.21.01,ADOC,TP,2,TP68,D,31-Jan-20,Inaccurate information,Several references incorrect
+Philip,Release 02.21.01,ADOC,TP,2,TP68,A,31-Jan-20,,
+Philip,Release 02.21.01,ADOC,URS/FRS/TM,16,Incoming,D,31-Jan-20,Inaccurate information,Constraints missing
+Philip,Release 02.21.01,ADOC,URS/FRS/TM,16,Incoming,A,31-Jan-20,,
+Philip,Release 01.05.00,LIC,IA,1,N/A,D,31-Jan-20,Inaccurate information,Documentation impact analysis incomplete
+Philip,Release 01.05.00,LIC,IA,1,N/A,D,31-Jan-20,Inaccurate information,Action missing for newly added objects
+Philip,Release 01.05.00,LIC,IA,1,N/A,A,31-Jan-20,,
+Philip,Release 01.05.00,LIC,TP,1,TP07,A-FP,31-Jan-20,,
+Philip,Release 01.05.00,LIC,URS/FRS/TM,8,N/A,A,31-Jan-20,,
+Philip,Release 01.00.02,IRR,IA,1,N/A,D,03-Feb-20,Inaccurate information,Documentation impact analysis incomplete
+Philip,Release 01.05.00,LIC,DV-UT,1,N/A,A-FP,03-Feb-20,,
+Philip,Release v33.28.0,SFP,SCR,1,M2000002,A-FP,03-Feb-20,,
+Philip,Release v33.28.0,SFP,SCR,1,M2000003,A-FP,03-Feb-20,,

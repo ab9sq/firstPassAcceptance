@@ -4243,7 +4243,7 @@ Suresh,01033.025,Pulse,System Certification Summary,1,,A,9-Jul-2019,,
 Suresh,01142.000,BioXpert,Test Protocol,1,,D,8-Jul-2019,Inaccurate information,email
 Suresh,00679.000,Clinical Chemistry Excel Spreadsheet for Digital Printing,CII,1,,D,10-Jul-2019,Inaccurate information,email
 Suresh,00679.000,Clinical Chemistry Excel Spreadsheet for Digital Printing,CII,1,,A,10-Jul-2019,,
-Suresh,00679.000,Clinical Chemistry Excel Spreadsheet for Digital Printing,Traceability,,,D,10-Jul-2019,,
+Suresh,00679.000,Clinical Chemistry Excel Spreadsheet for Digital Printing,Traceability,1,,D,10-Jul-2019,,
 Suresh,01037.000,Pulse,FRS,8,Functional Requirements Specification - Distributor Portal_v7,D,10-Jul-2019,Incorrect Approvers,
 Suresh,01037.000,Pulse,FRS,8,,A,10-Jul-2019,,
 Suresh,01037.000,pulse,Test Protocol,1,TEST PROTOCOL-12 Version-01,A-FP,10-Jul-2019,,
@@ -4606,7 +4606,7 @@ Suresh,01032.000,Pulse,Project Plan,16,SOFTWARE PROJECT PLAN-01 Version-04,A,5-A
 Suresh,01032.000,Pulse,Maintenance Plan,9,MAINTENANCE PLAN-01 Version-09,D,5-Aug-2019,Inaccurate information,email
 Suresh,01073.002,Groninger,Software Change Request,1,,D,6-Aug-2019,Inaccurate information,email
 Suresh,01032.000,Pulse,Maintenance Plan,9,MAINTENANCE PLAN-01 Version-09,A,6-Aug-2019,,
-Suresh,01073.002,Groninger,Software Change Request,,,D,6-Aug-2019,Inaccurate information,email
+Suresh,01073.002,Groninger,Software Change Request,1,,D,6-Aug-2019,Inaccurate information,email
 Suresh,01142.000,BioXpert,Test Protocol,1,,A,7-Aug-2019,,
 Suresh,01073.002,Groninger,Software Change Request,1,,D,7-Aug-2019,Inaccurate information,
 Suresh,01142.000,BioXpert,Test Protocol Results,1,,D,7-Aug-2019,Incorrect Objective Evidence,email
@@ -4666,7 +4666,7 @@ Suresh,01034.000,Pulse,FRS,10,Pulse - Module Level - Pulse CMS,A,27-Aug-2019,,
 Suresh,01033.026,Pulse,CII,1,,D,27-Aug-2019,Inaccurate information,
 Suresh,01033.026,Pulse,Design Verification,1,Unit test,A-FP,27-Aug-2019,,
 Suresh,01038.000,Pulse,Test Protocol,2,TEST PROTOCOL-26 Version-02,A-FP,27-Aug-2019,,
-Suresh,01037.000,Pulse,Test Protocol,,TEST PROTOCOL-12 Version-02,A-FP,27-Aug-2019,,
+Suresh,01037.000,Pulse,Test Protocol,2,TEST PROTOCOL-12 Version-02,A-FP,27-Aug-2019,,
 Suresh,00136.000,Pulse,Test Protocol Results,1,,D,28-Aug-2019,Incorrect Objective Evidence,
 Suresh,00136.000,Pulse,Test Protocol Results,1,,A,28-Aug-2019,,
 Suresh,01038.000,Pulse,Test Protocol,1,TEST PROTOCOL-28 Version-01,A-FP,28-Aug-2019,,
@@ -6437,3 +6437,667 @@ Nick,1177,Service Utility,Maintenance Plan,1,1,A,12-Oct-2019,,
 Nick,1177,Service Utility,Maintenance Plan,1,1,D,3-Dec-2019,Multible Errors,Via Email
 Nick,589.055,CMSNext,Test Protocol Results,1,1,D,17-Dec-2019,Multible Errors,"1. Post-execution approvals block missing the signed and dated in NPV statements.     2. Section 3, Training ? Not completed.     3. Step 1.5 does not have the expected number of screen shots. 10 expected per the instructions.      4. Step 2.5 does not have the expected number of screen shots. 10 expected per the instructions."
 Nick,589.055,CMSNext,Test Protocol Results,1,1,A,20-Dec-2019,,
+Beilah,00332.021,EDMS,IIVP results,1,production,A-FP,6-Jan-2020,,
+Beilah,00849.013,PEAR,Software Compliance Assessment,1,,A-FP,6-Jan-2020,,Link
+Beilah,00849.014,PEAR,Software Compliance Assessment,1,,A-FP,6-Jan-2020,,Link
+Beilah,1071.001,ClinPlus CTMS,Software Change Request,1,,A-FP,7-Jan-2019,,
+Beilah,1071.001,ClinPlus CTMS,URS,2,URS/FRS/Trace document,A-FP,7-Jan-2019,,
+Beilah,1071.001,ClinPlus CTMS,Test Protocol,1,,A-FP,7-Jan-2019,,
+Beilah,1071.001,ClinPlus CTMS,User Acceptance Protocol,1,,A-FP,7-Jan-2019,,
+Beilah,00849.014,PEAR,Software Change Request,1,,D,9-Jan-2019,Inaccurate information,
+Beilah,00849.014,PEAR,Software Change Request,1,,A,9-Jan-2019,,Link to 01162.000
+Beilah,01071.001,ClinPlus CTMS,Test Protocol Results,1,Protocol 01,A-FP,13-Jan-2020,,
+Beilah,01071.001,ClinPlus CTMS,User Acceptance Protocol results,1,Protocol 02 UAT results,A-FP,13-Jan-2020,,Link
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Specification,D,13-Jan-2020,Other,Not routed in VERA; through email
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,General Requirements: 10,D,13-Jan-2020,Insufficient traceability,Not routed in VERA; through email
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,General Requirements: 11,D,13-Jan-2020,Insufficient traceability,Not routed in VERA; through email
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Product Category: 14,D,13-Jan-2020,Insufficient traceability,Not routed in VERA; through email
+Beilah,1071.001,ClinPlus CTMS,User Acceptance Protocol,1,,A-FP,13-Jan-2020,,
+Beilah,00849.014,PEAR,Software Change Request,1,,A,14-Jan-2020,,
+Beilah,00849.014,PEAR,URS,6,,A-FP,14-Jan-2020,,
+Beilah,00849.014,PEAR,FRS,9,,D,14-Jan-2020,Inaccurate information,
+Beilah,00849.014,PEAR,Traceability,6,URS/FRS Trace,A-FP,14-Jan-2020,,
+Beilah,1071.001,ClinPlus CTMS,System Certification Summary,1,,A-FP,15-Jan-2020,,
+Beilah,1101.004,QIMS,System Certification Summary,2,Conditional,D,16-Jan-2020,Inaccurate information,
+Beilah,1101.004,QIMS,System Certification Summary,2,Conditional,D,17-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Software Compliance Assessment,1,,A-FP,20-Jan-2020,,VERA
+Beilah,1101.004,QIMS,System Certification Summary,2,Conditional,D,20-Jan-2020,Inaccurate information,
+Beilah,1101.004,QIMS,System Certification Summary,2,Conditional,A,20-Jan-2020,,
+Beilah,1162.000,WWLIMS,IIVP results,1,Production: ADDULCDF1DPHV,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,URS,1,Specification,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,URS,1,URS ID7,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,URS,1,URS ID8,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,FRS,1,Specification,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,ERES,1,,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Risk Assessment,1,,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Compliance Assessment,1,IRIS IVDR,A-FP,23-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Project Plan,1,,D,23-Jan-2020,,
+Liz,DIV_LC_R_D / ADD IdeaPoint IIS 2.0,ideaPoint,Software Compliance Assessment,1,,A-FP,27-Jan-2020,,
+Suresh,01033.029,PULSE,Software Change Request,1,,A-FP,3-Jan-2020,,
+Suresh,01032.000,PULSE,URS,13,USER REQUIREMENTS SPECIFICATION-01 Version-13,D,8-Jan-2020,Incorrect Approvers,
+Suresh,00944.001,Temp Tale Mamager Desktop,Software Change Request,1,,D,8-Jan-2020,Inaccurate information,
+Suresh,00944.001,Temp Tale Mamager Desktop,Software Change Request,1,,A,8-Jan-2020,Inaccurate information,
+Suresh,01035.000,PULSE,FRS,11,FUNCTIONAL REQUIREMENTS SPECIFICATION-01 Version-11,D,8-Jan-2020,Inaccurate information,email
+Suresh,01035.000,PULSE,FRS,11,FUNCTIONAL REQUIREMENTS SPECIFICATION-01 Version-11,D,8-Jan-2020,Inaccurate information,
+Suresh,01034.000,PULSE,FRS,13,Pulse - Module Level - Pulse CMS,D,8-Jan-2020,Inaccurate information,email
+Suresh,01032.000,PULSE,URS,13,,A,8-Jan-2020,,
+Suresh,01033.029,PULSE,IIVP,1,,A-FP,8-Jan-2020,,
+Suresh,01035.000,PULSE,FRS,11,,A,8-Jan-2020,,
+Suresh,01034.000,PULSE,FRS,13,,A,8-Jan-2020,,
+Suresh,01032.000,PULSE,Traceability,18,URS TO FRS TRACE-01 Version-18,D,9-Jan-2020,Inaccurate information,email
+Suresh,01032.000,PULSE,Traceability,18,,D,9-Jan-2020,Inaccurate information,
+Suresh,01032.000,PULSE,Traceability,18,,A,9-Jan-2020,,
+Suresh,01033.029,PULSE,Software Change Request,2,,A-FP,20-Jan-2020,,
+Suresh,01034.000,PULSE,Test Protocol,1,TEST PROTOCOL-14 Version-01,D,24-Jan-2020,Inaccurate information,email
+Suresh,01035.000,PULSE,Test Protocol,9,TEST PROTOCOL-07 Version-09,A-FP,24-Jan-2020,,
+Suresh,01035.000,PULSE,Test Protocol,9,TEST PROTOCOL-08 Version-09,D,24-Jan-2020,Inaccurate information,email
+Suresh,01034.000,PULSE,Test Protocol,1,TEST PROTOCOL-14 Version-01,A,24-Jan-2020,,
+Suresh,01035.000,PULSE,Test Protocol,9,TEST PROTOCOL-08 Version-09,A,24-Jan-2020,,
+Suresh,01035.000,PULSE,Test Protocol,9,TEST PROTOCOL-07 Version-09,A-FP,24-Jan-2020,,
+Suresh,01033.029,PULSE,Test Protocol,1,Russian_Protocol,A-FP,29-Jan-2020,,
+Suresh,01033.029,PULSE,Test Protocol,1,HCE_Protocol_v9,A-FP,29-Jan-2020,,
+Suresh,01033.029,PULSE,Test Protocol,1,HCE Judge_Protocol_v9,A-FP,29-Jan-2020,,
+Suresh,01033.029,PULSE,Test Protocol,3,HCE Profile_v3_Protocol,A-FP,29-Jan-2020,,
+Suresh,01034.000,PULSE,Test Protocol,15,TEST PROTOCOL-15 Version-01,D,29-Jan-2020,Inaccurate information,email
+Suresh,01034.000,PULSE,Test Protocol,15,TEST PROTOCOL-15 Version-01,D,29-Jan-2020,Inaccurate information,
+Suresh,01034.000,PULSE,Test Protocol,15,protocol 15,A,30-Jan-2020,,
+Suresh,01029.029,PULSE,Design Verification,1,DESIGN VERIFICATION-01 Version-01,A-FP,30-Jan-2020,,
+Suresh,01029.029,PULSE,CII,1,,A-FP,30-Jan-2020,,
+Suresh,01029.029,PULSE,Test Protocol,1,Univants_Protocol,A-FP,30-Jan-2020,,
+Beilah,00849.014,PEAR,FRS,9,,D,27-Jan-2020,Inaccurate information,
+Beilah,00849.014,PEAR,FRS,9,,A,27-Jan-2020,,
+Beilah,1101.004,QIMS,Test Protocol Results,1,Sligo Application checkoout,A-FP,27-Jan-2020,,
+Beilah,1101.004,QIMS,Test Protocol Results,1,Longford Application checkoout,A-FP,27-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0,R&D Reporting Tool,Software Compliance Assessment,1,,D,27-Jan-2020,Inaccurate information,
+Beilah,1101.004,QIMS,System Certification Summary,3,,D,27-Jan-2020,Inaccurate information,
+Beilah,1101.004,QIMS,System Certification Summary,3,,A,27-Jan-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Project Plan,1,Combo proj/val,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,FRS,1,Specification,A,28-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,FRS,1,"ID 10, 38-59",A-FP,28-Jan-2020,,23 records
+Beilah,DIV_LC_R_D v1.0.1,DRM,IDP,1,,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,IDP,1,,A,29-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,ISSD,1,,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,ISSD,1,,A,29-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Maintenance Plan,1,,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Maintenance Plan,1,,A,28-Jan-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Change Request,1,,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Change Request,1,,D,28-Jan-2020,Inaccurate information,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Change Request,1,,D,31-Jan-2020,Inaccurate information,eMail
+Nick,ePAS 19-43370,Power BI,Test Protocol Results,1,1,A-FP,6-Jan-2020,,
+Nick,ePAS 19-43363,Power BI,Test Protocol Results,1,1,A-FP,6-Jan-2020,,
+Nick,ePAS 19-43081 ,Power BI,Test Protocol Results,1,1,A-FP,6-Jan-2020,,
+Nick,ePAS 19-43540,Power BI,Test Protocol Results,1,1,A-FP,6-Jan-2020,,
+Nick,ePAS 19-44774,Power BI,Test Protocol Results,1,1,A-FP,6-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig iQ to Charm > iQ to CHaRM Count 2,A-FP,8-Jan-2020,,1409
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 001_Validate_ProdEval_UnassignedWorkqueue,A-FP,8-Jan-2020,,1420
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 002_Validate_MedEval_UnassignedWorkqueue,A-FP,8-Jan-2020,,1421
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 003_Validate_TranslationTask_UnassignedWorkqueue,A-FP,8-Jan-2020,,1422
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 004_Validate_HazardAssesment_UnassignedWorkqueue,A-FP,8-Jan-2020,,1423
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 005_Validate_RegulatoryAssesment_UnassignedWorkqueue,A-FP,8-Jan-2020,,1424
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 006_Validate_ActionTask_UnassignedWorkqueue,A-FP,8-Jan-2020,,1425
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 007_Validate_Customer Response_UnassignedWorkqueue,A-FP,8-Jan-2020,,1426
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 008_Validate_T&T Review Tasks_UnassignedWorkqueue,A-FP,8-Jan-2020,,1427
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 009_Validate_CustomerResponse_AssignedWorkqueue,A-FP,8-Jan-2020,,1428
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 010_Validate_Eval_InvestigationTask_AssignedWorkqueue,A-FP,8-Jan-2020,,1429
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 011_Validate_ProdEval_AssignedWorkqueue,A-FP,8-Jan-2020,,1430
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 012_Validate_MedEvalTask_AssignedWorkqueue,A-FP,8-Jan-2020,,1431
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 013_Validate_MedEval_AssignedWorkqueue,A-FP,8-Jan-2020,,1432
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 014_Validate_Translations_AssignedWorkqueue,A-FP,8-Jan-2020,,1433
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 015_Validate_PMRA_AssignedWorkqueue,A-FP,8-Jan-2020,,1434
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 016_Validate_HazardAssesment_AssignedWorkqueue,A-FP,8-Jan-2020,,1435
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 017_Validate_RegulatoryAssesment_AssignedWorkqueue,A-FP,8-Jan-2020,,1436
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 018_Validate_Actiontask_AssignedWorkqueue,A-FP,8-Jan-2020,,1437
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 019_Validate_Returns_AssignedWorkqueue,A-FP,8-Jan-2020,,1438
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 020_Validate_TktReview_AssignedWorkqueue,A-FP,8-Jan-2020,,1439
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 021_Validate_T&Treview_AssignedWorkqueue,A-FP,8-Jan-2020,,1440
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 022_Validate_Active Trend Items_AssignedWorkqueue,A-FP,8-Jan-2020,,1441
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 023_Validate_TrendItemsMaintenance_AssignedWorkqueue,A-FP,8-Jan-2020,,1442
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 024_Validate_RegulatoryTask_AssignedWorkqueue,A-FP,8-Jan-2020,,1443
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 025_Validate_TicketWorkQueue_AssignedWorkqueue,A-FP,8-Jan-2020,,1444
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 026_Validate_eMDR_AssignedWorkqueue,A-FP,8-Jan-2020,,1445
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 03 > 027_Validate_MDIs_AssignedWorkqueue,A-FP,8-Jan-2020,,1446
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 001_Validate_In Process User Notes_Product EvaluationsInvestigations,A-FP,8-Jan-2020,,1447
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 002_Validate_In Process User Notes_EvaluationInvestigationTask,A-FP,8-Jan-2020,,1448
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 003_Validate_In Process User Notes_MedicalEvaluations,A-FP,8-Jan-2020,,1449
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 004_Validate_In Process User Notes_TranslationTasks,A-FP,8-Jan-2020,,1450
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 005_Validate_In Process User Notes_PMRA,A-FP,8-Jan-2020,,1451
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 006_Validate_In Process User Notes_HazardAssessments,A-FP,8-Jan-2020,,1452
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 007_Validate_In Process User Notes_Regulatory Assessments,A-FP,8-Jan-2020,,1453
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 008_Validate_In Process User Notes_ActionTask,A-FP,8-Jan-2020,,1454
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 009_Validate_In Process User Notes_CustomerResponse,A-FP,8-Jan-2020,,1455
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 010_Display_ColorCode_ForPendingMDIWorkqueue,A-FP,8-Jan-2020,,1456
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 011_Display_ColorCode_ForPendingeMDRWorkqueue,A-FP,8-Jan-2020,,1457
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 012_Display_ColorCode_ForMedicalEvaluation_Workqueue_1,A-FP,8-Jan-2020,,1458
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 013_Display_ColorCode_ForMedicalEvaluation_Workqueue_2,A-FP,8-Jan-2020,,1459
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 014_Display_ColorCode_ForMedicalEvaluation_Workqueue_3,A-FP,8-Jan-2020,,1460
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 015_SendEmail_ThreeDaysPriorSubmissionDueDate_eMDR,A-FP,8-Jan-2020,,1461
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 016_SendEmail_ThreeDaysPriorSubmissionDueDate_MDI,A-FP,8-Jan-2020,,1462
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 017_SendEmail_OneDayPriorSubmissionDueDate_eMDR,A-FP,8-Jan-2020,,1463
+Nick,1003,CHaRM,Test Protocol,1,Config > Workqueues > Protocol 04 > 018_SendEmail_OneDayPriorSubmissionDueDate_MDI,A-FP,8-Jan-2020,,1464
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 001_View_ComplaintTicket_SubmissionType_Assay_TrendItem,A-FP,8-Jan-2020,,1465
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,8-Jan-2020,,1466
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 003_View_ComplaintTicket_ThresholdType_Process_TrendItem,A-FP,8-Jan-2020,,1467
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 004_View_ComplaintTicket_TicketType_Assay_TrendItem,A-FP,8-Jan-2020,,1468
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,8-Jan-2020,,1469
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 002_View_Tracking&TrendingReviewTask_Lifecycle_2,A-FP,8-Jan-2020,,1470
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 003_View_Tracking&TrendingReviewTask_Lifecycle_4,A-FP,8-Jan-2020,,1471
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 004_View_Tracking&TrendingReviewTask_Attachment_Life Cycle,A-FP,8-Jan-2020,,1472
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 005_View Threshold Review Task,A-FP,8-Jan-2020,,1473
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 006_View_Tracking and Trending review Task_Adverse Trend,A-FP,8-Jan-2020,,1474
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 001_View_Trend Item Maintenance Request_Add_Trend_Item,A-FP,8-Jan-2020,,1475
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,8-Jan-2020,,1476
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 003_View_ComplaintTicket_ThresholdType_TrendItemMaintenance Request,A-FP,8-Jan-2020,,1477
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,8-Jan-2020,,1478
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,8-Jan-2020,,1479
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A-FP,8-Jan-2020,,1480
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A-FP,8-Jan-2020,,1481
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 008_View_Trend Item Maintenance Request_Inactive_Lifecycle,A-FP,8-Jan-2020,,1482
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A-FP,8-Jan-2020,,1483
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 010_View_Trend Item Maintenance Request_Add_Trend_Item_Unauthorized user,A-FP,8-Jan-2020,,1484
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket T&T,A-FP,8-Jan-2020,,1485
+Nick,1003,CHaRM,Test Protocol,1,Config > Translate > Protocol 20 > 012_Validate_TranslationLifecycle_ComplaintTicket,A,8-Jan-2020,,1176
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 001_View_Complaint_ProductEval_MedEval_TicketVersion,A-FP,8-Jan-2020,,910
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 002_View_Complaint_ProductEval_TicketVersion_NoPRENoMedEval,A-FP,8-Jan-2020,,911
+Nick,ePAS 16-26283 v26,GS Reports,Project Plan,1,1,A-FP,9-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 020_View_Complaints_DemoteToService_12,A-FP,9-Jan-2020,,929
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 021_View_Complaints_DemoteToService_13_N,A-FP,9-Jan-2020,,930
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 022_View_Complaints_DemoteToService_14_N,A-FP,9-Jan-2020,,931
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 023_View_Complaint_OpenedToComplaintComplete_ChildRecordsClosedDone,A-FP,9-Jan-2020,,932
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 024_View_Complaint_OpenedToComplaintComplete_ChildRecordsClosedVoided,A-FP,9-Jan-2020,,933
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 025_View_Complaint_OpenedToComplaintComplete_ChildRecordsNotClosed_NoPendingMDCs,A-FP,9-Jan-2020,,934
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 026_View_Complaint_ComplaintCompleteToComplaintFurtherReviewToOpened,A-FP,9-Jan-2020,,935
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 027_View_Inquiry_OpenedToComplaintFurtherReview_N,A-FP,9-Jan-2020,,936
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 028_View_Complaint_ComplaintFurtherReviewToComplaintComplete,A-FP,9-Jan-2020,,937
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 029_View_Complaint_ComplaintCompleteToRegistrationClosed,A-FP,9-Jan-2020,,938
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 030_View_Complaints_RegClosedToFinalReviewInProgress_ChildRecordsClosedDone,A-FP,9-Jan-2020,,939
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 031_View_Complaints_RegClosedToFinalReviewInProgress_ChildRecordsClosedVoided,A-FP,9-Jan-2020,,940
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 032_View_Complaints_ReopenFromCMSNext,A-FP,9-Jan-2020,,941
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 033_View_Complaints_ReopenFromCHaRM,A-FP,9-Jan-2020,,942
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 034_View_Service_TicketVersionChildRecordAfterReopen_N,A-FP,9-Jan-2020,,943
+Nick,1003,CHaRM,Test Protocol,2,Config > Complaints > Protocol 19 > 035_Verify_ProdEvalReopensWhenComplaintIsComplaintCompleteAndRegistrationClosed,A-FP,9-Jan-2020,,944
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 13 > 003_Create_NoUpdateRequired_SupplementalEMDR,A,9-Jan-2020,,1199
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 13 > 001_Create_SetToBlank_SupplementalEMDR,A,9-Jan-2020,,1200
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions CAPA > Protocol 13 > 005_Check_EMDR_AddNotesInAllStatus,A,9-Jan-2020,,1201
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 001_View_ComplaintTicket_Productevaluation_AutogeneratedChildRecord,A-FP,9-Jan-2020,,150
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 002_Create_ComplaintTicket_Productevaluation,A-FP,9-Jan-2020,,151
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 003_Create_ReportableServiceticket_Productevaluation_ChildRecord,A-FP,9-Jan-2020,,154
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 004_View_ComplaintTicket_Productevaluation_Likelycause_Yes,A-FP,9-Jan-2020,,671
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 005_View_ReportableServiceTicket_Likelycause_Notselected,A-FP,9-Jan-2020,,672
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 006_View_ComplaintTicket_ProductReturnInfo,A-FP,9-Jan-2020,,159
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 007_View_NonReportableServicetTicket_NoAutogeneratedProductevaluation,A-FP,9-Jan-2020,,157
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 008_View_InquiryTicket_NoAutogeneratedProductevaluation,A-FP,9-Jan-2020,,158
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 009_Verify_ReportableServiceTicket_UnauthorizedUser_Productevaluation_ProductLot_Negative,A-FP,9-Jan-2020,,155
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 010_Verify_ComplaintTicket_UnauthorizedUser_Productevaluation_ProductLot_Negative,A-FP,9-Jan-2020,,156
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 21 > 011_Create_ComplaintTicket_ProductReturnChild,A-FP,9-Jan-2020,,160
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 23 > 012_Validate_ProductEvaluationTaskType_Similar Complaint Review_LifecycleStates,A-FP,9-Jan-2020,,956
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 23 > 015_Verify_ProductEvaluationTask_Customer Return Analysis_LifecycleStates,A-FP,9-Jan-2020,,959
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 23 > 018_Validate_ProductEvaluationTaskType_InstrumentLogFieldDataAnalysis_LifecycleStates,A-FP,9-Jan-2020,,962
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 23 > 022_Verify_UnauthorizedUser_ProductEvaluationTask_Negative,A-FP,9-Jan-2020,,967
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Evul > Protocol 25 > 001_Apply_Productevaluation_Lifecyclestatus,A-FP,9-Jan-2020,,997
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval> Protocol 26 > 004_Create_MedicalEvaluation_NonpREComplaint_Negative,A,9-Jan-2020,,1118
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 27 > 001_Create_MedicalEvalRecord_Complaint,A-FP,9-Jan-2020,,696
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 28 > 015_Create_MedicalEval_GeneralTaskRecordWorkflow_ServiceTicket,A,9-Jan-2020,,1059
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 29 > 001_Create_MedicalEval_Submissions,A,9-Jan-2020,,1062
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 30 > 001_Create_MedicalEval_MDIEMDR,A-FP,9-Jan-2020,,307
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 30 > 006_Create_MedicalEval_Country_SubmissionReq,A-FP,9-Jan-2020,,727
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 30 > 007_Create_MedicalEval_Country_AESubmissionReq,A-FP,9-Jan-2020,,728
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 30 > 008_Create_MedicalEval_Country_DeathSubmissionReq,A-FP,9-Jan-2020,,729
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 001_Verify_MedicalEval_ClosedDoneWorkflow,A,9-Jan-2020,,1075
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 002_Verify_MedicalEval_ClosedVoidedWorkflow,A,9-Jan-2020,,1076
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 003_Verify_MedicalEval_ReportabilityCategory_ReportabilityRationale,A,9-Jan-2020,,1077
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 011_Verify_MedicalEval_ServiceTicketClose,A,9-Jan-2020,,1085
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 012_Verify_MedicalEval_OpenedRCML_ComplaintTicketClose,A,9-Jan-2020,,1086
+Nick,1003,CHaRM,Test Protocol,2,Inter > CMSNext to CHaRM > Protocol 39 >  003_Verify_Complaint_Ticket_Meaningful_Data_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,879
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  001_Verify_Inquiry_Ticket_Contact_Account_Attachment_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1203
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  002_Verify_Inquiry_Ticket_Contact_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1204
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  003_Verify_Inquiry_Ticket_Attachment_Customer-Response_CHaRM_to_CMSNext,A-FP,9-Jan-2020,,1205
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  004_Verify_Inquiry_Ticket_Activity_Ticket_Ticket-Notes_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1206
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  005_Verify_Inquiry_Ticket_Re-Open_CHaRM_to_CMSNext,A-FP,9-Jan-2020,,1207
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  006_Verify_Inquiry_Ticket_Create_Negative_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1208
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  007_Verify_Inquiry_Ticket_Update_Negative_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1209
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  008_Verify_Inquiry_Ticket_Update_Negative_CHaRM_to_CMSNext,A-FP,9-Jan-2020,,1401
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  009_Verify_Inquiry_Ticket_Re-Open_Justification_CMSNext_to_CHaRM,D,9-Jan-2020,Inaccurate information,1210
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  010_Verify_Inquiry_Ticket_Void_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1211
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  011_Verify_Inquiry_Ticket_Product-Ticket_Delete_Flag_CMSNext_to_CHaRM,A-FP,9-Jan-2020,,1407
+Nick,1003,CHaRM,Test Protocol,1,Inter > TODS to CHaRM > Protocol 48 >  001_Verify_Tracking_and_Trending_Transformation_Logic_TODS_to_CHaRM,A-FP,9-Jan-2020,,1410
+Nick,ePAS 17-4072,GS Reports,Move to Production,1,1,A-FP,9-Jan-2020,,
+Nick,ePAS 15-17275 v2.,IDA Reporting,Test Protocol Results,1,1,A-FP,9-Jan-2020,,
+Nick,ePAS 19-44822 ,Power BI,Test Protocol Results,1,1,A-FP,9-Jan-2020,,
+Nick,ePAS 15-17246 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,9-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Inter > CMSNext to CHaRM > Protocol 45 >  009_Verify_Inquiry_Ticket_Re-Open_Justification_CMSNext_to_CHaRM,A,9-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > System Access and Adm > Protocol 02 > 003_Verify_SystemAccess_LogoutSession,A,9-Jan-2020,,364
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 001_Create_CustomerResponseRecord_Inquiry_QualityTechRegApproveresponse,A-FP,9-Jan-2020,,735
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 002_Verify_CustomerResponseRecord_Inquiry_QualityRejectResponse_QualityApproveResponse,A-FP,9-Jan-2020,,730
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 003_Verify_CustomerResponseRecord_Inquiry_QualityRegApproveResponse,A-FP,9-Jan-2020,,733
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 004_Verify_CustomerResponseRecord_Inquiry_QualityRegRejectResponse,A-FP,9-Jan-2020,,734
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 005_Verify_CustomerResponseRecord_Inquiry_QualityTechApproveResponse,A-FP,9-Jan-2020,,731
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 007_Verify_CustomerResponseRecord_Inquiry_QualityTechRejectResponse,A-FP,9-Jan-2020,,732
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 008_Verify_SendtoCMSNext_ForAttachment_CustomerResponseRecord,A-FP,9-Jan-2020,,737
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 004_Verify_RegAssessment_LifeCycle_1,A-FP,9-Jan-2020,,1486
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 005_Verify_RegAssessment_LifeCycle_2,A-FP,9-Jan-2020,,1487
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 006_Verify_RegAssessment_LifeCycle_3,A-FP,9-Jan-2020,,1488
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 008_Verify_RegAssessment_LifeCycle_5,A-FP,9-Jan-2020,,1489
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 010_Verify_RegAssessment_Complete - Regulatory Impact,A-FP,9-Jan-2020,,1490
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 35 > 011_Verify_RegAssessment_Complete - No Regulatory Impact,A-FP,9-Jan-2020,,1491
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 36 > 006_Verify_AdditionalApprovals_LifeCycle_1,A-FP,9-Jan-2020,,1492
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 36 > 007_Verify_AdditionalApprovals_LifeCycle_2,A-FP,9-Jan-2020,,1493
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 003_Verify_Hazard Assessment_initialization_3,A-FP,9-Jan-2020,,1494
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 006_Verify_HealthHazard Assessment_initialization_2,A-FP,9-Jan-2020,,1495
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 007_Verify_HealthHazard Assessment_initialization_3,A-FP,9-Jan-2020,,1496
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 010_Verify_RMF_initialization_3,D,9-Jan-2020,Inaccurate information,1497
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 012_Verify_HazardAssessment_Lifecycle_1,A-FP,9-Jan-2020,,1498
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 013_Verify_HazardAssessment_Lifecycle_2,A-FP,9-Jan-2020,,1499
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 014_Verify_HazardAssessment_Lifecycle_3,A-FP,9-Jan-2020,,1500
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 015_Verify_HazardAssessment_Lifecycle_4,D,9-Jan-2020,Inaccurate information,1501
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 016_Verify_HazardAssessment_Lifecycle_5,D,9-Jan-2020,,1502
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 019_Verify_HazardAssessment_Lifecycle_8,A-FP,9-Jan-2020,,1503
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 020_Verify_HazardAssessment_Lifecycle_9,A-FP,9-Jan-2020,,1504
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 021_Verify_HazardAssessment_Reopen Typographical Changes,A-FP,9-Jan-2020,,1505
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 023_Verify_HazardAssessment_Delay Of Results_2,A-FP,9-Jan-2020,,1506
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 024_Verify_RMF_Closed,A-FP,9-Jan-2020,,1507
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 37 > 025_Verify_Hazard Assessment_Parent Approved,A-FP,9-Jan-2020,,1508
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 009_General_Validate_ChildRecord_InquiryTicket,A-FP,13-Jan-2020,,888
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 010_General_Validate_ChildRecord_ComplaintTicket,A-FP,13-Jan-2020,,889
+Nick,771.01,Knowledge Management,Software Change Request,1,1,A,13-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Cust Resp > Protocol 15 > 006_Verify_CustomerResponseRecord_Inquiry_QualityTechRegRejectresponse,A-FP,13-Jan-2020,,736
+Nick,1003,CHaRM,Test Protocol,1,Config > customer respon > Protocol 15 > 006_Verify_CustomerResponseRecord_Inquiry_QualityTechRegRejectresponse,D,9-Jan-2020,,736
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 009_Create_MedicalEvaluation_80069ProdEvalClosure_Negative,A-FP,13-Jan-2020,,1123
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 010_Create_MedicalEvaluation_80067ProdEvalClosure,A-FP,13-Jan-2020,,1124
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 011_Create_DeficiencyTree_80067ProdEvalClosure,A-FP,13-Jan-2020,,1125
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 012_Create_MedicalEvaluation_80067ProdEvalClosure_Negative,A-FP,13-Jan-2020,,1126
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 27 > 001_Create_MedicalEvalRecord_Complaint,A,13-Jan-2020,,696
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 27 > 008_Update_MedicalEval_IWD_Negative,A-FP,13-Jan-2020,,704
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 002_Verify_Service_Ticket_pRE_Patient-Info_CMSNext_to_CHaRM,A-FP,13-Jan-2020,,1217
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 009_Verify_Service_Ticket_Related-Instruments_CMSNext_to_CHaRM,A-FP,13-Jan-2020,,1224
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 011_Verify_Service_Ticket_Create_Negative_CMSNext_to_CHaRM,A-FP,13-Jan-2020,,1226
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 013_Verify_Service_Ticket_Update_Negative_CHaRM_to_CMSNext,A-FP,13-Jan-2020,,1408
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 014_Verify_Service_Ticket_Re-Open_Justification_CMSNext_to_CHaRM,A-FP,13-Jan-2020,,1228
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 001_Verify_Create_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1411
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 002_Verify_Update_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1412
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 003_Verify_Truncation_Logic_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1413
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 004_Verify_Active_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1414
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 005_Verify_Inactive_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1415
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 006_Verify_NonMedicalProduct_YesToTrueLogic_TODS_to_CHaRM,A-FP,13-Jan-2020,,1416
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 007_Verify_NonMedicalProduct_NoToFalseLogic_TODS_to_CHaRM,A-FP,13-Jan-2020,,1417
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 008_Verify_NonMedicalProduct_NullToFalseLogic_TODS_to_CHaRM,A-FP,13-Jan-2020,,1418
+Nick,1003,CHaRM,Test Protocol,1,Integ > TODS> Protocol 49 > 009_Verify_Transformation_Logic_Product_TODS_to_CHaRM,A-FP,13-Jan-2020,,1419
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 027_Demote_MedEval_80066ProdEvalClosure_Negative,A-FP,13-Jan-2020,,1141
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 028_Demote_MedEval_80068ProdEvalClosure_Negative,A-FP,13-Jan-2020,,1142
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 029_Demote_MedEval_80069ProdEvalClosure_Negative,A-FP,13-Jan-2020,,1143
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 030_Create_MedEval_RelatedwithMalfunction,A-FP,13-Jan-2020,,1144
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 031_Create_MedEval_NoMalfunction_Negative,A-FP,13-Jan-2020,,1145
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 032_Create_MedEval_NotRelated_Negative,A-FP,13-Jan-2020,,1146
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 033_Create_MedEval_PendingAdditionalInfo_Negative,A-FP,13-Jan-2020,,1147
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 034_Create_MedEval_RelatedwithMalfunction_Negative,D,13-Jan-2020,Inaccurate information,1148
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 035_Create_FieldActionTree_RelatedwithMalfunction_Negative,A-FP,13-Jan-2020,,1149
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 036_Demote_MedEval_RelatedwithMalfunction,A-FP,13-Jan-2020,,1150
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 037_Demote_VoidedMedEval_RelatedwithMalfunction_Negative,A-FP,13-Jan-2020,,1151
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 038_Demote_MedEval_NoMalfunction_Negative,A-FP,13-Jan-2020,,1152
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 039_Demote_MedEval_NotRelated_Negative,A-FP,13-Jan-2020,,1153
+Nick,ePAS 19-38033,Power BI,Project Plan,1,1,A-FP,14-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > system access and adm > Protocol 02 > 013_Verify_View or CreateRecords_UsersProfile,A,14-Jan-2020,,374
+Nick,1003,CHaRM,Test Protocol,1,Config > Trend and track > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A,14-Jan-2020,,1476
+Nick,1003,CHaRM,Test Protocol,1,Config > Trend and track > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A,14-Jan-2020,Inaccurate information,1479
+Nick,1003,CHaRM,Test Protocol,1,Config > Trend and track > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket TT,D,14-Jan-2020,,1523
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 29 > 007_Verify_MedicalEval_DeficiencyTree,A-FP,14-Jan-2020,,1068
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 034_Create_MedEval_RelatedwithMalfunction_Negative,A,14-Jan-2020,,1148
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 036_Demote_MedEval_RelatedwithMalfunction,A,14-Jan-2020,,1150
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 040_Demote_MedEval_PendingAdditionalInfo_Negative,A-FP,14-Jan-2020,,1154
+Nick,ePAS 20-1504,GS Reports,Project Plan,1,1,A-FP,14-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 001_Verify_PMRA_Lifecycle_1,A-FP,14-Jan-2020,,1510
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 012_Verify_PMRA_AllAddApprovals_Closed_3,A-FP,14-Jan-2020,,1511
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 013_Verify_PMRA_AllAddApprovals_Closed_4,A-FP,14-Jan-2020,,1512
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 026_Verify_PMRA_Attachments,A-FP,14-Jan-2020,,1513
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 027_Verify_HA_Attachments,A-FP,14-Jan-2020,,1514
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 028_Verify_RA_Attachments,A-FP,14-Jan-2020,,1515
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 033_Verify_RA_Closed_2,A-FP,14-Jan-2020,,1516
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 034_Verify_WorkflowActions_1,A-FP,14-Jan-2020,,1517
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 035_Verify_WorkflowActions_2,A-FP,14-Jan-2020,,1518
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 036_Verify_WorkflowActions_Reopen,A-FP,14-Jan-2020,,1519
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 037_Verify_WorkflowActions_Reopen ? go to Risk Control Measure Recommendation,A-FP,14-Jan-2020,,1520
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 038_Verify_Ticket Review_Attachments,A-FP,14-Jan-2020,,1521
+Nick,1003,CHaRM,Test Protocol,1,Config > Post market Risk > Protocol 38 > 039_Verify_PMRA_Edit,A-FP,14-Jan-2020,,1522
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 001_View_ComplaintTicket_Productevaluation_AutogeneratedChildRecord,A,14-Jan-2020,,150
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 001_Verify_Service_Ticket_Contact_Account_Activity_Attachment_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1216
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 004_Verify_Service_Ticket_Demand_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1219
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 005_Verify_Service_Ticket_Product-Ticket_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1220
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 006_Verify_Service_Ticket_Product-Ticket_Non-Reagent_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1221
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 007_Verify_Service_Ticket_Serialized_UDI_CMSNext_to_CHaRM,D,14-Jan-2020,Inaccurate information,1222
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 008_Verify_Service_Ticket_List_number_UDI_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1223
+Nick,1003,CHaRM,Test Protocol,1,Integ > CMSNext > Protocol 46 > 012_Verify_Service_Ticket_Update_Negative_CMSNext_to_CHaRM,A-FP,14-Jan-2020,,1227
+Nick,1170.001,R - Stats Packages,Software Change Request,1,1,A-FP,14-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > General > Protocol 01 > 008_General_Validate_ChildRecord_ServiceTicket,A-FP,15-Jan-2020,,887
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 001_View_ComplaintTicket_SubmissionType_Assay_TrendItem,A,15-Jan-2020,,1465
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A,15-Jan-2020,,1466
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 003_View_ComplaintTicket_ThresholdType_Process_TrendItem,A,15-Jan-2020,,1467
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 004_View_ComplaintTicket_TicketType_Assay_TrendItem,A,15-Jan-2020,,1468
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A,15-Jan-2020,,1469
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 002_View_Tracking&TrendingReviewTask_Lifecycle_2,A,15-Jan-2020,,1470
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 003_View_Tracking&TrendingReviewTask_Lifecycle_4,A,15-Jan-2020,,1471
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 004_View_Tracking&TrendingReviewTask_Attachment_Life Cycle,A,15-Jan-2020,,1472
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 006_View_Tracking and Trending review Task_Adverse Trend,A,15-Jan-2020,,1474
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A,15-Jan-2020,,1476
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A,15-Jan-2020,,1478
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A,15-Jan-2020,,1479
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A,15-Jan-2020,,1480
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A,15-Jan-2020,,1481
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 008_View_Trend Item Maintenance Request_Inactive_Lifecycle,A,15-Jan-2020,,1482
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A,15-Jan-2020,,1483
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 010_View_Trend Item Maintenance Request_Add_Trend_Item_Unauthorized user,A,15-Jan-2020,,1484
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket TT,A,15-Jan-2020,,1523
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 013_Create_MedicalEvaluation_80065ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1127
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 014_Create_MedicalEvaluation_80066ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1128
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 015_Create_DeficiencyTree_80067ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1129
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 016_Create_DeficiencyTree_80064ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1130
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > ,A-FP,15-Jan-2020,,1131
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 018_Create_DeficiencyTree_80066ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1132
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 019_Create_DeficiencyTree_80068ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1133
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 020_Create_DeficiencyTree_80069ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1134
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 021_Create_DeficiencyTree_InVoidedMedeval_80067ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1135
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 022_Create_DeficiencyTree_ServiceMedEval_80067ProdEvalClosure,A-FP,15-Jan-2020,,1136
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 023_Demote_MedEval_80067ProdEvalClosure,A-FP,15-Jan-2020,,1137
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 024_Demote_VoidedMedEval_80067ProdEvalClosure_Negative,A-FP,15-Jan-2020,,1138
+Nick,ePAS 19-9602 v3,Metrics Library,Design Documentation,3,1,A-FP,15-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 025_Demote_MedEval_80065ProdEvalClosure_Negative,A-FP,16-Jan-2020,,1139
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 026_Demote_MedEval_80064ProdEvalClosure_Negative,A-FP,16-Jan-2020,,1140
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 26 > 040_Demote_MedEval_PendingAdditionalInfo_Negative,A,16-Jan-2020,,1154
+Nick,1003,CHaRM,Test Protocol,2,Config > reg Eval > Protocol 32 > 001_View_EMDR_PDF,A-FP,16-Jan-2020,,1094
+Nick,1003,CHaRM,Test Protocol,2,Config > reg Eval > Protocol 32 > 002_View_InitialEMDR_ClosedVoided,A-FP,16-Jan-2020,,1095
+Nick,1003,CHaRM,Test Protocol,1,Config > reg Eval > Protocol 32 > 003_View_EMDR_MFRReport,A-FP,16-Jan-2020,,1096
+Nick,1003,CHaRM,Test Protocol,1,Config > reg Eval > Protocol 32 > 004_Create_SupplementalEMDR_SetToBlank,A-FP,16-Jan-2020,,1097
+Nick,1003,CHaRM,Test Protocol,1,Config > reg Eval > Protocol 32 > 005_Create_SupplementalEMDR_SetDate,A-FP,16-Jan-2020,,1098
+Nick,1003,CHaRM,Test Protocol,1,Config > Post Market Risk > Protocol 37 > 010_Verify_RMF_initialization_3,A,16-Jan-2020,,1497
+Nick,1003,CHaRM,Test Protocol,1,Config > Post Market Risk > Protocol 37 > 015_Verify_HazardAssessment_Lifecycle_4,A,16-Jan-2020,,1501
+Nick,1003,CHaRM,Test Protocol,1,Config > Post Market Risk > Protocol 37 > 016_Verify_HazardAssessment_Lifecycle_5,A,16-Jan-2020,,1502
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 45 > 003_Verify_Inquiry_Ticket_Attachment_Customer-Response_CHaRM_to_CMSNext,A,16-Jan-2020,,1205
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 46 > 007_Verify_Service_Ticket_Serialized_UDI_CMSNext_to_CHaRM,A,16-Jan-2020,,1222
+Nick,ePAS 20-1521,GS Reports,Move to Production,1,1,A-FP,16-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 001_View_Reports,A-FP,17-Jan-2020,,1525
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 012_View_TicketReport,A-FP,17-Jan-2020,,1536
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 013_View_TicketReport_Complaint_pRE Yes,A-FP,17-Jan-2020,,1537
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 014_View_TicketReport_Complaint_pRE No,A-FP,17-Jan-2020,,1538
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 015_View_TicketReport_Service,A-FP,17-Jan-2020,,1539
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 016_View_TicketReport_Inquiry,A-FP,17-Jan-2020,,1540
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 017_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,17-Jan-2020,,1541
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 018_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,17-Jan-2020,,1542
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 019_View_ Post Market Risk Evaluation - Health Hazard Assessment Report,A-FP,17-Jan-2020,,1543
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 020_View_ Post Market Risk Evaluation - Health Hazard Assessment Report,A-FP,17-Jan-2020,,1544
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 021_Create_Reports,A-FP,17-Jan-2020,,1545
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 022_View_Search_Navigation_Report,A-FP,17-Jan-2020,,1546
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 024_View_Search_Navigation_Report,A-FP,17-Jan-2020,,1548
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 023_View_Search_Navigation_Report,A-FP,17-Jan-2020,,1547
+Nick,1003,CHaRM,Test Protocol,1,Config > Search and Rept > Protocol 05 > 025_View_Search_Navigation_Report,A-FP,17-Jan-2020,,1549
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 008_Verify_EMDR_ACK3Failure,A-FP,17-Jan-2020,,1101
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 41 > 003_Verify_Complaint_Ticket_Contact_Delete_Flag_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1406
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 43 > 006_Verify_Complaint_Ticket_Product-Ticket_Delete-Flag_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1403
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 001_Verify_Complaint_Ticket_Planned-Service_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1155
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 002_Verify_Complaint_Ticket_Demand-Service_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1156
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 003_Verify_Complaint_Ticket_Ticket-Notes_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1157
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 004_Verify_Complaint_Ticket_Reportability_CHaRM_to_CMSNext,A-FP,17-Jan-2020,,1158
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 005_Verify_Complaint_Ticket_Ready_to_Close_No_CHaRM_to_CMSNext,A-FP,17-Jan-2020,,1159
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 006_Verify_Complaint_Ticket_Ready_to_Close_Yes_Bidirectional,A-FP,17-Jan-2020,,1160
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 007_Verify_Complaint_Ticket_Re-open_CHaRM_to_CMSNext,A-FP,17-Jan-2020,,1161
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 008_Verify_Complaint_Ticket_Re-open_MDR_CHaRM_to_CMSNext,A-FP,17-Jan-2020,,1162
+Nick,1003,CHaRM,Test Protocol,1,Init > CMSNext > Protocol 42 > 009_Verify_Complaint_Ticket_UI_to_Non_UI_CMSNext_to_CHaRM,A-FP,17-Jan-2020,,1509
+Nick,ePAS 15-17277 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,17-Jan-2020,,
+Nick,1003,CHaRM,IIVP,1,6,A-FP,20-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 008_Verify_EMDR_ACK3Failure,A,20-Jan-2020,,1101
+Nick,1003,CHaRM,IIVP,1,7,A-FP,20-Jan-2020,,
+Nick,ePAS 15-17276 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,20-Jan-2020,,
+Nick,ePAS 15-19464 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,20-Jan-2020,,
+Nick,1164,Helios Dispatch,Software Change Request,1,1,A-FP,20-Jan-2020,,
+Nick,1165.001,Helios C360,Software Change Request,3,1,A-FP,20-Jan-2020,,
+Nick,1170.001,R - Stats Packages,Design Verification,1,1,A-FP,21-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 001_Verify_SetMDC_TicketNotes_Complaint,A-FP,21-Jan-2020,,1245
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 002_Verify_SetMDC_TicketNotes_Service,A-FP,21-Jan-2020,,1246
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 003_Verify_SetMDC_TicketNotes_Inquiry,A-FP,21-Jan-2020,,1247
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 004_Verify_SetMDC_IssueCode_ReturnsAvailable_CustomerReplyRequired_DescriptionofAvailableReturns_added_Complaint,A-FP,21-Jan-2020,,1248
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 005_Verify_SetMDC_QDNumber_added_Product-Ticket_added_IssueCode_changed_Complaint,A-FP,21-Jan-2020,,1249
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 006_Verify_SetMDC_QDNumber_changed_Complaint,A-FP,21-Jan-2020,,1250
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 008_Verify_Close&VoidMedicalEvaluation_MDCsPending_Complaint,A-FP,21-Jan-2020,,1252
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 009_Verify_Close&VoidMedicalEvaluation_MDCsPending_Service,A-FP,21-Jan-2020,,1253
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 010_Verify_VoidProductEvaluationWithPendingMDCs_Complaint_N,A-FP,21-Jan-2020,,1254
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 011_Verify_VoidProductEvaluationWithPendingMDCs_Service,A-FP,21-Jan-2020,,1255
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 012_Verify_SetMDC_pRE Flag_NotoYes_YestoNo_Complaint,A-FP,21-Jan-2020,,1256
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 013_Verify_SetMDC_pRE Flag_YestoNo_NotoYes_ServiceTkt,A-FP,21-Jan-2020,,1257
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 014_Verify_SetMDC_ReceiptDate_Complaint,A-FP,21-Jan-2020,,1258
+Nick,1003,CHaRM,Test Protocol,1,Config > Meaning Data > Protocol 10 > 015_Verify_SetMDC_ReceiptDate_ServiceTkt,A-FP,21-Jan-2020,,1259
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 29 > 012_Create_MedicalEval_ReportabilityHistory,A-FP,21-Jan-2020,,1073
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 016_Create_SupplementalEMDR_NoUpdateRequired,A-FP,21-Jan-2020,,1109
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 018_Verify_EMDR_AttachNotes_inAllStatus,A-FP,21-Jan-2020,,1111
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 015_Create_SupplementalEMDR_fromSupplementalEMDR_AfterPendingClosure,A-FP,21-Jan-2020,,1108
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 001_View_ComplaintTicket_InitialMDI_Lifecycle,A-FP,21-Jan-2020,,1229
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 002_View_ServiceTicket_InitialMDI_Lifecycle,A-FP,21-Jan-2020,,1230
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 003_View_ComplaintTicket_Multiple_InitialMDI_Lifecycle,A-FP,21-Jan-2020,,1231
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 004_View_ComplaintTicket_InitialMDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1232
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 005_View_CombinedInitialFinal_MDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1233
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 006_View_ServiceTicket_First_FollowupMD_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1234
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 007_View_ComplaintTicket_First_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1235
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 008_View_ComplaintTicket_Second_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1236
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 009_View_ServiceTicket_Second_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1399
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 010_View_Final_MDI_Regulatory tasks_Lifecycle,A-FP,21-Jan-2020,,1239
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 011_View_Unauthorized user_notable to create_access MDI_Neg,A-FP,21-Jan-2020,,1240
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 012_View_InquiryTicket_MDI_Neg,A-FP,21-Jan-2020,,1241
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 013_View_FollowupMDIcreation_AfterInitialMDI_ClosedDone,A-FP,21-Jan-2020,,1242
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 014_View_Void_MDI,A-FP,21-Jan-2020,,1243
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 33 > 015_View_Waive_MDI,A-FP,21-Jan-2020,,1244
+Nick,1170.001,R - Stats Packages,System Certification Summary,1,1,A-FP,21-Jan-2020,,
+Nick,ePAS 15-19265 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,21-Jan-2020,,
+Nick,ePAS 15-19270 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,21-Jan-2020,,
+Nick,1177,Service Utility,Move to Production,1,1,D,22-Jan-2020,Not compliant with procedure,Should be An IIVP
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 42 > 001_Verify_Complaint_Ticket_Planned-Service_CMSNext_to_CHaRM,A,22-Jan-2020,,1155
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 42 > 002_Verify_Complaint_Ticket_Demand-Service_CMSNext_to_CHaRM,A,22-Jan-2020,,1156
+Nick,1003,CHaRM,Test Protocol,2,Int > CMSNext > Protocol 44 > 001_Verify_Complaint_Ticket_Activity_Attachment_CMSNext_to_CHaRM,A-FP,22-Jan-2020,,968
+Nick,1003,CHaRM,Test Protocol,2,Int > CMSNext > Protocol 44 > 004_Verify_Complaint_Ticket_Activity_Attachment_CHaRM_to_CMSNext,A-FP,22-Jan-2020,,971
+Nick,1003,CHaRM,Test Protocol,2,Int > CMSNext > Protocol 44 > 006_Verify_Complaint_Ticket_Negative_Create_CMSNext_to_CHaRM,A-FP,22-Jan-2020,,973
+Nick,1003,CHaRM,Test Protocol,2,Int > CMSNext > Protocol 44 > 007_Verify_Complaint_Ticket_Negative_Update_CMSNext_to_CHaRM,A-FP,22-Jan-2020,,974
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 44 > 008_Verfiy_Complaint_Ticket_Negative_Update_CHaRM_to_CMSNext,A-FP,22-Jan-2020,,1524
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 007_Verify_SetMDC_QDNumber_Removed_Complaint,A-FP,22-Jan-2020,,1251
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 016_Verify_SetMDC_OverallReportableStatus_WasAnAdverseEventIdentified_Complaint,A-FP,22-Jan-2020,,1260
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 017_Verify_SetMDC_OverallReportableStatus_WasAnAdverseEventIdentified_Service,A-FP,22-Jan-2020,,1261
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 018_Verify_SetMDC_TicketDescription_changed_Complaint,A-FP,22-Jan-2020,,1262
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 019_Verify_SetMDC_TicketDescription_changed_Service,A-FP,22-Jan-2020,,1263
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 020_Verify_SetMDC_TicketDescription_changed_Inquiry,A-FP,22-Jan-2020,,1264
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 021_Verify_SetMDC_CustomerReplyRequired_YesToNo_Complaint,A-FP,22-Jan-2020,,1265
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 022_Verify_SetMDC_CustomerReplyRequired_NoToYes_Complaint,A-FP,22-Jan-2020,,1266
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 023_Verify_SetMDC_CustomerReplyRequired_NoToYes_Inquiry,A-FP,22-Jan-2020,,1267
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 024_Verify_SetMDC_FollowUpStatus_Inquiry,A-FP,22-Jan-2020,,1268
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 025_Verify_SetMDC_FollowUpStatus_Complaint,A-FP,22-Jan-2020,,1269
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 026_Verify_SetMDC_pRE Answers_update_Complaint,A-FP,22-Jan-2020,,1270
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 027_Verify_SetMDC_pRE Answers_update_Service,A-FP,22-Jan-2020,,1271
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 028_Verify_SetMDC_CMSNextStatus_update_Service,A-FP,22-Jan-2020,,1272
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 029_Verify_SetMDC_ReturnFields_added or modified_Complaint,A-FP,22-Jan-2020,,1273
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 030_Verify_SetMDC_Returns Available_YesToNo_NoToYes_Complaint,A-FP,22-Jan-2020,,1274
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 031_Verify_SetMDC_DescriptionOfAvailableReturns_oldValueToNewValue_Complaint,A-FP,22-Jan-2020,,1275
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 032_Verify_SetMDC_PatientInformation_added_Complaint,A-FP,22-Jan-2020,,1276
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 033_Verify_SetMDC_PatientInformation_modified_Complaint,A-FP,22-Jan-2020,,1277
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 034_Verify_SetMDC_PatientInformation_add_Service,A-FP,22-Jan-2020,,1278
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 035_Verify_SetMDC_PatientInformation_modified_Service,A-FP,22-Jan-2020,,1279
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 036_Verify_SetMDC_MeaningfulData_update_Complaint,A-FP,22-Jan-2020,,1280
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 037_Verify_SetMDC_MeaningfulData_update_Service,A-FP,22-Jan-2020,,1281
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 038_Verify_SetMDC_BatchLotSerial_NullToValue_Complaint,A-FP,22-Jan-2020,,1282
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 039_Verify_SetMDC_BatchLotSerial#_modified_Complaint,A-FP,22-Jan-2020,,1283
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 040_Verify_SetMDC_BatchLotSerial_NullToValue_Service,A-FP,22-Jan-2020,,1284
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 041_Verify_SetMDC_BatchLotSerial#_modified_Service,A-FP,22-Jan-2020,,1285
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 042_Verify_SetMDC_DeleteFlagAddNewProduct_Complaint,A-FP,22-Jan-2020,,1286
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 043_Verify_SetMDC_DeleteFlagAddNewProduct_Service,A-FP,22-Jan-2020,,1287
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 044_Verify_SetMDC_DeleteFlagAddNewProduct_Inquiry,A-FP,22-Jan-2020,,1288
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 045_Verify_SetMDC_LikelyCause_NoToYes_YesToNo_Product-TicketAddedComplaint,A-FP,22-Jan-2020,,1289
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 046_Verify_SetMDC_LikelyCause_NoToYes_YesToNo_Product-TicketAdded_Service,A-FP,22-Jan-2020,,1290
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 047_Verify_SetMDC_LikelyCause_NoToYes_YesToNo__Product-TicketAdded_Inquiry,A-FP,22-Jan-2020,,1291
+Nick,1177,Service Utility,IIVP,2,1,A-FP,22-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 048_Verify_SetMDC_TranslationTask_ProdEvalAssessor_Complaint,A-FP,23-Jan-2020,,1292
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 049_Verify_SetMDC_TranslationTask_EvalInv_Complaint,A-FP,23-Jan-2020,,1293
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 050_Verify_SetMDC_Translation Task_Service,A-FP,23-Jan-2020,,1294
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 051_Verify_SetMDC_TranslationTask_Customer Reply Required_Inquiry,A-FP,23-Jan-2020,,1295
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 052_Verify_SetMDC_Medical EvaluationTask_Complaint,A-FP,23-Jan-2020,,1296
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 053_Verify_SetMDC_Medical EvaluationTask_Service,A-FP,23-Jan-2020,,1297
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 054_Verify_SetMDC_MDI_RegulatoryTasks_Complaint,A-FP,23-Jan-2020,,1298
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 055_Verify_SetMDC_MDI_RegulatoryTasks_Service,D,23-Jan-2020,Other,"1299, Blank Lines"
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 056_Verify_SetMDC_Attachment_Registration_Complaint,A-FP,23-Jan-2020,,1300
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 057_Verify_SetMDC_Attachment_Registration_Service,A-FP,23-Jan-2020,,1301
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 058_Verify_SetMDC_Attachment_Registration_Inquiry,A-FP,23-Jan-2020,,1302
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 059_Verify_SetMDC_TicketReviewStatus,A-FP,23-Jan-2020,,1303
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 060_Verify_SetAdhocMDC_AdditionalTicketObservationsComments_Complaint,A-FP,23-Jan-2020,,1304
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 061_Verify_SetAdhocMDC_AdditionalTicketObservationsComments_Service,A-FP,23-Jan-2020,,1305
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 062_Verify_SetAdhocMDC_AdditionalTicketObservationsComments_Inquiry,A-FP,23-Jan-2020,,1306
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 063_Verify_SetMDC_Product Lot_Complaint,A-FP,23-Jan-2020,,1307
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 064_Verify_pendingMDC_SubmiteMDR_Complaint,A-FP,23-Jan-2020,,1308
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 065_Verify_PendingMDC_SubmiteMDR_Services,A-FP,23-Jan-2020,,1309
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 066_Verify_Product Evaluation_PEReview_ClosedDone_PendingMDC_Complaint,A-FP,23-Jan-2020,,1310
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 067_Verify_Product Evaluation_PEReview_ClosedDone_PendingMDC_Service,A-FP,23-Jan-2020,,1311
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 068_Verify_ComplaintStatus_RegistrationClosedToClosed-Done_SetMDC_CMSNextStatus_Closed-DoneToOpened,A-FP,23-Jan-2020,,1312
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 069_View_TranslationTaskMDC_OpenedToClosedDoneStatus_CMSNextStatusMDC_Inquiry,A-FP,23-Jan-2020,,1313
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 070_View_OpenedToClosedVoidedStatus_Inquiry,A-FP,23-Jan-2020,,1314
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 071_View_Closed_CustomerResponses MedEvals ProdEvals,A-FP,23-Jan-2020,,1315
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 072_View_ClosedCustomerResponses_My Customer Responses,A-FP,23-Jan-2020,,1316
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 073_View_InactiveMDCs,A-FP,23-Jan-2020,,1317
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 074_MDCDashboard_DateFilter_VisualIndicator,A-FP,23-Jan-2020,,1398
+Nick,1003,CHaRM,Test Protocol,2,Config > Search Reports and dashboards > Protocol 05 > 017_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,23-Jan-2020,,1541
+Nick,1003,CHaRM,Test Protocol,2,Config > Search Reports and dashboards > Protocol 05 > 018_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,23-Jan-2020,,1542
+Nick,1003,CHaRM,Test Protocol,2,Config > Translations > Protocol 20 > 019_Validate_AttachmentTranslationLifecycle_InquiryTicket,A-FP,23-Jan-2020,,1183
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 011_Validate_TranslationLifecycle_ServiceTicket,A,23-Jan-2020,,1175
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 012_Validate_TranslationLifecycle_ComplaintTicket,A,23-Jan-2020,,1176
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 013_Validate_TranslationLifecycle_InquiryTicket,A,23-Jan-2020,,1177
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 014_Verify_TransTaskCreation_ManuallyGeneratedTransTask_Service,A,23-Jan-2020,,1178
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 015_Verify_TransTaskCreation_ManuallyGeneratedTransTask_Inquiry,A,23-Jan-2020,,1179
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 016_Verify_TransTaskCreation_ManuallyGeneratedTransTask_Complaint,A,23-Jan-2020,,1180
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 017_Validate_AttachmentTranslationLifecycle_ServiceTicket,A,23-Jan-2020,,1181
+Nick,1003,CHaRM,Test Protocol,1,Config > Translations > Protocol 20 > 018_Validate_AttachmentTranslationLifecycle_ComplaintTicket,A,23-Jan-2020,,1182
+Nick,1003,CHaRM,Test Protocol,2,Config > Regulated System Requirements > Protocol 50 > 001_Verify_Record_Access_Retrievability,A-FP,23-Jan-2020,,761
+Nick,1003,CHaRM,Test Protocol,2,Config > Regulated System Requirements > Protocol 50 > 003_Verify_Change_Control,A-FP,23-Jan-2020,,763
+Nick,1003,CHaRM,Test Protocol,2,Config > Regulated System Requirements > Protocol 50 > 004_Verify_Audit_Trail,A-FP,23-Jan-2020,,764
+Nick,1003,CHaRM,Test Protocol,2,Config > Regulated System Requirements > Protocol 50 > 005_Verify_Electronic_Signature,A-FP,23-Jan-2020,,765
+Nick,ePAS 15-19266 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,23-Jan-2020,,
+Nick,ePAS 15-19473 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,23-Jan-2020,,
+Nick,ePAS 15-17246 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,23-Jan-2020,,
+Nick,ePAS 15-18206 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,23-Jan-2020,,
+Nick,ePAS 15-19476 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,23-Jan-2020,,
+Nick,1003,CHaRM,IIVP,2,1,A-FP,23-Jan-2020,,
+Nick,ePAS 15-19267 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,24-Jan-2020,,
+Nick,ePAS 11-39647 v7.,GS Reports,Project Plan,1,1,A-FP,24-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 001_Search_Ticket,A-FP,24-Jan-2020,,414
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 004_Search_Ticket,A-FP,24-Jan-2020,,417
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 003_Search_Ticket,A-FP,24-Jan-2020,,416
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 002_Search_Ticket,A-FP,24-Jan-2020,,415
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 005_Search_Ticket,A-FP,24-Jan-2020,,418
+Nick,1003,CHaRM,Test Protocol,1,Config > Searches > Protocol 06 > 006_Search_Ticket,A-FP,24-Jan-2020,,419
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A,24-Jan-2020,,1466
+Nick,1003,CHaRM,Test Protocol,1,Config > MDC > Protocol 10 > 055_Verify_SetMDC_MDI_RegulatoryTasks_Service,A,24-Jan-2020,,1299
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions > Protocol 13 > 002_Create_SetToDate_SupplementalEMDR,A,24-Jan-2020,,1198
+Nick,1003,CHaRM,Test Protocol,2,Config > Inquiry > Protocol 14 > 001_Verify_Inquiry_ClosedDoneReopenLifecycle,A-FP,24-Jan-2020,,859
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 27 > 010_MedEval_AdverseEventOnTicket,A-FP,24-Jan-2020,,1400
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 28 > 018_Verify_MedicalEval_TaskInProcessToVoid,A-FP,24-Jan-2020,,1404
+Nick,1003,CHaRM,Test Protocol,1,Config > Med Eval > Protocol 31 > 004_Verify_MedicalEval_InProcessToVoidedWorkflow,A,24-Jan-2020,,1078
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 011_Create_SupplementalEMDR_fromInitialEMDR_AfterSupplementalClosed-Done,A-FP,24-Jan-2020,,1104
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 012_View_SupplementalEMDR_Workflow_ClosedVoided,A-FP,24-Jan-2020,,1105
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 014_Create_SupplementalEMDR_fromSupplementalEMDR_AfterClosedDone,A-FP,24-Jan-2020,,1107
+Nick,1003,CHaRM,Test Protocol,1,Intg > CMSNext > Protocol 46 > 003_Verify_Service_Ticket_Planned_Ticket-Notes_CMSNext_to_CHaRM,A-FP,24-Jan-2020,,1218
+Nick,1003,CHaRM,Test Protocol,1,Intg > CMSNext > Protocol 46 > 010_Verify_Service_Ticket_Reopen_CHaRM_to_CMSNext,A-FP,24-Jan-2020,,1225
+Nick,589.055,CMSNext,IIVP Results,1,1 - part 1 QA,A-FP,24-Jan-2020,,
+Nick,589.055,CMSNext,IIVP Results,1,1 - part 2 QA,A-FP,24-Jan-2020,,
+Nick,771.01,Knowledge Management,IIVP,1,1,A-FP,24-Jan-2020,,
+Nick,771.01,Knowledge Management,Test Protocol,1,1,A-FP,24-Jan-2020,,
+Nick,1003,ChaRM,IIVP,1,2,A-FP,24-Jan-2020,,
+Nick,1003,ChaRM,IIVP,1,4,A-FP,24-Jan-2020,,
+Nick,1177,Service Utility,IIVP Results,2,1,A-FP,27-Jan-2020,,
+Nick,ePAS 15-3713 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,27-Jan-2020,,
+Nick,1177,Service Utility,IIVP,3,1,A-FP,27-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,config > translation > protocol 20 > 011_Validate_TranslationLifecycle_ServiceTicket,A-FP,27-Jan-2020,,1175
+Nick,1003,CHaRM,Test Protocol,2,config > translation > protocol 20 > 013_Validate_TranslationLifecycle_InquiryTicket,A-FP,27-Jan-2020,,1177
+Nick,1003,CHaRM,Test Protocol,1,config > Reg Eval > Protocol 32 > 009_Verify_EMDR_InternalError,A-FP,27-Jan-2020,,1108
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 001_View_ServiceTicket_InitialMDI_RegulatoryTask,A-FP,27-Jan-2020,,1383
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 34 > 002_View_ComplaintTicket_InitialMDI_OpenedStatus_RegulatoryTask,A-FP,27-Jan-2020,,1384 (version 1 no SQA approval)
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 003_Verify_ServiceTicket_FinalMDI_OpenedStatus_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1385
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 34 > 004_Verify_ServiceTicket_Pending Regulatory DecisionStatus_InitialMDI_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1386 (version 1 no SQA approver)
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 005_Verify_ServiceTicket_OpenedStatus_Combined initial and final reportMDI_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1387
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 006_Verify_ServiceTicket_Pending Regulatory DecisionStatus_InitialMDI_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1388
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 007_Verify_ServiceTicket_InitialMDI_FollowupMDI_Creation,A-FP,27-Jan-2020,,1389
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 008_Verify_ServiceTicket_InitialMDI_Closed-Voided,A-FP,27-Jan-2020,,1390
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 009_Verify_ServiceTicket_FollowupMDI_Closed-Voided,A-FP,27-Jan-2020,,1391
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 010_Verify_ServiceTicket_InitialMDI_Opened_Closed-Waived,A-FP,27-Jan-2020,,1392
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 011_Verify_ServiceTicket_FollowupMDI_Opened_Closed-Waived,A-FP,27-Jan-2020,,1393
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 012_Verify_ServiceTicket_FollowupMDI_Opened_PendingFinalReview_Closed-Waived,A-FP,27-Jan-2020,,1394
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 013_Verify_ServiceTicket_FinalMDI_pendingRegulatoryDecisionStatus_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1395
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 014_Verify_ServiceTicket_CombinedinitialandfinalreportMDI_pendingRegulatoryDecisionStatus_Regulatory tasks_Lifecycle,A-FP,27-Jan-2020,,1396
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 34 > 015_Verify_Regaulatorytask_notcreated_Neg,A-FP,27-Jan-2020,,1397
+Nick,ePAS 18-26674 v5,GS Reports,Move to Production,1,1,A-FP,27-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Integr > CMSNext > Protocol 39 > 001_Verify_Complaint_Ticket_pRE_CMSNext_to_CHaRM,A-FP,27-Jan-2020,,877
+Nick,1003,CHaRM,Test Protocol,2,Integr > CMSNext > Protocol 39 > 002_Verify_Complaint_Ticket_MDR_Customer_Response_BiDirectional,A-FP,27-Jan-2020,,878
+Nick,1003,CHaRM,Test Protocol,3,Integr > CMSNext > Protocol 39 > 003_Verify_Complaint_Ticket_Meaningful_Data_MDR_CMSNext_to_CHaRM,A-FP,27-Jan-2020,,879
+Nick,1003,CHaRM,Test Protocol,1,Integr > CMSNext > Protocol 44 > 009_Verify_Complaint_Ticket_Activity_Attachment_Delete-Flag_CMSNext_to_CHaRM,A-FP,27-Jan-2020,,1405
+Nick,ePAS 16-26283 v27,GS Reports,Project Plan,1,1,A-FP,27-Jan-2020,,
+Nick,ePAS 20-3246,GS Reports,Project Plan,1,1,A-FP,28-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,28-Jan-2020,,1476
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,28-Jan-2020,,1479
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A-FP,28-Jan-2020,,1480
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 008_View_Trend Item Maintenance Request_Inactive_Lifecycle,A-FP,28-Jan-2020,,1482
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 09 > 012_View_Trend Item Maintenance Request_Update Trend Item_All Process Types,A-FP,28-Jan-2020,,1550
+Nick,1003,CHaRM,Test Protocol,3,Config > Inquiry > Protocol 14 > 001_Verify_Inquiry_ClosedDoneReopenLifecycle,A-FP,28-Jan-2020,,859
+Nick,1003,CHaRM,Test Protocol,2,Config > Cust Resp > Protocol 15 > 006_Verify_CustomerResponseRecord_Inquiry_QualityTechRegRejectresponse,A-FP,28-Jan-2020,,736
+Nick,1003,CHaRM,Test Protocol,3,Config > Med Eval > Protocol 30 > 001_Create_MedicalEval_MDIEMDR,A-FP,28-Jan-2020,,307
+Nick,1003,CHaRM,Test Protocol,1,config > Reg Eval > Protocol 32 > 010_Verify_EMDR_MissingFaliingACKsFlow,A-FP,28-Jan-2020,,1551
+Nick,1003,CHaRM,Test Protocol,1,config > Reg Eval > Protocol 32 > 013_Verify_InitialAndFollowupEMDR_RequiredFields,A-FP,28-Jan-2020,,1106
+Nick,ePAS 15-19301,IDA Reporting,Test Protocol Results,1,1,A-FP,28-Jan-2020,,
+Nick,ePAS 17-4072 v26,GS Reports,Move to Production,1,1,A-FP,28-Jan-2020,,
+Nick,ePAS 18-11313 v3,GS Reports,Move to Production,1,1,A-FP,28-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > Complaints > Protocl 19 > 030_View_Complaints_RegClosedToFinalReviewInProgress_ChildRecordsClosedDone,A-FP,29-Jan-2020,,939
+Nick,1003,CHaRM,Test Protocol,3,Config > Complaints > Protocl 19 > 033_View_Complaints_ReopenFromCHaRM,A-FP,29-Jan-2020,,942
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 22 > 001_View_Productevaluation_ProductReturns_LifecycleStates,A-FP,29-Jan-2020,,798
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 22 > 002_View_Productevaluation_ProductReturns_LifecycleStates,A-FP,29-Jan-2020,,799
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 28 > 002_Create_MedicalEval_GeneralTaskWorkflow_ClosedVoided,A-FP,29-Jan-2020,,1046
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 28 > 015_Create_MedicalEval_GeneralTaskRecordWorkflow_ServiceTicket,A-FP,29-Jan-2020,,1059
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 31 > 006_Verify_MedicalEval_RopenWorkflow,A-FP,29-Jan-2020,,1080
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 31 > 002_Verify_MedicalEval_ClosedVoidedWorkflow,A-FP,29-Jan-2020,,1076
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 017_View_MedWatchReport,A-FP,29-Jan-2020,,1110
+Nick,1003,CHaRM,IIVP,1,5,A-FP,29-Jan-2020,,
+Nick,1003,CHaRM,IIVP,1,8,A-FP,29-Jan-2020,,
+Nick,ePAS 15-19300 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,29-Jan-2020,,
+Nick,ePAS 15-19477 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,29-Jan-2020,,
+Nick,771.01,Knowledge Management,Test Protocol Results,1,1,D,29-Jan-2020,Multible Errors,Missing Signatures and not identifying what each tester did.
+Nick,771.01,Knowledge Management,IIVP Results,1,1,D,29-Jan-2020,Multible Errors,Missing signatures in NPV and unclear names stated 
+Nick,ePAS 20-3626 ,GS Reports,Project Plan,1,1,A-FP,29-Jan-2020,,
+Nick,771.01,Knowledge Management,IIVP Results,1,1,A,29-Jan-2020,,
+Nick,771.01,Knowledge Management,Test Protocol Results,1,1,D,29-Jan-2020,"Screen shot presented of OE for step 2.1, and 2.2 show a date of 1/28/2020. This is before the stated start of testing in section 1 and prior to installation of the software as documented in the IIVP.",
+Nick,ePAS 15-19304 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,29-Jan-2020,,
+Nick,581.023,TODS,Software Compliance Assessment,1,1,A,30-Jan-2020,,
+Nick,ePAS 15-17279 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,ePAS 15-19302 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,771.01,Knowledge Management,Test Protocol Results,1,1,D,30-Jan-2020,Other,Add note about testing being done in India and as such date and times are IST
+Nick,ePAS 15-3494 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 016_Verify_ProductEvaluationTask_RetainedProductAnalysis_LifecycleStates,A-FP,30-Jan-2020,,960
+Nick,1003,CHaRM,Test Protocol,3,Config > Prod Eval > Protocol 23 > 015_Verify_ProductEvaluationTask_Customer Return Analysis_LifecycleStates,A-FP,30-Jan-2020,,959
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 25 > 006_Verify_Complaint_Productevaluation_Lifecyclestatus,A-FP,30-Jan-2020,,1002
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 25 > 002_Apply_Productevaluation_Lifecyclestatus,A-FP,30-Jan-2020,,998
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 010_Verify_EMDR_MissingFaliingACKsFlow,A-FP,30-Jan-2020,,1551
+Nick,581.023,TODS,ISSD,1,1,D,30-Jan-2020,Inaccurate information,
+Nick,ePAS 15-3690 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,771.01,Knowledge Management,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,1003,CHaRM,IIVP,2,2,A-FP,30-Jan-2020,,
+Nick,1003,CHaRM,IIVP,2,4,A-FP,30-Jan-2020,,
+Nick,ePAS 15-17278 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,ePAS 15-19467 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,30-Jan-2020,,
+Nick,ePAS 15-19305 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,31-Jan-2020,,
+Nick,500.057,CMSNext,Test Protocol,3,6,A-FP,31-Jan-2020,,
+Nick,500.057,CMSNext,Test Protocol,3,7,A-FP,31-Jan-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Cost Respond > Protocol 15 > 001_Create_CustomerResponseRecord_Inquiry_QualityTechRegApproveresponse,A-FP,31-Jan-2020,,735
+Nick,1003,CHaRM,Test Protocol,2,Config > Cost Respond > Protocol 15 > 005_Verify_CustomerResponseRecord_Inquiry_QualityTechApproveResponse,A-FP,31-Jan-2020,,731
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 16 > 004_Void_CustomerResponseRecord_fromCMSNext,A-FP,31-Jan-2020,,741
+Nick,1003,CHaRM,Test Protocol,2,Config > Translate > Protocol 20 > 017_Validate_AttachmentTranslationLifecycle_ServiceTicket,A-FP,31-Jan-2020,,1181
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 002_Create_ComplaintTicket_Productevaluation,A-FP,31-Jan-2020,,151
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 003_Create_ReportableServiceticket_Productevaluation_ChildRecord,A-FP,31-Jan-2020,,154
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 004_View_ComplaintTicket_Productevaluation_Likelycause_Yes,A-FP,31-Jan-2020,,671
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 005_View_ReportableServiceTicket_Likelycause_Notselected,A-FP,31-Jan-2020,,672
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 006_View_ComplaintTicket_ProductReturnInfo,A-FP,31-Jan-2020,,159
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 007_View_NonReportableServicetTicket_NoAutogeneratedProductevaluation,A-FP,31-Jan-2020,,157
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 008_View_InquiryTicket_NoAutogeneratedProductevaluation,A-FP,31-Jan-2020,,158
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 21 > 011_Create_ComplaintTicket_ProductReturnChild,A-FP,31-Jan-2020,,160
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 25 > 001_Apply_Productevaluation_Lifecyclestatus,A-FP,31-Jan-2020,,997
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 25 > 009_Apply_Productevaluation_Lifecyclestatus,A-FP,31-Jan-2020,,1005
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 007_Create_SupplementalEMDR_fromInitialEMDR_AfterPendingClosure,A-FP,31-Jan-2020,,1100
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 006_Create_SupplementalEMDR_fromInitialEMDR_AfterClosedDone,A-FP,31-Jan-2020,,1099
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 33 > 007_View_ComplaintTicket_First_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,31-Jan-2020,,1235
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 33 > 006_View_ServiceTicket_First_FollowupMD_Regulatory tasks_Lifecycle,A-FP,31-Jan-2020,,1234
+Nick,1003,CHaRM,IIVP,1,9,A-FP,31-Jan-2020,,
+Nick,771.01,Knowledge Management,System Certification Summary,1,1,D,31-Jan-2020,Inaccurate information,
+Nick,771.01,Knowledge Management,System Certification Summary,1,1,A,31-Jan-2020,,
