@@ -46,8 +46,4 @@ holdplot <- ggplot(data = Work, aes(x= date, y=n))
 
 
 holdplot+geom_line(aes(group = sqa, color = sqa))
-ggsave(filename = "interesting.jpg",
-       width = 6,
-       height = 6,
-       units = "in",
-       dpi = 600)
+
