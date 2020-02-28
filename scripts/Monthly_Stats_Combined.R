@@ -103,7 +103,7 @@ getResultsCombined <- function(Month = NULL,
                                 & version == 1)
                                & (application == "GS Reports"
                                   | application == "Metrics Library"
-                                  | application == "Poser BI")
+                                  | application == "Power BI")
                     )
                     & deliverable == "Project Plan")
                )$project))
