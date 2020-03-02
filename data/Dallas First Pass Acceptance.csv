@@ -647,8 +647,8 @@ Lan,DA-S 01475.001,LOG-ICAL 2.0, - Pass (Test Protocol), - Vers 01 Result, - Pro
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Test Protocol, - Vers 01, - Protocol-25,A-FP,6-Nov-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Software Change Request, - Vers 01, - SCR-01,D,6-Nov-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Software Change Request, - Vers 01, - SCR-01,A,6-Nov-2019,,
-Lan,DA-S 00622 . 008,GPPM v5.5.5, - Installation Instructions and Verification Protocol, - Vers 01, - Install-01,D,15-May-2013,Multiple Errors,Email
-Lan,DA-S 00622 . 008,GPPM v5.5.5, - Installation Instructions and Verification Protocol, - Vers 01, - Install-01,A,15-May-2013,,
+Lan,DA-S 00622 . 008,GPPM v5.5.5, - Installation Instructions and Verification Protocol, - Vers 01, - Install-01,D,15-May-2019,Multiple Errors,Email
+Lan,DA-S 00622 . 008,GPPM v5.5.5, - Installation Instructions and Verification Protocol, - Vers 01, - Install-01,A,15-May-2019,,
 Lan,DA-S 00622 . 008,GPPM v5.5.5, - Pass (Installation Instructions and Verification Protocol - SCR31 - MtQ - QA), - Vers 15 Result, - Install-01,A-FP,26-Sep-2019,,
 Lan,DA-S 00622 . 008,GPPM v5.5.5, - Test Protocol - SCR-32 GPPM 5.5.5 - LSP Changes, - Vers 01, - Protocol-34,A-FP,15-Nov-2019,,
 Lan,DA-S 00622 . 008,GPPM v5.5.5, - Fail (Test Protocol), - Vers 01, - Protocol-34,A-FP,15-Nov-2019,,
@@ -1066,3 +1066,133 @@ Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Other
 Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,IIVP,1,,D,16-Jan-2020,Inaccurate information,
 Ken,DA-S 00893 . 006,Mashup - Product Defect Tracking,Traceability,1,,A-FP,13-Jan-2020,,
 Ken,DA-S 01190.003,Abbott Product Lifecycle Management (APLM),Software Change Request,1,SCR-15v01,D,16-Jan-2020,Inaccurate information,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Software Compliance Assessment,2,SCA,A,13-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),URS,1,URS,A,19-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),FRS,1,FRS,A,19-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Software Change Request,2,SCR Release 4.15,A,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),CII,1,CII Release 4.15,D,27-Feb-2020,Inaccurate information,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Test Protocol,2,Protocol-06v02,D,28-Feb-2020,Inaccurate information,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Other,1,Other-00v00,D,28-Feb-2020,Inaccurate information,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC1 Stamping attached document,D,19-Feb-2020,Inaccurate information,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC4 Stamping Single Serial Effectivity,D,19-Feb-2020,Inaccurate information,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC5 Stamping Dual Serial Effectivity,D,19-Feb-2020,Inaccurate information,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC1 Stamping attached document,A,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC4 Stamping Single Serial Effectivity,A,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test - TC5 Stamping Dual Serial Effectivity,A,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol Results,1,Run - TC1 Stamping attached document,A-FP,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol Results,1,Run - TC4 Stamping Single Serial Effectivity,A-FP,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),Test Protocol Results,1,Run - TC5 Stamping Dual Serial Effectivity,A-FP,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),IIVP,1,Test - Installation and Verification of Java Component,A-FP,27-Feb-2020,,
+Ken,APLM Core,Abbott Product Lifecycle Management (APLM),IIVP results,1,Run - Installation and Verification of Java Component,A-FP,27-Feb-2020,,
+Arun,DA-S-1510.001,Camstar,FRS,3,SRS-01,D,3-Feb-2020,Requirement deficiency,NPV
+Arun,DA-S-1510.001,Camstar,FRS,3,SRS-01,A,4-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Traceability,3,TMatrixUSPro-01,D,4-Feb-2020,Insufficient traceability,email 
+Arun,DA-S-0074.010,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Project Plan,2,SPP-01,D,4-Feb-2020,Inaccurate information,NPV
+Arun,DA-S-0074.010,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Project Plan,2,SPP-01,A,4-Feb-2020,,NPV
+Arun,DA-S-0074.010,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,CII,2,VDD-01,D,6-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR06v01,D,2-Feb-2020,Multiple Errors,email 
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR06v01,A,6-Feb-2020,,email
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol13-v01,D,4-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol13-v01,A,4-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Traceability,3,TMatrixUSPro-03,D,10-Feb-2020,Insufficient traceability,NPV
+Arun,DA-S-1510.001,Camstar,Traceability,3,TMatrixUSPro-03,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol12-v01,D,9-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol12-v01,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Other,2,Other-14 ,D,10-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Other,2,Other-14 ,A,10-Feb-2020,Multiple Errors,
+Arun,DA-S-1510.001,Camstar,System Certification Summary,1,VVSR-03,D,9-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,System Certification Summary,1,VVSR-03,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,FRS,4,SRS-01,D,16-Feb-2020,Requirement deficiency,email
+Arun,DA-S-1510.001,Camstar,FRS,4,SRS-01,A,19-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,IIVP,1,Install12,D,19-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,IIVP,1,Install12,A,20-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol-12,D,5-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol-13,D,5-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol-14,D,5-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,Camstar,Maintenance Plan,2,MaintPlan-1,D,6-Feb-2020,Inaccurate information,email
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-07,D,6-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Test Protocol Results,1,Protocol-12,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol Results,1,Protocol-13,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol Results,1,Protocol-14,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-07,A,10-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-08,D,17-Feb-2020,Inaccurate information,email 
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-08,D,18-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Test Protocol,4,Protocol-5,D,18-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-09,D,18-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-09,D,25-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Software Change Request,1,SCR-09,A,27-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,IIVP,1,Install-13,D,27-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,IIVP,1,Install-13,A,28-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,4,Protocol-5,D,27-Feb-2020,Multiple Errors,email
+Arun,DA-S-1510.001,Camstar,Test Protocol,4,Protocol-5,A,28-Feb-2020,,NPV
+Arun,DA-S-1510.001,Camstar,Test Protocol,1,Protocol-17,D,27-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protocol1v1,D,25-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protocol1v1,A,26-Feb-2020,,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protoco21v1,D,25-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protocol2v1,A,26-Feb-2020,,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protocol3v1,D,25-Feb-2020,Multiple Errors,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Test Protocol,1,Protocol3v1,A,26-Feb-2020,,NPV
+Arun,DA-S-1510.001,HP Application Lifecycle Management (Quality Center) Version 12.0 Validation,Traceability,1,Protocol3v1,D,27-Feb-2020,Insufficient traceability,NPV
+Lan,DA-S 01092 . 000,Asset,RetSummary,1,RetSum01-01,A-FP,6-Feb-2020,,
+Lan,DA-S 01092 . 000,Asset,Cancel package,1,Cancel01-01,A-FP,6-Feb-2020,,
+Lan,DA-S 01497 . 000,Abbott Collaborative Environment (ACE),CII,1,VDD01-02,D,11-Feb-2020,Multiple Errors,NPV
+Lan,DA-S 01497 . 000,Abbott Collaborative Environment (ACE),CII,1,VDD01-02,A,11-Feb-2020,Multiple Errors,NPV
+Lan,DA-S 01497 . 000,Abbott Collaborative Environment (ACE),IIVP,1,Install02-01-Result,D,12-Feb-2020,Multiple Errors,NPV
+Lan,DA-S 01497 . 000,Abbott Collaborative Environment (ACE),IIVP,1,Install02-01-Result,A,13-Feb-2020,,
+Lan,DA-S 01497 . 000,Abbott Collaborative Environment (ACE),Test protocol,1,Protocol06-01-Result,A-FP,21-Feb-2020,,
+Lan,DA-S 001466.000,IDA-Q,RetPlan,1,RetPlan-01,D,28-Feb-2020,Multiple Errors,Email
+Lan,DA-S 001466.000,IDA-Q,RetSummary,1,RetSummary-01,D,28-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,1,SCR-08,D,10-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,1,SCR-08,D,10-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,1,SCR-08,A,13-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,2,SCR-08,D,14-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,2,SCR-08,A,17-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,URS,5,URS-01,D,11-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,URS,5,URS-01,D,12-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,URS,5,URS-01,D,14-Feb-2020,Inadequate Description of Change,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,URS,5,URS-01,A,17-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,FRS,5,SRS-01,D,12-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,FRS,5,SRS-01,D,14-Feb-2020,Inaccurate information,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,FRS,5,SRS-01,A,17-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,Test Protocol,1,Protocol-14,D,17-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Test Protocol,1,Protocol-14,A,18-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,Traceability,7,T-matrix-07,D,17-Feb-2020,Multiple Errors,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Traceability,7,T-matrix-07,A,18-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,IIVP results,1,Install-04,D,3-Feb-2020,Inaccurate information,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,IIVP,1,Install-05,A-FP,18-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,Test Protocol Results,1,Protocol-14 Results,D,19-Feb-2020,Incorrect Objective Evidence,Email
+Carole,DA-S00923.001 ,ADMS Work in Progress,Test Protocol Results,1,Protocol-14 Results,A,19-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,IIVP,1,Install-05,A-FP,18-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,IIVP,1,Install-05,A-FP,20-Feb-2020,N/A,
+Carole,DA-S00923.001 ,ADMS Work in Progress,Software Change Request,1,SCR-09,D,28-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,Software Change Request,1,SCR-43,D,10-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,Software Change Request,1,SCR-43,A,13-Feb-2020,N/A,
+Carole,DA-S00922.001,ADMS Purchasing,URS,7,URS-01,D,12-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,URS,7,URS-01,A,20-Feb-2020,N/A,
+Carole,DA-S00922.001,ADMS Purchasing,FRS,6,FRS-01,D,17-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,FRS,6,FRS-01,D,24-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,Software Change Request,1,SCR-44,D,28-Feb-2020,Multiple Errors,Email
+Carole,DA-S00922.001,ADMS Purchasing,Test Protocol,1,Protocol-27,D,28-Feb-2020,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,IIVP,1,Install-05,D,3-Feb-2020,Inaccurate information,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,IIVP,2,Install-05,A-FP,7-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Traceability,9,T-matrix-01,D,3-Feb-2020,Inaccurate information,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,Traceability,9,T-matrix-01,A,4-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Test Protocol,1,Protocol-26,A,3-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Test Protocol Results,1,Protocol-26,D,4-Feb-2020,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,Test Protocol Results,1,Protocol-26,A,5-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Test Protocol,2,Protocol-26,D,7-Feb-2020,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,IIVP results,2,Install-05,A,10-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,IIVP results,2,Install-05,A-FP,13-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Traceability,10,T-matrix-01,A-FP,7-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Software Change Request,1,SCR-14,D,3-Feb-2020,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,Software Change Request,1,SCR-14,D,3-Feb-2020,Inaccurate information,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,Software Change Request,1,SCR-14,A,3-Feb-2020,N/A,
+Carole,DA-S00921.001,ADMS R12 - Inventory,Software Change Request,2,SCR-14,D,7-Feb-2020,Multiple Errors,Email
+Carole,DA-S00921.001,ADMS R12 - Inventory,Software Change Request,2,SCR-14,A,7-Feb-2020,N/A,
+Carole,DA-S00926.002,ADMS Quality,Software Change Request,1,SCR-43,D,28-Feb-2020,Multiple Errors,Email
+Carole,DA-S01510.001,Camstar,Software Change Request,1,SCR-07,D,4-Feb-2020,Multiple Errors,Email
+Carole,DA-S01510.001,Camstar,Software Change Request,1,SCR-07,D,4-Feb-2020,Inaccurate information,Email
+Carole,DA-S01510.001,Camstar,Maintenance Plan,2,Maintenance-01,D,6-Feb-2020,Multiple Errors,Email
+Carole,DA-S01510.001,Camstar,Maintenance Plan,2,Maintenance-01,D,6-Feb-2020,Multiple Errors,Email
+Carole,DA-S01510.001,Camstar,IIVP,1,Install-11,A,5-Feb-2020,N/A,
+Carole,DA-S01510.001,Camstar,CII,2,VDD-01,A,6-Feb-2020,N/A,

@@ -7101,3 +7101,266 @@ Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 33 > 006_View_Servi
 Nick,1003,CHaRM,IIVP,1,9,A-FP,31-Jan-2020,,
 Nick,771.01,Knowledge Management,System Certification Summary,1,1,D,31-Jan-2020,Inaccurate information,
 Nick,771.01,Knowledge Management,System Certification Summary,1,1,A,31-Jan-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Project Plan,2,,A,3-Feb-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Validation Plan,2,,A-FP,3-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Change Request,1,IRIS IVDR,D,3-Feb-2020,Inaccurate information,eMail
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Software Change Request,1,IRIS IVDR,A,4-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Project Plan,1,IRIS IVDR Project/Val Plan,D,3-Feb-2020,Inaccurate information,eMail
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Specification,D,3-Feb-2020,Inaccurate information,eMail
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Specification,A,5-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Specification,D,3-Feb-2020,Inaccurate information,eMail
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Specification,A,5-Feb-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,IIVP,1,,A-FP,3-Feb-2020,,
+Beilah,01182.000,eConsent,URS,1,,A-FP,3-Feb-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Software Change Request,1,,A,3-Feb-2020,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,CII,1,,A-FP,3-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,General Requirements,A-FP,6-Feb-2020,,34 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Product Category Form,A-FP,6-Feb-2020,,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Product Registration Form,A-FP,6-Feb-2020,,3 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Country Information Form,A-FP,6-Feb-2020,,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Workflow Specific,A-FP,6-Feb-2020,,5 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,List number Product Name,A-FP,6-Feb-2020,,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IRIS Lookup Forms,A-FP,6-Feb-2020,,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Standalone Utilities,A-FP,6-Feb-2020,,6 User Requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Standalone Utilities,D,6-Feb-2020,Inaccurate information,1 User Requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Chapter Category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Update Chapter Category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Addendum Category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Certificate category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Platform/Subfolder Category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Obsolete Chapter category,D,6-Feb-2020,Inaccurate information,2 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IRIS Base Templates,A-FP,6-Feb-2020,,1 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IRIS COGNOS Reporting,A-FP,6-Feb-2020,,8 User requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Project Plan,1,project/val,A,6-Feb-2020,,
+Beilah,01182.000,eConsent,Data Privacy Plan,1,,A,6-Feb-2020,,resubmitted
+Beilah,DIV_LC_Distribution 2020-001,DFCS,Software Compliance Assessment,1,,D,6-Feb-2020,Inaccurate information,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Test Protocol,1,DRM Stand Alone Test Protoco,A-FP,7-Feb-2019,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Test Protocol,1,DRM Web Interface Test Protoco,A-FP,7-Feb-2019,,
+Beilah,DIV_LC_R_D v1.0.1,DRM,Test Protocol,1,DRM jmp Add-In Test Protoco,A-FP,7-Feb-2019,,
+Beilah,01162.000,WWLIMS,IIVP results,1,ADDULCDF37RHV,A-FP,10-Feb-2020,,
+Beilah,00849.014,PEAR,Test Protocol,1,Primary Test Protocol,A-FP,10-Feb-2020,,
+Beilah,01182.000,eConsent,Software Change Request,2,,A,10-Feb-2020,,
+Beilah,01182.000,eConsent,Software Change Request,2,,A-FP,10-Feb-2020,,
+Beilah,00849.014,PEAR,CII,1,,A-FP,10-Feb-2020,,
+Beilah,00849.014,PEAR,IIVP,1,,A-FP,10-Feb-2020,,
+Beilah,00849.014,PEAR,IIVP results,1,,A-FP,11-Feb-2020,,
+Beilah,00849.014,PEAR,Design Verification,1,Unit test,D,11-Feb-2020,Other,approver did not have access to NPV so was not added as an approver even though they were listed on the word doc.
+Beilah,00849.014,PEAR,Design Verification,1,Unit test,A,11-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Chapter Category,A,11-Feb-2020,,2 user requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Update Chapter Category,A,11-Feb-2020,,2 user requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Addendum Category,A,11-Feb-2020,,2 user requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Certificate category,A,11-Feb-2020,,2 user requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,Platform/Subfolder Category,A,11-Feb-2020,,2 user requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,IPMF Obsolete Chapter category,A,11-Feb-2020,,2 user requirements
+Beilah,00849.014,PEAR,Traceability,10,,D,12-Feb-2020,Inaccurate information,
+Beilah,00849.014,PEAR,Traceability,10,,A,12-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Copy Reagent Chapter Folders Workflow Map (41),A-FP,12-Feb-2020,,7 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Copy Instrument Chapter Folders Workflow Map (35,A-FP,12-Feb-2020,,7 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Copy Accessory Chapter Folders Workflow Map (21),A-FP,12-Feb-2020,,6 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Copy Chapter Folders into Product Workflow Ma,A-FP,12-Feb-2020,,6 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,AddNewCountry Folder,A-FP,12-Feb-2020,,2 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Rename the Chapter Folder,A-FP,12-Feb-2020,,1 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Delete the Chapter folder,A-FP,12-Feb-2020,,1 FRS Requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,IVDR Reagent Chapter Descriptors (Base) template folder,A-FP,12-Feb-2020,,2 FRS Requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,IVDR Instrument Chapter Descriptors (Base,A-FP,12-Feb-2020,,2 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,IVDR Accessory Descriptors (Base,A-FP,12-Feb-2020,,1 FRS requirements
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,IRIS Workflows: security,A-FP,12-Feb-2020,,4 FRS requirements
+Beilah,00849.014,PEAR,Test Protocol Results,1,,D,13-Feb-2020,Incorrect Objective Evidence,
+Beilah,00849.014,PEAR,Test Protocol Results,1,,A,13-Feb-2020,,
+Beilah,00849.014,PEAR,System Certification Summary,1,,A-FP,13-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Maintenance Plan,1,,A-FP,14-Feb-2020,,
+Liz,DIV_LC_R_D v2.0,ideaPoint,Software Change Request,1,,A-FP,17-Feb-2020,,
+Liz,DIV_LC_R_D v1.0 ,R&D Reporting Tool,Software Compliance Assessment,1,,A,21-Feb-2020,,
+Liz,DIV_LC_Excluded v1.0,QuickScore,Software Compliance Assessment,1,,A-FP,26-Feb-2020,,
+Suresh,00944.001,Temp Tale Mamager Desktop,ERES,1,,D,3-Feb-2020,Inaccurate information,email
+Suresh,00944.001,Temp Tale Mamager Desktop,ERES,1,,D,4-Feb-2020,Inaccurate information,email
+Suresh,00944.001,Temp Tale Mamager Desktop,ERES,1,,A,4-Feb-2020,,
+Suresh,01033.029,Pulse,IIVP results,1,,A-FP,4-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Software Compliance Assessment,1,,A-FP,4-Feb-2020,,
+Suresh,01033.029,Pulse,Test Protocol Results,1,Russian_Protocol,A-FP,6-Feb-2020,,
+Suresh,01033.029,Pulse,Test Protocol Results,1,HCE Profile_v3_Protocol,A-FP,11-Feb-2020,,
+Suresh,01033.029,Pulse,Test Protocol Results,1,HCE Judge_Protocol_v9,A-FP,12-Feb-2020,,
+Suresh,01033.029,Pulse,Test Protocol Results,1,Univants_Protocol,A-FP,12-Feb-2020,,
+Suresh,01035.000,Pulse,Test Protocol,1,TEST PROTOCOL-09 Version-04,D,12-Feb-2020,Inaccurate information,email
+Suresh,01035.000,Pulse,Test protocol,1,TEST PROTOCOL-09 Version-04,A,12-Feb-2020,,
+Suresh,01034.000,Pulse,Test protocol,2,TEST PROTOCOL-15 Version-02,A-FP,12-Feb-2020,,
+Suresh,01033.029,Pulse,Test Protocol Results,9,HCE_Protocol_v9,A-FP,13-Feb-2020,,
+Suresh,01035.000,Pulse,Test Protocol,10,TEST PROTOCOL-07 Version-10,A-FP,13-Feb-2020,,
+Suresh,01033.029,Pulse,System Certification Summary,1,,D,17-Feb-2020,Inaccurate information,email
+Suresh,01033.029,Pulse,System Certification Summary,1,,D,19-Feb-2020,Inaccurate information,
+Suresh,01033.029,Pulse,System Certification Summary,1,,A,19-Feb-2020,,
+Suresh,01033.029,Pulse,IIVP results,1,Production,A-FP,26-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Software Change Request,1,,D,12-Feb-2020,Inaccurate information,email
+Suresh,DIV_LC_Pulse v27.0,Pulse,Software Change Request,1,,D,13-Feb-2020,Inaccurate information,meeting
+Suresh,DIV_LC_Pulse v27.0,Pulse,Software Change Request,1,,D,13-Feb-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Software Change Request,1,,A,18-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Project Plan,1,,D,27-Feb-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Validation Plan,1,,D,27-Feb-2020,Inaccurate information,email
+Suresh,DIV_LC_Pulse v27.0,Pulse,URS,1,,D,27-Feb-2020,Inaccurate information,meeting
+Suresh,DIV_LC_Pulse v27.0,Pulse,Project Plan,1,,A,28-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Validation Plan,1,,D,28-Feb-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse v27.0,Pulse,ISSD,1,,A-FP,28-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,Validation Plan,1,,A,28-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,ERES,1,,A-FP,28-Feb-2020,,
+Suresh,DIV_LC_Pulse v27.0,Pulse,IDP,1,,A-FP,28-Feb-2020,,
+Beilah,01182.000,eConsent,URS,2,,A-FP,17-Feb-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,FRS,1,Rapid 2A,D,21-Feb-2020,Inaccurate information,
+Beilah,00849.014,PEAR,IIVP results,1,,A-FP,24-Feb-2020,,
+Nick,ePAS 15-2451 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-2855 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-3708 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-2884 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-2744 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19256 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-18915 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19264 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19260 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19472 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19258 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19257 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19312 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19311 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19462 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19314 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,500.057,CMSNext,FRS,13,1,A-FP,3-Feb-2020,,
+Nick,500.057,CMSNext,Test Protocol,2,8,A-FP,3-Feb-2020,,
+Nick,500.057,CMSNext,Test Protocol,2,10,A-FP,3-Feb-2020,,
+Nick,500.057,CMSNext,Test Protocol,2,11,A-FP,3-Feb-2020,,
+Nick,771.01,Knowledge Management,IIVP Results,1,1 prod,A-FP,3-Feb-2020,,
+Nick,ePAS 15-17282 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,ePAS 15-19470 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,3-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > General > Protocol 01 > 010_General_Validate_ChildRecord_ComplaintTicket,A-FP,3-Feb-2020,,889
+Nick,936,TrendReader,IIVP Results,3,1 prod PC ADDULCLJH9F9YL,A-FP,3-Feb-2020,,
+Nick,936,TrendReader,IIVP Results,3,1 prod PC ADDULCLCRSMZM,A-FP,3-Feb-2020,,
+Nick,936,TrendReader,IIVP Results,3,1 Prod PC ADDULCLDD9F0N,A-FP,3-Feb-2020,,
+Nick,1164,Helios Dispatch,FRS,1,1,A-FP,4-Feb-2020,,
+Nick,ePAS 20-3629,GS Reports,Move to Production,1,1,A-FP,4-Feb-2020,,
+Nick,1177,Service Utility,Test Protocol Results,1,1,A-FP,4-Feb-2020,,
+Nick,1177,Service Utility,Test Protocol Results,2,2,A-FP,5-Feb-2020,,
+Nick,1177,Service Utility,Release Notes,1,1,A-FP,6-Feb-2020,,
+Nick,589.055,CMSNext,System Certification Summary,1,1,D,6-Feb-2020,Multible Errors,
+Nick,1177,Service Utility,Test Protocol,2,1,A-FP,6-Feb-2020,,
+Nick,1177,Service Utility,Test Protocol,2,2,A-FP,6-Feb-2020,,
+Nick,589.055,CMSNext,System Certification Summary,1,1,D,6-Feb-2020,Multible Errors,
+Nick,1177,Service Utility,System Certification Summary,1,1,D,6-Feb-2020,Multible Errors,
+Nick,1177,Service Utility,System Certification Summary,1,1,A,6-Feb-2020,,
+Nick,ePAS 19-12910 v2,Metrics Library,Test Protocol,2,1,A-FP,7-Feb-2020,,
+Nick,589.055,CMSNext,System Certification Summary,1,1,A,7-Feb-2020,,
+Nick,928.011,Apollo/PHM,System Certification Summary,1,1,A,7-Feb-2020,,
+Nick,ePAS 19-13054 v2,Metrics Library,Test Protocol,1,1,A-FP,7-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > workques > Protocol 03 > 004_Validate_HazardAssesment_UnassignedWorkqueue,A-FP,7-Feb-2020,,1423
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 35 > 004_Verify_RegAssessment_LifeCycle_1,A-FP,7-Feb-2020,,1486
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 35 > 006_Verify_RegAssessment_LifeCycle_3,A-FP,7-Feb-2020,,1488
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 35 > 008_Verify_RegAssessment_LifeCycle_5,A-FP,7-Feb-2020,,
+Nick,ePAS 20-4976,Power BI,Project Plan,1,1,A-FP,7-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 36 > 006_Verify_AdditionalApprovals_LifeCycle_1,A-FP,7-Feb-2020,,1492
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 36 > 007_Verify_AdditionalApprovals_LifeCycle_2,A-FP,7-Feb-2020,,1493
+Nick,1003,CHaRM,Test Protocol,2,config > Post Market > Protocol 36 > 008_Verify_AdditionalApprovals_LifeCycle_3,A-FP,7-Feb-2020,,438
+Nick,1003,CHaRM,Test Protocol,2,Config > Post market > Protocol 37 > 012_Verify_HazardAssessment_Lifecycle_1,A-FP,7-Feb-2020,,1498
+Nick,1003,CHaRM,Test Protocol,2,Config > Post market > Protocol 37 > 014_Verify_HazardAssessment_Lifecycle_3,A-FP,7-Feb-2020,,1500
+Nick,1003,CHaRM,Test Protocol,2,Config > Post market > Protocol 37 > 027_Verify_Hazard Assessment_Access_1,A-FP,7-Feb-2020,,995
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 001_Verify_PMRA_Lifecycle_1,A-FP,7-Feb-2020,,1510
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 010_Verify_PMRA_AllAddApprovals_Closed_1,A-FP,7-Feb-2020,,468
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 016_Verify_PMRA_AllHA_Closed_1,A-FP,7-Feb-2020,,475
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 035_Verify_WorkflowActions_2,A-FP,7-Feb-2020,,1518
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 039_Verify_PMRA_Edit,A-FP,7-Feb-2020,,1522
+Nick,581.023,TODS,Software Change Request,2,1,A-FP,7-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,10-Feb-2020,,1466
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,10-Feb-2020,,1469
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 002_View_Tracking&TrendingReviewTask_Lifecycle_2,A-FP,10-Feb-2020,,1470
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 003_View_Tracking&TrendingReviewTask_Lifecycle_4,A-FP,10-Feb-2020,,1471
+Nick,1003,CHaRM,Test Protocol,3,Config > Complaints > 020_View_Complaints_DemoteToService_12,A-FP,10-Feb-2020,,929
+Nick,500.057,CMSNext,Test Protocol,2,4,A-FP,10-Feb-2020,,
+Nick,ePAS 15-17280 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,11-Feb-2020,,
+Nick,ePAS 15-17281 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,11-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > General > Protocol 01 > 007_General_ViewOpenTickets_Customerfields_inquiry,A-FP,11-Feb-2020,,886
+Nick,1003,CHaRM,Test Protocol,3,config > SYStem Access and Admin > Protocol 02 > 008_Verify_SystemAccess_BusinessAdmin_CountryObject,A-FP,11-Feb-2020,,369
+Nick,1003,CHaRM,Test Protocol,4,config > SYStem Access and Admin > Protocol 02 > 009_Verify_SystemAccess_BusinessAdmin_TranslationVendorObject,A-FP,11-Feb-2020,,370
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 001_View_ComplaintTicket_SubmissionType_Instruments_TrendItem,A-FP,11-Feb-2020,,1465
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,11-Feb-2020,,1466
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 003_View_ComplaintTicket_ThresholdType_Process_TrendItem,A-FP,11-Feb-2020,,1467
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 004_View_ComplaintTicket_TicketType_Consumables_TrendItem,A-FP,11-Feb-2020,,1468
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 010_View_Trend Item Maintenance Request_Add_Trend_Item_Unauthorized user,A-FP,11-Feb-2020,,1484
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Action > Protocol 12 > 004_View_TicketSearch Results,A-FP,11-Feb-2020,,791
+Nick,500.057,CMSNext,IIVP,1,10,A-FP,11-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 001_View_Trend Item Maintenance Request_Add_Trend_Item,A-FP,12-Feb-2020,,1475
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,12-Feb-2020,,1476
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 003_View_ComplaintTicket_ThresholdType_TrendItemMaintenance Request,A-FP,12-Feb-2020,,1477
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,12-Feb-2020,,1478
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,12-Feb-2020,,1479
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A-FP,12-Feb-2020,,1480
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A-FP,12-Feb-2020,,1481
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 008_View_Trend Item Maintenance Request_Inactive_Lifecycle,A-FP,12-Feb-2020,,1482
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A-FP,12-Feb-2020,,1483
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket TT,A-FP,12-Feb-2020,,1523
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 012_View_Trend Item Maintenance Request_Update Trend Item_All Process Types,A-FP,12-Feb-2020,,1550
+Nick,1003,CHaRM,Test Protocol,3,Confir > System Access and Admin > Protocol 02 > 012_Verify_SystemAccess_BusinessAdmin_ProductRecord,A-FP,12-Feb-2020,,373
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,12-Feb-2020,,1469
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 004_View_Tracking&TrendingReviewTask_Attachment_Life Cycle,A-FP,12-Feb-2020,,1472
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 08 > 005_View Threshold Review Task,A-FP,12-Feb-2020,,1473
+Nick,1003,CHaRM,Test Protocol,1,Config > T&T > Protocol 08 > 006_View_Tracking and Trending review Task_Adverse Trend,A-FP,12-Feb-2020,,1474
+Nick,1003,CHaRM,Test Protocol,2,Config > translate > Protocol 20 > 001_Validate_TranslationTasks_Service_Ticket,A-FP,12-Feb-2020,,1165
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod eval > Protocol 23 > 004_Validate_ProductEvaluationTaskType_InstrumentServiceHistoryReview _LifecycleStates,A-FP,12-Feb-2020,,948
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod eval > Protocol 23 > 007_Validate_ProductEvaluationTaskType_GeneralTask_LifecycleStates,A-FP,12-Feb-2020,,951
+Nick,1003,CHaRM,FRS,4,1,D,12-Feb-2020,Other,Via email
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 001_View_ComplaintTicket_SubmissionType_Instruments_TrendItem,A-FP,13-Feb-2020,,1465
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,13-Feb-2020,,1466
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 003_View_ComplaintTicket_ThresholdType_Process_TrendItem,A-FP,13-Feb-2020,,1467
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 008_Validate_ProductEvaluationTaskType_ComplaintDescriptionAttachmentReview_LifecycleStates,A-FP,13-Feb-2020,,952
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 009_Validate_ProductEvaluationTaskType_AdverseTrendReviewbyProductNumber_LifecycleStates,A-FP,13-Feb-2020,,953
+Nick,ePAS 19-38035 ,Power BI,Test Protocol Results,1,1,A-FP,13-Feb-2020,,
+Nick,ePAS 20-4765,Power BI,Project Plan,1,1,A-FP,13-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,10,A,14-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,11,A-FP,14-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 004_Validate_ProductEvaluationTaskType_InstrumentServiceHistoryReview _LifecycleStates,A-FP,14-Feb-2020,,648
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 005_Validate_ProductEvaluationTaskType_BatchHistoryRecordReview_LifecycleStates,A-FP,14-Feb-2020,,649
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 006_Validate_ProductEvaluationTaskType_TPMInvestigation_LifecycleStates,A-FP,14-Feb-2020,,650
+Nick,ePAS 15-19468 v2,IDA Reporting,Test Protocol Results,1,1,A-FP,17-Feb-2020,,
+Nick,ePAS 20-4978,Power BI,Test Protocol Results,1,1,A-FP,17-Feb-2020,,
+Nick,ePAS 16-26283 v28,GS Reports,Project Plan,1,1,A-FP,17-Feb-2020,,
+Nick,1003,CHaRM,FRS,4,1,A,18-Feb-2020,,
+Nick,500.057,CMSNext,Test Protocol,2,12,A-FP,18-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > Reg Eval > Protocol 32 > 002_View_InitialEMDR_ClosedVoided,A-FP,18-Feb-2020,,1095
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 32 > 006_Create_SupplementalEMDR_fromInitialEMDR_AfterClosedDone,A-FP,18-Feb-2020,,1099
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 32 > 016_Create_SupplementalEMDR_NoUpdateRequired,A-FP,18-Feb-2020,,1109
+Nick,ePAS 17-4072 v27,GS Reports,Move to Production,1,1,A-FP,18-Feb-2020,,
+Nick,ePAS 14-18294 v24,GS Reports,Project Plan,1,1,A-FP,19-Feb-2020,,
+Nick,ePAS 20-5792,Power BI,Project Plan,1,1,A-FP,20-Feb-2020,,
+Nick,ePAS 17-26460 v7,GS Reports,Move to Production,1,1,A-FP,20-Feb-2020,,
+Nick,581.023,TODS,Test Protocol,2,1,A-FP,20-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,12,A-FP,21-Feb-2020,,
+Nick,1177,Service Utility,IIVP Results,3,1 production,A-FP,21-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,3,A-FP,22-Feb-2020,,
+Nick,ePAS 20-4765 ,Power BI,Project Plan,1,1,A-FP,24-Feb-2020,,
+Nick,ePAS 20-5791 ,Power BI,Project Plan,1,1,A-FP,24-Feb-2020,,
+Nick,ePAS 20-6983 ,Power BI,Project Plan,1,1,A-FP,24-Feb-2020,,
+Nick,ePAS 20-6986,Power BI,Project Plan,1,1,A-FP,24-Feb-2020,,
+Nick,ePAS 20-6666,IDA Reporting,Test Protocol Results,1,1,A-FP,24-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,11,A-FP,24-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,MIG > mig general > MIG_4.13_GEN_GENERAL_VALIDATION REPORTS_2,A-FP,24-Feb-2020,,659
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Actions > Protocol 11 > 003_Create_TicketReviewRecord_RecurrenceSearch_14 Days,A-FP,24-Feb-2020,,110
+Nick,1003,CHaRM,IIVP,1,13,A-FP,24-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 017_Validate_ProductEvaluationTaskType_Retained&CustomerReturnAnalysis_LifecycleStates,A-FP,25-Feb-2020,,961
+Nick,ePAS 16-33266 v20,GS Reports,Project Plan,1,1,A-FP,25-Feb-2020,,
+Nick,ePAS 20-7151,Power BI,Project Plan,1,1,A-FP,25-Feb-2020,,
+Nick,ePAS 17-4771 v19,GS Reports,Move to Production,1,1,A-FP,26-Feb-2020,,
+Nick,1075.003,DaVinci,Software Change Request,1,1,A-FP,26-Feb-2020,,
+Nick,1075.003,DaVinci,URS,1,1,A-FP,27-Feb-2020,,
+Nick,ePAS 20-3626 v2,GS Reports,Project Plan,1,1,A-FP,27-Feb-2020,,
+Nick,1003,CHaRM,IIVP,1,14,A-FP,27-Feb-2020,,
+Nick,1003,CHaRM,Test Protocol,3,config > T&T > Protocol 07 > 001_View_ComplaintTicket_SubmissionType_Instruments_TrendItem,A-FP,27-Feb-2020,,1465
+Nick,1003,CHaRM,Test Protocol,3,config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,27-Feb-2020,,1469
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,27-Feb-2020,,1476
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,27-Feb-2020,,1478
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,27-Feb-2020,,1479
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A-FP,27-Feb-2020,,1481
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A-FP,27-Feb-2020,,1483
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 010_View_Trend Item Maintenance Request_Add_Trend_Item_Unauthorized user,A-FP,27-Feb-2020,,1484
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket TT,A-FP,27-Feb-2020,,1523
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 012_View_Trend Item Maintenance Request_Update Trend Item_All Process Types,A-FP,27-Feb-2020,,1550
+Nick,1003,CHaRM,Test Protocol,3,Config > Reg Eval eMDR > Protocol 32 > 002_View_InitialEMDR_ClosedVoided,A-FP,27-Feb-2020,,1095
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval eMDR > Protocol 32 > 006_Create_SupplementalEMDR_fromInitialEMDR_AfterClosedDone,A-FP,27-Feb-2020,,1099
+Nick,ePAS 18-5706 v5,GS Reports,Project Plan,1,1,A-FP,27-Feb-2020,,
+Nick,ePAS 18-31607 v2,GS Reports,Project Plan,1,1,A-FP,27-Feb-2020,,
+Nick,ePAS 11-9893 v14,GS Reports,Project Plan,1,1,A-FP,28-Feb-2020,,
+Nick,ePAS 20-7564,GS Reports,Project Plan,1,1,A-FP,28-Feb-2020,,

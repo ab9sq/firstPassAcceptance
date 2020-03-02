@@ -1,23 +1,23 @@
 SQA,Project ID,Application,Deliverable,Doc Version,"Doc ID, if needed","Approve or 
 Disapprove?",Date of Approval or Disapproval,Reason for Disapproval,Comments
 Harald,Release 3.1,MFCS,TP,1,N/A,D,6-Jan-2020,Multiple Errors,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,6-Jan-2020,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,6-Jan-2020,Multiple Errors,
 Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,D,10-Jan-2020,Inaccurate information,
 Harald,Release 3.1,MFCS,TP,1,N/A,D,10-Jan-2020,Multiple Errors,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,10-Jan-2020,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,10-Jan-2020,Multiple Errors,
 Harald,Release 3.1,MFCS,CII,1,N/A,D,14-Jan-2020,Inaccurate information,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,15-Jan-2020,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,15-Jan-2020,Multiple Errors,
 Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,D,16-Jan-2020,Inaccurate information,
 Philip,Release 02.21.00,ADOC,IA,1,N/A,D,17-Jan-2020,Inaccurate information,Mismatch of documentation impact vs. reality
 Philip,Release 02.21.00,ADOC,SPVP,1,N/A,D,17-Jan-2020,Inaccurate information,Schedule summary out of date
 Philip,Release 02.21.00,ADOC,URS/FRS/TM,15,Incoming,D,17-Jan-2020,Multiple Errors,"Revision history incomplete, tracing incorrect"
 Harald,Release 3.1,MFCS,CII,1,N/A,D,17-Jan-2020,Inaccurate information,
 Harald,Release 3.1,MFCS,TP,1,N/A,D,17-Jan-2020,Multiple Errors,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,17-Jan-2020,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,17-Jan-2020,Multiple Errors,
 Philip,Release 02.21.00,ADOC,IA,1,N/A,D,20-Jan-2020,Inaccurate information,Test execution planning incorrect
 Philip,Release 02.21.00,ADOC,TP,10,TP53,D,20-Jan-2020,Inaccurate information,"Revision history incorrect, table name duplicate"
 Harald,Release 3.1,MFCS,TP,1,N/A,D,20-Jan-2020,Multiple Errors,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,D,20-Jan-2020,Multiple Errors,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,20-Jan-2020,Multiple Errors,
 Philip,Release 02.21.00,ADOC,DV-UT,1,Incoming,A-FP,21-Jan-2020,,
 Philip,Release 02.21.00,ADOC,IA,1,N/A,A,21-Jan-2020,,
 Philip,Release 02.21.00,ADOC,IDP/IIVP,1,N/A,A-FP,21-Jan-2020,,
@@ -32,7 +32,7 @@ Philip,Release 01.05.00,LIC,SPR,1,A2000006,D,22-Jan-2020,Inaccurate information,
 Philip,Release 01.05.00,LIC,SPR,1,A2000006,A,22-Jan-2020,,
 Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,A,22-Jan-2020,,
 Harald,Release 3.1,MFCS,TP,1,N/A,A,22-Jan-2020,,
-Harald,Release 3.1,MFCS,URS/FRS/TM,1,N/A,A,22-Jan-2020,,
+Harald,Release 3.1,MFCS,URS/TM,1,N/A,A,22-Jan-2020,,
 Philip,Release 02.21.00,ADOC,SCS/RN,1,N/A,D,23-Jan-2020,Inaccurate information,Test execution analysis missing
 Philip,Release 02.21.00,ADOC,SCS/RN,1,N/A,A,23-Jan-2020,,
 Philip,Release 02.21.00,ADOC,TPR,1,TP60,A-FP,23-Jan-2020,,
@@ -64,3 +64,70 @@ Philip,Release 01.00.02,IRR,IA,1,N/A,D,3-Feb-2020,Inaccurate information,Documen
 Philip,Release 01.05.00,LIC,DV-UT,1,N/A,A-FP,3-Feb-2020,,
 Philip,Release v33.28.0,SFP,SCR,1,M2000002,A-FP,3-Feb-2020,,
 Philip,Release v33.28.0,SFP,SCR,1,M2000003,A-FP,3-Feb-2020,,
+Philip,Release 01.06.00,ASC,DV-UT,1,N/A,A-FP,4-Feb-2020,,
+Philip,Release 01.06.00,ASC,IDP/IIVP,1,N/A,D,4-Feb-2020,Inaccurate information,Backup plan not correctly specified
+Philip,Release 01.00.02,IRR,CII,1,N/A,D,4-Feb-2020,Inaccurate information,Build information incorrect
+Philip,Release 01.00.02,IRR,CII,1,N/A,A,4-Feb-2020,,
+Philip,Release 01.00.02,IRR,IA,1,N/A,A,4-Feb-2020,,
+Philip,Release 01.00.02,IRR,SPR,1,A1900123,A-FP,4-Feb-2020,,
+Philip,Release 01.00.02,IRR,SPVP,1,N/A,A,4-Feb-2020,,
+Philip,Release v33.28.0,SFP,SCR,1,M2000004,A-FP,5-Feb-2020,,
+Harald,Release 3.1,MFCS,MP,1,N/A,D,6-Feb-2020,Inaccurate information,
+Philip,Release 3.1,MFCS,TP,2,N/A,D,6-Feb-2020,Multiple Errors,"Revision history incorrect, information missing, steps incorrect"
+Philip,Release 3.1,MFCS,TP,2,N/A,D,6-Feb-2020,Inaccurate information,Revision history incomplete
+Philip,Release 3.1,MFCS,TP,2,N/A,A,6-Feb-2020,,
+Philip,Release 3.1,MFCS,URS/TM,2,N/A,D,6-Feb-2020,Multiple Errors,"Traceability information incorrect, revision history incorrect"
+Philip,Release 3.1,MFCS,URS/TM,2,N/A,D,6-Feb-2020,Inaccurate information,Revision history incomplete
+Philip,Release 3.1,MFCS,URS/TM,2,N/A,A,6-Feb-2020,,
+Philip,Release v33.28.0,SFP,CII,32,N/A,D,6-Feb-2020,Multiple Errors,"Build information incorrect, config file missing, form changes incorrect"
+Philip,Release v33.28.0,SFP,CII,32,N/A,D,6-Feb-2020,Inaccurate information,Build information incorrect
+Philip,Release v33.28.0,SFP,CII,32,N/A,A,6-Feb-2020,,
+Philip,Release v33.28.0,SFP,IDP/IIVP,1,N/A,A-FP,6-Feb-2020,,
+Philip,Release v33.28.0,SFP,URS/FRS/TM,45,N/A,D,6-Feb-2020,Multiple Errors,"Traceability information incorrect, revision history incorrect, changes incorrect"
+Philip,Release v33.28.0,SFP,URS/FRS/TM,45,N/A,D,6-Feb-2020,Multiple Errors,"Traceability information incorrect, revision history incorrect, changes incorrect"
+Philip,Release v33.28.0,SFP,URS/FRS/TM,45,N/A,A,6-Feb-2020,,
+Philip,Release 01.05.00,LIC,IDP/IIVP,1,N/A,A-FP,10-Feb-2020,,
+Harald,Release 02.21.01,ADOC,CII,1,N/A,A-FP,12-Feb-2020,,
+Harald,Release 01.05.00,LIC,CII,1,N/A,A-FP,12-Feb-2020,,
+Harald,Release 01.05.00,LIC,IVR,1,N/A,D,12-Feb-2020,Inaccurate information,Software Version (replaced/installed) incorrect
+Harald,Release 01.05.00,LIC,IVR,1,N/A,A,12-Feb-2020,,
+Harald,Release 02.21.01,ADOC,TPR,1,N/A,A-FP,13-Feb-2020,,
+Harald,Release 01.05.00,LIC,IA,2,N/A,A-FP,13-Feb-2020,,
+Harald,Release 01.05.00,LIC,TPR,1,N/A,A-FP,13-Feb-2020,,
+Harald,Release 01.05.00,LIC,IA,2,N/A,A-FP,14-Feb-2020,,
+Harald,Release 01.05.00,LIC,IDP/IIVP,2,N/A,A-FP,14-Feb-2020,,
+Harald,Release 01.05.00,LIC,SCS/RN,1,N/A,A-FP,14-Feb-2020,,
+Harald,Release 33.28.0,SFP,IVR,1,N/A,A-FP,14-Feb-2020,,
+Harald,Release 33.28.0,SFP,TPR,3,N/A,D,14-Feb-2020,Inaccurate information,Date typo
+Harald,Release 33.28.0,SFP,TPR,3,N/A,A,14-Feb-2020,,
+Philip,Release 01.09.03,ITS,IA,1,N/A,D,18-Feb-2020,Multiple Errors,"Approvers incorrect, tailoring incomplete"
+Harald,Release 01.05.00,LIC,IVR,2,N/A,A-FP,18-Feb-2020,,
+Harald,Release 3.1,MFCS,TP,3,N/A,D,18-Feb-2020,Multiple Errors,"Revision history incorrect, inaccurate information"
+Harald,Release 3.1,MFCS,TPR,2,N/A,D,18-Feb-2020,Multiple Errors,missing entry
+Harald,Release 3.1,MFCS,TP,3,N/A,A,19-Feb-2020,,
+Harald,Release 3.1,MFCS,TPR,2,N/A,A,19-Feb-2020,,
+Philip,Release 01.09.03,ITS,IA,1,N/A,D,20-Feb-2020,Multiple Errors,"Documentation impact analysis incomplete, SPR reference incorrect, tailoring incorrect"
+Philip,Release 01.09.03,ITS,IA,1,N/A,A,20-Feb-2020,,
+Philip,Release 01.09.03,ITS,SPVP,1,N/A,D,20-Feb-2020,Multiple Errors,"Approvers incorrect, roles incomplete/incorrect, e-record/e-signature section incorrect"
+Philip,Release 01.09.03,ITS,SPVP,1,N/A,A,20-Feb-2020,,
+Philip,Release 01.09.03,ITS,URS/FRS/TM,16,N/A,D,20-Feb-2020,Inaccurate information,Approvers incorrect
+Philip,Release 01.09.03,ITS,URS/FRS/TM,16,N/A,A,20-Feb-2020,,
+Harald,Release 3.1,MFCS,CII,2,N/A,A-FP,20-Feb-2020,,
+Philip,Release v33.28.0,SFP,IVR,1,Prod,D,20-Feb-2020,Inaccurate information,Verifier entries incorrect
+Philip,Release v33.28.0,SFP,IVR,1,Prod,A,20-Feb-2020,,
+Harald,Release 3.1,MFCS,MP,1,N/A,A,21-Feb-2020,,
+Philip,Release 01.09.03,ITS,DV-UT,1,N/A,A-FP,24-Feb-2020,,
+Philip,Release 01.09.03,ITS,IDP/IIVP,1,N/A,D,24-Feb-2020,Inaccurate information,Approver incorrect
+Philip,Release 01.09.03,ITS,IDP/IIVP,1,N/A,A,24-Feb-2020,,
+Philip,Release 7.1,Unicorn,CII,3,N/A,D,24-Feb-2020,Inaccurate information,Revision history incomplete
+Philip,Release 7.1,Unicorn,CII,3,N/A,A,24-Feb-2020,,
+Philip,Release 01.09.03,ITS,CII,17,N/A,D,26-Feb-2020,Inaccurate information,Revision history incomplete
+Philip,Release 01.09.03,ITS,CII,17,N/A,A,26-Feb-2020,,
+Philip,Release 01.09.03,ITS,IA,2,N/A,A-FP,26-Feb-2020,,
+Philip,Release 01.09.03,ITS,IVR,1,GER400,A-FP,26-Feb-2020,,
+Philip,Release 01.09.03,ITS,SCS/RN,1,N/A,D,26-Feb-2020,Inaccurate information,Approvers incorrect
+Philip,Release 01.09.03,ITS,SCS/RN,1,N/A,A,26-Feb-2020,,
+Philip,Release 01.09.03,ITS,TPR,1,TP09,A-FP,26-Feb-2020,,
+Harald,Release 3.1,MFCS,SCS/RN,1,N/A,A-FP,27-Feb-2020,,
+Harald,Release 3.1,MFCS,SCR,1,M1900012,A-FP,27-Feb-2020,,
+Philip,Release 01.09.03,ITS,IVR,1,GER42,A-FP,28-Feb-2020,,
