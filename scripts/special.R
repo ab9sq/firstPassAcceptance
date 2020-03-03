@@ -1,4 +1,4 @@
-Month <- "Jan"
+Month <- "Feb"
 Year <- 2020
 
 source("./scripts/FirstPassAcceptance.R")
@@ -30,7 +30,7 @@ Work <- hold %>%
 Effort <- hold %>%
         group_by(year, month, sqa) %>%
         count() %>%
-        filter((year == 2020 & month == "Jan"))
+        filter((year == 2020 & month == "Feb"))
 Effort
 
 Work$date <- as.Date(paste("1",
@@ -39,7 +39,7 @@ Work$date <- as.Date(paste("1",
                            sep = "-"),
                      format = "%d-%b-%Y")
 Work <- Work %>%
-        filter(date <= as.Date("31-Jan-2020",
+        filter(date <= as.Date("29-Feb-2020",
                                format = "%d-%b-%Y"))
 
 holdplot <- ggplot(data = Work, aes(x= date, y=n))
@@ -47,3 +47,23 @@ holdplot <- ggplot(data = Work, aes(x= date, y=n))
 
 holdplot+geom_line(aes(group = sqa, color = sqa))
 
+Docs <- hold %>%
+        group_by(year, month, Site, deliverable) %>%
+        count() %>%
+        filter((year == 2020 & month == "Feb"))
+Docs
+
+sites <- hold %>%
+        group_by(year, month, Site) %>%
+        count() %>%
+        filter((year == 2020 & month == "Feb"))
+sites
+deliver <- hold %>%
+        group_by(year, month, deliverable) %>%
+        count() %>%
+        filter((year == 2020 & month == "Feb"))
+deliver
+write_csv(Effort, path = "./Monthly/Individuals.csv")
+write_csv(Docs, path = "./Monthly/Documents.csv")
+write_csv(sites, path = "./Monthly/sites.csv")
+write_csv(deliver, path = "./Monthly/deliverable.csv")
