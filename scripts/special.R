@@ -30,6 +30,7 @@ Work <- hold %>%
 Effort <- hold %>%
         group_by(year, month, sqa) %>%
         count() %>%
+        arrange(desc(n)) %>%
         filter((year == 2020 & month == "Feb"))
 Effort
 
@@ -50,20 +51,41 @@ holdplot+geom_line(aes(group = sqa, color = sqa))
 Docs <- hold %>%
         group_by(year, month, Site, deliverable) %>%
         count() %>%
+        arrange(Site, desc(n)) %>%
         filter((year == 2020 & month == "Feb"))
 Docs
 
 sites <- hold %>%
         group_by(year, month, Site) %>%
         count() %>%
+        arrange(desc(n)) %>%
         filter((year == 2020 & month == "Feb"))
 sites
 deliver <- hold %>%
         group_by(year, month, deliverable) %>%
         count() %>%
+        arrange(desc(n)) %>%
         filter((year == 2020 & month == "Feb"))
 deliver
+
+status <- hold %>%
+        group_by(year, month, status) %>%
+        count() %>%
+        arrange(desc(n)) %>%
+        filter((year == 2020 & month == "Feb"))
+status
+
+
+
 write_csv(Effort, path = "./Monthly/Individuals.csv")
 write_csv(Docs, path = "./Monthly/Documents.csv")
 write_csv(sites, path = "./Monthly/sites.csv")
 write_csv(deliver, path = "./Monthly/deliverable.csv")
+
+
+Effort <- hold %>%
+        group_by(year, month, sqa) %>%
+        count() %>%
+        arrange(n) %>%
+        filter((year == 2020 & month == "Feb"))
+
