@@ -81,9 +81,9 @@ Path <- paste("./Monthly/",
               Month,
               " ",
               Year,
-              " /",
+              "/",
               sep = "")
-
+dir.create(Path)
 write_csv(Effort, path = paste0(Path,
                                "Individuals.csv"))
 write_csv(Docs, path = paste0(Path,
