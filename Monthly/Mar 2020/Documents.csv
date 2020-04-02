@@ -1,0 +1,60 @@
+year,month,Site,deliverable,n
+2020,Mar,Dallas,Test Protocol,28
+2020,Mar,Dallas,Software Change Request,20
+2020,Mar,Dallas,IIVP,18
+2020,Mar,Dallas,IIVP results,13
+2020,Mar,Dallas,Test Protocol Results,12
+2020,Mar,Dallas,CII,6
+2020,Mar,Dallas,Design Documentation,6
+2020,Mar,Dallas,System Certification Summary,6
+2020,Mar,Dallas,Traceability,6
+2020,Mar,Dallas,FRS,3
+2020,Mar,Dallas,Maintenance Plan,2
+2020,Mar,Dallas,Other,2
+2020,Mar,Dallas,URS,2
+2020,Mar,Dallas,SCA,2
+2020,Mar,Dallas,SCR,2
+2020,Mar,Dallas,SPP,2
+2020,Mar,Dallas,User Requirement,2
+2020,Mar,Dallas,RetPlan,1
+2020,Mar,Dallas,User Doc,1
+2020,Mar,LC/Div,Test Protocol,183
+2020,Mar,LC/Div,FRS,43
+2020,Mar,LC/Div,Test Protocol Results,29
+2020,Mar,LC/Div,URS,28
+2020,Mar,LC/Div,Software Change Request,24
+2020,Mar,LC/Div,System Certification Summary,16
+2020,Mar,LC/Div,IIVP,13
+2020,Mar,LC/Div,IIVP Results,10
+2020,Mar,LC/Div,Software Compliance Assessment,10
+2020,Mar,LC/Div,IIVP results,9
+2020,Mar,LC/Div,Maintenance Plan,7
+2020,Mar,LC/Div,Traceability,6
+2020,Mar,LC/Div,Move to Production,5
+2020,Mar,LC/Div,Project Plan,5
+2020,Mar,LC/Div,ISSD,4
+2020,Mar,LC/Div,Validation Plan,4
+2020,Mar,LC/Div,CII,3
+2020,Mar,LC/Div,Release Notes,3
+2020,Mar,LC/Div,ERES,2
+2020,Mar,LC/Div,Data Privacy Plan,1
+2020,Mar,LC/Div,IDP,1
+2020,Mar,LC/Div,User Acceptance Protocol results,1
+2020,Mar,Wiesbaden,IA,9
+2020,Mar,Wiesbaden,IVR,8
+2020,Mar,Wiesbaden,URS/FRS,7
+2020,Mar,Wiesbaden,SCS/RN,6
+2020,Mar,Wiesbaden,URS/FRS/TM,6
+2020,Mar,Wiesbaden,TP,5
+2020,Mar,Wiesbaden,CII,4
+2020,Mar,Wiesbaden,IDP/IIVP,4
+2020,Mar,Wiesbaden,TPR,4
+2020,Mar,Wiesbaden,SCR,3
+2020,Mar,Wiesbaden,RA,2
+2020,Mar,Wiesbaden,SPVP,2
+2020,Mar,Wiesbaden,IDP,1
+2020,Mar,Wiesbaden,DV-UT,1
+2020,Mar,Wiesbaden,ESRA,1
+2020,Mar,Wiesbaden,MP,1
+2020,Mar,Wiesbaden,TM-URS to FRS,1
+2020,Mar,Wiesbaden,TM-URS/FRS to TP,1
