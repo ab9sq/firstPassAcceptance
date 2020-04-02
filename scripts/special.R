@@ -1,9 +1,10 @@
-Month <- "Feb"
-Year <- 2020
-
 source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
+
+Month <- "Feb"
+Year <- 2020
+
 Div <- getFPA(file = "./data/Div First Pass Acceptance.csv")
 Div <- cleanFPA(Div)
 Div <- process(Div)

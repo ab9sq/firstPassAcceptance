@@ -121,6 +121,7 @@ Philip,Release 01.09.03,ITS,IDP/IIVP,1,N/A,D,24-Feb-2020,Inaccurate information,
 Philip,Release 01.09.03,ITS,IDP/IIVP,1,N/A,A,24-Feb-2020,,
 Philip,Release 7.1,Unicorn,CII,3,N/A,D,24-Feb-2020,Inaccurate information,Revision history incomplete
 Philip,Release 7.1,Unicorn,CII,3,N/A,A,24-Feb-2020,,
+Philip,Release 01.05.01,LIC,SPR,1,A2000019,A-FP,25-Feb-2020,,
 Philip,Release 01.09.03,ITS,CII,17,N/A,D,26-Feb-2020,Inaccurate information,Revision history incomplete
 Philip,Release 01.09.03,ITS,CII,17,N/A,A,26-Feb-2020,,
 Philip,Release 01.09.03,ITS,IA,2,N/A,A-FP,26-Feb-2020,,
@@ -128,6 +129,82 @@ Philip,Release 01.09.03,ITS,IVR,1,GER400,A-FP,26-Feb-2020,,
 Philip,Release 01.09.03,ITS,SCS/RN,1,N/A,D,26-Feb-2020,Inaccurate information,Approvers incorrect
 Philip,Release 01.09.03,ITS,SCS/RN,1,N/A,A,26-Feb-2020,,
 Philip,Release 01.09.03,ITS,TPR,1,TP09,A-FP,26-Feb-2020,,
-Harald,Release 3.1,MFCS,SCS/RN,1,N/A,A-FP,27-Feb-2020,,
 Harald,Release 3.1,MFCS,SCR,1,M1900012,A-FP,27-Feb-2020,,
+Harald,Release 3.1,MFCS,SCS/RN,1,N/A,A-FP,27-Feb-2020,,
 Philip,Release 01.09.03,ITS,IVR,1,GER42,A-FP,28-Feb-2020,,
+Philip,Release 01.05.01,LIC,SPVP,1,AQC VERA,D,28-Feb-2020,Multiple Errors,Offline review. Contents need to be adapted to reflect usage of AQC VERA.
+Philip,Release 01.05.01,LIC,URS/FRS,1,AQC VERA,D,2-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Philip,Release 01.05.01,LIC,IDP,1,AQC VERA,D,4-Mar-2020,Incorrect scope,Offline review.
+Philip,Release 01.05.01,LIC,ESRA,1,AQC VERA,D,5-Mar-2020,Inaccurate information,Offline review. AQC090504.A Attachment C no longer exists.
+Harald,Release 01.78.00,LSP,IA,2,N/A,A-FP,10-Mar-2020,,
+Harald,Release 01.78.00,LSP,IDP/IIVP,1,N/A,A-FP,10-Mar-2020,,
+Harald,Release 01.78.00,LSP,TP,1,N/A,A-FP,10-Mar-2020,,
+Harald,Release 01.78.00,LSP,URS/FRS/TM,40,ZARA,A-FP,10-Mar-2020,,
+Philip,Release 01.05.01,LIC,URS/FRS,1,AQC VERA,D,11-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Harald,Release 01.78.00,LSP,IVR,1,GER400,A-FP,11-Mar-2020,,
+Philip,Release 01.05.01,LIC,MP,1,AQC VERA,D,12-Mar-2020,Multiple Errors,Offline review. Contents need to be adapted to reflect usage of AQC VERA.
+Philip,Release 01.05.01,LIC,RA,1,AQC VERA,D,12-Mar-2020,Multiple Errors,Offline review. Failure modes and causes need to be corrected.
+Harald,Release 01.78.00,LSP,CII,1,N/A,A-FP,12-Mar-2020,,
+Harald,Release 01.78.00,LSP,SCS/RN,1,N/A,A-FP,12-Mar-2020,,
+Harald,Release 01.78.00,LSP,TPR,1,N/A,A-FP,12-Mar-2020,,
+Philip,Release 01.05.01,LIC,RA,1,AQC VERA,D,13-Mar-2020,Multiple Errors,Offline review. Mitigations need to be mapped to requirements.
+Philip,Release 01.05.01,LIC,URS/FRS,1,AQC VERA,D,13-Mar-2020,Multiple Errors,Offline review. Contents need to be adapted to reflect usage of AQC VERA.
+Harald,Release 01.78.00,LSP,IVR,1,GER42,A-FP,16-Mar-2020,,
+Harald,Release 01.78.00,LSP,SCR,1,L1900290,A-FP,16-Mar-2020,,
+Philip,Release 01.05.01,LIC,TM-URS to FRS,1,AQC VERA,D,17-Mar-2020,Multiple Errors,Offline review. Tracing needs rework.
+Philip,Release 01.05.01,LIC,TM-URS/FRS to TP,1,AQC VERA,D,17-Mar-2020,Multiple Errors,Offline review. Tracing needs rework.
+Harald,Release 01.80.00,LSP,IA,2,N/A,D,18-Mar-2020,Inaccurate information,Wrong SCR
+Philip,Release 01.06.00,ASC,IDP/IIVP,1,N/A,A,19-Mar-2020,,
+Harald,Release 01.79.00,LSP,DV-UT,1,N/A,A-FP,19-Mar-2020,,
+Harald,Release 01.79.00,LSP,IA,2,N/A,D,19-Mar-2020,Inaccurate information,Wrong SCR
+Harald,Release 01.79.00,LSP,IA,3,N/A,D,19-Mar-2020,Inaccurate information,Wrong libraries
+Harald,Release 01.79.00,LSP,IA,4,N/A,D,19-Mar-2020,Inaccurate information,Missing entry
+Harald,Release 01.80.00,LSP,IA,2,N/A,A,19-Mar-2020,,
+Harald,Release 01.79.00,LSP,IDP/IIVP,1,N/A,A-FP,19-Mar-2020,,
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Base),D,23-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Philip,Release 01.06.00,ASC,CII,11,N/A,D,23-Mar-2020,Multiple Errors,Object list incomplete and incorrect. Requires Impact Anaylsis update.
+Philip,Release 01.06.00,ASC,IVR,1,GER400,D,23-Mar-2020,,Incorrect document used.
+Philip,Release 01.06.00,ASC,IVR,1,GER400,A,23-Mar-2020,,
+Harald,Release 01.79.00,LSP,TP,1,N/A,D,23-Mar-2020,Multiple Errors,"Missing, wrong references to URS."
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Outgoing),D,24-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Harald,Release 01.79.00,LSP,IA,5,N/A,A,24-Mar-2020,,
+Harald,Release 01.79.00,LSP,TP,2,N/A,A,24-Mar-2020,,
+Harald,Release 01.79.00,LSP,URS/FRS/TM,14,REA,A-FP,24-Mar-2020,,
+Harald,Release 01.79.00,LSP,URS/FRS/TM,26,GIM,D,24-Mar-2020,Multiple Errors,"Missing, wrong references to TP."
+Harald,Release 01.79.00,LSP,URS/FRS/TM,26,GIM,A,24-Mar-2020,,
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (WebApp),D,25-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Pricing),D,25-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
+Philip,Release 01.06.00,ASC,CII,11,N/A,A,25-Mar-2020,,
+Philip,Release 01.06.00,ASC,IA,2,N/A,A-FP,25-Mar-2020,,
+Harald,Release 01.79.00,LSP,CII,1,N/A,A-FP,25-Mar-2020,,
+Harald,Release 01.79.00,LSP,IDP/IIVP,2,N/A,A-FP,25-Mar-2020,,
+Harald,Release 01.79.00,LSP,IVR,1,GER400,A-FP,25-Mar-2020,,
+Harald,Release 01.79.00,LSP,SCS/RN,1,N/A,A-FP,26-Mar-2020,,
+Harald,Release 01.79.00,LSP,TPR,1,N/A,A-FP,26-Mar-2020,,
+Philip,Release 01.06.00,ASC,IVR,1,GER42,A-FP,27-Mar-2020,,
+Philip,Release 01.06.00,ASC,SCS/RN,1,N/A,D,27-Mar-2020,Inaccurate information,BIA section incorrect
+Philip,Release 01.06.00,ASC,SCS/RN,1,N/A,A,27-Mar-2020,,
+Philip,Release 01.06.00,ASC,SCS/RN,1,N/A,D,27-Mar-2020,Inaccurate information,"Data review section incorrect, BIA section incorrect"
+Philip,Release 01.06.00,ASC,SCS/RN,1,N/A,A,27-Mar-2020,,
+Philip,Release 01.06.00,ASC,TPR,1,TP03,D,27-Mar-2020,Multiple Errors,Copy-paste errors in comments of unexecuted steps.
+Philip,Release 01.06.00,ASC,TPR,1,TP03,A,27-Mar-2020,,
+Philip,Release 02.22.00,ADOC,SCR,1,A2000031,A-FP,30-Mar-2020,,
+Philip,Release 02.22.00,ADOC,SPVP,1,N/A,D,30-Mar-2020,Inaccurate information,Approver and project roles incorrectly defined
+Harald,Release 01.79.00,LSP,IVR,1,GER42,D,30-Mar-2020,Inaccurate information,Coment missing
+Harald,Release 01.79.00,LSP,IVR,1,GER42,A,30-Mar-2020,,
+Harald,Release 01.79.00,LSP,SCR,1,L1900194,A-FP,30-Mar-2020,,
+Harald,Release 01.80.00,LSP,TP,2,N/A,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
+Harald,Release 01.80.00,LSP,URS/FRS/TM,6,LAG,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
+Philip,Release 02.22.00,ADOC,IA,1,N/A,D,31-Mar-2020,Multiple Errors,"Deliverables tailoring justifications insufficient, documentation impact section incorrect"
+Philip,Release 02.22.00,ADOC,SPVP,1,N/A,A,31-Mar-2020,,
+Philip,Release 02.22.00,ADOC,TP,1,TP69,D,31-Mar-2020,Inaccurate information,Test steps incomplete
+Philip,Release 02.22.00,ADOC,URS/FRS/TM,26,Outgoing,D,31-Mar-2020,Inaccurate information,Traceability information incomplete
+Philip,Release 02.22.00,ADOC,DV-UT,1,Outgoing,D,1-Apr-2020,Inaccurate information,Unit definitions missing
+Philip,Release 02.22.00,ADOC,DV-UT,1,Outgoing,A,1-Apr-2020,,
+Philip,Release 02.22.00,ADOC,IDP/IIVP,1,N/A,A-FP,1-Apr-2020,,
+Philip,Release 02.22.00,ADOC,TP,1,TP69,A,1-Apr-2020,,
+Philip,Release 02.22.00,ADOC,CII,1,N/A,A-FP,2-Apr-2020,,
+Philip,Release 02.22.00,ADOC,IVR,1,GER400,A-FP,2-Apr-2020,,
+Philip,Release 02.22.00,ADOC,IVR,1,GER42,A-FP,2-Apr-2020,,
+Philip,Release 02.22.00,ADOC,SCS/RN,1,N/A,A-FP,2-Apr-2020,,
+Philip,Release 02.22.00,ADOC,TPR,1,TP69,A-FP,2-Apr-2020,,

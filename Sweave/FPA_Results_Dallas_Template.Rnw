@@ -17,11 +17,11 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{February } % Update Setup below
+\newcommand{\reportMonth}{March } % Update Setup below
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
+\newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
 \newcommand{\lubdateVersion}{version 1.7.4}
 
 
