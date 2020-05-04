@@ -2,9 +2,9 @@ source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
 
-Month <- "Mar"
+Month <- "Apr"
 Year <- 2020
-EndOfPeriod <- as.Date("31-Mar-2020",
+EndOfPeriod <- as.Date("30-Apr-2020",
                        format = "%d-%b-%Y")
 
 Div <- getFPA(file = "./data/Div First Pass Acceptance.csv")
