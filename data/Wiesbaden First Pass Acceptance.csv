@@ -159,7 +159,7 @@ Harald,Release 01.79.00,LSP,DV-UT,1,N/A,A-FP,19-Mar-2020,,
 Harald,Release 01.79.00,LSP,IA,2,N/A,D,19-Mar-2020,Inaccurate information,Wrong SCR
 Harald,Release 01.79.00,LSP,IA,3,N/A,D,19-Mar-2020,Inaccurate information,Wrong libraries
 Harald,Release 01.79.00,LSP,IA,4,N/A,D,19-Mar-2020,Inaccurate information,Missing entry
-Harald,Release 01.80.00,LSP,IA,2,N/A,A,19-Mar-2020,,
+Harald,Release 01.80.00,LSP,IA,2,N/A,D,19-Mar-2020,Other,SPR L1900281 added
 Harald,Release 01.79.00,LSP,IDP/IIVP,1,N/A,A-FP,19-Mar-2020,,
 Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Base),D,23-Mar-2020,Multiple Errors,"Offline review. Structure and paths incorrect, requirements contents not matching original"
 Philip,Release 01.06.00,ASC,CII,11,N/A,D,23-Mar-2020,Multiple Errors,Object list incomplete and incorrect. Requires Impact Anaylsis update.
@@ -193,8 +193,8 @@ Philip,Release 02.22.00,ADOC,SPVP,1,N/A,D,30-Mar-2020,Inaccurate information,App
 Harald,Release 01.79.00,LSP,IVR,1,GER42,D,30-Mar-2020,Inaccurate information,Coment missing
 Harald,Release 01.79.00,LSP,IVR,1,GER42,A,30-Mar-2020,,
 Harald,Release 01.79.00,LSP,SCR,1,L1900194,A-FP,30-Mar-2020,,
-Harald,Release 01.80.00,LSP,TP,2,N/A,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
-Harald,Release 01.80.00,LSP,URS/FRS/TM,6,LAG,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
+Harald,Release 01.80.00,LSP,TP,1,L1900186,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
+Harald,Release 01.80.00,LSP,URS/FRS/TM,43,LAG,D,30-Mar-2020,Multiple Errors,Tracing is incomplete
 Philip,Release 02.22.00,ADOC,IA,1,N/A,D,31-Mar-2020,Multiple Errors,"Deliverables tailoring justifications insufficient, documentation impact section incorrect"
 Philip,Release 02.22.00,ADOC,SPVP,1,N/A,A,31-Mar-2020,,
 Philip,Release 02.22.00,ADOC,TP,1,TP69,D,31-Mar-2020,Inaccurate information,Test steps incomplete
@@ -208,3 +208,63 @@ Philip,Release 02.22.00,ADOC,IVR,1,GER400,A-FP,2-Apr-2020,,
 Philip,Release 02.22.00,ADOC,IVR,1,GER42,A-FP,2-Apr-2020,,
 Philip,Release 02.22.00,ADOC,SCS/RN,1,N/A,A-FP,2-Apr-2020,,
 Philip,Release 02.22.00,ADOC,TPR,1,TP69,A-FP,2-Apr-2020,,
+Philip,Release 13.2,Fabiola,SCA,1,N/A,D,6-Apr-2020,Not following document version control,"Not all changes described, or not based on approved version"
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,7-Apr-2020,Multiple Errors,"URS structure not correct for AQC VERA, contents partially incorrect or missing"
+Philip,Release 13.2,Fabiola,SPVP,1,N/A,D,8-Apr-2020,Multiple Errors,"Roles & responsibilities incomplete, strategy inadequate"
+Philip,Release 13.2,Fabiola,SCR,1,M2000007,D,14-Apr-2020,Inaccurate information,Description unacceptable
+Philip,Release 13.2,Fabiola,SCR,1,M2000008,D,14-Apr-2020,Inaccurate information,"Replacement SCR for M2000008, description draft needs rework"
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Incoming),D,15-Apr-2020,Multiple Errors,"Offline review. Structure not correct, several content errors"
+Philip,Release 02.2x.xx,ADOC,URS/FRS,1,AQC VERA (Outgoing),D,16-Apr-2020,Inaccurate information,Offline review. Corrections based on urgent COVID-19 release
+Philip,Release 01.05.01,LIC,SCA,1,N/A,A,16-Apr-2020,,
+Philip,Release 01.05.01,LIC,SPVP,1,N/A,D,17-Apr-2020,Multiple Errors,"Formatting issues, timeline correction"
+Philip,Release 01.05.01,LIC,ESRA,1,N/A,A,20-Apr-2020,,
+Philip,Release 01.05.01,LIC,IA,1,N/A,A,20-Apr-2020,,
+Philip,Release 01.05.01,LIC,IDP,1,N/A,A,20-Apr-2020,,
+Philip,Release 01.05.01,LIC,MP,1,N/A,D,20-Apr-2020,Multiple Errors,"Formatting issues, content adaptation"
+Philip,Release 01.05.01,LIC,MP,1,N/A,A,20-Apr-2020,,
+Philip,Release 01.05.01,LIC,RA,1,N/A,A,20-Apr-2020,,
+Philip,Release 01.05.01,LIC,SPVP,1,N/A,A,20-Apr-2020,,
+Harald,Release 01.80.00,LSP,DV-UT,1,L1900186,D,20-Apr-2020,Other,Source Code Names missing
+Harald,Release 01.80.00,LSP,IA,2,N/A,D,20-Apr-2020,Inaccurate information,Requirements missing
+Harald,Release 01.80.00,LSP,IDP/IIVP,1,N/A,D,20-Apr-2020,Inaccurate information,Empty fields
+Harald,Release 01.80.00,LSP,TP,1,L1900186,D,20-Apr-2020,Multiple Errors,Tracing is incomplete
+Harald,Release 01.80.00,LSP,TP,1,L1900281,D,20-Apr-2020,Inaccurate information,Expected result unclear
+Harald,Release 01.80.00,LSP,URS/FRS/TM,43,LAG,D,20-Apr-2020,Multiple Errors,"Tracing is incomplete, requirement missing, risk description missing"
+Philip,Release 01.05.01,LIC,DV-UT,1,N/A,A-FP,21-Apr-2020,,
+Philip,Release 01.05.01,LIC,IIVP,1,N/A,A,21-Apr-2020,,
+Philip,Release 01.05.01,LIC,TP,1,Legacy Tracing,A,21-Apr-2020,,
+Philip,Release 01.05.01,LIC,TP,1,N/A,A,21-Apr-2020,,
+Philip,Release 01.05.01,LIC,URS/FRS,1,N/A,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,DV-UT,1,L1900186,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,DV-UT,1,L1900281,A-FP,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,IA,2,N/A,D,21-Apr-2020,Inaccurate information,Time scedule inaccurate
+Harald,Release 01.80.00,LSP,IA,2,N/A,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,IDP/IIVP,1,N/A,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,SPR,1,L1900281,D,21-Apr-2020,Inaccurate information,Investigation results unclear
+Harald,Release 01.80.00,LSP,TP,1,L1900186,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,TP,1,L1900281,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,URS/FRS/TM,43,LAG,A,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,URS/FRS/TM,48,PAD,A-FP,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,URS/FRS/TM,23,SYM,A-FP,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,URS/FRS/TM,16,COR,A-FP,21-Apr-2020,,
+Harald,Release 01.80.00,LSP,URS/FRS/TM,3,CDL,A-FP,21-Apr-2020,,
+Philip,Release 01.05.01,LIC,CII,1,N/A,D,22-Apr-2020,Multiple Errors,Adaptations to new AS/400
+Philip,Release 01.05.01,LIC,CII,1,N/A,A,22-Apr-2020,,
+Philip,Release 01.05.01,LIC,IVR,1,GER400,A-FP,22-Apr-2020,,
+Harald,Release 01.80.00,LSP,CII,1,N/A,A-FP,22-Apr-2020,,
+Harald,Release 01.80.00,LSP,IVR,1,GER400,A-FP,22-Apr-2020,,
+Philip,Release 01.05.01,LIC,SCS/RN,1,N/A,A,23-Apr-2020,,
+Philip,Release 01.05.01,LIC,SPR,1,A2000019,A-FP,23-Apr-2020,,
+Philip,Release 01.05.01,LIC,TM-URS/FRS to TP,1,N/A,A,23-Apr-2020,,
+Philip,Release 01.05.01,LIC,TPR,1,Legacy Tracing,A-FP,23-Apr-2020,,
+Philip,Release 01.05.01,LIC,TPR,1,N/A,A-FP,23-Apr-2020,,
+Philip,Release 01.05.01,LIC,IVR,1,GER42,A-FP,24-Apr-2020,,
+Harald,Release 01.80.00,LSP,SCS/RN,1,N/A,D,24-Apr-2020,Inaccurate information,SPR reference is missing
+Harald,Release 01.80.00,LSP,SCS/RN,1,N/A,A,24-Apr-2020,,
+Harald,Release 01.80.00,LSP,TPR,1,L1900186,A-FP,24-Apr-2020,,
+Harald,Release 01.80.00,LSP,TPR,1,L1900281,A-FP,24-Apr-2020,,
+Philip,Release 01.05.01,LIC,SCS/RN,2,N/A,A,28-Apr-2020,,
+Harald,Release 01.80.00,LSP,IVR,1,GER42,A-FP,29-Apr-2020,,
+Harald,Release 01.80.00,LSP,SCR,1,L1900186,A-FP,29-Apr-2020,,
+Harald,Release 01.80.00,LSP,SPR,1,L1900281,A,29-Apr-2020,,
+Philip,Release 01.05.01,LIC,SPR,1,A2000019,A-FP,30-Apr-2020,,

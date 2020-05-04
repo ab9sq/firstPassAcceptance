@@ -7776,3 +7776,522 @@ Nick,1003,CHaRM,Test Protocol,1,Mig > Mig services > MIG_4.23_1_SERV_PRE_REOPEN_
 Nick,1003,CHaRM,Test Protocol,1,Mig > Mig services > MIG_4.23_2_SERV_PRE_REOPEN_PRODEVAL_SEND_BACK_INVESTIGATION,A-FP,30-Mar-2020,,1746
 Nick,ePAS 20-10391,IDA Reporting,Test Protocol Results,1,1,A-FP,31-Mar-2020,,
 Nick,ePAS 20-12175,GS Reports,Move to Production,1,1,A-FP,31-Mar-2020,,
+Beilah,DIV_LC_Distribution 2020-001,DFCS,Maintenance Plan,1,,A-FP,2-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,ERES,1,,A-FP,2-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,Validation Plan,1,,D,3-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,1,ID 40 run 4_2_6-12-34 IRIS-Utility- Delete the Chapter Folder,A-FP,3-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,1,ID 41 Run: 4-6_1-0-7 IRIS-Utility-Rename the Chapter Folder ID 7,A-FP,6-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,2,IRIS-Utility-Rename the Chapter Folder ID 7,A-FP,6-Apr-2020,,protocol error correction
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,1,ID 42 Run: 4-7_1-37-42 IRIS Copy Chapter Folders into Product Workflow Map,A-FP,7-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Project Plan,1,,A-FP,8-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,1,ID 43 Run: 4-8_0-31-10 IRIS Copy Reagent Chapter Folders Workflow Map (Set of 41),A-FP,8-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Test Protocol Results,1,ID 44 Run 4-9_0-54-13 Tcase: IRIS Copy Instrument Chapter Folders Workflow Map (Set of 35) ID20,A-FP,9-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,Validation Plan,1,,A,9-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,Spec,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,14 URS requirements,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Validation Plan,1,,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,ID 14,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,URS,1,ID 78,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,URS,1,ID 1198,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,URS,1,ID 1199,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,URS,1,ID 1196,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,URS,1,ID 1197,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 10,A-FP,10-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,"ID 18, 19, 29, 21",A-FP,10-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 37 ,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 38,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 54,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 57,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 105,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,1,Ispec 178; 33 FRS,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,URS ID31,A-FP,13-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,1,Spec and 50 FRS,A-FP,14-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,URS,1,ID 32,A-FP,14-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Traceability,1,,D,16-Apr-2020,Other,through email
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,New Product Folder Workflow: 9 requirements,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,PRFS Data Upload Utility: 12 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,LNPN Bulk Upload Utility: 1 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1, 2EUDAMED Category: 56 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,List number/product Name Lookup Form: 6 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,UDI-DI Lookup Form: 7 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,Legal Manufacturer Lookup Form: 5 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,Authorized Manufacturer Lookup Form: 5 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,Import Lookup Form: 5 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,Manufacturer Name Lookup Form: 4 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v22,IRIS,FRS,1,Audit Trial: 2 FRS,A-FP,16-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,Traceability,1,,A,16-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LN4a ID 285,A-FP,20-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LNVB_8B: ID 205,A-FP,20-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LNVB_8C: ID 206,A-FP,20-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LNLO_13a:ID 115,D,20-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LNLO_13a:ID 115,A,21-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,1,LNLO_13b: ID 642,A-FP,20-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LN_26d:ID 506,D,20-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LN_26d:ID 506,D,21-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,2,LN_26d:ID 506,A,22-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,IDP,1,,D,22-Apr-2020,Inaccurate information,through email
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,IDP,1,,D,22-Apr-2020,Inaccurate information,through email
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 13,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID 14,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID 15,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 16,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 39,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 38,D,22-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 38,A,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 37,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 2,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 3,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 4,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 5,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 6,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 7,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 8,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 72,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 73,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 74,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 75,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 76,A-FP,22-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 173,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 175,D,23-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 175,A,24-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 180,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 49,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 50,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 52,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 174,A-FP,23-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol,1,ID: 162,A-FP,24-Apr-2020,,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,CII,2,,A-FP,23-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_01_UI Verification Protocol,D,1-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_02 - Approval_Rejection_E-mail NotificationD,D,1-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,IIVP,1,,D,1-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,IIVP,1,,A,1-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,IIVP results,1,Val environment,A-FP,2-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_01_UI Verification Protocol,A,1-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_02 - Approval_Rejection_E-mail Notifica,A,2-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_03_Version Up Protocol,A-FP,3-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Compliance Assessment,2,,D,1-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Compliance Assessment,2,,D,1-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,CII,1,,A-FP,3-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IDP,1,,A-FP,3-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,ISSD,1,,A-FP,3-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_04_Attachments_PDF,A-FP,4-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_05_User Roles_Other than Admin,A-FP,4-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Compliance Assessment,2,,A,6-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,IIVP results,1,Prod,A-FP,6-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IIVP,1,,D,4-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IIVP,1,,D,5-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IIVP,1,,D,6-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IIVP,1,,A,6-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,IIVP results,1,,A-FP,7-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,System Certification Summary,1,,D,7-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Bausch V2.0,DARA Filler DHM and RU,System Certification Summary,1,,A,8-Apr-2020,,
+Suresh,944.001,Temp Tale Mamager Desktop,Other,1,Sensitech testing pkg,A-FP,9-Apr-2020,,
+Suresh,944.001,Temp Tale Mamager Desktop,Test Protocol,1,,D,9-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Software Compliance Assessment,2,withdraw SCA,D,8-Apr-2020,Inaccurate information,email/phone call
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_09_User Roles_Admin_Audit log,D,8-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_09_User Roles_Admin_Audit log,A,9-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_06 Excel Export functionality,D,9-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_10_Copy eCAF_Other than Admin,D,9-Apr-2020,Inaccurate information,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Software Compliance Assessment,1,,A,10-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0,GDSN/GS1,Software Change Request,1,,D,10-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0 ,GDSN/GS1,Software Change Request,1,,D,10-Apr-2020,Inaccurate information,
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Software Compliance Assessment,1,,D,13-Apr-2020,Inaccurate information,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0 ,GDSN/GS1,Software Change Request,1,,D,13-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Software Compliance Assessment,3,,D,13-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Software Compliance Assessment,1,,A,13-Apr-2020,,
+Suresh,"DIV_LC_Engineering, SFP IA product 3.0 ",ADD Shop Floor Paper (SFP) Report System,Software Compliance Assessment,1,,A-FP,13-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0 ,GDSN/GS1,Software Change Request,1,,A,13-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,ERES,1,,A-FP,13-Apr-2020,,
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Software Change Request,1,,D,14-Apr-2020,Inaccurate information,
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Software Change Request,1,,A,14-Apr-2020,,
+Suresh,944.001,Temp Tale Mamager Desktop,Test Protocol,1,,A,14-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Compliance Assessment,3,,A-FP,14-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_10_Copy eCAF_Other than Admin,A-FP,15-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_07_Copy eCAF_Admin_Viewer,A-FP,15-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_06 Excel Export functionality,A-FP,15-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,Software Change Request,2,,D,15-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,ERES,1,,A-FP,16-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Change Request,2,,D,16-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Change Request,2,,D,16-Apr-2020,Inaccurate information,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,Software Change Request,2,,A,19-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,1,TP_08_Existing NPV Test Cases,A-FP,19-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,Software Change Request,2,,A,20-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,URS Specification ,A-FP,20-Apr-2020,,URS Specification 
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,System Functions requirements group,A-FP,20-Apr-2020,,17 URS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,Reporting Utility group,A-FP,20-Apr-2020,,5 URS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,Data group,A-FP,20-Apr-2020,,8 URS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,Interfaces group,A-FP,20-Apr-2020,,3 URS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,"Env, Reg and erim requirements group",A-FP,20-Apr-2020,,10+ URS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,URS,1,Other group,A-FP,20-Apr-2020,,15+ URS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0,GDSN/GS1,Project Plan,1,,A-FP,20-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,ERES,1,BUDI Module ERES,A-FP,21-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,BUDI Module Spec,A-FP,21-Apr-2020,,User Requirement Specifications
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,SECURITY / ADMINISTRATION Group,A-FP,21-Apr-2020,,2 URS requirements 
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,BUDI GENERATION AND ASSIGNMENT Group,A-FP,21-Apr-2020,,8 URS requirements 
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,ELECTRONIC SIGNATURES / RECORDS Group,A-FP,21-Apr-2020,,2 URS requirements 
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,"Edit, Manual & Search Group",A-FP,21-Apr-2020,,5 URS requirements 
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,URS,1,"Admin, Email & review Group",A-FP,21-Apr-2020,,4 URS requirements 
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0,GDSN/GS1,ERES,1,GTIN module,A-FP,22-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V12.0,GDSN/GS1,ERES,1,GSDN module,A-FP,22-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,2,TP_05_User Roles_Other than Admin,A-FP,22-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,FRS,1,DHM Wyoming (DARA) - Functional Requirements Specification,D,22-Apr-2020,Inaccurate information,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,2,TP_10_Copy eCAF_Other than Admin,A-FP,22-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_03_Version Up Protocol,A-FP,22-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_02 - Approval_Rejection_E-mail Notification,A-FP,22-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol,2,TP_06 Excel Export functionality,A-FP,23-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_01_UI Verification Protocol,A-FP,23-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr NiceLabel Rel 2.0,E-labeling Web Package Insert Retrieval,Software Compliance Assessment,1,,A-FP,23-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Print on Demand Rel 6.0,Print on Demand,Software Compliance Assessment,1,,D,23-Apr-2020,Inaccurate information,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,,D,24-Apr-2020,Inaccurate information,
+Suresh,DIV_LC_MFG_Engr Print on Demand Rel 6.0,Print on Demand,Software Compliance Assessment,1,,A,24-Apr-2020,,
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,ISSD,1,Master IA reagent,D,24-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Maintenance Plan,1,,D,24-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Engineering, SFP IA Master3.0 ",ADD Shop Floor Paper (SFP) Report System,Maintenance Plan,1,,A,24-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,FRS,1,DHM Wyoming (DARA) - Requirements ,A,27-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,Functional Requirement Specifications,A,27-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,SECURITY / ADMINISTRATION group,A,27-Apr-2020,,12 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,ELECTRONIC SIGNATURES / RECORDS group,A,27-Apr-2020,,37 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,BUDI GENERATION group Withdraw email,D,27-Apr-2020,Inaccurate information,34 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,SEARCHING / REPORTING withdraw email,D,27-Apr-2020,Inaccurate information,5 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,ADMIN - MANAGE PLATFORM withdraw,D,27-Apr-2020,Inaccurate information,5 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,BUDI REVIEW withdraw email,D,27-Apr-2020,Inaccurate information,8 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,EMAIL NOTIFICATION withdraw,D,27-Apr-2020,Inaccurate information,2 FRS requirements
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,Other,1,Code review,A-FP,28-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_05_User Roles_Other than Admin,A,28-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_04_Attachments_PDF,A-FP,28-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_08_Existing NPV Test Cases,D,28-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Software Compliance Assessment,3,,A-FP,29-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_07_Copy eCAF_Admin_Viewer,D,29-Apr-2020,Inaccurate information,email
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_08_Existing NPV Test Cases,A-FP,29-Apr-2020,,
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,2,ELECTRONIC SIGNATURES / RECORDS (9),A,29-Apr-2020,,9 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,BUDI GENERATION group Withdraw email,A,29-Apr-2020,,34 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,SEARCHING / REPORTING ,A,29-Apr-2020,,5 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,ADMIN - MANAGE PLATFORM,A,29-Apr-2020,,5 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,BUDI review ,A,29-Apr-2020,,6 FRS requirements
+Suresh,DIV_LC_Reg_Affairs GS1-MT V13.0 ,GDSN/GS1,FRS,1,"requirements 304,401, 500, 505",A,30-Apr-2020,,4 FRS requirements
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_07_Copy eCAF_Admin_Viewer,A,30-Apr-2020,,
+Suresh,"DIV_LC_Quality, eCAF R 3.0",PCN/SCN,Test Protocol Results,1,[1]TP_06 Excel Export functionality,A-FP,30-Apr-2020,,
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,CII,1,,D,30-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,Test Protocol,1,Test Protocol-1 - Rel 1.3,D,30-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,Test Protocol,1,Test Protocol-2 - Rel 1.3,D,30-Apr-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr Wyoming V1.3,DARA Filler DHM and RU,IIVP,1,DHM Wyoming (DARA) - Installation and Verification Protocol,D,30-Apr-2020,Inaccurate information,email
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,System Certification Summary,1,,D,27-Apr-2020,Inaccurate information,
+Beilah,DIV_LC_Reg_Affairs v21,IRIS,System Certification Summary,1,,A,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,1,ID 5 specification,A-FP,27-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,IIVP,1,ID 201 WWLIMS Application Manual Instructions,A-FP,27-Apr-2020,,
+Beilah,DIV_LC_R&D,R&D Reporting Tool,IIVP results,1,ID 16 Production,A-FP,28-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,CII,2,ID 756 WWLIMS Workstation Application,A-FP,28-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,IIVP results,1,ID 124 workstation-GISULCDF1FVHV,A-FP,29-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_03 - LNLO_15 - Logon as Guest ID 127,A-FP,29-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_02 - LNLO_13 - Retired LIMS Account ID 130,A-FP,29-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_02 - LNLO_16 - Logon Configuration Checks ID 133,A-FP,29-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,FRS,1,ID 5 System Requirements,A-FP,29-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_8 - Border Properties ID 141,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_5 - Logon ID 140,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_4- Password ID 139,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_3 - LIMS ID ID 138,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_14 - Logon as Guest ID 137,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_10 - Internal Window Accessibility ID 136,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,DT_Logon- LNLO_1- Bookshelf view ID 135,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_1 - LNLO_7 - Invalid LIMS ID or Password ID 146,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_1 - LNLO_19 - Show or Hide Password ID 145,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,TCLNLO_1 - LNLO_18 - Invalid ID or Password ID 144,A-FP,30-Apr-2020,,
+Beilah,DIV_LC_WWLIMS v9.7,WWLIMS,Test Protocol Results,1,CLNLO_1 - LNLO_11 - Logon and Logoff Tracking & LNLO_17 - Site ID 143,A-FP,30-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,3,2,A-FP,1-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,1,12 Fail,A-FP,1-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.03_COMP_REP_REOPEN_ADD_NEW_MED_EVAL,A-FP,1-Apr-2020,,407
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.04_COMP_REP_REOPEN_CHANGE_RESPONSE,A-FP,1-Apr-2020,,408
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.05_COMP_REP_REOPEN_RESPOND_CMSNEXT_CHANGE,A-FP,1-Apr-2020,,409
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.06_COMP_NOTREP_REOPEN_TEST_CUSTOMER_RETURN,A-FP,1-Apr-2020,,410
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.07_COMP_NOTREP_REOPEN_CHANGE_RESPONSE,A-FP,1-Apr-2020,,411
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.08_COMP_NOTREP_REOPEN_RESPOND_CMSNEXT_CHANGE,A-FP,1-Apr-2020,,412
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.09_COMP_NOTREP_REOPEN_ADD_PROD_EVAL,A-FP,1-Apr-2020,,413
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.10_COMP_WITHSUB_CREATE_INITIAL_FOLLOW-UP_1,A-FP,1-Apr-2020,,474
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.11_COMP_WITHSUB_CREATE_2ND_FOLLOW-UP,A-FP,1-Apr-2020,,498
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.21_COMP_CREATE SUBMISSION,A-FP,1-Apr-2020,Inaccurate information,"693 - Steps 64 and 67 both indicated ""End Of Test Case"""
+Nick,1003,CHaRM,Test Protocol,1,Mig > Mig function > Mig services > MIG_4.23_1_SERV_PRE_REOPEN_PRODEVAL_SEND_BACK_EVALUATION,A,1-Apr-2020,,1747
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 27 > 009_Create_MedicalEval_TargetAssessmentDate,A-FP,1-Apr-2020,,705
+Nick,1003,CHaRM,Test Protocol,3,Config > Med Eval > Protocol 28 > 001_Verify_MedicalEval_GeneralTaskWorkflow_ClosedDone,A-FP,1-Apr-2020,,1045
+Nick,1003,CHaRM,Test Protocol,3,Config > Med Eval > Protocol 28 > 003_Verify_MedicalEval_MedicalOpinionTaskWorkflow_ClosedDone,A-FP,1-Apr-2020,,1047
+Nick,1003,CHaRM,Test Protocol,3,Config > Med Eval > Protocol 28 > 005_Verify_MedicalEval_RCMLReviewTaskWorkflow_ClosedDone,A-FP,1-Apr-2020,,1049
+Nick,1003,CHaRM,Test Protocol,2,Mig > Mig function . Mig Compl > MIG_4.21_COMP_CREATE SUBMISSION,A-FP,2-Apr-2020,,693
+Nick,ePAS 13-10122,GS Reports,Project Plan,1,1,A-FP,2-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,5,config > Complaints > Protocol 19 > 033_View_Complaints_ReopenFromCHaRM,A-FP,3-Apr-2020,,942
+Nick,div_stats,R - Stats Packages,Software Change Request,1,189,A-FP,3-Apr-2020,,ADDstats
+Nick,div_stats,R - Stats Packages,URS,1,,A-FP,3-Apr-2020,,ADDstats
+Nick,div_stats,R - Stats Packages,Test Protocol,3,10,A-FP,3-Apr-2020,,ADDstats
+Nick,div_cms,Service Utility,IIVP Results,1,1,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,Test Protocol Results,1,2 (FAILED),A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,10,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,Test Protocol Results,1,3,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,Test Protocol Results,1,4,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,Test Protocol Results,1,5,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,12,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,13,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,14,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,15,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,16,A-FP,3-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,20,A-FP,3-Apr-2020,,
+Nick,500.057,CMSNext,IIVP Results,1,1 - Third,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,IIVP Results,2,6,A-FP,3-Apr-2020,,
+Nick,1003,CHaRM,FRS,5,1,D,1-Apr-2020,other,Via email
+Nick,1003,CHaRM,FRS,5,1,A,6-Apr-2020,,
+Nick,div_stats,R - Stats Packages,Software Change Request,1,192,A-FP,6-Apr-2020,,ADDutil
+Nick,div_stats,R - Stats Packages,URS,1,143,A-FP,6-Apr-2020,,ADDutil
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 18 > 973_Validate_RegulatoryCorrespondenceAttachments_ComplaintAllStatuses,A-FP,6-Apr-2020,,1749
+Nick,1003,CHaRM,Test Protocol,1,Config > Complaints > Protocol 18 > 1661_Validate_Complaint_ComplaintCompleteToOpened,A-FP,6-Apr-2020,,1750
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 555_918_1674_1682_Verify_MandatoryFieldsforSupplementalEMDR,A-FP,6-Apr-2020,,1751
+Nick,1003,CHaRM,Test Protocol,1,Int > cmsnext > Protocol 48 > 1668_007_Verify_Complaint_Ticket_MDR_Ticket_Review_Quality_Assignee_Role,A-FP,6-Apr-2020,,1759
+Nick,581.023,TODS,Test Protocol,2,22,A-FP,6-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,58,A-FP,6-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,59,A-FP,6-Apr-2020,,
+Nick,938.011,Apollo/PHM,IIVP Results,1,1,A-FP,6-Apr-2020,,
+Nick,938.011,Apollo/PHM,IIVP Results,1,2,A-FP,6-Apr-2020,,
+Nick,938.011,Apollo/PHM,IIVP Results,1,3,A-FP,6-Apr-2020,,
+Nick,ePAS 20-13353,GS Reports,Move to Production,1,1,A-FP,6-Apr-2020,,
+Nick,div_stats,R - Stats Packages,Test Protocol Results,2,10,A-FP,6-Apr-2020,,ADDutil
+Nick,div_cms,Service Utility,Test Protocol Results,1,7 - fail,A-FP,6-Apr-2020,,
+Nick,div_stats,R - Stats Packages,Test Protocol Results,3,11,A-FP,7-Apr-2020,,ADDstats
+Nick,ePAS 16-33266 v22,GS Reports,Project Plan,1,1,A-FP,7-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 052_Verify_SetMDC_Medical EvaluationTask_Complaint,A-FP,7-Apr-2020,,1296
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 053_Verify_SetMDC_Medical EvaluationTask_Service,A-FP,7-Apr-2020,,1297
+Nick,1003,CHaRM,Test Protocol,3,Int > CMSNext > Protocol 44 > 007_Verify_Complaint_Ticket_Negative_Update_CMSNext_to_CHaRM,A-FP,7-Apr-2020,,974
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_001_Verify_Inquiry_Ticket_MDR_Quality_Non_Complaint_Role,A-FP,7-Apr-2020,,1753
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_001_Verify_Inquiry_Ticket_MDR_Quality_Non_Complaint_Role,A-FP,7-Apr-2020,,1754
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_003_Verify_Complaint_Ticket_MDR_Complaint_Assessor_Role,A-FP,7-Apr-2020,,1755
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_004_Verify_Complaint_Ticket_MDR_Medical_Evaluator_Role,A-FP,7-Apr-2020,,1756
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_005_Verify_Complaint_Ticket_MDR_Business_Admin_Role,A-FP,7-Apr-2020,,1757
+Nick,1003,CHaRM,Test Protocol,1,Int > CMSNext > Protocol 48 > 1668_006_Verify_Complaint_Ticket_MDR_Return_Coordinator_Role,A-FP,7-Apr-2020,,1758
+Nick,1003,CHaRM,Test Protocol,2,Config > Regulated sys req > Protocol 50 > 002_Verify_Login_Role_Account,A-FP,7-Apr-2020,,762
+Nick,ePAS 17-4771 v21,GS Reports,Move to Production,1,1,A-FP,7-Apr-2020,,
+Nick,ePAS 20-13353,GS Reports,Move to Production,1,1,A-FP,7-Apr-2020,,
+Nick,div_cms,Service Utility,CII,1,1870,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,CII,1,1880,A-FP,3-Apr-2020,,
+Nick,div_cms,Service Utility,IIVP Results,1,8,A-FP,3-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,8-Apr-2020,,1466
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 07 > 002_View_ComplaintTicket_ThresholdType_Assay_TrendItem,A-FP,9-Apr-2020,,1466
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 07 > 004_View_ComplaintTicket_TicketType_Consumables_TrendItem,A-FP,9-Apr-2020,,1468
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 08 > 004_View_Tracking&TrendingReviewTask_Attachment_Life Cycle,A-FP,9-Apr-2020,,1472
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,9-Apr-2020,,1469
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 071_View_Closed_CustomerResponses MedEvals ProdEvals,A-FP,9-Apr-2020,,1315
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 001_Verify_SetMDC_TicketNotes_Complaint,A-FP,9-Apr-2020,,1245
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 016_Verify_SetMDC_OverallReportableStatus_WasAnAdverseEventIdentified_Complaint,A-FP,9-Apr-2020,,1260
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 005_Verify_SetMDC_QDNumber_added_Product-Ticket_added_IssueCode_changed_Complaint,A-FP,9-Apr-2020,,1249
+Nick,div_cms,Service Utility,Traceability,1,1943,A-FP,9-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 08 > 005_View Threshold Review Task,A-FP,9-Apr-2020,,1473
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 08 > 006_View_Tracking and Trending review Task_Adverse Trend,A-FP,9-Apr-2020,,1474
+Nick,1003,CHaRM,Test Protocol,3,Config > T&T > Protocol 09 > 001_View_Trend Item Maintenance Request_Add_Trend_Item,A-FP,9-Apr-2020,,1475
+Nick,1003,CHaRM,Test Protocol,7,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,9-Apr-2020,,1476
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,9-Apr-2020,,1478
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,9-Apr-2020,,1479
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,9-Apr-2020,,1484
+Nick,1003,CHaRM,Test Protocol,2,int > CMSNext > Protocol 42 > 004_Verify_Complaint_Ticket_Serialized_UDI_CMSNext_to_CHaRM,A-FP,9-Apr-2020,,876
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Actions > Protocol 12 > 005_Categorize_TicketsinSearchResultspage,A-FP,9-Apr-2020,,792
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 > 012_Display_ColorCode_ForMedicalEvaluation_Workqueue_1,A-FP,9-Apr-2020,,1458
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 >013_Display_ColorCode_ForMedicalEvaluation_Workqueue_2,A-FP,9-Apr-2020,,1459
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 >014_Display_ColorCode_ForMedicalEvaluation_Workqueue_3,A-FP,9-Apr-2020,,1460
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 > 015_Display_ColorCode_ForMedicalEvaluation_Workqueue_4,A-FP,9-Apr-2020,,1425
+Nick,1003,CHaRM,Test Protocol,3,config > Complaints > Protocol 19 > 026_View_Complaint_ComplaintCompleteToComplaintFurtherReviewToOpened,A-FP,9-Apr-2020,,935
+Nick,1003,CHaRM,Test Protocol,2,Config > Translations > Protocol 20 > 028_Validate_TranslationTasks_VendorSendsCSV_With_Image_In_EmailSignature,A-FP,9-Apr-2020,,1192
+Nick,div_cms,Service Utility,System Certification Summary,1,1941,D,9-Apr-2020,Other,Via email
+Nick,500.067,CMSNext,Test Protocol,1,21,A-FP,9-Apr-2020,,
+Nick,895,MSS,Software Compliance Assessment,1,1,D,9-Apr-2020,,
+Nick,div_cms,Service Utility,System Certification Summary,1,1941,A,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,18,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,19,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,21,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,23,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,24,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,25,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,26,A-FP,10-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,27,A-FP,10-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 012_Validate_MedEval_AssignedWorkqueue,A-FP,10-Apr-2020,,1432
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 019_Validate_TktReview_AssignedWorkqueue,A-FP,10-Apr-2020,,1439
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 025_Validate_eMDR_AssignedWorkqueue,A-FP,10-Apr-2020,,1445
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 001_Validate_ProdEval_UnassignedWorkqueue,A-FP,10-Apr-2020,,1420
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 009_Validate_Eval_InvestigationTask_AssignedWorkqueue,A-FP,10-Apr-2020,,1429
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 016_Validate_RegulatoryAssesment_AssignedWorkqueue,A-FP,10-Apr-2020,,1436
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 020_Validate_T&Treview_AssignedWorkqueue,A-FP,10-Apr-2020,,1440
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 024_Validate_TicketWorkQueue_AssignedWorkqueue,A-FP,10-Apr-2020,,1444
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 026_Validate_MDIs_AssignedWorkqueue,A-FP,10-Apr-2020,,1446
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 008_Validate_CustomerResponse_AssignedWorkqueue,A-FP,10-Apr-2020,,1428
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 015_Validate_HazardAssesment_AssignedWorkqueue,A-FP,10-Apr-2020,,1435
+Nick,1003,CHaRM,Test Protocol,8,Config > T&T > Protocol 09 > 002_View_Trend Item Maintenance Request_Update_Lifecycle,A-FP,10-Apr-2020,,1476
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 003_View_ComplaintTicket_ThresholdType_TrendItemMaintenance ,A-FP,10-Apr-2020,,1477
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,10-Apr-2020,,1478
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,10-Apr-2020,,1479
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A-FP,10-Apr-2020,,1480
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A-FP,10-Apr-2020,,1481
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 008_View_Trend Item Maintenance Request_Inactive_Lifecycle,A-FP,10-Apr-2020,,1482
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A-FP,10-Apr-2020,,1483
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 012_View_Trend Item Maintenance Request_Update Trend Item_All Process Types,A-FP,10-Apr-2020,,1550
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > protocol 04 > 009_Validate_In Process User Notes_CustomerResponse,A-FP,13-Apr-2020,,1255
+Nick,1003,CHaRM,Test Protocol,4,Config > Workqueues > protocol 04 > 012_Display_ColorCode_ForMedicalEvaluation_Workqueue_1,A-FP,13-Apr-2020,,1458
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 07 > 004_View_ComplaintTicket_TicketType_Consumables_TrendItem,A-FP,13-Apr-2020,,1468
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 07 > 003_View_ComplaintTicket_ThresholdType_Process_TrendItem,A-FP,13-Apr-2020,,1467
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 08 > 001_View_Tracking&TrendingReviewTask_Autogeneration,A-FP,13-Apr-2020,,1369
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 08 > 002_View_Tracking&TrendingReviewTask_Lifecycle_2,A-FP,13-Apr-2020,,1470
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 08 > 003_View_Tracking&TrendingReviewTask_Lifecycle_4,A-FP,13-Apr-2020,,1471
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 08 > 006_View_Tracking and Trending review Task_Adverse Trend,A-FP,13-Apr-2020,,1474
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 003_View_ComplaintTicket_ThresholdType_TrendItemMaintenance Reque,A-FP,13-Apr-2020,,1477
+Nick,1003,CHaRM,Test Protocol,7,Config > T&T > Protocol 09 > 004_View_Trend Item Maintenance Request_Add_Update_Inactivate_Reactivate,A-FP,13-Apr-2020,,1478
+Nick,1003,CHaRM,Test Protocol,7,Config > T&T > Protocol 09 > 005_View_Trend Item Maintenance Request_Add_Trend_Item_Threshold type,A-FP,13-Apr-2020,,1479
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 09 > 006_View_Trend Item Maintenance Request_Add_Complete_lifecycle,A-FP,13-Apr-2020,,1480
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 09 > 007_View_Trend Item Maintenance Request_Add_Closed-Done,A-FP,13-Apr-2020,,1481
+Nick,1003,CHaRM,Test Protocol,6,Config > T&T > Protocol 09 > 009_View_Trend Item Maintenance Request_Closed-Voided,A-FP,13-Apr-2020,,1483
+Nick,1003,CHaRM,Test Protocol,4,Config > T&T > Protocol 09 > 011_View_Trend Item Maintenance Request_Add_Trend_Item_Ticket TT,A-FP,13-Apr-2020,,1523
+Nick,1003,CHaRM,Test Protocol,5,Config > T&T > Protocol 09 > 012_View_Trend Item Maintenance Request_Update Trend Item_All Process Types,A-FP,13-Apr-2020,,1550
+Nick,1003,CHaRM,Test Protocol,2,Config > T&T > Protocol 09 > 013_CR_Trend Item Maintenance Request_Update Trend Item,A-FP,13-Apr-2020,,1745
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Actions > Protocol 12 > 008_Verify_EmailNotificationsSearchAction_SearchFrequency_14Days or 30Day,A-FP,13-Apr-2020,,795
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Actions > Protocol 12 > 002_CreatenView_SearchChildRecords_RecurrenceSearch14Days,A-FP,13-Apr-2020,,789
+Nick,1003,CHaRM,Test Protocol,2,Config > Field Actions > Protocol 12 > 001_CreateView_SearchChildRecords_StaticSearch,A-FP,13-Apr-2020,,788
+Nick,1003,CHaRM,Test Protocol,2,Config > customer Response > Protocol 15 > 008_Verify_SendtoCMSNext_ForAttachment_CustomerResponseRecord,A-FP,13-Apr-2020,,737
+Nick,1003,CHaRM,Test Protocol,3,Config > Product Eval > Protocol 21 > 002_Create_ComplaintTicket_Productevaluation,A-FP,13-Apr-2020,,151
+Nick,1003,CHaRM,Test Protocol,3,Config > Product Eval > Protocol 23 > 018_Validate_ProductEvaluationTaskType_InstrumentLogFieldDataAnalysis_LifecycleStates,A-FP,13-Apr-2020,,962
+Nick,1003,CHaRM,Test Protocol,2,config > Reg Eval > Protocol 33 > 016_View_RegulatoryTask_EmailNotification,A-FP,13-Apr-2020,,1555 Version 1 routed without SQA
+Nick,1003,CHaRM,Test Protocol,3,config > Reg Eval > Protocol 33 > 006_View_ServiceTicket_First_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,13-Apr-2020,,1234
+Nick,1003,CHaRM,Test Protocol,2,config > Reg Eval > Protocol 33 > 009_View_ServiceTicket_Second_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,13-Apr-2020,,1399
+Nick,1003,CHaRM,Test Protocol,2,config > Reg Eval > Protocol 33 > 001_View_ComplaintTicket_InitialMDI_Lifecycle,A-FP,13-Apr-2020,,1229
+Nick,1003,CHaRM,Test Protocol,1,config > Reg Eval > Protocol 33 > 008_View_ComplaintTicket_Second_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,13-Apr-2020,,1236
+Nick,1003,CHaRM,Test Protocol,3,config > Reg Eval > Protocol 33 > 007_View_ComplaintTicket_First_FollowupMDI_Regulatory tasks_Lifecycle,A-FP,13-Apr-2020,,1235
+Nick,1003,CHaRM,Test Protocol,2,Config > MDC > Protocol 10 > 003_Verify_SetMDC_TicketNotes_Inquiry,A-FP,13-Apr-2020,,1247
+Nick,500.057,CMSNext,Test Protocol,2,13,A-FP,13-Apr-2020,,
+Nick,div_stats,R - Stats Packages,Software Change Request,1,196,A-FP,13-Apr-2020,,ADDutil
+Nick,div_cms,Helios Mobility,Software Compliance Assessment,1,1804,A-FP,13-Apr-2020,,
+Nick,div_cms,Service Utility,IIVP Results,2,10 - production,A-FP,13-Apr-2020,,
+Nick,1003,CHaRM,IIVP,1,17,A-FP,13-Apr-2020,,
+Nick,div_stats,R - Stats Packages,Test Protocol Results,2,12,A-FP,13-Apr-2020,,ADDutil
+Nick,div_stats,R - Stats Packages,System Certification Summary,1,197,A-FP,13-Apr-2020,,ADDutil
+Nick,ePAS 20-12199,IDA Reporting,Test Protocol Results,1,1,A-FP,14-Apr-2020,,
+Nick,ePAS 20-12117 ,IDA Reporting,Test Protocol Results,1,1,A-FP,14-Apr-2020,,
+Nick,ePAS 20-12201,IDA Reporting,Test Protocol Results,1,1,A-FP,14-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > Med Eval > Protocol 28 > 005_Verify_MedicalEval_RCMLReviewTaskWorkflow_ClosedDone,A-FP,14-Apr-2020,,1049
+Nick,1003,CHaRM,Test Protocol,2,Config > Med Eval > Protocol 31 > 007_Verify_MedicalEval_VoidedCriterias,A-FP,14-Apr-2020,,1081
+Nick,"ePAS 13-18612, v9",GS Reports,Project Plan,1,1,A-FP,15-Apr-2020,,
+Nick,1157,Helios Mobility,Validation Plan,1,1,D,15-Apr-2020,Other,via email
+Nick,1003,CHaRM,IIVP,1,18,D,15-Apr-2020,Other,contans comments
+Nick,1003,CHaRM,IIVP Results,1,6 val,A-FP,15-Apr-2020,,
+Nick,1003,CHaRM,IIVP,1,18,A,16-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,24 - Unit Test,A-FP,16-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,1,Config > Field Actions > Protocol 13 > 004_Check_EMDR_RequiredFields,A-FP,16-Apr-2020,,1769
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 001_View_EMDR_PDF,A-FP,16-Apr-2020,,1765
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 003_View_EMDR_MFRReport,A-FP,16-Apr-2020,,1558
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 004_Create_SupplementalEMDR_SetToBlank,A-FP,16-Apr-2020,,1760
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 005_Create_SupplementalEMDR_SetDate,A-FP,16-Apr-2020,,1761
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 006_Create_SupplementalEMDR_fromInitialEMDR_AfterClosedDone,A-FP,16-Apr-2020,,1762
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 008_Verify_EMDR_ACK3Failure,A-FP,16-Apr-2020,,1763
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 009_Verify_EMDR_InternalError,A-FP,16-Apr-2020,,1557
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 010_Verify_EMDR_MissingFaliingACKsFlow,A-FP,16-Apr-2020,,1556
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 013_Verify_InitialAndFollowupEMDR_RequiredFields,A-FP,16-Apr-2020,,1766
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 014_Create_SupplementalEMDR_fromSupplementalEMDR_AfterClosedDone,A-FP,16-Apr-2020,,1764
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 017_View_MedWatchReport,A-FP,16-Apr-2020,,1767
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Eval > Protocol 32 > 019_Verify_InitialAndFollowupEMDR_NullValuesInXML,A-FP,16-Apr-2020,,1768
+Nick,1003,CHaRM,IIVP,2,18,D,16-Apr-2020,Not compliant with procedure,No Page numbers
+Nick,1003,CHaRM,IIVP,2,18,A,16-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > customer Response > Protocol 15 > 008_Verify_SendtoCMSNext_ForAttachment_CustomerResponseRecord,A-FP,17-Apr-2020,,737
+Nick,1003,CHaRM,Test Protocol,2,Config > Service > Protocol 17 > 003_View_PlannedServiceTicket_Not Reportable_PRE=YES_Medicalevaluation_creation,A-FP,17-Apr-2020,,1008
+Nick,1003,CHaRM,Test Protocol,1,Config > Prod Eval > Protocol 21 > 012_Apply_Productevaluation_Lifecyclestatus_1,A-FP,17-Apr-2020,,1752
+Nick,1003,CHaRM,Test Protocol,2,Config > Prod Eval > Protocol 23 > 002_Validate_ProductEvaluationTaskType_ThresholdReview_LifecycleStates,A-FP,17-Apr-2020,,946
+Nick,1003,CHaRM,Test Protocol,1,Interg > CMSNext > Protocol 39 > 005_Verfiy_Complaint_Ticket_Meaningful_Data_Questions_Unanswered_CMSNext_to_CHaRM,A-FP,17-Apr-2020,,1554
+Nick,1003,CHaRM,Test Protocol,1,Config > Reg Syst Req > protocol 50 > 006_Verify_Active_Directory,A-FP,17-Apr-2020,,1553
+Nick,581.023,TODS,Software Compliance Assessment,2,1,D,17-Apr-2020,Other,redlines
+Nick,div_cms,Service Utility,Software Change Request,1,1948,A-FP,20-Apr-2020,,
+Nick,ePAS 19-1212 v4.,GS Reports,Move to Production,1,1,A-FP,20-Apr-2020,,
+Nick,ePAS 20-14163 ,Metrics Library,Project Plan,1,1,A-FP,20-Apr-2020,,UDI
+Nick,581.023,TODS,Software Compliance Assessment,2,1,A,20-Apr-2020,,
+Nick,582.023,TODS,Software Change Request,4,1,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,17,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,60,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,4,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,6,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,3,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,2,A-FP,20-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,2,5,A-FP,20-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,config > Field Actions > Protocol 12 > 004_View_TicketSearch Results,A-FP,21-Apr-2020,,791
+Nick,1003,CHaRM,Test Protocol,1,Mig > iQ > TRUNC_ATTACH > MIG_Truncated_Attachment,A-FP,21-Apr-2020,,1772
+Nick,div_cms,Service Utility,CII,1,1949,A-FP,21-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,65,A-FP,21-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,64,A-FP,21-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,63,A-FP,21-Apr-2020,,
+Nick,ePAS 20-14679,Metrics Library,Software Compliance Assessment,1,1,A-FP,21-Apr-2020,,UDI Report
+Nick,1003,CHaRM,Test Protocol,5,Config > Post Market Risk > Protocol 38 > 001_Verify_PMRA_Lifecycle_1,A-FP,21-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,66 - Unit Test,A-FP,22-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,1,10,A-FP,22-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 > 010_Display_ColorCode_ForPendingMDIWorkqueue,A-FP,23-Apr-2020,,1456
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 04 > 011_Display_ColorCode_ForPendingeMDRWorkqueue,A-FP,23-Apr-2020,,1457
+Nick,1003,CHaRM,Test Protocol,5,Config > Complaints > Protocol 19 > 020_View_Complaints_DemoteToService_12,A-FP,23-Apr-2020,,929
+Nick,div_cms,Helios Mobility,Software Change Request,1,1946,D,23-Apr-2020,Multible Errors,Pm added and incorrect approvers
+Nick,581.023,TODS,IIVP,3,1,A-FP,24-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,1,17,A-FP,24-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,2,18 - QA Failed,A-FP,24-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,3,59,A-FP,24-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,2,9,A-FP,24-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,4,Config > Workqueues > Protocol 03 > 009_Validate_Eval_InvestigationTask_AssignedWorkqueue,A-FP,24-Apr-2020,,14289
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 013_Validate_Translations_AssignedWorkqueue,A-FP,24-Apr-2020,,1433
+Nick,1003,CHaRM,Test Protocol,3,Config > Workqueues > Protocol 03 > 003_Validate_TranslationTask_UnassignedWorkqueue,A-FP,24-Apr-2020,,1422
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 002_View_ComplaintCycleTimeReport,A-FP,24-Apr-2020,,1526
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 003_View_ComplaintDetailsReport,A-FP,24-Apr-2020,,1527
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 004_View_eMDRSubmissionReport,A-FP,24-Apr-2020,,1528
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 005_View_Service and Inquiry Details Report,A-FP,24-Apr-2020,,1529
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 006_View_pRE-Timeliness Report,D,24-Apr-2020,,1530
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 007_View_Not Reportables Report,D,24-Apr-2020,,1531
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 008_View_TPM Responsible Report,D,24-Apr-2020,,1532
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 009_View_Translation Task Report,D,24-Apr-2020,,1533
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 010_View_Risk Assessment Report,D,24-Apr-2020,,1534
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 011_View_MDISubmissionReport,D,24-Apr-2020,,1535
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 012_View_TicketReport,A-FP,24-Apr-2020,,1536
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 013_View_TicketReport_Complaint_pRE Yes,A-FP,24-Apr-2020,,1537
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 014_View_TicketReport_Complaint_pRE No,A-FP,24-Apr-2020,,1538
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 015_View_TicketReport_Service,A-FP,24-Apr-2020,,1539
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 016_View_TicketReport_Inquiry,A-FP,24-Apr-2020,,1540
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 006_View_pRE-Timeliness Report,D,24-Apr-2020,,1530
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 008_View_TPM Responsible Report,D,24-Apr-2020,,1532
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 009_View_Translation Task Report,D,24-Apr-2020,,1533
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 010_View_Risk Assessment Report,D,24-Apr-2020,,1534
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 011_View_MDISubmissionReport,D,24-Apr-2020,,1535
+Nick,1003,CHaRM,IIVP Results,2,18,A-FP,24-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 016_View_TicketReport_Inquiry,A-FP,24-Apr-2020,,1540
+Nick,1003,CHaRM,Test Protocol,3,Config > Searches reports and dashboards > Protocol 05 > 017_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,24-Apr-2020,,1541
+Nick,1003,CHaRM,Test Protocol,3,Config > Searches reports and dashboards > Protocol 05 > 018_View_Post Market Risk Asst & Risk Ctrl Report,A-FP,24-Apr-2020,,1542
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 019_View_ Post Market Risk Evaluation - Health Hazard Assessment Report,A-FP,24-Apr-2020,,1543
+Nick,1003,CHaRM,Test Protocol,2,Config > Searches reports and dashboards > Protocol 05 > 020_View_ Post Market Risk Evaluation - Health Hazard Assessment Report,A-FP,24-Apr-2020,,1544
+Nick,1003,CHaRM,Test Protocol,2,Config > Reg Eval > Protocol 32 > 013_Verify_InitialAndFollowupEMDR_RequiredFields,A-FP,24-Apr-2020,,1766
+Nick,1003,CHaRM,Test Protocol,6,Config > Post Market > Protocol 38 > 001_Verify_PMRA_Lifecycle_1,A-FP,24-Apr-2020,,1510
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 002_Verify_PMRA_Lifecycle_2,A-FP,24-Apr-2020,,460
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 003_Verify_PMRA_Lifecycle_3,A-FP,24-Apr-2020,,461
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 026_Verify_PMRA_Attachments,A-FP,24-Apr-2020,,1513
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 027_Verify_HA_Attachments,A-FP,24-Apr-2020,,1514
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 028_Verify_RA_Attachments,A-FP,24-Apr-2020,,1515
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 029_Verify_ActionTask_Attachments,A-FP,24-Apr-2020,,488
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 030_Verify_HHA_Attachments,A-FP,24-Apr-2020,,489
+Nick,1003,CHaRM,Test Protocol,2,Config > Post Market > Protocol 38 > 031_Verify_RMF_Attachments,A-FP,24-Apr-2020,,490
+Nick,1003,CHaRM,Test Protocol,3,Config > Post Market > Protocol 38 > 038_Verify_Ticket Review_Attachments,A-FP,24-Apr-2020,,1521
+Nick,div_cms,Service Utility,IIVP Results,2,11 - QA,A-FP,24-Apr-2020,,
+Nick,div_cms,Service Utility,IIVP Results,2,12 - QA,A-FP,24-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,62,A-FP,27-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,4,7,A-FP,27-Apr-2020,,
+Nick,581.023,TODS,Test Protocol Results,1,66,A-FP,27-Apr-2020,,
+Nick,500.057,CMSNext,Test Protocol,3,8,A-FP,27-Apr-2020,,
+Nick,500.057,CMSNext,Test Protocol,3,4,A-FP,27-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 006_View_pRE-Timeliness Report,D,27-Apr-2020,,1530 - Third time rejected for same reason
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 008_View_TPM Responsible Report,A,27-Apr-2020,,1532
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 009_View_Translation Task Report,A,27-Apr-2020,,1533
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 010_View_Risk Assessment Report,A,27-Apr-2020,,1534
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 011_View_MDISubmissionReport,A,27-Apr-2020,,1535
+Nick,div_cms,Service Utility,Test Protocol Results,1,13,A-FP,27-Apr-2020,,
+Nick,div_cms,Helios Mobility,Software Change Request,1,1946,A,27-Apr-2020,,
+Nick,div_cms,Service Utility,Traceability,1,1953,A-FP,28-Apr-2020,,
+Nick,1003,CHaRM,Test Protocol,2,Config > Serches reports > Protocol 05 > 006_View_pRE-Timeliness Report,A,28-Apr-2020,,1530
+Nick,div_cms,Service Utility,System Certification Summary,1,1952,A-FP,28-Apr-2020,,
+Nick,582.023,TODS,Test Protocol,1,61,A-FP,29-Apr-2020,,
+Nick,1003,CHaRM,IIVP,1,20,A-FP,29-Apr-2020,,
+Nick,1003,CHaRM,IIVP,1,20,A,29-Apr-2020,,
+Nick,ePAS 16-33266 v23,GS Reports,Project Plan,1,1,A-FP,30-Apr-2020,,
+Nick,581.023,TODS,Test Protocol,1,67,A-FP,30-Apr-2020,,
+Nick,500.057,CMSNext,Test Protocol Results,2,12,A-FP,30-Apr-2020,,
+Nick,500.057,CMSNext,Test Protocol Results,1,5,A-FP,30-Apr-2020,,
+Nick,ePAS 17-4771 v22.,GS Reports,Move to Production,1,1,A-FP,30-Apr-2020,,
+Nick,1003,CHaRM,IIVP Results,2,4,A-FP,1-May-2020,,
+Nick,div_cms,Helios Mobility,Validation Plan,1,1954,A,1-May-2020,,
+Nick,1003,CHaRM,IIVP,2,20,A-FP,1-May-2020,,
+Nick,div_stats,R - Stats Packages,System Certification Summary,1,194,A-FP,7-Apr-2020,,ADDstats
