@@ -45,6 +45,7 @@ XLabel <- "Since November 2018"
 source("../scripts/Monthly_Stats.R")
 source("../scripts/Monthly_Stats_CHaRM.R")
 require(lubridate)
+#require(readxl)
 DivFPA <- getResults(Month = Month,
                   Year = Year,
                   File = DivFile)
