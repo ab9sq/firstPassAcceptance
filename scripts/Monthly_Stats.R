@@ -1,35 +1,11 @@
 getResults <- function(Month = NULL,
                        Year = NULL,
-                       File = "./data/First Pass Acceptance.xlxa"){
-        # load required functins
-        #source(file = "./scripts/FirstPassAcceptance.R")
-        getFPA <- function(file = "./data/First Pass Acceptance.xlxs") {
-                # require(readxl)
-                # FPA <- read_excel(file,
-                #                   sheet = "FPA",
-                #                   skip = 1,
-                #                   col_names = c("sqa",
-                #                                 "project",
-                #                                 "application",
-                #                                 "deliverable",
-                #                                 "version",
-                #                                 "docID",
-                #                                 "status",
-                #                                 "date",
-                #                                 "reason",
-                #                                 "comments"),
-                #                   col_types = c("text",
-                #                                 "text",
-                #                                 "text",
-                #                                 "text",
-                #                                 "text",
-                #                                 "text",
-                #                                 "text",
-                #                                 "date",
-                #                                 "text",
-                #                                 "text"))
-                FPA <- read.csv(file,
-                                col_names = c("sqa",
+                       File = "./data/Div First Pass Acceptance.csv"){
+        # load required functions
+
+        getFPA <- function(file = "data/Div First Pass Acceptance.csv") {
+                  FPA <- read.csv(file,
+                                col.names = c("sqa",
                                               "project",
                                               "application",
                                               "deliverable",
