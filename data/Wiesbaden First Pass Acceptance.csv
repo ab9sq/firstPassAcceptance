@@ -268,3 +268,45 @@ Harald,Release 01.80.00,LSP,IVR,1,GER42,A-FP,29-Apr-2020,,
 Harald,Release 01.80.00,LSP,SCR,1,L1900186,A-FP,29-Apr-2020,,
 Harald,Release 01.80.00,LSP,SPR,1,L1900281,A,29-Apr-2020,,
 Philip,Release 01.05.01,LIC,SPR,1,A2000019,A-FP,30-Apr-2020,,
+Philip,Release 13.2,Fabiola,IA,1,N/A,D,4-May-2020,Multiple Errors,"Tailoring table incomplete, system impact incorrect"
+Philip,Release 13.2,Fabiola,IDP,1,N/A,D,4-May-2020,Multiple Errors,"Incorrect system name, outlined process inadequate"
+Philip,Release 13.2,Fabiola,MP,1,N/A,D,4-May-2020,Multiple Errors,Several sections are incorrect (not taking COTS nature into account)
+Philip,Release 13.2,Fabiola,SCA,1,N/A,D,4-May-2020,Multiple Errors,Changes incompletely implemented
+Philip,Release 13.2,Fabiola,SPVP,1,N/A,D,4-May-2020,Multiple Errors,"Incorrect systemname, references incorrect, strategy inadequate"
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,4-May-2020,Multiple Errors,Tracing/references incorrect
+Harald,Release 01.81.00,LSP,IA,1a,N/A,D,4-May-2020,Inaccurate information,
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,5-May-2020,Multiple Errors,Tracing/references still incorrect
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,6-May-2020,Multiple Errors,Tracing/references still incorrect
+Philip,Release 13.2,Fabiola,IA,1,N/A,D,12-May-2020,Multiple Errors,"Tailoring table still incomplete, system impact still incorrect"
+Philip,Release 13.2,Fabiola,IDP,1,N/A,D,12-May-2020,Multiple Errors,Outlined process still needs rework (because of COTS nature)
+Philip,Release 13.2,Fabiola,MP,1,N/A,D,12-May-2020,Multiple Errors,Several sections are incorrect (not taking COTS nature into account)
+Philip,Release 13.2,Fabiola,SPVP,1,N/A,D,12-May-2020,Multiple Errors,"Formal errors, strategy discussion ongoing, DP aspects not final"
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,12-May-2020,Multiple Errors,"Tracing/references still incorrect, risk classifications inconsistent"
+Harald,Release 01.81.00,LSP,IA,1b,N/A,D,12-May-2020,Inaccurate information,
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,15-May-2020,Multiple Errors,Requirement specifications need rework
+Harald,Release 01.81.00,LSP,DV-UT,1,L2000059,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,DV-UT,1,L2000076,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,IA,1,N/A,A,15-May-2020,,
+Harald,Release 01.81.00,LSP,IDP/IIVP,1,N/A,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,IVR,1,GER400,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,TP,1,L2000059,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,TP,1,L2000076,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,URS/FRS/TM,16,BOML,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,URS/FRS/TM,44,LAG,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,URS/FRS/TM,27,GIM,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,URS/FRS/TM,15,REA,A-FP,15-May-2020,,
+Harald,Release 01.81.00,LSP,CII,1,N/A,A-FP,18-May-2020,,
+Harald,Release 01.81.00,LSP,IDP/IIVP,2,N/A,A-FP,18-May-2020,,
+Harald,Release 01.81.00,LSP,SCS/RN,1a,N/A,D,18-May-2020,Inaccurate information,
+Harald,Release 01.81.00,LSP,SCS/RN,1,N/A,A,19-May-2020,,
+Harald,Release 01.81.00,LSP,SPVP,6a,Generic,D,19-May-2020,Inaccurate information,
+Harald,Release 01.81.00,LSP,TPR,1a,L2000059,D,19-May-2020,Inaccurate information,
+Harald,Release 01.81.00,LSP,TPR,1,L2000059,A,19-May-2020,,
+Harald,Release 01.81.00,LSP,TPR,1,L2000076,A-FP,19-May-2020,,
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,20-May-2020,Multiple Errors,Tracing/references still incorrect
+Harald,Release 01.81.00,LSP,SPVP,6,Generic,A,20-May-2020,,
+Philip,Release 13.2,Fabiola,SE,1,N/A,D,28-May-2020,Multiple Errors,"Content and result do not match, several process and logical errors"
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,29-May-2020,Multiple Errors,"Item type selections partially incorrect, contents still need some rework"
+Harald,Release 01.81.00,LSP,IVR,2,GER42,A-FP,27-May-2020,,
+Harald,Release 01.81.00,LSP,SCR,1,L2000059,A-FP,27-May-2020,,
+Harald,Release 01.81.00,LSP,SPR,1,L2000076,A-FP,27-May-2020,,

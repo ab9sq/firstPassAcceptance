@@ -526,19 +526,19 @@ Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Functional Requirements Specific
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,User Documentation (UDoc),3, UDoc-01,A,15-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,BSQDeviceSim Test Protocol Data ,10,Other-02,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,LAS Interface Spec,2,Other-06,A-FP,14-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data,5, Protocol-02,D,13-Nov-2019,Multiple Errors,Email
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data,5, Protocol-02,A,13-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data – Results ,5, Protocol-02 (Results),A-FP,19-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Routine and Priority Bays,4, Protocol-03,A-FP,15-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Routine and Priority Bays,4, Protocol-03 (Result),A-FP,19-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – LAS,2, Protocol-12,A-FP,14-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – LAS,2, Protocol-12 (Result),A-FP,20-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data,5, Protocol-02,D,13-Nov-2019,Multiple Errors,Email
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data,5, Protocol-02,A,13-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data ? Results ,5, Protocol-02 (Results),A-FP,19-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Routine and Priority Bays,4, Protocol-03,A-FP,15-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Routine and Priority Bays,4, Protocol-03 (Result),A-FP,19-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? LAS,2, Protocol-12,A-FP,14-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? LAS,2, Protocol-12 (Result),A-FP,20-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  DistanceAlert,1, Protocol-13,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  DistanceAlert - Results,1, Protocol-13 (Results),A-FP,20-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  Command Line Interface (CLI),1, Protocol-14,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  Command Line Interface (CLI) - Results,1, Protocol-14 (Results),A-FP,20-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix – URS to FRS to Protocol ,8, TMatrixUSPro-01,D,14-Nov-2019,Multiple Errors,Email
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix – URS to FRS to Protocol ,8, TMatrixUSPro-01,A,14-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix ? URS to FRS to Protocol ,8, TMatrixUSPro-01,D,14-Nov-2019,Multiple Errors,Email
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix ? URS to FRS to Protocol ,8, TMatrixUSPro-01,A,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol ,8, Install-01,D,13-Nov-2019,Multiple Errors,Email
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol ,8, Install-01,A,15-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol - Results ,8, Install-01 (Results),A-FP,15-Nov-2019,,
@@ -860,10 +860,10 @@ Lan,DA-S 01475.001,LOG-ICAL 2.0,Protocol25 Result (Passed),1,Protocol25 Result (
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Software Design Description,1,SDD-01,A-FP,4-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Configuration Item Inventory,1,VDD-01,A-FP,9-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Deployment Plan,1,DeployPlan-01,A-FP,10-Dec-2019,,
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,1,TMatrixUSPro01 – FRS to Protocol,D,4-Dec-2019,Multiple Errors,NPV
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,2,TMatrixUSPro01 – FRS to Protocol,A,4-Dec-2019,,
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,1,TMatrixUSReqs01 – URS to FRS,D,4-Dec-2019,Multiple Errors,NPV
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,2,TMatrixUSReqs01 – URS to FRS,A,4-Dec-2019,,
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,1,TMatrixUSPro01 ? FRS to Protocol,D,4-Dec-2019,Multiple Errors,NPV
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,2,TMatrixUSPro01 ? FRS to Protocol,A,4-Dec-2019,,
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,1,TMatrixUSReqs01 ? URS to FRS,D,4-Dec-2019,Multiple Errors,NPV
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,2,TMatrixUSReqs01 ? URS to FRS,A,4-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Maintenance Plan,1,MaintPlan-01,D,7-Dec-2019,Multiple Errors,NPV
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Maintenance Plan,1,MaintPlan-01,A,7-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Identification of Supporting System Documentation (ISSD),1,Other-02,D,10-Dec-2019,Multiple Errors,Email
@@ -1556,369 +1556,368 @@ Arun,AQC_VERA_Dallas_Camstar,Camstar,System Certification Summary,1,425,D,30-Apr
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Software Compliance Assessment,1,15,D,27-Apr-2020,Inaccurate information,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Software Compliance Assessment,1,15,A,28-Apr-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Software Change Request,1,468 - SCR 1,D,24-Apr-2020,Multiple Errors,email
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Software Change Request,1,SCR-1,A,4-May-2020,N/A,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,URS,1,URS-1,A,5-May-2020,N/A,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,FRS,1,FRS-1,A,13-May-2020,N/A,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC01,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC02,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC03,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC04,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC05,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC06,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC07,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC08,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC09,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC10,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC11,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC12,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC13,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC14,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC15,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC16,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC17,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC18,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC19,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC20,D,4-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC21,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC22,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC23,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC24,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC25,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC26,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC27,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC28,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC29,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC30,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC31,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC32,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC33,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC34,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC35,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC36,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC37,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC38,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC39,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC40,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC41,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC42,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC43,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC44,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC45,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC46,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC47,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC48,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC49,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC50,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC51,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC52,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC53,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC54,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.3-TC55,D,5-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC01,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC02,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC03,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC04,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC05,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC06,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC07,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC08,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC09,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC10,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC11,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC12,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC13,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC14,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC15,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC16,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC17,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC18,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC19,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC20,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC21,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC22,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC23,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC24,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC25,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC26,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC27,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC28,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP0.5-TC29,D,6-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC01,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC02,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC03,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC04,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC05,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC06,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC07,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC08,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC09,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC10,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC11,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC12,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC13,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC14,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC15,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC16,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.13-TC17,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.14-TC01,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.14-TC02,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.15-TC01,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,TP1.15-TC02,D,12-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,URS,1,URS-1,D,1-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,FRS,1,FRS-1,D,21-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,FRS,1,FRS-1,D,28-May-2020,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM Design Plan,Software Compliance Assessment,1,SCA-1,A-FP,27-May-2020,N/A,
+Carole,"				DA-S 00774 . 010",HP ALM (Quality Center) Version 12,System Certification Summary,1,VVSR-1,D,6-May-2020,Multiple Errors,Email
+Carole,"				DA-S 00774 . 010",HP ALM (Quality Center) Version 12,System Certification Summary,1,VVSR-1,D,13-May-2020,Multiple Errors,Email
+Carole,"				DA-S 00774 . 010",HP ALM (Quality Center) Version 12,System Certification Summary,1,VVSR-1,D,14-May-2020,Inaccurate information,Email
+Carole,"				DA-S 00774 . 010",HP ALM (Quality Center) Version 12,System Certification Summary,1,VVSR-1,A,18-May-2020,N/A,
+Carole,"DA-S 00710.023			",Serena Business Manager (SBM) - Base (Core) Application Upgrade,IIVP results,1,Install-03 Results,D,1-May-2020,Inaccurate information,Email
+Carole,"DA-S 00710.023			",Serena Business Manager (SBM) - Base (Core) Application Upgrade,IIVP results,1,Install-03 Results,A,1-May-2020,N/A,
+Carole,"DA-S 00710.023			",Serena Business Manager (SBM) - Base (Core) Application Upgrade,IIVP results,1,Install-03 Results,A-FP,22-May-20,N/A,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,System Certification Summary,1,425- SCR 11 Certification Summary ,D,1-May-2020,Multiple Errors,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,System Certification Summary,1,425- SCR 11 Certification Summary ,A,1-May-2020,,NPV
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,428-SCR 12 Software Change Request ,D,1-May-2020,Multiple Errors,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,428-SCR 12 Software Change Request ,A,1-May-2020,Multiple Errors,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,URS,,435,A,4-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,,"433, 436, 437, 438, 439, 440, 434, 432 and 421",A,4-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,System Certification Summary,1,429 - SCR 12 Certification Summary ,A,4-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,IIVP,1,7- SCR 12 IQ Tests ,A,4-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,1,441 - Configuration Item Inventory,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,21,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,22,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,23,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,25,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,24,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,26,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,27,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,28,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,29,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,30,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,50,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,49,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,43,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,48,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,47,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,39,A,5-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,40,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,41,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,42,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,32,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,33,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,31,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,51,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,52,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,53,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,54,A,6-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,60,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,61,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,62,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,63,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,64,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,65,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,32,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,33,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,22,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,21,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,20,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,24,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,23,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,25,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,27,A,7-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,26,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,29,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,28,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,18,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,31,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,32,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,33,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,34,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,36,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,39,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,44,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,45,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,35,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,22,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,24,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,ISSD,1,402,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,41,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,43,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,42,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,37,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,38,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,40,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,51,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,46,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,52,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,48,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,50,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,49,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,47,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Traceability,2,406,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,ISSD,2,402,A,11-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,448,A,28-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,1,446 and 485,A,28-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,1,486,A,28-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,67,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,68,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,72,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,84,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,85,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,86,D,29-May-2020,Inaccurate information,email
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,67,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,68,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,72,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,84,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,85,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,86,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,88,D,29-May-2020,Insufficient traceability,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,88,A,30-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,87,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,89,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,90,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,91,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,92,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,93,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,94,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,95,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,96,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,97,A,29-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Software Compliance Assessment,1,20,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Software Change Request,1,469,A,8-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,URS,1,"22, 56, 57, 58, 59, 60, 61, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 831, 832, 23, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 103, 104, 105, 106, 107, 108, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 833, 834, 835. ",A,8-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,ISSD,1,122,A,14-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Software Change Request,1,Camstar-ADMS Phase 3 SCR1,D,29-May-2020,Inaccurate information,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Test Protocol,1,Test protocol -1,D,29-May-2020,Inaccurate information,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Test Protocol,1,Test protocol -2,D,29-May-2020,Inaccurate information,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Test Protocol,1,Test protocol -3,D,29-May-2020,Inaccurate information,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Test Protocol,1,Test protocol -4,D,29-May-2020,Inaccurate information,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,URS,1,"514, 515, 516, 517,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,513,518,519,520,521,522,",A,21-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,FRS,1,"18, 531, 532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544 , 545, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558, 559, 560, 561, 562, 563, 564, 565, 566, 567, 568, 569, 570, 571, 572 and 573 ",A,21-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,ERES,1,131,A,22-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Risk Assessment,1,461,A,22-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Maintenance Plan,1,462,A,22-May-2020,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,ISSD,1,122,A,22-May-2020,,
+Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template,Software Compliance Assessment,1,3,A,6-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS) ÿ,1,20,D,26-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS) ÿ,1,20,A,26-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Software Design Description ,1,484,A-FP,4-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Installation Instructions and Verification Protocol ,1,Test ID 23,A-FP,11-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Installation Instructions and Verification Protocol ,1,Test ID 23,A-FP,11-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Installation Instructions and Verification Protocol Results ,1,Run ID 2,A-FP,15-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Configuration Item Inventory ,1,485,A-FP,1-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 01 ÿ,1,"Test ID: 26, 27, 28, 29",A-FP,6-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 01 Result (Passed) ,1,"Run ID: 16, 17, 18, 19",A-FP,17-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 02,1,"Test ID: 15, 16, 17, 18, 19, 20, 21, 22, 24, 25",A-FP,6-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 02 - Result (Passed) ,1,"Run ID: 10, 11, 12, 13, 14, 15, 32, 33, 34, 35",A-FP,20-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 03 ,1,"Test ID: 30, 31, 32, 33, 34, 35",A-FP,11-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 03 - Result (Passed) ,1,"Run ID: 25, 26, 27, 28, 29, 30, 31",A-FP,19-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 04 ,1,"Test ID: 3, 10, 11,12, 13, 14",A-FP,1-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 04 - Result (Passed) Approval date is the approval date of Run ID that complete the test protocol.,1,"Run ID: 4, 5, 6, 7, 8, 9",A-FP,14-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 05 ,1,"Test ID: 5, 6, 7, 8, 9",A-FP,1-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 05 - Result (Passed) ,1,"Run ID: 20, 21, 22, 23, 24",A-FP,17-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Traceability Matrix ,1,660,D,28-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Traceability Matrix ,1,660,D,28-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Traceability Matrix ,1,660,A,28-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Identification of Supporting System Documentation (ISSD) ,1,486,D,27-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Identification of Supporting System Documentation (ISSD) ,1,486,A,27-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Alinity ci-series LIS Interface Manual (HL7) ,1,Req ID 821,A-FP,7-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Configuration Item Inventory (CII) ,1, Req ID 986,D,14-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Configuration Item Inventory (CII) ,1, Req ID 986,A,14-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,E-record & E-signature Risk Assessment ,1,Req ID 817,A-FP,1-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Functional Requirements Specification (FRS),1,Req ID 817,A-FP,13-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Identification of Supporting System Documentation (ISSD) ,1, Req ID 817,D,6-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Identification of Supporting System Documentation (ISSD) ,1, Req ID 817,A,6-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Installation Instructions and Verification Protocol,1,  Test ID 362,A-FP,13-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Installation Instructions and Verification Protocol  (Result document),1, Run ID 46,A-FP,7-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Architecture Description (SAD) ,1, Req ID 818,A-FP,7-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,System Certification Summary and Release Notes ,1, Req ID 992,D,Not Applicable,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,System Certification Summary and Release Notes ,1, Req ID 992,A,Not Applicable,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Change Request ,1,Req ID 617,D,1-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Change Request ,1,Req ID 617,D,1-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Change Request ,1,Req ID 617,A,1-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Compliance (Validation) Assessment ,1,Req ID 510,A-FP,30-Apr-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Project Plan,1,Req ID 726,D,4-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Project Plan,1,Req ID 726,A,4-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Verification & Validation Plan,1, Req ID 719,D,5-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Software Verification & Validation Plan,1, Req ID 719,A,5-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,"Test Protocol-03 VERA Test ID 363, 364, and 365",1,Test ID 366 and 367,A-FP,15-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-03 VERA  (Result document),1,"Run ID 47, 49, and 50",A-FP,21-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-07 VERA ,1,Test ID 366 and 367,A-FP,15-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-07  (Result document),1,Run ID 51 and 52,A-FP,21-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-08 VERA,1, Test ID 368 and 369,A-FP,15-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-08  (Result document),1,Run ID 53 and 54 ,A-FP,21-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-12 ,1,"Test ID 378, 510, and 511",A-FP,15-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-12  (Result document),1,"Run ID  55, 56, and 57",A-FP,21-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Test Protocol-12  (Result document),1,"Run ID  55, 56, and 57",A-FP,21-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Traceability Matrix - URS-FRS-Protocol ,1,"Run ID  55, 56, and 57",D,22-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Traceability Matrix - URS-FRS-Protocol ,1,"Run ID  55, 56, and 57",D,22-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Traceability Matrix - URS-FRS-Protocol ,1,"Run ID  55, 56, and 57",A,22-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,User Documentation (UDOC) ,1,Req ID 725,A-FP,1-May-2020,,
+Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,User Requirements Specification ,1,Req ID 513,A-FP,13-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,CII,1,"Dallas_R_D_Tools, Records 987",D,19-May-2020,Inaccurate information,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,CII,1,"Dallas_R_D_Tools, Records 987",A,19-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Software Change Request,1,"Dallas_R_D_Tools, Records 988",D,19-May-2020,Inaccurate information,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Software Change Request,1,"Dallas_R_D_Tools, Records 988",A,19-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Other,1,"Dallas_R_D_Tools, Records 990",A-FP,21-May-2020,,Test Symmary
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,System Certification Summary,1,"Dallas_R_D_Tools, Records 991",D,21-May-2020,Mutlible Errors,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,System Certification Summary,1,"Dallas_R_D_Tools, Records 991",A,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Project Plan,1,"Dallas_R_D_Tools, Records 285",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Traceability,1,"Dallas_R_D_Tools, Records 275",D,19-May-2020,Inaccurate information,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Traceability,1,"Dallas_R_D_Tools, Records 275",A,19-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,ISSD,1,"Dallas_R_D_Tools, Records 279",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Design Documentation,1,"Dallas_R_D_Tools, Records 281",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Maintenance Plan,1,"Dallas_R_D_Tools, Records 282",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Other,1,"Dallas_R_D_Tools, Records 284",A-FP,18-May-2020,,Admin Documentation
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Other,1,"Dallas_R_D_Tools, Records 505",A-FP,20-May-2020,,BIA copy
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Other,1,"Dallas_R_D_Tools, Records 504",A-FP,20-May-2020,,eRIM  copy
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 371",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 351",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 352",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 372",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 353",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 373",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 354",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 374",A-FP,22-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 355",A-FP,22-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 356",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 357",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 358",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 359",A-FP,22-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 360",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 370",A-FP,22-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 377",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 379",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 380",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 381",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 382",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 383",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 384",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 385",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 386",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 387",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 388",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 389",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 390",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 391",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 393",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 395",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol,1,"Dallas_R_D_Tools, Test Plan: 523",A-FP,18-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP results,1,"Dallas_R_D_Tools, Run ID: 60",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP results,1,"Dallas_R_D_Tools, Run ID: 61",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP results,1,"Dallas_R_D_Tools, Run ID: 62",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP results,1,"Dallas_R_D_Tools, Run ID: 63",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol Results,1,"Dallas_R_D_Tools, Run ID: 64",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol Results,1,"Dallas_R_D_Tools, Run ID: 65",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol Results,1,"Dallas_R_D_Tools, Run ID: 66",A-FP,21-May-2020,,
+Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,Test Protocol Results,1,"Dallas_R_D_Tools, Run ID: 67",A-FP,21-May-2020,,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,IIVP results,3,DA-S 00055.011 Install-03v03,A-FP,1-May-2020,,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Test Protocol Results,2,Protocol06-02-Result,A-FP,6-May-2020,,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,System Certification Summary,2,VVSR01-02-Version,D,6-May-2020,Mutlible Errors,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,System Certification Summary,2,VVSR01-02-Version,D,7-May-2020,Mutlible Errors,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,System Certification Summary,2,VVSR01-02-Version,A,12-May-2020,,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Other,1,MtP02-01,D,18-May-2020,,
+Ken,DA-S 00055.011,DOORS 9.6 - Dynamic Object Oriented Requirements System,Other,1,MtP02-01,A,20-May-2020,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
