@@ -1,0 +1,57 @@
+---
+title: "Untitled"
+author: "Nick Lauerman"
+date: "5/5/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Test
+```{r}
+library(tidyverse)
+library(readxl)
+library(lubridate
+         )
+FPA <- read_excel("./data/First Pass Acceptance.xlsx",
+                  sheet = "FPA",
+                  skip = 1,
+                  col_names = c("sqa",
+                                "project",
+                                "application",
+                                "deliverable",
+                                "version",
+                                "docID",
+                                "status",
+                                "date",
+                                "reason",
+                                "comments"),
+                  col_types = c("text",
+                                "text",
+                                "text",
+                                "text",
+                                "text",
+                                "text",
+                                "text",
+                                "date",
+                                "text",
+                                "text"))
+
+          FPA$sqa <- as.factor(FPA$sqa)
+          FPA$application <- as.factor(FPA$application)
+          FPA$deliverable <- as.factor(FPA$deliverable)
+          FPA$status <- as.factor(FPA$status)
+          FPA$reason <- as.factor(FPA$reason)
+          levels(FPA$reason)[1] <- NA
+          FPA$date <- as.Date(FPA$date, format = "%d-%B-%Y")
+
+
+FPA1 <- FPA %>%
+     filter((date > as.Date("31-Mar-2020",
+                            format = "%d-%B-%Y"))
+            & (date < as.Date("30-Apr-2020",
+                            format = "%d-%B-%Y")))
+```
+

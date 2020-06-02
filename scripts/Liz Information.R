@@ -2,7 +2,7 @@ source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
 
-Month <- "Apr"
+Month <- "May"
 Year <- 2020
 EndOfPeriod <- as.Date("30-Apr-2020",
                        format = "%d-%b-%Y")
