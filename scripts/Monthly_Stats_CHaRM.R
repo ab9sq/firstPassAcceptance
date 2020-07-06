@@ -79,8 +79,9 @@ getResultsCHaRM <- function(Month = NULL,
           FPA$status <- droplevels(FPA$status)
           FPA$reason <- droplevels(FPA$reason)
           FPA$testApp <- FPA$application == "CHaRM"
-          FPA$testDel <- FPA$deliverable == "Test Protocol"
-          FPA$Select <- FPA$testApp & FPA$testDel
+          FPA$testDel1 <- FPA$deliverable == "Test Protocol"
+          FPA$testDel2 <- FPA$deliverable == "Test Protocol Results"
+          FPA$Select <- FPA$testApp & (FPA$testDel1 | FPA$testDel2)
           FPA <- subset(FPA,
                         subset = FPA$Select == FALSE)
           FPA$testApp <- NULL

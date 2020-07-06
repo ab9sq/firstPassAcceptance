@@ -17,12 +17,12 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{May } %        <<< UPDATE
+\newcommand{\reportMonth}{June } %        <<< UPDATE
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
-\newcommand{\lubdateVersion}{version 1.7.8}
+\newcommand{\lubdateVersion}{version 1.7.9}
 
 
 \title{Combined SQA Metric Items From FPA Spreadsheets - \reportMonth \reportYear}
@@ -35,7 +35,7 @@
 % update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "May"
+Month <- "Jun"
 Year <- 2020
 file1 <- "../data/Div First Pass Acceptance.csv"
 file2 <- "../data/Dallas First Pass Acceptance.csv"
@@ -67,19 +67,11 @@ FPA <- getResultsCombined(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCombined(Month = "Dec",
-                           Year = 2018,
-                           File1 = file1,
-                           File2 = file2,
-                           File3 = file3)
-
-temp <- getResultsCombined(Month = "Jan",
+DivPlotData <- getResultsCombined(Month = "Jan",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2,
                            File3 = file3)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCombined(Month = "Feb",
                            Year = 2019,
@@ -203,9 +195,17 @@ temp <- getResultsCombined(Month = "Apr",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCombined(Month = "May",
+                           Year = 2020,
+                           File1 = file1,
+                           File2 = file2,
+                           File3 = file3)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ***********************************
 # start of update
-temp <- getResultsCombined(Month = "May",
+temp <- getResultsCombined(Month = "Jun",
                            Year = 2020,
                            File1 = file1,
                            File2 = file2,

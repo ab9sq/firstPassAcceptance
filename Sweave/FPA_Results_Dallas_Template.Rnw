@@ -17,12 +17,12 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{May } % Update Setup below
+\newcommand{\reportMonth}{June } % Update Setup below
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
-\newcommand{\lubdateVersion}{version 1.7.8}
+\newcommand{\lubdateVersion}{version 1.7.9}
 
 
 \title{Dallas SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
@@ -35,10 +35,11 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "May"                                 # update trend builder below
+Month <- "Jun"                                 # update trend builder below
 Year <- 2020
-DivFile <- "../data/Dallas First Pass Acceptance.csv"
 XLabel <-  "Since Sepember 2019"               # statucuntil Feb 2021(?)
+
+DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
 
 <<data, echo=FALSE>>=
@@ -108,9 +109,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "May",
+                    Year = 2020,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "May",
+ temp <- getResults(Month = "Jun",
                     Year = 2020,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,
