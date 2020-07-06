@@ -305,8 +305,12 @@ Harald,Release 01.81.00,LSP,TPR,1,L2000059,A,19-May-2020,,
 Harald,Release 01.81.00,LSP,TPR,1,L2000076,A-FP,19-May-2020,,
 Philip,Release 13.2,Fabiola,URS,1,N/A,D,20-May-2020,Multiple Errors,Tracing/references still incorrect
 Harald,Release 01.81.00,LSP,SPVP,6,Generic,A,20-May-2020,,
-Philip,Release 13.2,Fabiola,SE,1,N/A,D,28-May-2020,Multiple Errors,"Content and result do not match, several process and logical errors"
-Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,29-May-2020,Multiple Errors,"Item type selections partially incorrect, contents still need some rework"
 Harald,Release 01.81.00,LSP,IVR,2,GER42,A-FP,27-May-2020,,
 Harald,Release 01.81.00,LSP,SCR,1,L2000059,A-FP,27-May-2020,,
 Harald,Release 01.81.00,LSP,SPR,1,L2000076,A-FP,27-May-2020,,
+Philip,Release 13.2,Fabiola,SE,1,N/A,D,28-May-2020,Multiple Errors,"Content and result do not match, several process and logical errors"
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,29-May-2020,Multiple Errors,"Item type selections partially incorrect, contents still need some rework"
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,12-Jun-2020,Multiple Errors,Several RS include content errors or are missing completely
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,17-Jun-2020,Multiple Errors,"Some RS have been created as Groups, risk classifications need to be changed and tracing is missing entirely"
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,19-Jun-2020,Multiple Errors,"Tracing is still partially missing, one risk classification is missing"
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,23-Jun-2020,Multiple Errors,"Additional changes required, contents incorrect, tracing is still partially missing"
