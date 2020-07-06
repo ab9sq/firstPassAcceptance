@@ -3,7 +3,7 @@ year,month,Site,deliverable,n
 2020,May,Dallas,Test Protocol Results,40
 2020,May,Dallas,IIVP,16
 2020,May,Dallas,System Certification Summary,12
-2020,May,Dallas,Software Change Request,8
+2020,May,Dallas,Software Change Request,10
 2020,May,Dallas,IIVP results,7
 2020,May,Dallas,FRS,6
 2020,May,Dallas,Other,6
@@ -21,6 +21,7 @@ year,month,Site,deliverable,n
 2020,May,Dallas,Installation Instructions and Verification Protocol ,2
 2020,May,Dallas,Software Project Plan,2
 2020,May,Dallas,Software Verification & Validation Plan,2
+2020,May,Dallas,System Certification Summary and Release Notes ,2
 2020,May,Dallas,Test Protocol-12  (Result document),2
 2020,May,Dallas,User Requirements Specification (URS) ÿ,2
 2020,May,Dallas,Design Documentation,1
@@ -35,6 +36,7 @@ year,month,Site,deliverable,n
 2020,May,Dallas,Installation Instructions and Verification Protocol  (Result document),1
 2020,May,Dallas,Installation Instructions and Verification Protocol Results ,1
 2020,May,Dallas,Software Architecture Description (SAD) ,1
+2020,May,Dallas,Software Compliance (Validation) Assessment ,1
 2020,May,Dallas,Software Design Description ,1
 2020,May,Dallas,Test Protocol-03 VERA  (Result document),1
 2020,May,Dallas,"Test Protocol-03 VERA Test ID 363, 364, and 365",1

@@ -5,7 +5,7 @@ year,month,deliverable,n
 2020,May,FRS,38
 2020,May,IIVP,32
 2020,May,IIVP results,25
-2020,May,Software Change Request,21
+2020,May,Software Change Request,23
 2020,May,System Certification Summary,19
 2020,May,CII,16
 2020,May,Software Compliance Assessment,14
@@ -33,6 +33,7 @@ year,month,deliverable,n
 2020,May,Installation Instructions and Verification Protocol ,2
 2020,May,Software Project Plan,2
 2020,May,Software Verification & Validation Plan,2
+2020,May,System Certification Summary and Release Notes ,2
 2020,May,Test Protocol-12  (Result document),2
 2020,May,User Requirements Specification (URS) ÿ,2
 2020,May,DV-UT,2
@@ -53,6 +54,7 @@ year,month,deliverable,n
 2020,May,SCA,1
 2020,May,SCR,1
 2020,May,Software Architecture Description (SAD) ,1
+2020,May,Software Compliance (Validation) Assessment ,1
 2020,May,Software Design Description ,1
 2020,May,Test Protocol-03 VERA  (Result document),1
 2020,May,"Test Protocol-03 VERA Test ID 363, 364, and 365",1
