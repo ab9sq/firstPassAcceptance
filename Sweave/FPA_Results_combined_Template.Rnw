@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{June } %        <<< UPDATE
+\newcommand{\reportMonth}{July } %        <<< UPDATE
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,12 +35,12 @@
 % update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jun"
+Month <- "Jul"
 Year <- 2020
 file1 <- "../data/Div First Pass Acceptance.csv"
 file2 <- "../data/Dallas First Pass Acceptance.csv"
 file3 <- "../data/Wiesbaden First Pass Acceptance.csv"
-XLabel <- "Since November 2018"
+XLabel <- "Since February 2019"
 @
 
 <<scripts and libraries, echo=FALSE>>=
@@ -67,19 +67,11 @@ FPA <- getResultsCombined(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCombined(Month = "Jan",
+DivPlotData <- getResultsCombined(Month = "Feb",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2,
                            File3 = file3)
-
-temp <- getResultsCombined(Month = "Feb",
-                           Year = 2019,
-                           File1 = file1,
-                           File2 = file2,
-                           File3 = file3)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCombined(Month = "Mar",
                            Year = 2019,
@@ -203,9 +195,17 @@ temp <- getResultsCombined(Month = "May",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCombined(Month = "Jun",
+                           Year = 2020,
+                           File1 = file1,
+                           File2 = file2,
+                           File3 = file3)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ***********************************
 # start of update
-temp <- getResultsCombined(Month = "Jun",
+temp <- getResultsCombined(Month = "Jul",
                            Year = 2020,
                            File1 = file1,
                            File2 = file2,
