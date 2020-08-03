@@ -311,6 +311,87 @@ Harald,Release 01.81.00,LSP,SPR,1,L2000076,A-FP,27-May-2020,,
 Philip,Release 13.2,Fabiola,SE,1,N/A,D,28-May-2020,Multiple Errors,"Content and result do not match, several process and logical errors"
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,29-May-2020,Multiple Errors,"Item type selections partially incorrect, contents still need some rework"
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,12-Jun-2020,Multiple Errors,Several RS include content errors or are missing completely
+Harald,Release 01.82.00,LSP,IA,1a,N/A,D,15-Jun-2020,Other,Release content change
+Harald,Release 01.82.00,LSP,TP,1,L2000073,A-FP,15-Jun-2020,,
+Harald,Release 01.82.00,LSP,TP,1,L2000112,A-FP,15-Jun-2020,,
+Harald,Release 01.82.00,LSP,TP,1,L2000066,A-FP,15-Jun-2020,,
+Harald,Release 01.82.00,LSP,URS/FRS/TM,49,PAD,A-FP,15-Jun-2020,,
+Harald,Release 01.82.00,LSP,URS/FRS/TM,45,LAG,A-FP,15-Jun-2020,,
+Harald,Release 01.82.00,LSP,URS/FRS/TM,30,DAC,A-FP,15-Jun-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,17-Jun-2020,Multiple Errors,"Some RS have been created as Groups, risk classifications need to be changed and tracing is missing entirely"
+Harald,Release 01.82.00,LSP,CII,1,N/A,A-FP,18-Jun-2020,,
+Harald,Release 01.82.00,LSP,CII,2,N/A,A-FP,18-Jun-2020,,
+Harald,Release 01.82.00,LSP,SCS/RN,1a,N/A,D,18-Jun-2020,Inaccurate information,
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,19-Jun-2020,Multiple Errors,"Tracing is still partially missing, one risk classification is missing"
+Harald,Release 01.82.00,LSP,SCS/RN,1,N/A,A,19-Jun-2020,,
+Harald,Release 01.82.00,LSP,TPR,1,L2000073,A-FP,19-Jun-2020,Inaccurate information,
+Harald,Release 01.82.00,LSP,TPR,1,L2000112,A-FP,19-Jun-2020,,
+Harald,Release 01.82.00,LSP,TPR,1,L2000117,A-FP,19-Jun-2020,,
+Harald,Release 01.82.00,LSP,TPR,1a,L2000066,D,19-Jun-2020,Inadequate Description of Change,
+Harald,Release 01.82.00,LSP,TPR,1b,L2000066,A-FP,19-Jun-2020,,
+Harald,Release 01.82.00,LSP,IA,1b,N/A,A,20-Jun-2020,Other,
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,23-Jun-2020,Multiple Errors,"Additional changes required, contents incorrect, tracing is still partially missing"
+Harald,Release 01.82.00,LSP,DV-UT,1,L2000066,A-FP,23-Jun-2020,,
+Harald,Release 01.82.00,LSP,DV-UT,1,L2000112,A-FP,23-Jun-2020,,
+Harald,Release 01.82.00,LSP,IDP/IIVP,1,N/A,A-FP,23-Jun-2020,Other,
+Harald,Release 01.82.00,LSP,IA,2,N/A,A-FP,24-Jun-2020,,
+Harald,Release 01.82.00,LSP,IVR,1,GER400,A-FP,24-Jun-2020,,
+Harald,Release 01.82.00,LSP,DV-UT,1,L2000117,A-FP,25-Jun-2020,,
+Harald,Release 01.82.00,LSP,IA,3,N/A,A-FP,25-Jun-2020,,
+Harald,Release 01.82.00,LSP,IDP/IIVP,2,N/A,A-FP,25-Jun-2020,,
+Harald,Release 01.82.00,LSP,IVR,2,GER400,A-FP,25-Jun-2020,,
+Harald,Release 01.82.00,LSP,SCR,1,L2000073,A-FP,27-Jun-2020,,
+Harald,Release 01.82.00,LSP,SCR,1,L2000066,A-FP,27-Jun-2020,,
+Harald,Release 01.82.00,LSP,SPR,1,L2000112,A-FP,27-Jun-2020,,
+Harald,Release 01.82.00,LSP,SPR,1,L2000117,A-FP,27-Jun-2020,,
+Harald,Release 01.82.00,LSP,IVR,2,GER42,A-FP,29-Jun-2020,,
+Harald,Release 01.83.00,LSP,DV-UT,1a,L2000060,D,3-Jul-2020,Insufficient testing,
+Harald,Release 01.83.00,LSP,DV-UT,1b,L2000060,A,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,IA,1a,N/A,D,3-Jul-2020,Other,Release content change
+Harald,Release 01.83.00,LSP,IA,1b,N/A,D,3-Jul-2020,Inaccurate information,
+Harald,Release 01.83.00,LSP,IDP/IIVP,1,N/A,A-FP,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,TP,1,L2000060,A-FP,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,16,ALC,A-FP,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,17,BOML,A-FP,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,16,REA,A-FP,3-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,24,SYM,A-FP,3-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,SPVP,1,N/A,D,9-Jul-2020,Multiple Errors,Several incorrect references
+Philip,Release 1.1,FIIS,CII,6,N/A,D,9-Jul-2020,Multiple Errors,Several version information mismatches
+Philip,Release 9.7,WWLIMS,IVR,1,398,A-FP,9-Jul-2020,,
+Philip,Release 9.7,WWLIMS,IVR,1,399,A-FP,9-Jul-2020,,
+Philip,Release 1.1,FIIS,MCP,1,N/A,D,13-Jul-2020,Incorrect Approvers,BPO & TR missing
+Philip,Release 9.7,WWLIMS,IVR,1,400,A-FP,16-Jul-2020,,
+Philip,Release 1.1,FIIS,CII,6,N/A,A,17-Jul-2020,,
+Philip,Release 1.1,FIIS,MCP,1,N/A,A,17-Jul-2020,,
+Philip,Release 9.7,WWLIMS,IVR,1,402,A-FP,20-Jul-2020,,
+Philip,Release 9.7,WWLIMS,IVR,1,403,A-FP,20-Jul-2020,,
+Philip,Release 9.7,WWLIMS,IVR,1,401,A-FP,20-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,DV-UT,1,N/A,D,21-Jul-2020,Other,Req Coverage missing
+Philip,Release 01.11.01,CMSN-Add-On,MP,1,N/A,D,21-Jul-2020,Inaccurate information,"AIR is no longer used, transition to SCR/ACR/IPDR in AQC VERA has concluded"
+Philip,Release 1.1,FIIS,IVR,1,N/A,D,21-Jul-2020,Incorrect Objective Evidence,
+Philip,Release 1.1,FIIS,MCPR,1,N/A,D,21-Jul-2020,Not using template,Incorrect document used.
+Philip,Release 1.1,FIIS,MCPR,1,N/A,A,21-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,MP,1,N/A,D,23-Jul-2020,Inaccurate information,Contains several references to AIR and descriptions of the workflows
+Harald,Release 01.83.00,LSP,TP,2a,L2000060,D,24-Jul-2020,Insufficient testing,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,17a,REA,D,25-Jul-2020,Inaccurate information,
+Harald,Release 01.83.00,LSP,IDP/IIVP,2a,N/A,D,27-Jul-2020,Other,Additional code
+Philip,Release 01.11.01,CMSN-Add-On,TM-URS/FRS to TP,1,N/A,D,27-Jul-2020,Multiple Errors,Several trace links missing or incorrect
+Harald,Release 01.83.00,LSP,IA,2a,N/A,D,28-Jul-2020,Inaccurate information,
+Philip,Release 01.11.01,CMSN-Add-On,ESRA,1,N/A,D,28-Jul-2020,Other,Rich text filled with redndant information
+Philip,Release 01.11.01,CMSN-Add-On,IA,1,N/A,D,28-Jul-2020,Multiple Errors,"Incorrrect SPR references, tailoring incorrect, contains reference to eRIM, replace with DLM"
+Philip,Release 01.11.01,CMSN-Add-On,IIVP,1,N/A,D,28-Jul-2020,Other,One empty step needs to be deleted
+Philip,Release 01.11.01,CMSN-Add-On,TM-URS/FRS to TP,1,N/A,D,28-Jul-2020,Multiple Errors,Several trace links missing or incorrect
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,28-Jul-2020,Inaccurate information,"Contains reference to eRIM, replace with DLM"
+Harald,Release 01.83.00,LSP,DV-UT,2,L2000060,A-FP,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,IA,2b,N/A,A,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,IDP/IIVP,2b,N/A,A,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,IVR,1,GER400,A-FP,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,TP,2b,L2000060,A,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,17b,REA,A,29-Jul-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS/TM,25,SYM,A-FP,29-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,SCA,1,N/A,A,30-Jul-2020,,
+Harald,Release 01.83.00,LSP,CII,1,N/A,A-FP,30-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,IA,1,N/A,A,31-Jul-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,SPVP,1,N/A,A,31-Jul-2020,,
+Harald,Release 01.83.00,LSP,SCS/RN,1,N/A,A-FP,31-Jul-2020,,
+Harald,Release 01.83.00,LSP,TPR,1,N/A,A-FP,31-Jul-2020,,
