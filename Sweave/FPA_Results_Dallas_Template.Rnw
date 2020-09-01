@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{July } % Update Setup below
+\newcommand{\reportMonth}{August } % Update Setup below
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jul"                                 # update trend builder below
+Month <- "Aug"                                 # update trend builder below
 Year <- 2020
 XLabel <-  "Since Sepember 2019"               # statucuntil Feb 2021(?)
 
@@ -63,7 +63,6 @@ DivFPA <- getResults(Month = Month,
 DivPlotData <- getResults(Month = "Sep",
                    Year = 2019,
                    File = DivFile)
-
 
 temp <- getResults(Month = "Oct",
                    Year = 2019,
@@ -120,11 +119,16 @@ DivPlotData <- rbind(DivPlotData,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,
                   temp)
-# # end of update
+
+  temp <- getResults(Month = "Jul",
+                    Year = 2020,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
 
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Jul",
+ temp <- getResults(Month = "Aug",
                     Year = 2020,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,

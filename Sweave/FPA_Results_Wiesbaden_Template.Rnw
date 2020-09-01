@@ -19,7 +19,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 %
 
-\newcommand{\reportMonth}{July }   % Update Setup below
+\newcommand{\reportMonth}{August }   % Update Setup below
 \newcommand{\reportYear}{2020 }
 
 %
@@ -40,7 +40,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jul"                                                 # update trend builder below
+Month <- "Aug"                                                 # update trend builder below
 Year <- 2020
 XLabel <- "Since Jan 2020"
 
@@ -98,9 +98,15 @@ temp <- getResults(Month = "Jun",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Jul",
+                        Year = 2020,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Jul",
+temp <- getResults(Month = "Aug",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

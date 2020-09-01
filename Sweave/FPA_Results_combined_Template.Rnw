@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{July } %        <<< UPDATE
+\newcommand{\reportMonth}{August } %        <<< UPDATE
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<< Update for new R version
@@ -35,12 +35,12 @@
 % update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jul"
+Month <- "Aug"
 Year <- 2020
 file1 <- "../data/Div First Pass Acceptance.csv"
 file2 <- "../data/Dallas First Pass Acceptance.csv"
 file3 <- "../data/Wiesbaden First Pass Acceptance.csv"
-XLabel <- "Since February 2019"
+XLabel <- "Since March 2019"
 @
 
 <<scripts and libraries, echo=FALSE>>=
@@ -67,19 +67,12 @@ FPA <- getResultsCombined(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCombined(Month = "Feb",
-                           Year = 2019,
-                           File1 = file1,
-                           File2 = file2,
-                           File3 = file3)
 
-temp <- getResultsCombined(Month = "Mar",
+DivPlotData <- getResultsCombined(Month = "Mar",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2,
                            File3 = file3)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCombined(Month = "Apr",
                            Year = 2019,
@@ -203,9 +196,17 @@ temp <- getResultsCombined(Month = "Jun",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCombined(Month = "Jul",
+                           Year = 2020,
+                           File1 = file1,
+                           File2 = file2,
+                           File3 = file3)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ***********************************
 # start of update
-temp <- getResultsCombined(Month = "Jul",
+temp <- getResultsCombined(Month = "Aug",
                            Year = 2020,
                            File1 = file1,
                            File2 = file2,
