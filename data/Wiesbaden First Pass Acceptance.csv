@@ -374,14 +374,14 @@ Philip,Release 1.1,FIIS,MCPR,1,N/A,A,21-Jul-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,MP,1,N/A,D,23-Jul-2020,Inaccurate information,Contains several references to AIR and descriptions of the workflows
 Harald,Release 01.83.00,LSP,TP,2a,L2000060,D,24-Jul-2020,Insufficient testing,
 Harald,Release 01.83.00,LSP,URS/FRS/TM,17a,REA,D,25-Jul-2020,Inaccurate information,
-Harald,Release 01.83.00,LSP,IDP/IIVP,2a,N/A,D,27-Jul-2020,Other,Additional code
 Philip,Release 01.11.01,CMSN-Add-On,TM-URS/FRS to TP,1,N/A,D,27-Jul-2020,Multiple Errors,Several trace links missing or incorrect
-Harald,Release 01.83.00,LSP,IA,2a,N/A,D,28-Jul-2020,Inaccurate information,
-Philip,Release 01.11.01,CMSN-Add-On,ESRA,1,N/A,D,28-Jul-2020,Other,Rich text filled with redndant information
+Harald,Release 01.83.00,LSP,IDP/IIVP,2a,N/A,D,27-Jul-2020,Other,Additional code
+Philip,Release 01.11.01,CMSN-Add-On,ESRA,1,N/A,D,28-Jul-2020,Other,Rich text filled with redundant information
 Philip,Release 01.11.01,CMSN-Add-On,IA,1,N/A,D,28-Jul-2020,Multiple Errors,"Incorrrect SPR references, tailoring incorrect, contains reference to eRIM, replace with DLM"
 Philip,Release 01.11.01,CMSN-Add-On,IIVP,1,N/A,D,28-Jul-2020,Other,One empty step needs to be deleted
 Philip,Release 01.11.01,CMSN-Add-On,TM-URS/FRS to TP,1,N/A,D,28-Jul-2020,Multiple Errors,Several trace links missing or incorrect
 Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,D,28-Jul-2020,Inaccurate information,"Contains reference to eRIM, replace with DLM"
+Harald,Release 01.83.00,LSP,IA,2a,N/A,D,28-Jul-2020,Inaccurate information,
 Harald,Release 01.83.00,LSP,DV-UT,2,L2000060,A-FP,29-Jul-2020,,
 Harald,Release 01.83.00,LSP,IA,2b,N/A,A,29-Jul-2020,,
 Harald,Release 01.83.00,LSP,IDP/IIVP,2b,N/A,A,29-Jul-2020,,
@@ -395,3 +395,88 @@ Philip,Release 01.11.01,CMSN-Add-On,IA,1,N/A,A,31-Jul-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,SPVP,1,N/A,A,31-Jul-2020,,
 Harald,Release 01.83.00,LSP,SCS/RN,1,N/A,A-FP,31-Jul-2020,,
 Harald,Release 01.83.00,LSP,TPR,1,N/A,A-FP,31-Jul-2020,,
+Harald,Release 7.1,Unicorn,TP,1,N/A,A-FP,3-Aug-2020,,
+Harald,Release 7.1,Unicorn,URS,1,N/A,D,3-Aug-2020,Inaccurate information,
+Harald,Release 7.1,Unicorn,SCA,1,N/A,A-FP,4-Aug-2020,,
+Philip,Release v6.50,ImageCompare,ESRA,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,IA,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,IDP,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,IIVP,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,MCP,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,SPVP,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,TM-URS to TP,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Philip,Release v6.50,ImageCompare,URS,1,N/A,D,5-Aug-2020,Multiple Errors,"Incorrect templates, incorrect references (Q09.14!), nonsensical contents, tracing missing... This is not even a draft"
+Harald,Release 6.87,LabSolutions,SCA,1,N/A,A-FP,11-Aug-2020,,
+Harald,Release 01.83.00,LSP,IVR,1,GER42,A-FP,12-Aug-2020,,
+Harald,Release 01.83.00,LSP,SCR,1,L2000060,A-FP,12-Aug-2020,,
+Harald,Release 3.1,MFCS,SCA,1,N/A,A-FP,12-Aug-2020,,
+Harald,Release 7.1,Unicorn,URS,1,N/A,A,12-Aug-2020,,
+Philip,Release 01.06.02,SPOC,URS/FRS,1,N/A,D,18-Aug-2020,Multiple Errors,"Several RS names incorrect, tracing partially missing"
+Harald,Release 7.1,Unicorn,IIVP,1,N/A,D,18-Aug-2020,Inaccurate information,
+Philip,Release 01.06.02,SPOC,IA,1,N/A,D,19-Aug-2020,Multiple Errors,Deliverables table/tailoring incorrect
+Philip,Release 01.06.02,SPOC,IA,1,N/A,D,19-Aug-2020,Inaccurate information,Tailoring incorrect/incomplete
+Philip,Release 01.06.02,SPOC,SCA,1,N/A,D,19-Aug-2020,Inaccurate information,Regulations incorrectly selected
+Philip,Release 01.06.02,SPOC,SPVP,1,N/A,D,19-Aug-2020,Inaccurate information,TP strategy incorrect
+Philip,Release 01.11.01,CMSN-Add-On,ESRA,1,N/A,A,20-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,IDP,1,N/A,A-FP,20-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,MP,1,N/A,A,20-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,URS/FRS,1,N/A,A,20-Aug-2020,,
+Philip,Release 01.06.02,SPOC,IA,1,N/A,A,20-Aug-2020,,
+Philip,Release 01.06.02,SPOC,SCA,1,N/A,A,20-Aug-2020,,
+Harald,Release 7.1,Unicorn,IDP,1,N/A,D,20-Aug-2020,Inaccurate information,
+Harald,Release 7.1,Unicorn,MP,1,N/A,D,21-Aug-2020,Inaccurate information,
+Philip,Release 01.11.01,CMSN-Add-On,SPVP,2,N/A,A-FP,24-Aug-2020,,
+Harald,Release 3.1,MFCS,IDP,1,N/A,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,IIVP,1,N/A,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,MP,1,N/A,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,RA,1,N/A,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,SPVP,1,N/A,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,TC1.1,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,TC2.1,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,TC3.1,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,TP,1,TC4.1,D,24-Aug-2020,Inaccurate information,
+Harald,Release 3.1,MFCS,URS,1,N/A,D,24-Aug-2020,Inaccurate information,
+Philip,Release 01.06.02,SPOC,DV-UT,1,N/A,A-FP,24-Aug-2020,,
+Philip,Release 01.06.02,SPOC,DV-UT,1,N/A,A-FP,24-Aug-2020,,Executed
+Philip,Release 01.06.02,SPOC,IDP,1,N/A,A-FP,24-Aug-2020,,
+Philip,Release 01.06.02,SPOC,MP,1,N/A,A-FP,24-Aug-2020,,
+Philip,Release 01.06.02,SPOC,SPVP,1,N/A,A,24-Aug-2020,,
+Philip,Release 01.06.02,SPOC,URS/FRS,1,N/A,A,24-Aug-2020,,
+Harald,Release 7.1,Unicorn,IDP,1,N/A,A,24-Aug-2020,,
+Philip,Release 01.06.02,SPOC,CII,1,N/A,A-FP,25-Aug-2020,,
+Philip,Release 01.06.02,SPOC,ESRA,1,N/A,A-FP,25-Aug-2020,,
+Philip,Release 01.06.02,SPOC,IVR,1,N/A,A-FP,25-Aug-2020,,GER400
+Harald,Release 3.1,MFCS,ESRA,1,N/A,A-FP,26-Aug-2020,,
+Harald,Release 3.1,MFCS,IDP,1,N/A,A,26-Aug-2020,,
+Harald,Release 3.1,MFCS,MP,1,N/A,A,26-Aug-2020,,
+Harald,Release 3.1,MFCS,SPVP,1,N/A,A,26-Aug-2020,,
+Harald,Release 3.1,MFCS,URS,1,N/A,A,26-Aug-2020,,
+Philip,Release 01.06.02,SPOC,SCS/RN,1,N/A,D,26-Aug-2020,Inaccurate information,Copy-Paste errors (containing content only relevant for LIC)
+Philip,Release 01.06.02,SPOC,TM-URS/FRS to TP,1,N/A,A-FP,26-Aug-2020,,
+Philip,Release 01.06.02,SPOC,TPR,1,N/A,A-FP,26-Aug-2020,,Legacy Tracing
+Philip,Release 01.06.02,SPOC,TPR,1,N/A,A-FP,26-Aug-2020,,
+Harald,Release 7.1,Unicorn,IIVP,1,N/A,A,26-Aug-2020,,
+Harald,Release 7.1,Unicorn,MP,1,N/A,A,26-Aug-2020,,
+Harald,Release 7.1,Unicorn,RA,1,N/A,D,26-Aug-2020,Inaccurate information,
+Philip,Release 01.11.01,CMSN-Add-On,DV-UT,1,N/A,A-FP,27-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,TP,1,TP 15.7a,A-FP,27-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,TP,1,TP 30.9,A-FP,27-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,TP,1,N/A,A-FP,27-Aug-2020,,Legacy Tracing
+Harald,Release 3.1,MFCS,IIVP,1,N/A,A,27-Aug-2020,,
+Philip,Release 01.06.02,SPOC,SCS/RN,1,N/A,A,27-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,DV-UT,1,N/A,A-FP,28-Aug-2020,,Executed
+Philip,Release 01.11.01,CMSN-Add-On,IIVP,1,N/A,A-FP,28-Aug-2020,,
+Harald,Release 3.1,MFCS,RA,1,N/A,A,28-Aug-2020,,
+Harald,Release 3.1,MFCS,SCR,1,N/A,A-FP,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC1.1,A,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC2.1,A,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC3.1,A,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC4.1,A,28-Aug-2020,,
+Philip,Release 01.06.02,SPOC,IVR,1,N/A,A-FP,28-Aug-2020,,GER42
+Harald,Release 7.1,Unicorn,ESRA,1,N/A,A-FP,28-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,CII,1,N/A,A-FP,31-Aug-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,IVR,1,N/A,A-FP,31-Aug-2020,,GER400
+Philip,Release 01.11.01,CMSN-Add-On,TPR,1,TP 15.7a,A-FP,1-Sep-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,TPR,1,TP 30.9,A-FP,1-Sep-2020,,
+Philip,Release 01.11.01,CMSN-Add-On,TPR,1,N/A,A-FP,1-Sep-2020,,Legacy Tracing
+Philip,Release 01.11.01,CMSN-Add-On,SCS/RN,1,N/A,A-FP,2-Sep-2020,,
