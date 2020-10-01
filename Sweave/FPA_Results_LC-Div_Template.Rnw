@@ -17,7 +17,7 @@
 %
 %  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{August } %  Update Setup below
+\newcommand{\reportMonth}{September }                                                %  Update Setup below
 \newcommand{\reportYear}{2020 }
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
@@ -35,9 +35,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                     # update trend builder below
+Month <- "Sep"                                                                         # update trend builder below
 Year <- 2020
-XLabel <- "Since March 2019"
+XLabel <- "Since Aprile 2019"
 
 DivFile <- "../data/Div First Pass Acceptance.csv"
 
@@ -65,15 +65,9 @@ DivFPACHaRM <- getResultsCHaRM(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCHaRM(Month = "Mar",
+DivPlotData <- getResultsCHaRM(Month = "Apr",
                         Year = 2019,
                         File = DivFile)
-
-temp <- getResultsCHaRM(Month = "Apr",
-                        Year = 2019,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCHaRM(Month = "May",
                         Year = 2019,
@@ -166,9 +160,15 @@ temp <- getResultsCHaRM(Month = "Jul",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCHaRM(Month = "Aug",
+                        Year = 2020,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResultsCHaRM(Month = "Aug",
+temp <- getResultsCHaRM(Month = "Sep",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

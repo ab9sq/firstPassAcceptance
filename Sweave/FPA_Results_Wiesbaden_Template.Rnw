@@ -19,7 +19,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 %
 
-\newcommand{\reportMonth}{August }   % Update Setup below
+\newcommand{\reportMonth}{September }                                                       % Update Setup below
 \newcommand{\reportYear}{2020 }
 
 %
@@ -40,9 +40,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                                 # update trend builder below
+Month <- "Sep"                                                                      # update trend builder below
 Year <- 2020
-XLabel <- "Since Jan 2020"
+XLabel <- "Since Jan 2020"                                                            # status until Aug 2021 (?)
 
 DivFile <- "../data/Wiesbaden First Pass Acceptance.csv"
 @
@@ -57,6 +57,7 @@ DivFPA<- getResults(Month = Month,
 #
 # ------ Trend Builder -------------- <<<<<<<<<<<<<<<<<<<<<<<<<<<<update at end
 # # for update:
+# #                   No intial upupdates (steps 1-3) until Aug 2021 (?)
 # #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
 # #      3) delete first rbind+
@@ -104,9 +105,15 @@ temp <- getResults(Month = "Jul",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Aug",
+                        Year = 2020,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Aug",
+temp <- getResults(Month = "Sep",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
