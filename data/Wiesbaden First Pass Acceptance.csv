@@ -462,16 +462,16 @@ Philip,Release 01.11.01,CMSN-Add-On,DV-UT,1,N/A,A-FP,27-Aug-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,TP,1,TP 15.7a,A-FP,27-Aug-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,TP,1,TP 30.9,A-FP,27-Aug-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,TP,1,N/A,A-FP,27-Aug-2020,,Legacy Tracing
-Harald,Release 3.1,MFCS,IIVP,1,N/A,A,27-Aug-2020,,
+Harald,Release 3.1,MFCS,IIVP,1,Workstation,A,27-Aug-2020,,
 Philip,Release 01.06.02,SPOC,SCS/RN,1,N/A,A,27-Aug-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,DV-UT,1,N/A,A-FP,28-Aug-2020,,Executed
 Philip,Release 01.11.01,CMSN-Add-On,IIVP,1,N/A,A-FP,28-Aug-2020,,
 Harald,Release 3.1,MFCS,RA,1,N/A,A,28-Aug-2020,,
 Harald,Release 3.1,MFCS,SCR,1,N/A,A-FP,28-Aug-2020,,
 Harald,Release 3.1,MFCS,TP,1,TC1.1,A,28-Aug-2020,,
-Harald,Release 3.1,MFCS,TP,1,TC2.1,A,28-Aug-2020,,
-Harald,Release 3.1,MFCS,TP,1,TC3.1,A,28-Aug-2020,,
-Harald,Release 3.1,MFCS,TP,1,TC4.1,A,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC4.3,A-FP,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC5.1,A-FP,28-Aug-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC5.2,A-FP,28-Aug-2020,,
 Philip,Release 01.06.02,SPOC,IVR,1,N/A,A-FP,28-Aug-2020,,GER42
 Harald,Release 7.1,Unicorn,ESRA,1,N/A,A-FP,28-Aug-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,CII,1,N/A,A-FP,31-Aug-2020,,
@@ -480,3 +480,45 @@ Philip,Release 01.11.01,CMSN-Add-On,TPR,1,TP 15.7a,A-FP,1-Sep-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,TPR,1,TP 30.9,A-FP,1-Sep-2020,,
 Philip,Release 01.11.01,CMSN-Add-On,TPR,1,N/A,A-FP,1-Sep-2020,,Legacy Tracing
 Philip,Release 01.11.01,CMSN-Add-On,SCS/RN,1,N/A,A-FP,2-Sep-2020,,
+Harald,Release 6.87,LabSolutions,SCR,1,N/A,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,IIVP,1,Server,A,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC3.1,A,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC4.2,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC2.3,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC2.2,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC2.1,A,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC1.4,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC1.3,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,1,TC4.1,A,2-Sep-2020,,
+Harald,Release 7.1,Unicorn,RA,1,N/A,A-FP,2-Sep-2020,,
+Harald,Release 3.1,MFCS,IVR,1,Workstation,A-FP,3-Sep-2020,,
+Harald,Release 7.1,Unicorn,IVR,1,N/A,A-FP,8-Sep-2020,,
+Philip,Release v6.50,ImageCompare,IA,1,N/A,D,10-Sep-2020,Multiple Errors,"Tailoring incorrect/incomplete, documentation impact incorrect, application impact not included"
+Philip,Release v6.50,ImageCompare,IDP,1,N/A,D,10-Sep-2020,Multiple Errors,"Partially incorrect contents, system name incorrect, no section numbers"
+Philip,Release v6.50,ImageCompare,MCP,1,N/A,D,10-Sep-2020,Multiple Errors,Availiability of previous version incorrectly reflected
+Philip,Release v6.50,ImageCompare,SPVP,1,N/A,D,10-Sep-2020,Multiple Errors,"SOP change not listed, NPV/AIR references still included"
+Philip,Release v6.50,ImageCompare,TP,1,N/A,D,10-Sep-2020,Multiple Errors,Testing missing for several requirements
+Philip,Release v6.50,ImageCompare,URS,1,N/A,D,10-Sep-2020,Multiple Errors,"Several E-Sig requirements missing, or incorrectly ""N/A-ed"""
+Harald,Release 3.1,MFCS,TPR,1,TC5.2,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TPR,1,TC3.2,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TPR,1,TC5.1,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TPR,1,TC3.1,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TPR,1,TC1.2,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TPR,1,TC1.1,A-FP,11-Sep-2020,,
+Harald,Release 3.1,MFCS,TM-URS to TP,1,N/A,A-FP,16-Sep-2020,,
+Philip,Release v6.50,ImageCompare,IA,1,N/A,D,17-Sep-2020,Multiple Errors,"Tailoring still partially incorrect, documentation impact partially incorrect"
+Philip,Release v6.50,ImageCompare,IDP,1,N/A,D,17-Sep-2020,Multiple Errors,"Partially incorrect contents, system name incorrect"
+Harald,Release 3.1,MFCS,ESRA,1,N/A,A-FP,17-Sep-2020,,
+Harald,Release 7.1,Unicorn,ESRA,2,N/A,A-FP,17-Sep-2020,,
+Harald,Release 7.1,Unicorn,TM-URS to TP,1,N/A,A-FP,17-Sep-2020,,
+Harald,Release 3.1,MFCS,IIVP,2,Workstation,A,18-Sep-2020,,
+Harald,Release 3.1,MFCS,SCS/RN,1,N/A,A-FP,18-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,2,TC1.2,A-FP,18-Sep-2020,,
+Harald,Release 3.1,MFCS,TP,2,TC3.2,A-FP,18-Sep-2020,,
+Harald,Release 7.1,Unicorn,IIVP,2,N/A,A-FP,18-Sep-2020,,
+Harald,Release 7.1,Unicorn,SCS/RN,1,N/A,A-FP,18-Sep-2020,,
+Philip,Release v6.50,ImageCompare,TP,1,N/A,D,29-Sep-2020,Multiple Errors,Testing still missing for several requirements; TPconfiguration needs rework
+Philip,Release v6.50,ImageCompare,URS,1,N/A,D,29-Sep-2020,Multiple Errors,"Several E-Sig requirements missing, or incorrectly ""N/A-ed"""
+Philip,Release 13.2,Fabiola,CII,1,N/A,D,30-Sep-2020,Multiple Errors,Interface definitions don't match URS
+Philip,Release 13.2,Fabiola,MP,1,N/A,D,30-Sep-2020,Multiple Errors,Several AIR references contained and AIR workflows defined
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,30-Sep-2020,Multiple Errors,Interface definitions don't match CII
