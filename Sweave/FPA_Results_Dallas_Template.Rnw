@@ -17,8 +17,8 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{September }                                                % Update Setup below
-\newcommand{\reportYear}{2020 }
+\newcommand{\reportMonth}{ October }                                                % Update Setup below
+\newcommand{\reportYear}{ 2020 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
@@ -52,7 +52,7 @@ DivFPA <- getResults(Month = Month,
 #
 # ------ Trend Builder -------------- update at end
 # # for update:
-# #    Items 1 - 3 do not happend until FEb 2021 (?) when this reaches
+# #    Items 1 - 3 do not happend until Feb 2021 (?) when this reaches
 # #   18 months of data
 # #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
@@ -132,9 +132,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "Sep",
+                    Year = 2020,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Sep",
+ temp <- getResults(Month = "Oct",
                     Year = 2020,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,
