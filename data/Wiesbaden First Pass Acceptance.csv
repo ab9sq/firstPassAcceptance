@@ -1,5 +1,4 @@
-SQA,Project ID,Application,Deliverable,Doc Version,"Doc ID, if needed","Approve or 
-Disapprove?",Date of Approval or Disapproval,Reason for Disapproval,Comments
+SQA,Project ID,Application,Deliverable,Doc Version,"Doc ID, if needed",Approve or Disapprove,Date of Approval or Disapproval,Reason for Disapproval,Comments
 Harald,Release 3.1,MFCS,TP,1,N/A,D,6-Jan-2020,Multiple Errors,
 Harald,Release 3.1,MFCS,URS/TM,1,N/A,D,6-Jan-2020,Multiple Errors,
 Harald,Release 3.1,MFCS,IDP/IIVP,1,N/A,D,10-Jan-2020,Inaccurate information,
@@ -522,3 +521,285 @@ Philip,Release v6.50,ImageCompare,URS,1,N/A,D,29-Sep-2020,Multiple Errors,"Sever
 Philip,Release 13.2,Fabiola,CII,1,N/A,D,30-Sep-2020,Multiple Errors,Interface definitions don't match URS
 Philip,Release 13.2,Fabiola,MP,1,N/A,D,30-Sep-2020,Multiple Errors,Several AIR references contained and AIR workflows defined
 Philip,Release 13.2,Fabiola,URS,1,N/A,D,30-Sep-2020,Multiple Errors,Interface definitions don't match CII
+Harald,Release 01.83.00,LSP,URS/FRS,1,BOM,D,1-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,LAG,D,1-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,CII,1,N/A,D,2-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,SPVP,1,Generic,D,2-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,DAC,D,2-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,REA,D,2-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-02,D,6-Oct-2020,Multiple Errors,Incorrect tracing
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-01,D,6-Oct-2020,Multiple Errors,Name incorrect
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-02,D,6-Oct-2020,Multiple Errors,"Name incorrect, mismatch with URS"
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-03,D,6-Oct-2020,Multiple Errors,Name incorrect
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-04,D,6-Oct-2020,Multiple Errors,"Name incorrect, URS text incomplete"
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-07,D,6-Oct-2020,Multiple Errors,Test not covered by URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-EH-02,D,6-Oct-2020,Multiple Errors,Mismatch with URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-EH-04,D,6-Oct-2020,Multiple Errors,Mismatch with URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-01,D,6-Oct-2020,Multiple Errors,Test missing
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-03,D,6-Oct-2020,Multiple Errors,URS text incomplete
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBV-01,D,6-Oct-2020,Multiple Errors,URS text incomplete
+Philip,Release 13.2,Fabiola,TP,1,PRC-PE-03,D,6-Oct-2020,Multiple Errors,URS text incomplete
+Philip,Release 13.2,Fabiola,TP,1,PRC-TPI-01,D,6-Oct-2020,Multiple Errors,Test not covered by URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-03,D,6-Oct-2020,Multiple Errors,Mismatch with URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-07,D,6-Oct-2020,Multiple Errors,Test missing
+Philip,Release 13.2,Fabiola,TP,1,PRC-VUB-03,D,6-Oct-2020,Multiple Errors,"Formatting issues, URS text incomplete"
+Philip,Release 13.2,Fabiola,TP,1,SEC-010,D,6-Oct-2020,Multiple Errors,Test missing
+Philip,Release 13.2,Fabiola,TP,1,SEC-012,D,6-Oct-2020,Multiple Errors,Mismatch with URS
+Philip,Release 13.2,Fabiola,URS,1,N/A,D,6-Oct-2020,Multiple Errors,Several typos and mismatches vs. TPs
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-02,D,7-Oct-2020,Multiple Errors,Incorrect tracing
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-02,D,7-Oct-2020,Multiple Errors,"Name incorrect, mismatch with URS"
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-03,D,7-Oct-2020,Multiple Errors,"Name incorrect, URS text incomplete"
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-07,D,7-Oct-2020,Multiple Errors,Test not covered by URS
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-03,D,7-Oct-2020,Multiple Errors,URS text incomplete
+Philip,Release v6.50,ImageCompare,IA,1,N/A,D,7-Oct-2020,Multiple Errors,Requirements vs. TP impact incorrect
+Philip,Release v6.50,ImageCompare,IIVP,1,N/A,D,7-Oct-2020,Multiple Errors,Installation checks missing
+Philip,Release v6.50,ImageCompare,TP,1,A1,D,7-Oct-2020,Multiple Errors,Several URS not fully tested
+Philip,Release v6.50,ImageCompare,TP,1,A2,D,7-Oct-2020,Multiple Errors,Several URS not fully tested
+Philip,Release v6.50,ImageCompare,TP,1,B,D,7-Oct-2020,Multiple Errors,Several URS not fully tested
+Harald,Release 01.83.00,LSP,URS/FRS,1,BOM,D,10-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 13.2,Fabiola,CII,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,DPP,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IA,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IDP,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,Verify Fabiola Server installation,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,Verify installation for Fabiola Client 1,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,Verify installation for Fabiola Client 2,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,Verify installation for Fabiola Client 3 (Devices),A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,1 Upgrade and data migration - Pre-Testing-Steps,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,2 Post-Test-Steps for test result equals PASS,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,1 Rollback or recover - Application and data,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,2 Rollback or recover - System,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,IIVP,1,Verify Fabiola Server installation,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,MP,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,SAD,1,N/A,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,SCR,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,SPVP,1,N/A,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-BAS-180,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-BAS-181,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-010,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-012,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-013,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-041,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-042,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-040,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,SEC-020,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-01 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-02 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-03 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DIP-04 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DAT-050,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DAT-055,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DAT-056,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-DEV-010,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-AMD-010,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,FAB-AMD-051,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-02 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-03a,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-03b,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-04 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-05 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-06 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-ABR-07 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-01 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-02 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-03 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBI-04 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-LBV-01 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-OED-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-OED-02 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-OED-03 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-PAB-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-PR-01,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-PE-01,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-PE-02,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-PE-03,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-TPF-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-TPI-01 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-TPV-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UA-01,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UA-02,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-01,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-02,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-03,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-04,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-05,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-06,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-07,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-08,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-09,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-UD-10,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-VUB-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-VUB-02 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-VUB-03 ,A,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-AVP-01 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-AVP-02 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,PRC-AVP-03 ,A-FP,12-Oct-2020,,
+Philip,Release 13.2,Fabiola,TP,1,Retention Period,A-FP,12-Oct-2020,,
+Harald,Release 01.83.00,LSP,SCA,3,N/A,D,12-Oct-2020,Incorrect Approvers,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,CDL,D,12-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,LAG,D,12-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,REA,D,12-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 13.2,Fabiola,URS,1,N/A,A,13-Oct-2020,,
+Harald,Release 01.83.00,LSP,MP,1,N/A,D,13-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,SCA,3,N/A,A,13-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,GIM,D,13-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS/TM,46,LAG,A-FP,13-Oct-2020,,
+Harald,Release 6.87,LabSolutions,URS,1,N/A,D,14-Oct-2020,Inaccurate information,
+Harald,Release 01.83.00,LSP,CII,1,N/A,D,14-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,COR,D,14-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,REA,D,14-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,CII,1,N/A,A,15-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.84.00,LSP,IA,1,N/A,D,15-Oct-2020,Inaccurate information,
+Harald,Release 01.84.00,LSP,SCR,1,N/A,D,15-Oct-2020,Inaccurate information,
+Harald,Release 01.83.00,LSP,URS/FRS,1,LAG,D,15-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 01.56.00,PARIS,IA,1,N/A,D,15-Oct-2020,Multiple Errors,"Several sections are not filled out, contents incorrect"
+Philip,Release 01.56.00,PARIS,MP,1,N/A,D,15-Oct-2020,Multiple Errors,Several AIR references contained and AIR workflows defined
+Philip,Release 01.56.00,PARIS,SCR,1,N/A,D,15-Oct-2020,Multiple Errors,"Several sections are not filled out, contents incorrect"
+Philip,Release 01.56.00,PARIS,SPVP,1,N/A,D,15-Oct-2020,Multiple Errors,Contents inappropriate and key aspects missing
+Philip,Release 01.56.00,PARIS,TP,1,N/A,D,15-Oct-2020,Inaccurate information,Test definition not as discussed
+Philip,Release 01.56.00,PARIS,URS,1,N/A,D,15-Oct-2020,Multiple Errors,"Several sections are not filled out, contents incorrect"
+Harald,Release 01.84.00,LSP,DV-UT,1,N/A,A-FP,16-Oct-2020,,
+Harald,Release 01.83.00,LSP,IDP,1,N/A,D,16-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,MP,1,N/A,D,16-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.84.00,LSP,SCR,1,N/A,D,16-Oct-2020,,
+Harald,Release 01.84.00,LSP,SCR,1,N/A,A,16-Oct-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS,1,GIM,D,16-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,INV,D,16-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SYM,D,16-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,IDP,1,N/A,A,19-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,MP,1,N/A,A,19-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,PAD,D,19-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SYM,D,19-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 01.21.00,AFIL,IA,1,N/A,D,20-Oct-2020,Inaccurate information,SCR ID incorrect
+Philip,Release 13.2,Fabiola,IVR,1,1 Upgrade and data migration - Pre-Testing-Steps,D,20-Oct-2020,Other,Attachment is missing information
+Philip,Release 13.2,Fabiola,IVR,1,Verify installation for Fabiola Client 1,A-FP,20-Oct-2020,,
+Philip,Release 13.2,Fabiola,IVR,1,Verify installation for Fabiola Client 3 (Devices),A-FP,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,CII,1,N/A,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,IA,1,N/A,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,IIVP,1,N/A,D,20-Oct-2020,Other,Superfluous attachment
+Philip,Release v6.50,ImageCompare,IIVP,1,N/A,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,TP,1,A1,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,TP,1,A2,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,TP,1,B,A,20-Oct-2020,,
+Philip,Release v6.50,ImageCompare,URS,1,N/A,A,20-Oct-2020,,
+Harald,Release 01.83.00,LSP,URS/FRS,1,REA,D,20-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SYM,D,20-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Philip,Release 01.21.00,AFIL,IA,1,N/A,D,21-Oct-2020,Inaccurate information,Incorrect deliverables selection
+Philip,Release 01.21.00,AFIL,URS,1,N/A,D,21-Oct-2020,Inaccurate information,Still contains eRIM contents
+Philip,Release 13.2,Fabiola,IVR,1,1 Upgrade and data migration - Pre-Testing-Steps,A,21-Oct-2020,,
+Philip,Release 13.2,Fabiola,IVR,1,Verify Fabiola Server installation,A-FP,21-Oct-2020,,
+Harald,Release 01.83.00,LSP,IA,1,N/A,D,21-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,MCP,1,N/A,D,21-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,RA,1,N/A,A,21-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,SPVP,1,Generic,D,21-Oct-2020,Inaccurate information,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,APS,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,BOM,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,CDL,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,CSL,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,DAC,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,DGR,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,GIM,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,GRL,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,INV,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,LAG,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,LSH,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,PAD,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,PAM,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,PAO,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,RAC,A-FP,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SYM,A,21-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,ZARA,A,21-Oct-2020,,NPV-Vera Transfer
+Philip,Release v6.50,ImageCompare,IVR,1,N/A,A-FP,22-Oct-2020,,
+Harald,Release 01.83.00,LSP,ESRA,1,N/A,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,IA,1,N/A,A,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,MCP,1,N/A,A,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,Other,1,Trigger Tables,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,Other,1,Package Structure,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,RA,1,N/A,D,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,SPVP,1,Generic,A,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,ALC,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,CFR,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,COR,A,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,LCS,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,REA,A,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SHR,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.83.00,LSP,URS/FRS,1,SOS,A-FP,22-Oct-2020,,NPV-Vera Transfer
+Harald,Release 01.84.00,LSP,IA,1,N/A,D,23-Oct-2020,Inaccurate information,
+Philip,Release 01.21.00,AFIL,SCA,1,N/A,A,26-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-BAS-180,D,26-Oct-2020,Incorrect Approvers,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-BAS-181,D,26-Oct-2020,Incorrect Approvers,
+Harald,Release 01.84.00,LSP,IA,1,N/A,A,26-Oct-2020,,
+Harald,Release 01.85.00,LSP,SCR,1,N/A,A-FP,26-Oct-2020,,
+Philip,Release 01.56.00,PARIS,SCA,1,N/A,A,26-Oct-2020,,
+Philip,Release 01.21.00,AFIL,IA,1,N/A,A,27-Oct-2020,,
+Philip,Release 01.21.00,AFIL,MP,1,N/A,A,27-Oct-2020,,
+Philip,Release 01.21.00,AFIL,SPVP,1,N/A,D,27-Oct-2020,Incorrect Approvers,
+Philip,Release 01.21.00,AFIL,URS,1,N/A,A,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-BAS-180,A,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-BAS-181,A,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,SEC-010,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,SEC-012,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,SEC-020,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-DAT-050,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-DAT-055,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-DAT-056,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-DEV-010,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-AMD-010,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,FAB-AMD-051,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-TPF-01 ,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-TPV-01 ,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UA-01,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-01,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-02,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-03,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-04,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-05,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-06,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-07,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-08,D,27-Oct-2020,Other,Not all entered information visible in log/printout
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-09,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UD-10,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,Retention Period,A-FP,27-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UA-02,D,27-Oct-2020,Other,Attachment missing/actual result unclear
+Philip,Release 13.2,Fabiola,TPR,1,SEC-040,D,27-Oct-2020,Other,Role does not show up in log
+Philip,Release 13.2,Fabiola,TPR,1,SEC-013,D,27-Oct-2020,Other,Additional information required to explain attachments
+Harald,Release 01.84.00,LSP,DV-UT,1,N/A,D,27-Oct-2020,Inaccurate information,Result
+Harald,Release 01.84.00,LSP,DV-UT,1,N/A,A,27-Oct-2020,,Result
+Harald,Release 01.84.00,LSP,IIVP,1,ZARA Verification Protocol,A-FP,27-Oct-2020,,
+Harald,Release 01.84.00,LSP,IIVP,1,1 Initial Steps,A-FP,27-Oct-2020,,
+Harald,Release 01.84.00,LSP,IIVP,1,2 Pre-Steps,A-FP,27-Oct-2020,,
+Harald,Release 01.84.00,LSP,IIVP,1,3 Installation Steps,A-FP,27-Oct-2020,,
+Harald,Release 01.84.00,LSP,IIVP,1,4 Post-Steps,A-FP,27-Oct-2020,,
+Harald,Release 01.84.00,LSP,IIVP,1,5 Verification Steps,A-FP,27-Oct-2020,,
+Philip,Release 01.21.00,AFIL,IIVP,1,N/A,A-FP,28-Oct-2020,,
+Philip,Release 01.21.00,AFIL,SCR,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.21.00,AFIL,SPVP,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.21.00,AFIL,TP,1,N/A,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-PE-02,D,28-Oct-2020,Other,Attachment missing
+Philip,Release 13.2,Fabiola,TPR,1,SEC-042,D,28-Oct-2020,Other,Attachment missing/actual result unclear
+Philip,Release 13.2,Fabiola,TPR,1,SEC-013,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,SEC-041,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-VUB-01 ,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-VUB-02 ,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-VUB-03,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-PE-01,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-PE-03,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-UA-02,A-FP,28-Oct-2020,,
+Philip,Release 13.2,Fabiola,TPR,1,PRC-AVP-03 ,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,IA,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,MP,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,SCR,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,SPVP,1,N/A,A,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,TP,1,AH,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,TP,1,CD,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,TP,1,CMD,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,TP,1,FC,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,TP,1,SD,A-FP,28-Oct-2020,,
+Philip,Release 01.56.00,PARIS,URS,1,N/A,A,28-Oct-2020,,
+Harald,Release 01.86.00,LSP,DV-UT,1,SCR L1900240 UT,D,28-Oct-2020,Inaccurate information,
+Harald,Release 01.86.00,LSP,DV-UT,1,SCR L1900240 UT,A,29-Oct-2020,,
+Harald,Release 01.86.00,LSP,DV-UT,1,SPR L2000082 UT,D,28-Oct-2020,Inaccurate information,
+Harald,Release 01.86.00,LSP,DV-UT,1,SPR L2000082 UT,A,29-Oct-2020,,
+Harald,Release 01.84.00,LSP,TP,1,TP SCR - PD-005195,A-FP,29-Oct-2020,,
+Harald,Release 01.85.00,LSP,SCR,1,SCR L1900240 UT,D,28-Oct-2020,Inaccurate information,
