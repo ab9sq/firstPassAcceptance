@@ -51,10 +51,6 @@ require(lubridate)
 DivFPA <- getResults(Month = Month,
                   Year = Year,
                   File = DivFile)
-# DivFPACHaRM <- getResultsCHaRM(Month = Month,
-#                                Year = Year,
-#                                File = DivFile)
-
 
 #
 # ------ Trend Builder -------------- <<<<<<<<<<<<<<<<<<<<<<<<<<<<update at end
@@ -232,21 +228,6 @@ Metrics results
      \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
 \end{description}
-%
-% \subsection{FPA Without CHaRM Test Protocols}
-% For the Month of \reportMonth \reportYear the follow are the First Pass Acceptance
-% Metrics results with the CHaRM Test Protocols removed. This was done due to the
-% large volume of test protocols (test cases) in the application and fact that
-% approvals are at the test case verses the test protocol level, with typical
-% test protocols having multible test cases contained witin.
-% \begin{description}
-%      \item[Projects Started]\Sexpr{DivFPACHaRM$Projects_Started}
-%      \item[Projects Completed]\Sexpr{DivFPACHaRM$Projects_Completed}
-%      \item[Items Reviewed]\Sexpr{DivFPACHaRM$Reviews_Completed}
-%      \item[Items Rejected]\Sexpr{DivFPACHaRM$Items_Rejected}
-%      \item[First Pass Acceptance Rate]\Sexpr{DivFPACHaRM$First_Pass_Acceptance} \%
-%      \item[Rejection Rate] \Sexpr{DivFPACHaRM$Rejection_Rate} \%
-% \end{description}
 
 
 \section{Trending Graphs}
