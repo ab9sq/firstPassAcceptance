@@ -13330,3 +13330,592 @@ Nick,1003.004,CHaRM,Test Protocol,1,043_Verify_AutoCreate_MedicalEvaluation?_Dem
 Nick,1003.004,CHaRM,Test Protocol,1,044_Verify_MedicalEvaluation_Demote_ByTicketReview_Complaint,A-FP,30-Oct-2020,,1830
 Nick,1003.004,CHaRM,Test Protocol,1,045_Create_MedicalEvaluation_ByTicketReview_ElevatedComplaint,A-FP,30-Oct-2020,,1835
 Nick,1003.004,CHaRM,Test Protocol,1,046_Create_MedicalEvaluation_ByTicketReview_DemotedService,A-FP,30-Oct-2020,,1836
+Beilah,DIV_LC_Labeling Interface,eLabeling,ERES,1,ID 137,A-FP,2-Nov-2020,,
+Beilah,DIV_LC_Labeling Interface,eLabeling,Validation Plan,1,ID 86,A,3-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IDP,1,ID 1649,A-FP,3-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Test Protocol,2,ID 308,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Test Protocol,2,ID 306,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Test Protocol,2,ID 303,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,ISSD,1,ID 1650,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Test Protocol,2,ID 328,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020-003,DFCS,Software Change Request,1,ID 218,D,4-Nov-2020,Inaccurate information,
+Beilah,DIV_LC_Distribution 2020-003,DFCS,Software Change Request,1,ID 218,D,5-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020-004,DFCS,Software Change Request,1,ID 258,A-FP,4-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020-004,DFCS,Software Change Request,2,ID 258,A-FP,5-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Traceability,1,ID 1656,A-FP,6-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Maintenance Plan,1,ID 1116,A-FP,5-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Traceability,1,ID 1653 urs-frs,A-FP,6-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,Test Protocol Results,2,ID 319,A-FP,6-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,System Certification Summary,1,ID 1652,A-FP,6-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 592 production,A-FP,9-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 594 production,A-FP,9-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 591 production,A-FP,9-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 3599,A-FP,13-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020-004,DFCS,Validation Plan,1,ID 262,A-FP,16-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020-004,DFCS,Validation Plan,1,ID 261,A-FP,16-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IIVP,1,ID 15,A-FP,18-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,CII,1,ID 7489,A-FP,19-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,CII,1,ID 7489,A-FP,19-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol,2,Test id 81,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol,1,Test id 96,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol,2,Test id 95,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol,1,Test id 97,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Software Compliance Assessment,3,Rec id 2,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Software Change Request,1,Rec id 1086,A-FP,2-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Project Plan,1,Rec id 326,D,2-Nov-2020,Inaccurate information,email
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,ERES,1,Rec id 1087,A-FP,3-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Project Plan,1,Rec id 1085,D,3-Nov-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Project Plan,1,Rec id 11,A-FP,3-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Validation Plan,1,Rec id 1084,D,3-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,URS Specification Rec id 302,A-FP,3-Nov-2020,,Spec
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 305 Interface group,D,3-Nov-2020,Not using template,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 306 Environment group,D,3-Nov-2020,Not using template,02 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 307 Regulated System Requirements,D,4-Nov-2020,Not using template,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 308 DLM Reqmts group,D,4-Nov-2020,Not using template,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 309 Reporting Utility reqmts grouo,D,4-Nov-2020,Not using template,17 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 376 System functions rqmts group,D,4-Nov-2020,Not using template,15 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 386 Data reqmts group,D,4-Nov-2020,Not using template,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 328 URS Spec,D,4-Nov-2020,Inaccurate information,email/withdrawal
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Project Plan,1,Rec id 326,D,4-Nov-2020,Inaccurate information,email/withdrawal
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 69,A-FP,5-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Software Change Request,1,Rec id 1438,A-FP,5-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Other,1,Rec id 1203,A-FP,5-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Project Plan,1,Rec id 1085,D,5-Nov-2020,Inaccurate information,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,URS Specification Rec id 1082,D,5-Nov-2020,Insufficient traceability,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run Id 70,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run Id 71,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 72,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run Id 73,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run Id 74,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,ERES,1,Rec id 1634,A-FP,9-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Project Plan,1,Rec id 326,A,9-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 305 Interface group,A,9-Nov-2020,,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 306 Environment group,A,9-Nov-2020,,02 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 307 Regulated System Requirements,A,9-Nov-2020,,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 308 DLM Reqmts group,A,9-Nov-2020,,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 309 Reporting Utility reqmts grouo,A,9-Nov-2020,,17 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 376 System functions rqmts group,A,9-Nov-2020,,15 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,1,Rec id 386 Data reqmts group,A,9-Nov-2020,,01 user requirements in the group 
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,URS,1,Rec id 463 URS Reqmt group Content Editing & Management,A-FP,9-Nov-2020,,28 user requirements in the group 
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,URS,1,Rec id 1372 URS Reqmt group Distributor Portal,A-FP,9-Nov-2020,,10 user requirements in the group 
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,URS,1,Rec id 1373 URS Reqmt group Portal Admin ,A-FP,9-Nov-2020,,04 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Project Plan,1,Rec id 1085,A,10-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Validation Plan,1,Rec id 1084,A-FP,10-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Design Verification,1,Rec id 1205,D,10-Nov-2020,Incorrect Approvers,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Design Documentation,1,Rec id 813,D,10-Nov-2020,Not using template,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Design Documentation,1,Rec id 813,D,10-Nov-2020,Not using template,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,ISSD,1,Rec id 1208,A-FP,11-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,URS Specification Rec id 1082,A-FP,11-Nov-2020,,Spec
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,Rec id 1101 Product Selection / User Interface,A-FP,11-Nov-2020,,02 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,Rec id 1102  Data Entry / User Interface,A-FP,11-Nov-2020,,07 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,Rec id 1103   Viewing/Printing,A-FP,11-Nov-2020,,05 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,Rec id 1104  Security group,A-FP,11-Nov-2020,,02 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,URS,1,Rec id 1105 Hardward / Software group ,A-FP,11-Nov-2020,,04 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,FRS  Specification Rec id 1083,D,11-Nov-2020,Inaccurate information,Spec
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1126 Internal Interface Requirements,D,11-Nov-2020,Not following document version control,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1127  Functional Requirements,D,11-Nov-2020,Not following document version control,59 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1128   Security Requirements,D,11-Nov-2020,Not following document version control,07 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1129  Design Constraints,D,11-Nov-2020,Not following document version control,03 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1130 Security ,D,11-Nov-2020,Not following document version control,02 user requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,2,Rec id 1194 & 1195,A-FP,11-Nov-2020,,02 FRS requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,1,Rec id 1478 Technical Lib API group,A-FP,11-Nov-2020,,16 FRS requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,1,Rec id 1479 Content API group,A-FP,11-Nov-2020,,06 FRS requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,1,Rec id 1237 CMS group,A-FP,12-Nov-2020,,100 FRS requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,Other,1,Rec id 1633 Code review,A-FP,12-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,CII,1,Rec id 1632 ,D,12-Nov-2020,Inaccurate information,
+Suresh,DIV_LC_MFG_Engr TrendReader Rel 4.0,TrendReader,Software Compliance Assessment,1,Rec id 275,A-FP,12-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr Biocommand Rel 2.0,BioCommand Batch Control Plus,IIVP,1,Test id 4,D,12-Nov-2020,Not compliant with procedure,
+Suresh,DIV_LC_MFG_Engr Biocommand Rel 2.0,BioCommand Batch Control Plus,Test Protocol,1,Test id 13,D,12-Nov-2020,Not compliant with procedure,
+Suresh,DIV_LC_MFG_Engr Biocommand Rel 2.0,BioCommand Batch Control Plus,CII,1,Rec id 300,A-FP,12-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Validation Plan,1,Rec id 327,A-FP,12-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Design Documentation,1,Rec id 813,A,16-Nov-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,URS,1,Rec id  URS Spec id 1505,D,16-Nov-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,URS,1,Rec id  URS Spec id 1505,A,16-Nov-2020,,12 URS requirements in the group 
+Suresh,DIV_LC_Pulse v30.0,Pulse,CII,1,Rec id 1632 ,D,16-Nov-2020,Inaccurate information,email/withdrawal
+Suresh,DIV_LC_Pulse v30.0,Pulse,CII,1,Rec id 1632 ,A,16-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,1,Rec id 1643,A-FP,16-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,FRS,1,Rec id 1644,A-FP,16-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol,1,Test id 74 ,A-FP,16-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol,1,Test id 100,A-FP,16-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.1,DARA Filler DHM and RU,IIVP results,1,Run id 17,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.1,DARA Filler DHM and RU,IIVP results,1,Run id 18,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,URS,1,rec id for URS Spec 814,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,Validation Plan,1,Rec id 914,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 75,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Data Migration Plan,1,Rec id 1636,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Software Change Request,2,Rec id 1438,A-FP,17-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Traceability,1,Rec id 1437,A-FP,18-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,CII,2,Rec id 1632 ,A-FP,18-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Design Verification,2,Rec id 1633 Code review,A-FP,18-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,Maintenance Plan,1,Rec id 1211,A,18-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,FRS  Specification Rec id 1083,A,18-Nov-2020,,Spec
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1126 Internal Interface Requirements,A,18-Nov-2020,,01 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1127  Functional Requirements,A,18-Nov-2020,,59 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1128   Security Requirements,A,18-Nov-2020,,07 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1129  Design Constraints,A,18-Nov-2020,,03 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr POD V6.1,Print on Demand,FRS,1,Rec id 1130 Security ,A,18-Nov-2020,,02 user requirements in the group 
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,System Certification Summary,1,Rec id 1436,D,19-Nov-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,System Certification Summary,1,Rec id 1436,A,19-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,IIVP results,1,Run id 76,D,19-Nov-2020,Not using template,email
+Suresh,DIV_LC_Pulse v30.0,Pulse,IIVP results,1,Run id 76,A,19-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol,1,Test id 101,A-FP,19-Nov-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol,1,Test id 87,A-FP,19-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol Results,1,Run id 77,D,28-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol Results,1,Run id 79,A-FP,28-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol Results,1,Run id 80,A-FP,28-Nov-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol Results,1,Run id 83,A-FP,28-Nov-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,FRS,1,"Rec id 147 & 150, 145, 146",A-FP,29-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,Project Plan,2,Rec id 326,A-FP,29-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 328 URS Spec,A,29-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 329 1: System Functions group ,A-FP,29-Nov-2020,,27 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 332 data group ,A-FP,29-Nov-2020,,07 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 341 security group,A-FP,29-Nov-2020,,03 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,URS,1,Rec id 350 interfaces group,A-FP,29-Nov-2020,,16 user requirements in the group 
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,FRS,1,Rec id 491 FRS Spec And other groups,A-FP,29-Nov-2020,,102 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,Design Documentation,1,Rec id 667,A-FP,29-Nov-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,Rec id  586,D,30-Nov-2020,,47 FRS requirements in the group 
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,System Certification Summary,2,Rec id 1436,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,CII,1,ID 140,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,FRS,2,ID 128,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,IIVP,1,ID 73,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_R_D,EDMS,Maintenance Plan,3,ID 2795,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_R_D v6.0.3,EDMS,Software Change Request,1,ID 7644,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 17,A-FP,23-Nov-2020,,
+Beilah,DIV_LC_R_D,R Studio Package Manager,Software Compliance Assessment,1,ID 7706,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IIVP,2,ID 15,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 20,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 21,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 22,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 23,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Design Verification,1,ID 82,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Design Verification,1,ID 85: execution,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 612,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_WWLIMS v9.8,WWLIMS,IIVP results,1,ID 613,A-FP,24-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,IIVP,1,ID 13,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,CII,1,ID 259,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 19,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,1,ID 18,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,FRS,2,ID 124,A-FP,25-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,IIVP results,1,ID 22,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,IIVP results,1,ID 87,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Test Protocol Results,1,ID 14,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Test Protocol Results,1,ID 15,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IIVP results,1,ID 11,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Test Protocol,1,ID 83,D,30-Nov-2020,Inaccurate information,
+Beilah,DIV_LC_R_D ,EDMS,Design Verification,1,ID 74: unit test,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 76,D,30-Nov-2020,Inaccurate information,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 76,A,30-Nov-2020,,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 77,D,30-Nov-2020,Inaccurate information,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 77,A,30-Nov-2020,,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 78,D,30-Nov-2020,Inaccurate information,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol,1,ID 78,A,30-Nov-2020,,
+Nick,div_cms,TODS,ISSD,1,3340,D,2-Nov-2020,Multible Errors,
+Nick,1003.004,CHaRM,Test Protocol,1,017_Validation_Country_BackupVigilanceContact_Deletion,D,2-Nov-2020,Inaccurate information,1826
+Nick,ePAS 20-29516,IDA Reporting,Test Protocol Results,1,20-29516,A-FP,3-Nov-2020,,
+Nick,ePAS 20-29517,IDA Reporting,Test Protocol Results,1,20-29517,A-FP,3-Nov-2020,,
+Nick,ePAS 20-29514,IDA Reporting,Test Protocol Results,1,20-29514,A-FP,3-Nov-2020,,
+Nick,ePAS 20-29515,IDA Reporting,Test Protocol Results,1,20-29515,A-FP,3-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,Software Compliance Assessment,1,3,A-FP,3-Nov-2020,,
+Nick,div_stats,R - Stats Packages,Test Protocol Results,1,23,A-FP,3-Nov-2020,,
+Nick,div_cms,TODS,Software Change Request,1,3332,D,3-Nov-2020,Inaccurate information,Maintance Plan needs to be revised
+Nick,ePAS 20-29518,IDA Reporting,Test Protocol Results,1,20-29518,A-FP,3-Nov-2020,,
+Nick,ePAS 20-29519,IDA Reporting,Test Protocol Results,1,20-29519,A-FP,3-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol,4,006_Verify_Active_Directory,A,4-Nov-2020,,1553
+Nick,1003.004,CHaRM,Test Protocol,1,017_Validation_Country_BackupVigilanceContact_Deletion,A,4-Nov-2020,,1826
+Nick,div_cms,TODS,Software Change Request,1,3332,A,4-Nov-2020,,
+Nick,Div_CMS,CMSNext,Software Change Request,1,3334,D,4-Nov-2020,Inaccurate information,10 different points
+Nick,div_mss,MSS,Software Change Request,1,914 - iFIX,A-FP,4-Nov-2020,,
+Nick,Div_CMS,CMSNext,IIVP,1,91,A-FP,5-Nov-2020,,
+Nick,Div_MSS,MSS,Software Change Request,2,10,A-FP,5-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,5-Nov-2020,,2476
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,5-Nov-2020,,2479
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,5-Nov-2020,,2451
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,5-Nov-2020,,2471
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,5-Nov-2020,,2447
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 18_Complaint Comments,A-FP,5-Nov-2020,,2414
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2412
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2453
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2422
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2418
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2474
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2458
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2380
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2389
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,5-Nov-2020,,2489
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,5-Nov-2020,,2436
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,5-Nov-2020,,2366
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2483
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2411
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2452
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2348
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2435
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2398
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2417
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2266
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,5-Nov-2020,,2429
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2402
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2428
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2416
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2434
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2407
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2460
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 12_Eval_Inv Task,A-FP,5-Nov-2020,,2364
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2359
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2419
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2386
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2387
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2406
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2486
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2464
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2438
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2349
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,5-Nov-2020,,2430
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 10_MDIs,A-FP,5-Nov-2020,,2439
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2432
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2390
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2467
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2413
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2441
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2410
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,5-Nov-2020,,2392
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2368
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2423
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2427
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2455
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2401
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2384
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,5-Nov-2020,,2457
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 06_Customer Responses,A-FP,5-Nov-2020,,2487
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 06_Customer Responses,A-FP,5-Nov-2020,,2415
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 06_Customer Responses,A-FP,5-Nov-2020,,2400
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2426
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2354
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2405
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2396
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2403
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2462
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2442
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,5-Nov-2020,,2363
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2461
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2424
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2397
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2488
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2394
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2395
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2361
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,5-Nov-2020,,2440
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2459
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2382
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2404
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2425
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2350
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2477
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2399
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2437
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,5-Nov-2020,,2388
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2456
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2408
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2431
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2454
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2475
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,5-Nov-2020,,2421
+Nick,div_cms,CMSNext,Software Change Request,1,3334,A-FP,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,81,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,64,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,68,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,71,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,72,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,70,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,76,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,77,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,79,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,82,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,73,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,1003.004,CHaRM,Test Protocol,3,003_Validate_TranslationTasks_Inquiry_Ticket,A-FP,6-Nov-2020,,1167
+Nick,1003.004,CHaRM,Test Protocol,3,004_Validate_NoTranslation_Service_Ticket_pRENo_TranslationRequiredFlagIsChecked,A-FP,6-Nov-2020,,1168
+Nick,1003.004,CHaRM,Test Protocol,2,007_Validate_NoTranslation_Inquiry_Ticket_CustomerReplyUnchecked_TranslationRequiredFlagIsChecked,A-FP,6-Nov-2020,,1171
+Nick,1003.004,CHaRM,Test Protocol,1,010_Verify_VoidAction_ProductEvaluations,A-FP,6-Nov-2020,,1837
+Nick,1003.004,CHaRM,Test Protocol,1,033_Validate_TranslationTaskWorkflow,A-FP,6-Nov-2020,,1838
+Nick,1003.004,CHaRM,Test Protocol,1,034_Validate_TranslationTask_ServiceToComplaint,A-FP,6-Nov-2020,,1839
+Nick,div_cms,CMSNext,Validation Plan,1,3335,D,6-Nov-2020,Inaccurate information,Helios references
+Nick,div_cms,CMSNext,Test Protocol,1,64,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,76,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,77,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,87,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,87,D,6-Nov-2020,Inaccurate information,GxP not set correctly
+Nick,div_cms,CMSNext,Test Protocol,1,79,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,73,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,72,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,80,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,83,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,79,A,6-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,68,A,6-Nov-2020,,
+Nick,Div_MSS,MSS,Software Change Request,3,10,D,9-Oct-2020,,
+Nick,Div_MSS,MSS,Validation Plan,1,6,D,9-Nov-2020,Multible Errors,27 total see word doc
+Nick,div_cms,CMSNext,IIVP,1,97,A-FP,9-Nov-2020,,
+Nick,div_cms,CMSNext,CII,1,3361,A-FP,9-Nov-2020,,
+Nick,Div_MSS,MSS,URS,1,150 and all under,D,9-Nov-2020,Other,not all parts approved
+Nick,Div_MSS,MSS,URS,1,150 and all under,D,9-Nov-2020,,
+Nick,Div_MSS,MSS,URS,1,44 and all under - ATR Web,D,9-Nov-2020,Other,not all parts approved
+Nick,Div_MSS,MSS,URS,1,44 and all under - ATR Web,A,9-Nov-2020,,
+Nick,Div_MSS,MSS,FRS,1,379 and all under,D,9-Nov-2020,Other,not all parts approved
+Nick,Div_MSS,MSS,FRS,1,708 and all under ATR Web,D,9-Nov-2020,other,not all parts approved
+Nick,Div_MSS,MSS,FRS,1,708 and all under ATR Web,A,9-Nov-2020,,
+Nick,Div_MSS,MSS,URS,1,150 and all under,A,10-Nov-2020,,
+Nick,Div_MSS,MSS,FRS,1,379 and all under,A,10-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol,1,94,A-FP,10-Nov-2020,,
+Nick,div_cms,TODS,ISSD,1,3340,D,10-Nov-2020,Inaccurate information,"bad effective dates, obsolte documents and DMS Forms"
+Nick,div_cms,TODS,Test Protocol,1,96,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Validation Plan,1,3335,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,FRS,1,"3336, 3345. 3346. 3347, 3348, 3349, 3350, 3356",A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,66,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,67,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,68,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,69,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,70,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,71,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,72,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,73,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,79,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,80,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,81,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,82,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,83,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,84,A-FP,11-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,85,A-FP,11-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol,1,008_Verify_Complaint_Ticket_Update_Product-Ticket_Activity_CMSNext_to_CHaRM,A-FP,11-Nov-2020,,1840
+Nick,1003.004,CHaRM,Test Protocol,1,006_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,11-Nov-2020,,1844
+Nick,1003.004,CHaRM,Test Protocol,1,007_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,11-Nov-2020,,1845
+Nick,1003.004,CHaRM,Test Protocol,1,008_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,11-Nov-2020,,1846
+Nick,1003.004,CHaRM,Test Protocol,1,018_View_MDI_Set Blank_Edit fields_Pending Final Review_Closed Done,A-FP,11-Nov-2020,,1842
+Nick,1003.004,CHaRM,Test Protocol,1,019_View_MDI_Set Date_Edit fields_Pending Final Review_Closed Done,A-FP,11-Nov-2020,,1848
+Nick,1003.004,CHaRM,Test Protocol,1,020_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,11-Nov-2020,,1841
+Nick,1003.004,CHaRM,Test Protocol,1,020_View_MDI_No Updates Required_Edit fields_Pending Final Review_Closed Done,A-FP,11-Nov-2020,,1849
+Nick,1003.004,CHaRM,Test Protocol,1,021_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,11-Nov-2020,,1842
+Nick,1003.004,CHaRM,Test Protocol,1,021_View_MDI_Pending Final Review_ Closed Waived,A-FP,11-Nov-2020,,1850
+Nick,1003.004,CHaRM,Test Protocol,1,022_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,11-Nov-2020,,1843
+Nick,div_cms,TODS,Test Protocol,1,92 Protocol_ADD_COMP_EVENT_IPDR71,A-FP,11-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol,1,93 Protocol_ADD_COMPLAINT_IPDR76,A-FP,11-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,Software Change Request,1,9,D,11-Nov-2020,Inaccurate information,tailoring - Via email
+Nick,1003,CHaRM,IIVP Results,4,15 prod 1,A-FP,12-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,4,15 prod 2,A-FP,12-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,4,16 prod 1,A-FP,12-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,4,16 prod 2,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,40,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,41,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,42,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,44,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,48,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,50,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,51,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,36,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,2,79,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,47,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,53,A-FP,12-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,12-Nov-2020,,2494
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,12-Nov-2020,,2445
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,12-Nov-2020,,2503
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,12-Nov-2020,,2491
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 14_ProdctLot,A-FP,12-Nov-2020,,2466
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,12-Nov-2020,,2468
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,12-Nov-2020,,2501
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,12-Nov-2020,,2485
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 10_MDIs,A-FP,12-Nov-2020,,2482
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,12-Nov-2020,,2490
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 09_iQeMDR,A-FP,12-Nov-2020,,2469
+Nick,div_cms,CMSNext,Validation Plan,2,3335,A-FP,12-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol,1,93,A-FP,12-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,12-Nov-2020,,2450
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 08_ProdEvl_Inv,A-FP,12-Nov-2020,,2444
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,12-Nov-2020,,2480
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,12-Nov-2020,,2472
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,12-Nov-2020,,2478
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,12-Nov-2020,,2493
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,12-Nov-2020,,2470
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,12-Nov-2020,,2465
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,12-Nov-2020,,2499
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,12-Nov-2020,,2449
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,12-Nov-2020,,2492
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,12-Nov-2020,,2448
+Nick,div_cms,TODS,ISSD,1,3340,A,12-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2356
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2391
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2433
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2381
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2465
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2484
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2473
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2393
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,12-Nov-2020,,2446
+Nick,1003,CHaRM,Test Protocol Results,2, FAILED - MIG_SAMPLING(ALL)_ 16_AdhocTranslation FAILED,D,12-Nov-2020,Inaccurate information,2443 FAILED - does not document IPDR number
+Nick,1003,CHaRM,Test Protocol Results,4,FAILED - MIG_SAMPLING(ALL)_ 01_Tickets FAILED,D,12-Nov-2020,Inaccurate information,2495 FAILED - does not document IPDR number
+Nick,1003,CHaRM,Test Protocol Results,4,FAILED - MIG_SAMPLING(ALL)_ 01_Tickets FAILED,D,12-Nov-2020,Inaccurate information,2323 FAILED - does not document IPDR number
+Nick,ePAS 20-29520,IDA Reporting,Test Protocol Results,1,20-29520,A-FP,12-Nov-2020,,
+Nick,ePAS 20-29521,IDA Reporting,Test Protocol Results,1,20-29521,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,Traceability,1,3366,D,12-Nov-2020,Other,via email
+Nick,div_cms,CMSNext,Traceability,1,3366,A,12-Nov-2020,,
+Nick,Div_CMS,CMSNext,Test Protocol Results,1,2521 in CHaRM eApprove,A-FP,12-Nov-2020,,
+Nick,Div_CMS,CMSNext,Test Protocol Results,1,2522 in CHaRM eApprove,A-FP,12-Nov-2020,,
+Nick,Div_CMS,CMSNext,Test Protocol Results,1,2523 in CHaRM eApprove,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,ISSD,1,3367,D,12-Nov-2020,Inaccurate information,versions
+Nick,div_cms,CMSNext,IDP,1,3368,A-FP,12-Nov-2020,,
+Nick,div_cms,CMSNext,ISSD,1,3367,A,13-Nov-2020,,
+Nick,div_cms,TODS,IIVP Results,1,60,A-FP,13-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,2,55,A-FP,13-Nov-2020,,
+Nick,div_cms,CMSNext,System Certification Summary,1,3371,D,13-Nov-2020,Inaccurate information,via email
+Nick,div_cms,CMSNext,System Certification Summary,1,3371,A,13-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,2,6 prod,A-FP,16-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,3,27 prod,A-FP,16-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,Software Change Request,1,9,D,16-Nov-2020,Inaccurate information,via email
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,16-Nov-2020,,2517
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,16-Nov-2020,,2597
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,16-Nov-2020,,2512
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,16-Nov-2020,,2530
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 02_MedEvl,A-FP,16-Nov-2020,,2507
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,16-Nov-2020,,2508
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,16-Nov-2020,,2518
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,16-Nov-2020,,2509
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,16-Nov-2020,,2516
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,16-Nov-2020,,2496
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,16-Nov-2020,,2520
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 05_Customers,A-FP,16-Nov-2020,,2511
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,16-Nov-2020,,2525
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,16-Nov-2020,,2506
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 15_ComplaintTranslation,A-FP,16-Nov-2020,,2504
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,16-Nov-2020,,2505
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,16-Nov-2020,,2498
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 17_ReportabilityHistory,A-FP,16-Nov-2020,,2531
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,16-Nov-2020,,2532
+Nick,div_cms,CMSNext,IDP,1,3343,D,16-Nov-2020,Inaccurate information,change BTS to ADD for SQA
+Nick,div_cms,TODS,Test Protocol Results,1,62,A-FP,16-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,63,A-FP,16-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,57,D,16-Nov-2020,Other,Executed before IIVP
+Nick,div_cms,TODS,Test Protocol Results,1,59,A-FP,16-Nov-2020,,
+Nick,div_cms,CMSNext,IDP,1,3343,A,16-Nov-2020,,
+Nick,div_cms,TODS,Maintenance Plan,1,1937,D,16-Nov-2020,Inaccurate information,BTS vers ADD oricedues and formating
+Nick,Div_MSS,MSS,Software Change Request,3,10,A,16-Nov-2020,,
+Nick,Div_MSS,MSS,Validation Plan,1,6,D,16-Nov-2020,Inaccurate information,missing information
+Nick,Div_MSS,MSS,Test Protocol,1,1,D,16-Nov-2020,Other,Only one step no requirement tested.
+Nick,1003,CHaRM,IIVP Results,2,11 prop,A-FP,16-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,72,A,17-Nov-2020,,
+Nick,div_cms,TODS,Maintenance Plan,1,1937,A,17-Nov-2020,,
+Nick,Div_MSS,MSS,Validation Plan,1,6,A,17-Nov-2020,,
+Nick,ePAS 20-41895,Metrics Library,Design Documentation,1,20-41895,A-FP,17-Nov-2020,,
+Nick,div_cms,TODS,Traceability,1,3373,D,17-Nov-2020,Inaccurate information,extra data
+Nick,div_cms,Helios C360,Software Compliance Assessment,1,3342,A-FP,18-Nov-2020,,
+Nick,1003,CHaRM,IIVP Results,3,9 production,A-FP,18-Nov-2020,,
+Nick,div_mss,MSS,URS,1,258 and 258,A-FP,18-Nov-2020,,
+Nick,div_cms,TODS,System Certification Summary,1,3374,A-FP,18-Nov-2020,,
+Nick,1003.004,CHaRM,Software Change Request,2,1,A,18-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets,A-FP,18-Nov-2020,,2515
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets FAIL,A-FP,18-Nov-2020,,2514 FAIL
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 03_Product-Ticket,A-FP,18-Nov-2020,,2500
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 04_Contacts,A-FP,18-Nov-2020,,2510
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 11_Products,A-FP,18-Nov-2020,,2502
+Nick,1003,CHaRM,Test Protocol Results,2,FAIL MIG_SAMPLING(ALL)_ 16_AdhocTranslation FAIL,A-FP,18-Nov-2020,,2443 FAIL
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,18-Nov-2020,,2528
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(Critical)_01_ClosedReportedCompl,A-FP,18-Nov-2020,,2529
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,18-Nov-2020,,2524
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,18-Nov-2020,,2527
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,18-Nov-2020,,2534
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,18-Nov-2020,,2535
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,18-Nov-2020,,2533
+Nick,div_mss,MSS,IIVP,1,2,A-FP,18-Nov-2020,,
+Nick,div_mss,MSS,Test Protocol,1,3,A-FP,19-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,19-Nov-2020,,2537
+Nick,div_mss,MSS,Test Protocol,1,5,D,19-Nov-2020,Insufficient testing,step 30 doesn't test req 466
+Nick,div_mss,MSS,Test Protocol,1,4,A-FP,19-Nov-2020,,
+Nick,div_mss,MSS,Test Protocol,1,6,D,19-Nov-2020,Insufficient testing,step 3 not set up correctly (no prior data gap identified).
+Nick,ePAS 20-42431 ,Metrics Library,Test Protocol,1,20-42431,A-FP,19-Nov-2020,,
+Nick,div_mss,MSS,Test Protocol,1,5,A,19-Nov-2020,,
+Nick,div_mss,MSS,Test Protocol,1,6,A,19-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,Software Change Request,1,9,A,19-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,URS,1,8 and others,A-FP,19-Nov-2020,,
+Nick,div_mss,MSS,CII,1,952,A-FP,19-Nov-2020,,
+Nick,ePAS 20-42469,Metrics Library,Test Protocol Results,1,20-42469,A-FP,20-Nov-2020,,
+Nick,Div_MSS,MSS,CII,1,959 - ATR,A-FP,23-Nov-2020,,
+Nick,Div_MSS,MSS,IIVP,1,45,A-FP,23-Nov-2020,,
+Nick,ePAS 20-42568,Metrics Library,System Certification Summary,1,20-42568,A-FP,23-Nov-2020,,
+Nick,ePAS 20-42586,Metrics Library,Test Protocol,1,20-42586,A-FP,23-Nov-2020,,
+Nick,div_cms,CMSNext,Software Change Request,1,3382,D,23-Nov-2020,Multible Errors,See VERA
+Nick,ePAS 20-42753,Metrics Library,System Certification Summary,1,20-42753,A-FP,23-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,ERES,1,14,A-FP,23-Nov-2020,,
+Nick,div_cms,CMSNext,Validation Plan,1,3383,D,23-Nov-2020,Multible Errors,See VERA
+Nick,Div_MSS,MSS,Test Protocol,1,7,A-FP,23-Nov-2020,,
+Nick,ePAS 20-42736,Metrics Library,Test Protocol Results,1,20-42736,A-FP,23-Nov-2020,,
+Nick,Div_MSS,MSS,Test Protocol,1,8,A-FP,23-Nov-2020,,
+Nick,Div_MSS,MSS,Test Protocol,1,10,D,23-Nov-2020,Multible Errors,See VERA
+Nick,Div_MSS,MSS,Test Protocol,1,39,A-FP,23-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets   FAILED,A-FP,23-Nov-2020,,2545 FAILED
+Nick,1003,CHaRM,Test Protocol Results,4,MIG_SAMPLING(ALL)_ 01_Tickets   FAILED,A-FP,23-Nov-2020,,2526 FAILED
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,23-Nov-2020,,2536
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,23-Nov-2020,,2538
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,23-Nov-2020,,2540
+Nick,Div_MSS,MSS,Test Protocol,1,10,A,23-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,Test Protocol,1,1,A-FP,23-Nov-2020,,
+Nick,div_gss_analytics,DaVinci,IIVP,1,2,D,23-Nov-2020,Inaccurate information,Imbeded images
+Nick,div_cms,CMSNext,Software Change Request,1,3382,A,24-Nov-2020,,
+Nick,div_cms,CMSNext,Validation Plan,1,3383,A,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,105,A-FP,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,109,A-FP,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,110,A-FP,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,111,A-FP,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol,1,112,A-FP,24-Nov-2020,,
+Nick,Div_MSS,MSS,Test Protocol,2,10,A-FP,24-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,85,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,Test Protocol Results,1,86,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,Test Protocol Results,1,87,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,Test Protocol Results,1,88,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,Test Protocol Results,1,89,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,IIVP Results,1,84,D,24-Nov-2020,Other,Wrong Test Set
+Nick,div_cms,CMSNext,IIVP Results,1,82,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2562,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2546,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2567,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2542,A-FP,24-Nov-2020,,Protocol error
+Nick,1003.004,CHaRM,Test Protocol Results,1,2552,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2553,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2569,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2560,A-FP,24-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,2541,A-FP,24-Nov-2020,,
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(Critical)_03_ClosedSer-pRE,A-FP,24-Nov-2020,,2539
+Nick,Div_MSS,MSS,ISSD,1,907,D,24-Nov-2020,Inaccurate information,Many reference to BTS SLC repository and how to use it and AQC eApproved.
+Nick,div_cms,CMSNext,Test Protocol Results,1,93,A,25-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,94,A,25-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,95,A,25-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,96,A,25-Nov-2020,,
+Nick,div_cms,CMSNext,Test Protocol Results,1,97,A,25-Nov-2020,,
+Nick,div_cms,CMSNext,Traceability,1,,A-FP,25-Nov-2020,,
+Nick,div_cms,CMSNext,IDP,1,,A-FP,25-Nov-2020,,
+Nick,div_cms,CMSNext,System Certification Summary,1,,A-FP,25-Nov-2020,,
+Nick,Div_MSS,MSS,Test Protocol,2,39,A-FP,25-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,94,A,30-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,95,A,30-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,96,A,30-Nov-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,97,A,30-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,018_View_MDI_Set Blank_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2548
+Nick,1003.004,CHaRM,Test Protocol Results,1,018_View_MDI_Set Blank_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2547
+Nick,1003.004,CHaRM,Test Protocol Results,1,019_View_MDI_Set Date_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2556
+Nick,1003.004,CHaRM,Test Protocol Results,1,044_Verify_MedicalEvaluation_Demote_ByTicketReview_Complaint,A-FP,30-Nov-2020,,2570
+Nick,1003.004,CHaRM,Test Protocol Results,1,019_View_MDI_Set Date_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2568
+Nick,1003.004,CHaRM,Test Protocol Results,1,026_View_Ticket Report_Complaint,A-FP,30-Nov-2020,,2559
+Nick,1003.004,CHaRM,Test Protocol Results,1,008_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,30-Nov-2020,,2566
+Nick,1003.004,CHaRM,Test Protocol Results,4,005_View_Service and Inquiry Details Report,A-FP,30-Nov-2020,,2545
+Nick,1003.004,CHaRM,Test Protocol Results,1,043_Verify_AutoCreate_MedicalEvaluation?_DemoteME_ByTicketReview_Service,A-FP,30-Nov-2020,,2563
+Nick,1003.004,CHaRM,Test Protocol Results,1,045_Create_MedicalEvaluation_ByTicketReview_ElevatedComplaint,A-FP,30-Nov-2020,,2572
+Nick,1003.004,CHaRM,Test Protocol Results,1,042_ReopenTicket_Demote_MedicalEvaluation_ByTicketReview,A-FP,30-Nov-2020,,2555
+Nick,1003.004,CHaRM,Test Protocol Results,3,010_Validate_NoTranslationTasks_Complaint_Ticket_TranslationRequiredFlagIsUnchecked,A-FP,30-Nov-2020,,2571
+Nick,1003.004,CHaRM,Test Protocol Results,1,006_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,30-Nov-2020,,2549
+Nick,1003.004,CHaRM,Test Protocol Results,1,007_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,30-Nov-2020,,2564
+Nick,1003.004,CHaRM,Test Protocol Results,1,046_Create_MedicalEvaluation_ByTicketReview_DemotedService,A-FP,30-Nov-2020,,2576
+Nick,1003.004,CHaRM,Test Protocol Results,1,008_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,30-Nov-2020,,2582
+Nick,1003.004,CHaRM,Test Protocol Results,1,006_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,30-Nov-2020,,2558
+Nick,1003.004,CHaRM,Test Protocol Results,2,002_View_ServiceTicket_InitialMDI_Lifecycle,A-FP,30-Nov-2020,,2544
+Nick,1003.004,CHaRM,Test Protocol Results,1,020_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,30-Nov-2020,,2550
+Nick,1003.004,CHaRM,IIVP Results,3,10 - prod,A-FP,30-Nov-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,3,001_Validate_TranslationTasks_Service_Ticket,A-FP,30-Nov-2020,,2573
+Nick,1003.004,CHaRM,Test Protocol Results,1,018_View_MDI_Set Blank_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2565
+Nick,1003.004,CHaRM,Test Protocol Results,1,019_View_MDI_Set Date_Edit fields_Pending Final Review_Closed Done,A-FP,30-Nov-2020,,2588
+Nick,1003.004,CHaRM,Test Protocol Results,1,034_Validate_TranslationTask_ServiceToComplaint,A-FP,30-Nov-2020,,2592
+Nick,1003.004,CHaRM,Test Protocol Results,1,020_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,30-Nov-2020,,2594 oriticik errir
+Nick,1003,CHaRM,IIVP Results,2,22 PROD,A-FP,30-Nov-2020,,
