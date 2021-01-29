@@ -17,11 +17,11 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{ November }                                                % Update Setup below
+\newcommand{\reportMonth}{ December }                                                % Update Setup below
 \newcommand{\reportYear}{ 2020 }
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
+\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
 \newcommand{\lubdateVersion}{version 1.7.9}
 
 
@@ -35,7 +35,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Nov"                                                                     # update trend builder below
+Month <- "Dec"                                                                     # update trend builder below
 Year <- 2020
 XLabel <-  "Since Sepember 2019"                                                    # status until Feb 2021(?)
 
@@ -144,9 +144,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "Nov",
+                    Year = 2020,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Nov",
+ temp <- getResults(Month = "Dec",
                     Year = 2020,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,

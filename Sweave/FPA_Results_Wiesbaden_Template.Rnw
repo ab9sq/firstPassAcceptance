@@ -19,13 +19,13 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 %
 
-\newcommand{\reportMonth}{ November }                                                       % Update Setup below
+\newcommand{\reportMonth}{ December }                                                       % Update Setup below
 \newcommand{\reportYear}{ 2020 }
 
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
 %
-\newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
+\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
 \newcommand{\lubdateVersion}{version 1.7.9}
 
 
@@ -40,7 +40,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Nov"                                                                        # update trend builder below
+Month <- "Dec"                                                                        # update trend builder below
 Year <- 2020
 XLabel <- "Since Jan 2020"                                                            # status until Aug 2021 (?)
 
@@ -123,9 +123,15 @@ temp <- getResults(Month = "Oct",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Nov",
+                        Year = 2020,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Nov",
+temp <- getResults(Month = "Dec",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

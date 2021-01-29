@@ -17,12 +17,12 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{ November } %        <<< UPDATE
+\newcommand{\reportMonth}{ December } %        <<< UPDATE
 \newcommand{\reportYear}{ 2020 }
 %
 % <<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.3 named ``Holding the Windsock'' }
-\newcommand{\lubdateVersion}{version 1.7.9}
+\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
+\newcommand{\lubdateVersion}{version 1.7.9.2}
 
 
 \title{Combined SQA Metric Items From FPA Spreadsheets - \reportMonth \reportYear}
@@ -35,7 +35,7 @@
 % update for month of run or analysis                      <<<<<<<update
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Nov"                                            # update trend builder below
+Month <- "Dec"                                            # update trend builder below
 Year <- 2020
 file1 <- "../data/Div First Pass Acceptance.csv"
 file2 <- "../data/Dallas First Pass Acceptance.csv"
@@ -68,19 +68,11 @@ FPA <- getResultsCombined(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCombined(Month = "Jun",
+DivPlotData <- getResultsCombined(Month = "Jul",
                            Year = 2019,
                            File1 = file1,
                            File2 = file2,
                            File3 = file3)
-
-temp <- getResultsCombined(Month = "Jul",
-                           Year = 2019,
-                           File1 = file1,
-                           File2 = file2,
-                           File3 = file3)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResultsCombined(Month = "Aug",
                            Year = 2019,
@@ -204,9 +196,17 @@ temp <- getResultsCombined(Month = "Oct",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResultsCombined(Month = "Nov",
+                           Year = 2020,
+                           File1 = file1,
+                           File2 = file2,
+                           File3 = file3)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ***********************************
 # start of update
-temp <- getResultsCombined(Month = "Nov",
+temp <- getResultsCombined(Month = "Dec",
                            Year = 2020,
                            File1 = file1,
                            File2 = file2,

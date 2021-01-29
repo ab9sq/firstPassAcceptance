@@ -13919,3 +13919,332 @@ Nick,1003.004,CHaRM,Test Protocol Results,1,019_View_MDI_Set Date_Edit fields_Pe
 Nick,1003.004,CHaRM,Test Protocol Results,1,034_Validate_TranslationTask_ServiceToComplaint,A-FP,30-Nov-2020,,2592
 Nick,1003.004,CHaRM,Test Protocol Results,1,020_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,30-Nov-2020,,2594 oriticik errir
 Nick,1003,CHaRM,IIVP Results,2,22 PROD,A-FP,30-Nov-2020,,
+Beilah,DIV_LC_R_D,EDMS,Design Verification,1,ID 88: Execution,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Test Protocol,1,ID 43,D,1-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,CII,1,ID 7645,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 12,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Test Protocol,1,ID 83,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Test Protocol,1,ID 43,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Software Compliance Assessment,1,ID 7676,A-FP,1-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Design Verification,1,ID 89: second execution failed,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Design Verification,1,ID 90: 3rd execution,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 14: ALMS to ADDCOM,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 15: ALMS to ADDCOM,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 16L ALMS to ADDCOM,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 17,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Software Change Request,1,ID 7679,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,FRS,2,ID 136,A-FP,2-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Software Change Request,3,ID 258,A-FP,3-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 18,A-FP,3-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,2,ID 21,D,3-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol,2,ID 21,A,3-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,IIVP,1,ID 81,A-FP,4-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol,1,ID 16,A-FP,4-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol,1,ID 17,A-FP,4-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,CII,1,ID 155,A-FP,4-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IIVP results,1,ID 23,A-FP,4-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Test Protocol,1,ID 87,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Design Verification,1,ID 88: Unit Test,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,URS,1,Spec ID 7683 and 1 URS requirement,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,CII,1,ID 7640,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,FRS,1,SPEC ID 7684: 13 FRS requirements,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,IIVP,1,ID 89,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,ISSD,2,ID 195,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Test Protocol Results,1,ID 24,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,ISSD,1,ID 157,A-FP,7-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Test Protocol,1,ID 86,D,7-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_R_D,DMR Process Order,Test Protocol,1,ID 86,A,7-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,IIVP results,1,ID 99,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,Design Verification,1,ID 101: unit test results,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Risk Assessment,1,ID 7822,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,ERES,1,ID 7821,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,Traceability,1,ID 153,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IDP,1,ID 152,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Design Verification,2,ID 84: Unit test,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Design Verification,2,ID 85: Unit test,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Test Protocol Results,1,ID 106,A-FP,8-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Test Protocol,1,ID 75,D,8-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_R_D,EDMS,Test Protocol,1,ID 75,A,9-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Test Protocol Results,1,ID 107,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,Test Protocol Results,1,ID 109,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,IIVP,1,ID 9,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,CII,1,ID 220,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Test Protocol Results,1,ID 28,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Software Change Request,1,ID 1663,D,9-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Software Change Request,1,ID 1663,A,9-Dec-2020,,
+Beilah,DIV_LC_R_D ,EDMS,Test Protocol Results,1,ID 110,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Design Verification,1,ID 111: UT results,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_R_D ,Alinit S IRR Report Dashboard,Test Protocol Results,1,ID 108,A-FP,9-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Design Verification,1,ID 112: UT results,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,System Certification Summary,1,ID 158,D,10-Dec-2020,Inaccurate information,
+Beilah,DIV_LC_Labeling,eLabeling,System Certification Summary,1,ID 158,A,10-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,IIVP results,1,ID 29,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_R_D ,Alinit S IRR Report Dashboard,Test Protocol Results,1,ID 104,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,FRS,2,ID 253,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol,1,ID 18,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,IIVP results,1,ID 113,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Test Protocol,1,ID 338,A-FP,10-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,FRS,1,ID 1166: 11 requirements,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,FRS,1,ID 1167: 9 requirements,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,FRS,1,ID 1168: 57 requirements,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Test Protocol Results,1,ID 115,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Test Protocol Results,1,ID 25,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,Alinit S IRR Report Dashboard,Software Change Request,3,ID 395,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Software Change Request,2,ID 7679,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,Alinit S IRR Report Dashboard,Project Plan,3,ID 7830,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Test Protocol Results,1,ID 114,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,Alinit S IRR Report Dashboard,ISSD,1,ID 390,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,IDP,1,ID 7825,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,DMR Process Order,Project Plan,1,ID 7831,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_Labeling,eLabeling,IIVP results,1,ID 27: Production,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,EDMS,Traceability,1,ID 7647,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D ,EDMS,System Certification Summary,1,ID 7646,A-FP,11-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,ISSD,1,ID 7826,A-FP,14-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,CII,1,ID 1678,A-FP,14-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,Software Change Request,1,Spec ID 7833,A-FP,14-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,FRS,2,ID 640,A-FP,14-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,FRS,1,ID 7837,A-FP,14-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 640,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 641,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 642,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Traceability,1,ID 266,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 645,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Traceability,1,ID 265,A-FP,15-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Maintenance Plan,1,ID 7827,A-FP,16-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,Traceability,1,ID 7824,A-FP,16-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,Test Protocol Results,1,ID 34,A-FP,16-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,Software Change Request,2,ID 7833,A-FP,16-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,System Certification Summary,1,ID 264,A-FP,16-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Test Protocol Results,1,ID 643,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_004,DFCS,IIVP results,1,ID 35: production,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 646,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,IIVP results,1,ID 647,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol Results,1,ID 31,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_R_D,DMR Process Order,System Certification Summary,1,ID 7681,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_R_D,Alinit S IRR Report Dashboard,System Certification Summary,1,ID 7582,A-FP,17-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,IIVP,1,ID 94,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,CII,1,ID 7834,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_R_D,EDMS,IIVP results,1,ID 116: production,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol Results,1,ID 33,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,Test Protocol,1,ID 93,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_Reg_Affairs,IRIS,CII,1,ID 1866,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,IIVP results,1,ID 120,A-FP,18-Dec-2020,,
+Beilah,DIV_LC_Reg_Affairs,IRIS,Maintenance Plan,2,ID 218,A-FP,19-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Project Plan,1,Rec id 1639,D,1-Dec-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Maintenance Plan,1,Rec id 1640,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Data Privacy Plan,1,Rec id 1649,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,CII,1,Rec id 1642,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,ISSD,1,Rec id 1651,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,IDP,1,Rec id 1652,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Project Plan,1,Rec id 1639,A,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Validation Plan,1,Rec id 1641,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol,1,Test id 103,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol,1,Test id 102,A-FP,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol,1,Test id 104,D,1-Dec-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Test Protocol Results,1,Run id 77,A,1-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol,1,Test id 104,A,1-Dec-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,Traceability,1,Rec id 1650,A-FP,1-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Project Plan,1,Rec id 11,A-FP,2-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 13,D,2-Dec-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,System Certification Summary,1,Rec id 1638,D,2-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,Pulse,Software Change Request,1,Rec id 1646,D,3-Dec-2020,,
+Suresh,"DIV_LC_Prism, Rel 3.13 ",PRISM Metrics,Software Compliance Assessment,1,Rec id 1,A-FP,3-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 13,A,3-Dec-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,System Certification Summary,1,Rec id 1638,A,3-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,URS,2,Rec id 402,A-FP,3-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 593 Record Access And Retrievability group,A,3-Dec-2020,,05 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 594 Electronic Signatures group,A,3-Dec-2020,,08 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 612 Hybrid system group,A,3-Dec-2020,,03 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 617 Security group,A,3-Dec-2020,,04 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 618 performance group,A,3-Dec-2020,,01 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 619 DHM group,A,3-Dec-2020,,12 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 620 reporting utility group,A,3-Dec-2020,,11 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 621 data group,A,3-Dec-2020,,02 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,FRS,1,rec id 586 FRS spec,A,3-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,Software Change Request,1,Rec id 1646,A,3-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Test id 84,D,4-Dec-2020,Inaccurate information,Withdrawal 
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 30,A-FP,4-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 32,D,4-Dec-2020,Inaccurate information,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 31,D,4-Dec-2020,Inaccurate information,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Test id 84,A,4-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,CII,1,Rec id 1647,A-FP,4-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,IIVP results,1,Run id 86,A-FP,4-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v2.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 85,A-FP,7-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,IIVP results,1,Run id 91,A-FP,8-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 88,A-FP,8-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 32,A,8-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 31,A,8-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 89,A-FP,8-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol,1,Test id 102,A-FP,8-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,Test Protocol Results,1,Run id 90,A-FP,8-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol Results,1,Run id 93,A-FP,9-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Test Protocol Results,1,Run id 92,A-FP,9-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,Traceability,1,Rec id 1664,A-FP,9-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Traceability,1,Rec id 1668,D,10-Dec-2020,Inaccurate information,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 33,D,10-Dec-2020,Not compliant with procedure,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,Traceability,1,Rec id 1668,A,10-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,System Certification Summary,1,Rec id 1665,A-FP,10-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,System Certification Summary,1,Rec id 1667,A-FP,11-Dec-2020,,
+Suresh,DIV_LC_Pulse ADD Pepper Flow v3.0 ,ADD Pepper Flow,IIVP results,1,Run id 94,A-FP,11-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr AMPS2G Rel 11,AMPS2G,CII,1,Rec id 1216,A-FP,11-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,FRS,2,Rec id 58         ,A-FP,14-Dec-2020,,
+Suresh,DIV_LC_Pulse Diagnostics Library Release 1,Pulse,IIVP results,1,Run id 95,A-FP,14-Dec-2020,,
+Suresh,DIV_LC_Pulse v30.0,Pulse,IIVP results,1,Run id 96,A-FP,14-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,Software Change Request,1,Rec id 1654,A-FP,14-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 846 FRS spec rec ,A,14-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 849 - DHM Connection Req group,A,14-Dec-2020,,07 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 850 - DHM operational Req group,A,14-Dec-2020,,03 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 851  Authentication req group ,A,14-Dec-2020,,12 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 852 Data management req group ,A,14-Dec-2020,,16 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 1094 Security req group ,A,14-Dec-2020,,02 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr DHM Bausch V2.2,DARA Filler DHM and RU,FRS,1,Rec id 859 part 11 req group ,A,14-Dec-2020,,08 FRS requirements in the group 
+Suresh,DIV_LC_MFG_Engr Biocommand Rel 2.0,BioCommand Batch Control Plus,Test Protocol,1,Test id 13,A,15-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr Biocommand Rel 2.0,BioCommand Batch Control Plus,Traceability,1,Rec id 191,A-FP,15-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 33,A,15-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 34,A-FP,15-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,FRS,1,Rec id 1321,A-FP,16-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,Software Change Request,1,Rec id 1656,A-FP,16-Dec-2020,,
+Suresh,DIV_LC_MFG_Engr DHM NextGen V1.0,DHM NextGen,Design Documentation,2,Rec id 667,A-FP,16-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,CII,1,Rec id 1658,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,Design Documentation,1,Rec id 1659,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1671,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1672,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1673,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1674,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1675,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1676,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse DPW Rel 10,DPW,FRS,1,Rec id 1677,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,Test Protocol,1,Test id 74,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,Test Protocol,1,Test id 105,A-FP,17-Dec-2020,,
+Suresh,DIV_LC_Pulse v31.0,Pulse,Test Protocol,1,Test id 87,A-FP,17-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 39,A-FP,18-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 38,A-FP,18-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 41,A-FP,18-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 42,A-FP,18-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Test Protocol,1,Test id 40,A-FP,18-Dec-2020,,
+Suresh,"DIV_LC_Labeling, ALMS_Export_Utility V1.0 ",ALMS,Design Documentation,1,Rec id 8,D,18-Dec-2020,Not compliant with procedure,
+Nick,1003.004,CHaRM,IIVP Results,1,1 QA,A-FP,1-Dec-2020,,
+Nick,1003.004,CHaRM,Test Protocol Results,1,021_View_MDI_Pending Final Review_ Closed Waived,A-FP,1-Dec-2020,,2579
+Nick,1003.004,CHaRM,Test Protocol Results,3,003_Validate_TranslationTasks_Inquiry_Ticket,A-FP,1-Dec-2020,,2585
+Nick,1003.004,CHaRM,Test Protocol Results,1,022_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,1-Dec-2020,,2584 Protocol Error
+Nick,1003.004,CHaRM,Test Protocol Results,1,021_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,1-Dec-2020,,2590
+Nick,1003.004,CHaRM,Test Protocol Results,1,021_View_MDI_Pending Final Review_ Closed Waived,A-FP,1-Dec-2020,,2586
+Nick,1003.004,CHaRM,Test Protocol Results,1,021_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,1-Dec-2020,,2591 Protocol Errors
+Nick,1003.004,CHaRM,Test Protocol Results,1,022_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,1-Dec-2020,,2595
+Nick,1003.004,CHaRM,Test Protocol Results,1,022_Verify_PendingStatusEditing_SupplementalCreation_NoUpdateRequired,A-FP,1-Dec-2020,,2598 protocol error
+Nick,1003.004,CHaRM,Test Protocol Results,4,002_Validate_TranslationTasks_Complaint_Ticket,A-FP,1-Dec-2020,,2574
+Nick,1003.004,CHaRM,Test Protocol Results,1,021_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,1-Dec-2020,,2580
+Nick,1003.004,CHaRM,Test Protocol Results,1,020_View_MDI_No Updates Required_Edit fields_Pending Final Review_Closed Done,A-FP,1-Dec-2020,,2596
+Nick,1003.004,CHaRM,Test Protocol Results,1,020_Verify_PendingStatusEditing_SupplementalCreation_SetDate,A-FP,1-Dec-2020,,2577
+Nick,1003.004,CHaRM,Test Protocol Results,1,007_Verify_PendingStatusEditing_SupplementalCreation_SetBlank,A-FP,1-Dec-2020,,2581 Protocol Errors
+Nick,1003.004,CHaRM,Test Protocol Results,4,006_Verify_Active_Directory,A-FP,2-Dec-2020,,2608
+Nick,div_mss,MSS,Test Protocol Results,1,50,D,2-Dec-2020,Incorrect Objective Evidence,Step 1 and protocol Errors
+Nick,1003.004,CHaRM,Traceability,1,1,A-FP,2-Dec-2020,,
+Nick,1003,CHaRM,IIVP Results,3,27 - prod 2,A-FP,2-Dec-2020,,
+Nick,ePAS 18-14812 v4,GS Reports,Project Plan,1,18-14812 v4,A-FP,2-Dec-2020,,
+Nick,1003.005,CHaRM,Software Change Request,1,1,D,2-Dec-2020,Other,via email
+Nick,div_mss,MSS,Test Protocol Results,1,50,A,3-Dec-2020,,
+Nick,1003.003,CHaRM,Maintenance Plan,2,1,A,3-Dec-2020,,
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 07_Returns,A-FP,3-Dec-2020,,2611
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 07_Returns,A-FP,3-Dec-2020,,2612
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 07_Returns,A-FP,3-Dec-2020,,2613
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 13_MedEvlTask,A-FP,3-Dec-2020,,2600
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 13_MedEvlTask,A-FP,3-Dec-2020,,2601
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 13_MedEvlTask,A-FP,3-Dec-2020,,2602
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(ALL)_ 16_AdhocTranslation FAILED,A-FP,3-Dec-2020,,2605 FAIL
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(ALL)_ 16_AdhocTranslation FAILED,A-FP,3-Dec-2020,,2610 FAIL
+Nick,1003,CHaRM,Test Protocol Results,2,MIG_SAMPLING(ALL)_ 16_AdhocTranslation FAILED,A-FP,3-Dec-2020,,2614 FAIL
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 18_Complaint Comments,A-FP,3-Dec-2020,,2609
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 18_Complaint Comments,A-FP,3-Dec-2020,,2604
+Nick,1003,CHaRM,Test Protocol Results,3,MIG_SAMPLING(ALL)_ 18_Complaint Comments,A-FP,3-Dec-2020,,2603
+Nick,1003.004,CHaRM,System Certification Summary,1,1,D,3-Dec-2020,Other,via email
+Nick,1003.004,CHaRM,System Certification Summary,1,1,A,3-Dec-2020,,
+Nick,1003.004,CHaRM,System Certification Summary,1,1,A,4-Dec-2020,,
+Nick,1003.005,CHaRM,Software Change Request,1,1,A,4-Dec-2020,,
+Nick,1003.005,CHaRM,Software Change Request,1,1,D,1-Dec-2020,Other,via email
+Nick,1003.005,ChaRM,FRS,9,1,A,4-Dec-2020,,
+Nick,1003.005,ChaRM,Test Protocol,1,027_View_Ticket Report with more than 10 Child records_Complaint,A-FP,4-Dec-2020,,1854
+Nick,1003.005,ChaRM,Test Protocol,1,011_Verify_SearchCriteria_CountryOfOrigin,A-FP,4-Dec-2020,,1851
+Nick,1003.005,ChaRM,Test Protocol,1,006_Apply KI Log on Migrated Product Evaluation,A-FP,4-Dec-2020,,1855
+Nick,1003.005,ChaRM,Test Protocol,1,021_Verify_MedicalEval_NotReportableClosewithVoidedEMDR_MigratedTicket,A-FP,4-Dec-2020,,1852
+Nick,1003.005,ChaRM,Test Protocol,1,022_MDI_Create a Follow Up when No follow up is in Opened status,A-FP,4-Dec-2020,,1856
+Nick,Div_MSS,MSS,Test Protocol,2,10,A-FP,7-Dec-2020,,
+Nick,Div_MSS,MSS,Test Protocol,2,8,A-FP,7-Dec-2020,,
+Nick,Div_MSS,MSS,Test Protocol Results,2,49 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,Test Protocol Results,1,51 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,Test Protocol Results,1,55 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,Test Protocol Results,2,56 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,Test Protocol Results,1,60 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,Test Protocol Results,1,62,A-FP,7-Dec-2020,,
+Nick,Div_MSS,MSS,Test Protocol Results,1,59 FAIL,A-FP,7-Dec-2020,,FAILED
+Nick,div_gss_analytics,DaVinci,ISSD,1,12,D,7-Dec-2020,Inaccurate information,via email
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,006_Apply KI Log on Migrated Product Evaluation,A-FP,9-Dec-2020,,2617
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,011_Verify_SearchCriteria_CountryOfOrigin,A-FP,9-Dec-2020,,2616
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,2,018_Verify_MedicalEval_NotReportableClosewithOpenSubmission_N,A-FP,9-Dec-2020,,2619
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,021_Verify_MedicalEval_NotReportableClosewithVoidedEMDR_MigratedTicket,A-FP,9-Dec-2020,,2621
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,022_MDI_Create a Follow Up when No follow up is in Opened status,A-FP,9-Dec-2020,,2620
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,022_MDI_Create a Follow Up when No follow up is in Opened status,A-FP,9-Dec-2020,,2622
+Nick,LC-S 1003.005,CHaRM,Test Protocol Results,1,027_View_Ticket Report with more than 10 Child records_Complaint,A-FP,9-Dec-2020,,2918
+Nick,div_gss_analytics,DaVinci,ISSD,1,12,A,9-Dec-2020,,
+Nick,div_gss_analytics,DaVinci,Test Protocol Results,1,3,A-FP,9-Dec-2020,,
+Nick,div_cms,TODS,Software Change Request,1,3527,D,9-Dec-2020,Multible Errors,via email
+Nick,LC-S 1003.005,CHaRM,System Certification Summary,1,1,D,9-Dec-2020,Other,via email
+Nick,div_gss_analytics,DaVinci,FRS,2,113 and 36 others,A-FP,10-Dec-2020,,
+Nick,div_gss_analytics,DaVinci,Maintenance Plan,1,13,A-FP,10-Dec-2020,,
+Nick,div_cms,TODS,Software Change Request,1,3527,A,10-Dec-2020,,
+Nick,Div_MSS,MSS,Test Protocol,3,8,A-FP,10-Dec-2020,,
+Nick,div_gss_analytics,DaVinci,Traceability,1,475,A-FP,10-Dec-2020,,
+Nick,LC-S 1003.005,CHaRM,Traceability,1,1,A-FP,10-Dec-2020,,
+Nick,div_gss_analytics,DaVinci,Maintenance Plan,1,13,A-FP,10-Dec-2020,,
+Nick,LC-S 1003.005,CHaRM,System Certification Summary,1,1,A-FP,10-Dec-2020,,
+Nick,div_gss_analytics,DaVinci,System Certification Summary,1,11,A-FP,10-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Software Change Request,1,143,D,14-Dec-2020,Other,via email
+Nick,ePAS 18-15678 ,GS Reports,Move to Production,1,18-15678,A-FP,15-Dec-2020,,
+Nick,ePAS 20-29523 ,IDA Reporting,Test Protocol Results,1,20-29523,A-FP,15-Dec-2020,,
+Nick,ePAS 20-29522,IDA Reporting,Test Protocol Results,1,20-29522,A-FP,15-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol,2,4,D,15-Dec-2020,Other,No changes to protocol does not align with reason for change.
+Nick,div_cms,TODS,Test Protocol Results,1,104,A-FP,15-Dec-2020,,
+Nick,div_cms,TODS,Test Protocol Results,1,105,A-FP,16-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol,2,4,A,16-Dec-2020,,
+Nick,div_mss,MSS,Software Change Request,4,10,A-FP,16-Dec-2020,,
+Nick,div_cms,TODS,Traceability,1,3527,A-FP,16-Dec-2020,,
+Nick,div_mss,MSS,URS,2,374,A-FP,16-Dec-2020,,
+Nick,div_mss,MSS,FRS,2,513 & 470,A-FP,16-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol,2,5,A-FP,17-Dec-2020,,
+Nick,div_mss,MSS,CII,2,952,A-FP,21-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol Results,3,96,A-FP,21-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol Results,2,97,A-FP,21-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol Results,2,98,A-FP,21-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol Results,3,99,D,21-Dec-2020,other,
+Nick,div_mss,MSS,Test Protocol Results,1,101 - FAIL,A-FP,21-Dec-2020,,FAILED
+Nick,Div_MSS,MSS,ISSD,1,907,D,22-Dec-2020,Multible Errors,see notes
+Nick,div_mss,MSS,IDP,1,965,D,22-Dec-2020,Other,Attached Word doc not in Rich Text field
+Nick,div_mss,MSS,Test Protocol Results,3,99,A,22-Dec-2020,,
+Nick,div_mss,MSS,Test Protocol Results,1,103,A-FP,22-Dec-2020,,
+Nick,div_mss,MSS,IDP,1,965,D,28-Dec-2020,Inaccurate information,Section 1.3 - We are not building and installing MSS version 2.1 in this release. 
+Nick,div_ChaRM,CHaRM,Test Protocol,1,189,A-FP,28-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,190,A-FP,28-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,191,A-FP,28-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,192,A-FP,28-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Software Change Request,1,143,A,30-Dec-2020,,
+Nick,div_cms,CMSNext,FRS,1,3535,A-FP,30-Dec-2020,,
+Nick,div_mss,MSS,IDP,1,965,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,63,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,64,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,67,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,88,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,89,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,90,A,30-Dec-2020,,
+Nick,div_ChaRM,CHaRM,Test Protocol,1,91,A,30-Dec-2020,,
+Beilah,DIV_LC_R_D,PEAR,Test Protocol Results,1,ID 121,A-FP,4-Jan-2021,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Traceability,1,ID 269 FRS to Test,A-FP,1-Jan-2021,,
+Beilah,DIV_LC_R_D,PEAR,Traceability,1,Spec ID 7835,A-FP,4-Jan-2021,,
+Beilah,DIV_LC_R_D,PEAR,System Certification Summary,1,ID 67836,A-FP,4-Jan-2021,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Test Protocol Results,1,ID 649,A-FP,6-Jan-2021,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,Test Protocol Results,1,ID 648,A-FP,6-Jan-2021,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Traceability,1,ID 270 URS/FRS,A-FP,6-Jan-2021,,
+Beilah,DIV_LC_R_D,PEAR,IIVP results,1,ID 125,A-FP,7-Jan-2021,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol,1,ID 19,A-FP,7-Jan-2021,,
+Beilah,DIV_LC_Distribution 2020_003,DFCS,Test Protocol,1,ID 20,A-FP,7-Jan-2021,,
+Beilah,DIV_LC_R_D,PEAR,Software Compliance Assessment,1,ID 7839: PEAR to APLM transfer,A-FP,7-Jan-2021,,
+Beilah,DIV_LC_WWLIMS v9.8 patch,WWLIMS,System Certification Summary,1,ID 1715,A-FP,8-Jan-2021,,
