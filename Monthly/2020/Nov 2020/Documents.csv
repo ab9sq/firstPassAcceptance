@@ -1,0 +1,83 @@
+year,month,Site,deliverable,n
+2020,Nov,Dallas,Test Protocol Results,74
+2020,Nov,Dallas,Test Protocol,45
+2020,Nov,Dallas,Installation Instructions and Verification Protocol ,14
+2020,Nov,Dallas,Software Change Request,9
+2020,Nov,Dallas,IIVP results,6
+2020,Nov,Dallas,Software Change Request ,6
+2020,Nov,Dallas,Test Results,6
+2020,Nov,Dallas,IIVP,5
+2020,Nov,Dallas,IPDR,5
+2020,Nov,Dallas,CII,4
+2020,Nov,Dallas,System Certification Summary,4
+2020,Nov,Dallas,Configuration Item Inventory ,4
+2020,Nov,Dallas,URS,3
+2020,Nov,Dallas,Validation Plan,3
+2020,Nov,Dallas,URS/FRS,2
+2020,Nov,Dallas,Certification Summary ,2
+2020,Nov,Dallas,Maintenance Plan ,2
+2020,Nov,Dallas,Software Compliance Assessment ,2
+2020,Nov,Dallas,URS/FRS to Test Protocol Trace* ,2
+2020,Nov,Dallas,Design Documentation,1
+2020,Nov,Dallas,FRS,1
+2020,Nov,Dallas,IDP,1
+2020,Nov,Dallas,ISSD,1
+2020,Nov,Dallas,Other,1
+2020,Nov,Dallas,Project Plan,1
+2020,Nov,Dallas,Traceability,1
+2020,Nov,Dallas,Business Impact Assessment ,1
+2020,Nov,Dallas,E-Record/E-Signature Risk Assessment ,1
+2020,Nov,Dallas,eRecord & eSignature Risk Assessment ,1
+2020,Nov,Dallas,eRIM Assessment also referred as DLM Assessment ,1
+2020,Nov,Dallas,Functional Requirements Specification ,1
+2020,Nov,Dallas,Functional Requirements Specification (FRS) ,1
+2020,Nov,Dallas,Identification of Supporting System Documents ,1
+2020,Nov,Dallas,Installation Instructions and Verification Protocol ? Prod Result ,1
+2020,Nov,Dallas,Installation Instructions and Verification Protocol ? QA Result ,1
+2020,Nov,Dallas,System Architecture Description ,1
+2020,Nov,Dallas,User Requirement Specifications (URS) ,1
+2020,Nov,Dallas,User Requirements Specification ,1
+2020,Nov,LC/Div,Test Protocol Results,257
+2020,Nov,LC/Div,Test Protocol,113
+2020,Nov,LC/Div,URS,41
+2020,Nov,LC/Div,FRS,28
+2020,Nov,LC/Div,Software Change Request,21
+2020,Nov,LC/Div,Validation Plan,15
+2020,Nov,LC/Div,IIVP results,13
+2020,Nov,LC/Div,IIVP Results,13
+2020,Nov,LC/Div,CII,12
+2020,Nov,LC/Div,IIVP,10
+2020,Nov,LC/Div,System Certification Summary,10
+2020,Nov,LC/Div,ISSD,8
+2020,Nov,LC/Div,Project Plan,8
+2020,Nov,LC/Div,Traceability,7
+2020,Nov,LC/Div,Design Documentation,5
+2020,Nov,LC/Div,Design Verification,5
+2020,Nov,LC/Div,IDP,5
+2020,Nov,LC/Div,Maintenance Plan,5
+2020,Nov,LC/Div,Software Compliance Assessment,5
+2020,Nov,LC/Div,ERES,4
+2020,Nov,LC/Div,Other,2
+2020,Nov,LC/Div,Data Migration Plan,1
+2020,Nov,Wiesbaden,TPR,74
+2020,Nov,Wiesbaden,TP,42
+2020,Nov,Wiesbaden,IVR,17
+2020,Nov,Wiesbaden,IA,11
+2020,Nov,Wiesbaden,CII,10
+2020,Nov,Wiesbaden,URS,9
+2020,Nov,Wiesbaden,SCS/RN,9
+2020,Nov,Wiesbaden,SPVP,8
+2020,Nov,Wiesbaden,IIVP,7
+2020,Nov,Wiesbaden,SCR,7
+2020,Nov,Wiesbaden,SCS,5
+2020,Nov,Wiesbaden,DV-UT,4
+2020,Nov,Wiesbaden,TM-URS to TP,4
+2020,Nov,Wiesbaden,RN,3
+2020,Nov,Wiesbaden,TM-URS/FRS to TP,3
+2020,Nov,Wiesbaden,IDP,2
+2020,Nov,Wiesbaden,MP,2
+2020,Nov,Wiesbaden,RA,2
+2020,Nov,Wiesbaden,Other,1
+2020,Nov,Wiesbaden,URS/FRS,1
+2020,Nov,Wiesbaden,SCA,1
+2020,Nov,Wiesbaden,ESRA,1

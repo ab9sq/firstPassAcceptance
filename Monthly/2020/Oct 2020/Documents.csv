@@ -1,0 +1,71 @@
+year,month,Site,deliverable,n
+2020,Oct,Dallas,Test Protocol,80
+2020,Oct,Dallas,Test Protocol Results,29
+2020,Oct,Dallas,Software Change Request,15
+2020,Oct,Dallas,System Certification Summary,11
+2020,Oct,Dallas,IPDR,10
+2020,Oct,Dallas,User Requirement,8
+2020,Oct,Dallas,CII,7
+2020,Oct,Dallas,Traceability,7
+2020,Oct,Dallas,IIVP Results,5
+2020,Oct,Dallas,Software Compliance Assessment,5
+2020,Oct,Dallas,URS,5
+2020,Oct,Dallas,Other,4
+2020,Oct,Dallas,Software Project Plan (SPP),4
+2020,Oct,Dallas,Data Migration Plan,3
+2020,Oct,Dallas,IIVP results,3
+2020,Oct,Dallas,SCR,3
+2020,Oct,Dallas,FRS,2
+2020,Oct,Dallas,IIVP,2
+2020,Oct,Dallas,Validation Plan,2
+2020,Oct,Dallas,VVSR,2
+2020,Oct,Dallas,ERES,1
+2020,Oct,Dallas,ISSD,1
+2020,Oct,Dallas,Maintenance Plan,1
+2020,Oct,Dallas,Risk Assessment,1
+2020,Oct,Dallas,URS/FRS,1
+2020,Oct,Dallas,ACR,1
+2020,Oct,Dallas,UDOC,1
+2020,Oct,LC/Div,Test Protocol Results,262
+2020,Oct,LC/Div,Test Protocol,42
+2020,Oct,LC/Div,Software Change Request,27
+2020,Oct,LC/Div,System Certification Summary,18
+2020,Oct,LC/Div,FRS,15
+2020,Oct,LC/Div,IIVP results,15
+2020,Oct,LC/Div,URS,12
+2020,Oct,LC/Div,Traceability,8
+2020,Oct,LC/Div,URS/FRS,7
+2020,Oct,LC/Div,CII,4
+2020,Oct,LC/Div,Design Documentation,3
+2020,Oct,LC/Div,ERES,3
+2020,Oct,LC/Div,IIVP Results,3
+2020,Oct,LC/Div,Project Plan,3
+2020,Oct,LC/Div,Validation Plan,3
+2020,Oct,LC/Div,Data Migration Plan,2
+2020,Oct,LC/Div,IDP,2
+2020,Oct,LC/Div,Maintenance Plan,2
+2020,Oct,LC/Div,Release Notes,2
+2020,Oct,LC/Div,Software Compliance Assessment,2
+2020,Oct,LC/Div,IIVP,1
+2020,Oct,LC/Div,Move to Production,1
+2020,Oct,Wiesbaden,TP,99
+2020,Oct,Wiesbaden,URS/FRS,43
+2020,Oct,Wiesbaden,TPR,41
+2020,Oct,Wiesbaden,IIVP,19
+2020,Oct,Wiesbaden,IA,13
+2020,Oct,Wiesbaden,SCR,9
+2020,Oct,Wiesbaden,URS,8
+2020,Oct,Wiesbaden,SPVP,8
+2020,Oct,Wiesbaden,DV-UT,7
+2020,Oct,Wiesbaden,MP,7
+2020,Oct,Wiesbaden,IVR,6
+2020,Oct,Wiesbaden,CII,5
+2020,Oct,Wiesbaden,SCA,4
+2020,Oct,Wiesbaden,IDP,3
+2020,Oct,Wiesbaden,Other,2
+2020,Oct,Wiesbaden,MCP,2
+2020,Oct,Wiesbaden,RA,2
+2020,Oct,Wiesbaden,SAD,1
+2020,Oct,Wiesbaden,DPP,1
+2020,Oct,Wiesbaden,ESRA,1
+2020,Oct,Wiesbaden,URS/FRS/TM,1

@@ -1,0 +1,66 @@
+year,month,Site,deliverable,n
+2020,Apr,Dallas,Test Protocol,113
+2020,Apr,Dallas,Test Protocol Results,17
+2020,Apr,Dallas,Software Change Request,13
+2020,Apr,Dallas,Software Compliance Assessment,13
+2020,Apr,Dallas,Design Documentation,10
+2020,Apr,Dallas,IIVP,9
+2020,Apr,Dallas,IIVP results,8
+2020,Apr,Dallas,System Certification Summary,7
+2020,Apr,Dallas,Other,6
+2020,Apr,Dallas,CII,4
+2020,Apr,Dallas,URS,4
+2020,Apr,Dallas,FRS,3
+2020,Apr,Dallas,Traceability,3
+2020,Apr,Dallas,ERES,2
+2020,Apr,Dallas,Maintenance Plan,2
+2020,Apr,Dallas,Project Plan,2
+2020,Apr,Dallas,Validation Plan,2
+2020,Apr,Dallas,RetPlan,2
+2020,Apr,Dallas,IDP,1
+2020,Apr,Dallas,ISSD,1
+2020,Apr,Dallas,Risk Assessment,1
+2020,Apr,Dallas,URS/FRS,1
+2020,Apr,Dallas,RetSummary,1
+2020,Apr,Dallas,SRS,1
+2020,Apr,LC/Div,Test Protocol,269
+2020,Apr,LC/Div,Test Protocol Results,46
+2020,Apr,LC/Div,FRS,43
+2020,Apr,LC/Div,URS,32
+2020,Apr,LC/Div,Software Compliance Assessment,21
+2020,Apr,LC/Div,Software Change Request,18
+2020,Apr,LC/Div,IIVP Results,17
+2020,Apr,LC/Div,IIVP,16
+2020,Apr,LC/Div,System Certification Summary,9
+2020,Apr,LC/Div,CII,7
+2020,Apr,LC/Div,Project Plan,7
+2020,Apr,LC/Div,ERES,6
+2020,Apr,LC/Div,IIVP results,5
+2020,Apr,LC/Div,Move to Production,5
+2020,Apr,LC/Div,Validation Plan,5
+2020,Apr,LC/Div,Traceability,4
+2020,Apr,LC/Div,IDP,3
+2020,Apr,LC/Div,Maintenance Plan,3
+2020,Apr,LC/Div,ISSD,2
+2020,Apr,LC/Div,Other,2
+2020,Apr,Wiesbaden,TP,7
+2020,Apr,Wiesbaden,DV-UT,6
+2020,Apr,Wiesbaden,IVR,6
+2020,Apr,Wiesbaden,URS/FRS/TM,6
+2020,Apr,Wiesbaden,SCS/RN,5
+2020,Apr,Wiesbaden,TPR,5
+2020,Apr,Wiesbaden,CII,4
+2020,Apr,Wiesbaden,IA,4
+2020,Apr,Wiesbaden,SPR,4
+2020,Apr,Wiesbaden,URS/FRS,3
+2020,Apr,Wiesbaden,SCR,3
+2020,Apr,Wiesbaden,IDP/IIVP,3
+2020,Apr,Wiesbaden,SPVP,3
+2020,Apr,Wiesbaden,SCA,2
+2020,Apr,Wiesbaden,MP,2
+2020,Apr,Wiesbaden,IDP,1
+2020,Apr,Wiesbaden,IIVP,1
+2020,Apr,Wiesbaden,URS,1
+2020,Apr,Wiesbaden,ESRA,1
+2020,Apr,Wiesbaden,RA,1
+2020,Apr,Wiesbaden,TM-URS/FRS to TP,1
