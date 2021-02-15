@@ -1,0 +1,59 @@
+year,month,Site,deliverable,n
+2021,Jan,Dallas,Test Protocol Results,119
+2021,Jan,Dallas,Test Protocol,56
+2021,Jan,Dallas,FRS,9
+2021,Jan,Dallas,IPDR,9
+2021,Jan,Dallas,IPDR Effectiveness Check,7
+2021,Jan,Dallas,System Certification Summary,4
+2021,Jan,Dallas,User Requirement,4
+2021,Jan,Dallas,Data Migration Plan,3
+2021,Jan,Dallas,IIVP,2
+2021,Jan,Dallas,ISSD,2
+2021,Jan,Dallas,Software Change Request,2
+2021,Jan,Dallas,URS,2
+2021,Jan,Dallas,ACR,2
+2021,Jan,Dallas,SAD,2
+2021,Jan,Dallas,Software Project Plan (SPP),2
+2021,Jan,Dallas,Test Results,2
+2021,Jan,Dallas,Trace Matrix,2
+2021,Jan,Dallas,CII,1
+2021,Jan,Dallas,ERES,1
+2021,Jan,Dallas,Maintenance Plan,1
+2021,Jan,Dallas,Other,1
+2021,Jan,Dallas,Software Compliance Assessment,1
+2021,Jan,Dallas,Traceability,1
+2021,Jan,Dallas,URS/FRS,1
+2021,Jan,Dallas,Configuration Item Inventory ,1
+2021,Jan,LC/Div,Test Protocol,252
+2021,Jan,LC/Div,Test Protocol Results,40
+2021,Jan,LC/Div,Software Change Request,18
+2021,Jan,LC/Div,FRS,17
+2021,Jan,LC/Div,System Certification Summary,16
+2021,Jan,LC/Div,Traceability,15
+2021,Jan,LC/Div,CII,8
+2021,Jan,LC/Div,IIVP,7
+2021,Jan,LC/Div,IIVP results,7
+2021,Jan,LC/Div,test protocol,7
+2021,Jan,LC/Div,URS,6
+2021,Jan,LC/Div,ISSD,4
+2021,Jan,LC/Div,Design Documentation,3
+2021,Jan,LC/Div,IDP,3
+2021,Jan,LC/Div,Software Compliance Assessment,3
+2021,Jan,LC/Div,Data Migration Plan,2
+2021,Jan,LC/Div,Project Plan,2
+2021,Jan,LC/Div,Move to Production,1
+2021,Jan,LC/Div,Other,1
+2021,Jan,LC/Div,Risk Assessment,1
+2021,Jan,LC/Div,Validation Plan,1
+2021,Jan,Wiesbaden,TP,9
+2021,Jan,Wiesbaden,IDP,7
+2021,Jan,Wiesbaden,DV-UT,7
+2021,Jan,Wiesbaden,MP,7
+2021,Jan,Wiesbaden,URS/FRS,6
+2021,Jan,Wiesbaden,SPVP,5
+2021,Jan,Wiesbaden,IIVP,4
+2021,Jan,Wiesbaden,SCA,4
+2021,Jan,Wiesbaden,SCR,3
+2021,Jan,Wiesbaden,IA,2
+2021,Jan,Wiesbaden,CII,1
+2021,Jan,Wiesbaden,RA,1
