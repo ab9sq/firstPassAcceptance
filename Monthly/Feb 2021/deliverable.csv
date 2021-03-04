@@ -1,0 +1,51 @@
+year,month,deliverable,n
+2021,Feb,Test Protocol,231
+2021,Feb,IIVP,42
+2021,Feb,Test Protocol Results,36
+2021,Feb,IVR,26
+2021,Feb,CII,22
+2021,Feb,Traceability,20
+2021,Feb,System Certification Summary,18
+2021,Feb,Software Change Request,17
+2021,Feb,URS,17
+2021,Feb,TP,17
+2021,Feb,IDP,16
+2021,Feb,Test Results,11
+2021,Feb,FRS,10
+2021,Feb,Validation Plan,10
+2021,Feb,URS/FRS,9
+2021,Feb,Other,8
+2021,Feb,TPR,8
+2021,Feb,Maintenance Plan,7
+2021,Feb,DV-UT,7
+2021,Feb,IPDR,6
+2021,Feb,SCA,6
+2021,Feb,IA,6
+2021,Feb,MP,6
+2021,Feb,SPVP,6
+2021,Feb,ISSD,5
+2021,Feb,IIVP results,4
+2021,Feb,Software Compliance Assessment,4
+2021,Feb,Data Migration Plan,3
+2021,Feb,Design Documentation,3
+2021,Feb,Project Plan,3
+2021,Feb,SCR,3
+2021,Feb,MCP,3
+2021,Feb,ERES,2
+2021,Feb,Configuration Item Inventory ,2
+2021,Feb,Software Change Request ,2
+2021,Feb,User Requirement Specifications (URS) ,2
+2021,Feb,RA,2
+2021,Feb,SCS,2
+2021,Feb,SCS/RN,2
+2021,Feb,TM-URS/FRS to TP,2
+2021,Feb,Move to Production,1
+2021,Feb,Release Notes,1
+2021,Feb,Risk Assessment,1
+2021,Feb,test protocol,1
+2021,Feb,ACR,1
+2021,Feb,Data Migration Summary,1
+2021,Feb,Installation Instructions and Verification Protocol ,1
+2021,Feb,Installation Instructions and Verification Protocol ? QA Result ,1
+2021,Feb,ESRA,1
+2021,Feb,RN,1

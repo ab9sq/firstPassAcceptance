@@ -1,0 +1,71 @@
+year,month,Site,deliverable,n
+2021,Feb,Dallas,Test Protocol,67
+2021,Feb,Dallas,Test Protocol Results,12
+2021,Feb,Dallas,Traceability,11
+2021,Feb,Dallas,Test Results,11
+2021,Feb,Dallas,Software Change Request,6
+2021,Feb,Dallas,System Certification Summary,6
+2021,Feb,Dallas,IPDR,6
+2021,Feb,Dallas,Other,4
+2021,Feb,Dallas,CII,3
+2021,Feb,Dallas,URS/FRS,3
+2021,Feb,Dallas,Data Migration Plan,2
+2021,Feb,Dallas,Design Documentation,2
+2021,Feb,Dallas,IIVP,2
+2021,Feb,Dallas,Configuration Item Inventory ,2
+2021,Feb,Dallas,Software Change Request ,2
+2021,Feb,Dallas,User Requirement Specifications (URS) ,2
+2021,Feb,Dallas,IDP,1
+2021,Feb,Dallas,IIVP results,1
+2021,Feb,Dallas,Move to Production,1
+2021,Feb,Dallas,Software Compliance Assessment,1
+2021,Feb,Dallas,ACR,1
+2021,Feb,Dallas,Data Migration Summary,1
+2021,Feb,Dallas,Installation Instructions and Verification Protocol ,1
+2021,Feb,Dallas,Installation Instructions and Verification Protocol ? QA Result ,1
+2021,Feb,LC/Div,Test Protocol,164
+2021,Feb,LC/Div,Test Protocol Results,24
+2021,Feb,LC/Div,CII,13
+2021,Feb,LC/Div,System Certification Summary,12
+2021,Feb,LC/Div,IIVP,11
+2021,Feb,LC/Div,Software Change Request,11
+2021,Feb,LC/Div,FRS,10
+2021,Feb,LC/Div,Validation Plan,10
+2021,Feb,LC/Div,Traceability,9
+2021,Feb,LC/Div,IDP,8
+2021,Feb,LC/Div,Maintenance Plan,7
+2021,Feb,LC/Div,ISSD,5
+2021,Feb,LC/Div,URS,5
+2021,Feb,LC/Div,IIVP results,3
+2021,Feb,LC/Div,Project Plan,3
+2021,Feb,LC/Div,Software Compliance Assessment,3
+2021,Feb,LC/Div,ERES,2
+2021,Feb,LC/Div,Other,2
+2021,Feb,LC/Div,Data Migration Plan,1
+2021,Feb,LC/Div,Design Documentation,1
+2021,Feb,LC/Div,Release Notes,1
+2021,Feb,LC/Div,Risk Assessment,1
+2021,Feb,LC/Div,test protocol,1
+2021,Feb,LC/Div,URS/FRS,1
+2021,Feb,Wiesbaden,IIVP,29
+2021,Feb,Wiesbaden,IVR,26
+2021,Feb,Wiesbaden,TP,17
+2021,Feb,Wiesbaden,URS,12
+2021,Feb,Wiesbaden,TPR,8
+2021,Feb,Wiesbaden,IDP,7
+2021,Feb,Wiesbaden,DV-UT,7
+2021,Feb,Wiesbaden,CII,6
+2021,Feb,Wiesbaden,SCA,6
+2021,Feb,Wiesbaden,IA,6
+2021,Feb,Wiesbaden,MP,6
+2021,Feb,Wiesbaden,SPVP,6
+2021,Feb,Wiesbaden,URS/FRS,5
+2021,Feb,Wiesbaden,SCR,3
+2021,Feb,Wiesbaden,MCP,3
+2021,Feb,Wiesbaden,Other,2
+2021,Feb,Wiesbaden,RA,2
+2021,Feb,Wiesbaden,SCS,2
+2021,Feb,Wiesbaden,SCS/RN,2
+2021,Feb,Wiesbaden,TM-URS/FRS to TP,2
+2021,Feb,Wiesbaden,ESRA,1
+2021,Feb,Wiesbaden,RN,1
