@@ -17,12 +17,12 @@
 %
 %  <<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{ January }                                                % Update Setup below
+\newcommand{\reportMonth}{ February }                                                % Update Setup below
 \newcommand{\reportYear}{ 2021 }
 %
 % <<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
-\newcommand{\lubdateVersion}{version 1.7.9}
+\newcommand{\lubdateVersion}{version 1.7.10}
 
 
 \title{Dallas SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
@@ -35,9 +35,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jan"                                                                     # update trend builder below
+Month <- "Feb"                                                                     # update trend builder below
 Year <- 2021
-XLabel <-  "Since Sepember 2019"                                                    # status until Feb 2021(?)
+XLabel <-  "Since Sepember 2019"                                                    # update
 
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
@@ -52,7 +52,6 @@ DivFPA <- getResults(Month = Month,
 #
 # ------ Trend Builder -------------- update at end
 # # for update:
-# #    Items 1 - 3 do not happend until Feb 2021 (?) when this reaches
 # #    for 18 months of data
 # #      1) Reset name of Second getResults,
 # #      2) delete first gerResults and
@@ -156,9 +155,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "Jan",
+                    Year = 2021,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Jan",
+ temp <- getResults(Month = "Feb",
                     Year = 2021,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,

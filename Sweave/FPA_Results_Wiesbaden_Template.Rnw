@@ -19,14 +19,14 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 %
 
-\newcommand{\reportMonth}{ January }                                                       % Update Setup below
+\newcommand{\reportMonth}{ February }                                                       % Update Setup below
 \newcommand{\reportYear}{ 2021 }
 
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
 %
 \newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
-\newcommand{\lubdateVersion}{version 1.7.9}
+\newcommand{\lubdateVersion}{version 1.7.10}
 
 
 \title{Wiesbaden SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
@@ -40,7 +40,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jan"                                                                        # update trend builder below
+Month <- "Feb"                                                                        # update trend builder below
 Year <- 2021
 XLabel <- "Since Jan 2020"                                                            # status until Aug 2021 (?)
 
@@ -135,9 +135,15 @@ temp <- getResults(Month = "Dec",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Jan",
+                        Year = 2021,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Jan",
+temp <- getResults(Month = "Feb",
                         Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

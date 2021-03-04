@@ -17,12 +17,12 @@
 %
 %  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{ January }                                                     %  Update Setup below
+\newcommand{\reportMonth}{ February }                                                     %  Update Setup below
 \newcommand{\reportYear}{ 2021 }
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
 \newcommand{\Rvers}{version 3.6.3=2 named ``Dark and Stormy Night'' }
-\newcommand{\lubdateVersion}{version 1.7.9.2}
+\newcommand{\lubdateVersion}{version 1.7.10}
 
 
 \title{LC/Div SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
@@ -35,9 +35,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Jan"                                                                         # update trend builder below
+Month <- "Feb"                                                                         # update trend builder below
 Year <- 2021
-XLabel <- "Since August 2019"                                                            # Update for period
+XLabel <- "Since September 2019"                                                            # Update for period
 
 DivFile <- "../data/Div First Pass Acceptance.csv"
 
@@ -45,7 +45,7 @@ DivFile <- "../data/Div First Pass Acceptance.csv"
 
 <<data, echo=FALSE>>=
 source("../scripts/Monthly_Stats.R")
-source("../scripts/Monthly_Stats_CHaRM.R")
+#source("../scripts/Monthly_Stats_CHaRM.R")
 require(lubridate)
 
 DivFPA <- getResults(Month = Month,
@@ -62,110 +62,110 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResultsCHaRM(Month = "Aug",
+DivPlotData <- getResults(Month = "Sep",
                         Year = 2019,
                         File = DivFile)
 
-temp <- getResultsCHaRM(Month = "Sep",
-                        Year = 2019,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
-
-temp <- getResultsCHaRM(Month = "Oct",
+temp <- getResults(Month = "Oct",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Nov",
+temp <- getResults(Month = "Nov",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Dec",
+temp <- getResults(Month = "Dec",
                         Year = 2019,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Jan",
+temp <- getResults(Month = "Jan",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Feb",
+temp <- getResults(Month = "Feb",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
 
-temp <- getResultsCHaRM(Month = "Mar",
+temp <- getResults(Month = "Mar",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Apr",
+temp <- getResults(Month = "Apr",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "May",
+temp <- getResults(Month = "May",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Jun",
+temp <- getResults(Month = "Jun",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Jul",
+temp <- getResults(Month = "Jul",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Aug",
+temp <- getResults(Month = "Aug",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Sep",
+temp <- getResults(Month = "Sep",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Oct",
+temp <- getResults(Month = "Oct",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Nov",
+temp <- getResults(Month = "Nov",
                         Year = 2020,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
-temp <- getResultsCHaRM(Month = "Dec",
+temp <- getResults(Month = "Dec",
                         Year = 2020,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResults(Month = "Jan",
+                        Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
 #                                          ********************************
 # start of update
-temp <- getResultsCHaRM(Month = "Jan",
+temp <- getResults(Month = "Feb",
                         Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
