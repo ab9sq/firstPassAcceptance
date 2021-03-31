@@ -1,11 +1,17 @@
 \documentclass{article}
 
-\usepackage[toc]{multitoc}
-\renewcommand*{\multicolumntoc}{2}
-\setlength{\columnseprule}{0.5pt}
-
 \usepackage{datetime}
 \usepackage{hyperref}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts, amssymb}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs, array}
+
+
+% \usepackage[toc]{multitoc}
+% \renewcommand*{\multicolumntoc}{2}
+% \setlength{\columnseprule}{0.5pt}
 
 \usepackage{xcolor}
 \hypersetup{
@@ -14,13 +20,17 @@
     citecolor={blue!80!black},
     urlcolor={blue!80!black}
 }
+
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}  % for Sections
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
+% <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<            update line 254
 %
 
-\newcommand{\reportMonth}{ February }                                                       % Update Setup below
-\newcommand{\reportYear}{ 2021 }
+\newcommand{\reportMonth}{February}                                                       % Update Setup below
+\newcommand{\reportYear}{2021}
 
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
@@ -29,10 +39,15 @@
 \newcommand{\lubdateVersion}{version 1.7.10}
 
 
-\title{Wiesbaden SQA Metric Items From FPA Spreadsheet - \reportMonth \reportYear}
+\title{Wiesbaden SQA Metric Items From FPA Spreadsheet - \reportMonth \, \reportYear}
 \author{Nick Lauerman}
 \date{}
 
+%
+% Comment out                                                                   % ADD
+%       \usepackage{Sweave}
+%       \input{TEST-concordance}
+%
 
 \begin{document}
 
@@ -166,12 +181,14 @@ rm(temp)
 
 \begin{abstract}
 Presentation of First Pass Acceptance of SLC documentation. This is derived from
-the Excel workbook that Software Quality Assurance collected called ``First Pass
-Acceptance.xlsx''. This is for the month of \reportMonth \reportYear.
-\footnote{Date Ran: \today{} at \currenttime}
+the Excel workbook that Software Quality Assurance collected called ``First
+Pass Acceptance_Wiesbaden.xlsx''.\footnote{data is stored on the dept 09HD share drive}
+This is for the month of \reportMonth \, \reportYear.\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
 \tableofcontents
+
+\listoffigures
 
 \section{Introduction}
 The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
@@ -187,34 +204,60 @@ as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
 typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
 \LaTeXe{} is utilizing the folowing packages to control style and formating:
 \begin{itemize}
-     \item datetime and
-     \item multitoc
+     \item amsfonts
+     \item amsmath
+     \item amssymb
+     \item array
+     \item booktable
+     \item datetime
+     \item float
+     \item graphicx
      \item hyperref
+     \item tocloft
+     \item utf8
      \item xcolor
 \end{itemize}
 
 
 
 \section{First Pass Acceptance Results}
-For the Month of \reportMonth \reportYear
+For the month of \reportMonth \, \reportYear
 the follow are the First Pass Acceptance
-Metrics results
-\begin{description}
-     \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
-     \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
-     \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
-     \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
-     \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
-     \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
-\end{description}
+Metrics results.
+
+\begin{table}[H]
+	\centering
+	\setlength\extrarowheight{3pt}
+	\begin{tabular}{|r|l|}
+		%\centering
+		\hline
+		Projects Started           & \Sexpr{DivFPA$Projects_Started}         \\ \hline
+		Projects Completed         & \Sexpr{DivFPA$Projects_Completed}       \\ \hline
+		Items Reviewed             & \Sexpr{DivFPA$Reviews_Completed}        \\ \hline
+		Items Rejected             & \Sexpr{DivFPA$Items_Rejected}           \\ \hline
+		First Pass Acceptance Rate & \Sexpr{DivFPA$First_Pass_Acceptance} \% \\ \hline
+		Rejection Rate             & \Sexpr{DivFPA$Rejection_Rate} \%        \\ \hline
+	\end{tabular}
+	\caption{First Pass Acceptance Results for \reportMonth \, \reportYear}
+\end{table}
+
+% \begin{description}
+%      \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
+%      \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
+%      \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
+%      \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
+%      \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
+%      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
+% \end{description}
 
 
 
 \section{Trending Graphs}
-Trend Graphs only reflect the past 3 months of data.  % UPDATE number of months until equal.
+Trend graphs reflect the past 3 months of data.                % UPDATE number of months until equal.
 
-
-\subsection{Projects Started and Completed}
+%\subsection{Projects Started and Completed}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Projects_Started,
@@ -238,8 +281,13 @@ legend("topleft",
        pch = c(3,
                4))
 @
+	\caption{Projects Started and Completed}
+	\label{fig:Proj Start}
+\end{figure}
 
-\subsection{Reviews Completed}
+%\subsection{Reviews Completed}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Reviews_Completed,
@@ -255,8 +303,13 @@ legend("topleft",
        lty = 1,
        pch = c(3))
 @
+	\caption{Reviews Completed}
+	\label{fig:Reviews}
+\end{figure}
 
-\subsection{Reviews Completed with Control Lines}
+%\subsection{Reviews Completed with Control Lines}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 plot(x=DivPlotData$date,
      y=DivPlotData$Reviews_Completed,
@@ -292,8 +345,13 @@ legend("topleft",
                NA,
                NA))
 @
+	\caption{Reviews Completed with Control Lines}
+	\label{fig:Reviews with control}
+\end{figure}
 
-\subsection{First Pass Acceptance}
+%\subsection{First Pass Acceptance}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -306,8 +364,13 @@ plot(x=DivPlotData$date,
      pch = 3,
      lty = "solid")
 @
+	\caption{First Pass Acceptance}
+	\label{fig:FPA}
+\end{figure}
 
-\subsection{First Pass Acceptance with Control Lines}
+%\subsection{First Pass Acceptance with Control Lines}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -342,9 +405,13 @@ legend("topright",
                "dashed"),
        pch = c(3, NA, NA))
 @
+	\caption{First Pass Acceptance with Control Lines}
+	\label{fig:FPA w/control}
+\end{figure}
 
-
-\subsection{Rejection Rate}
+%\subsection{Rejection Rate}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -357,8 +424,13 @@ plot(x=DivPlotData$date,
      pch = 3,
      lty = "solid")
 @
+	\caption{Rejection Rate}
+	\label{fig:Reject}
+\end{figure}
 
-\subsection{Rejection Rate with Control Lines}
+%\subsection{Rejection Rate with Control Lines}
+\begin{figure}[H]
+	\centering
 <<fig=TRUE, echo=false>>=
 
 plot(x=DivPlotData$date,
@@ -393,5 +465,9 @@ legend("topright",
                "dashed"),
        pch = c(3, NA, NA))
 @
+	\caption{Rejection Rate with Control Lines}
+	\label{fig:Reject w/cpntrol}
+\end{figure}
+
 
 \end{document}
