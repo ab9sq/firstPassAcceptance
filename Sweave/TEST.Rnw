@@ -211,34 +211,6 @@ Acceptance.xlsx''. This is for the month of \reportMonth \reportYear.
 
 \listoffigures
 
-\section{Introduction}
-The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
-The only extension (package or library) utilized is lubridate (\lubdateVersion)
-to provide key functionality in the processing of dates.
-
-The data is read into R from a comma seperated value (csv) file which is derived
-(saved) from the spreadsheet without modification. Additional values that are
-needed are are computed in R as needed.
-
-This report is prepared in the R enviroment using a collection of packages know
-as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
-typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
-\LaTeXe{} is utilizing the folowing packages to control style and formating:
-\begin{itemize}
-     \item amsfonts
-     \item amsmath
-     \item amssymb
-     \item array
-     \item booktable
-     \item datetime
-     \item float
-     \item graphicx
-     \item hyperref
-     \item tocloft
-     \item utf8
-     \item xcolor
-\end{itemize}
-
 
 
 \section{First Pass Acceptance Results}
@@ -501,5 +473,38 @@ legend("topright",
 	\caption{Rejection Rate with Control Lines}
 	\label{fig:Reject w/cpntrol}
 \end{figure}
+
+\section{Methods}
+\subsection{Data Processing}
+
+The data is processed using R\footnote{RStudio is utilized as an IDE}, \Rvers.
+The only extension (package or library) utilized is lubridate (\lubdateVersion)
+to provide key functionality in the processing of dates.
+
+The data is read into R from a comma seperated value (csv) file which is derived
+(saved) from the spreadsheet without modification. Additional values that are
+needed are are computed in R as needed.
+
+\subsection{Report Generation}
+This report is prepared in the R enviroment using a collection of packages know
+as Sweave that included knitr which in turn feeds the package into \LaTeXe{} a
+typeseting program to produce a PDF file. \LaTeXe{} in implented in Mi\TeX.
+\LaTeXe{} is utilizing the folowing packages to control style and formating:
+\begin{itemize}
+     \item amsfonts
+     \item amsmath
+     \item amssymb
+     \item array
+     \item booktable
+     \item datetime
+     \item float
+     \item graphicx
+     \item hyperref
+     \item tocloft
+     \item utf8
+     \item xcolor
+\end{itemize}
+
+
 
 \end{document}
