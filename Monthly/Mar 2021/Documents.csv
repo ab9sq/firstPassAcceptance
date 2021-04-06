@@ -1,0 +1,74 @@
+year,month,Site,deliverable,n
+2021,Mar,Dallas,Test Protocol Results,56
+2021,Mar,Dallas,Test Protocol,15
+2021,Mar,Dallas,IPDR Proposed Resolution,7
+2021,Mar,Dallas,Test Results,6
+2021,Mar,Dallas,Configuration Item Inventory ,5
+2021,Mar,Dallas,System Certification Summary,4
+2021,Mar,Dallas,Certification Summary ,4
+2021,Mar,Dallas,IIVP results,3
+2021,Mar,Dallas,Software Change Request,3
+2021,Mar,Dallas,Functional Requirements Specification (FRS) ,3
+2021,Mar,Dallas,Installation Instructions and Verification Protocol ,3
+2021,Mar,Dallas,Data Migration Plan,2
+2021,Mar,Dallas,FRS - individual FRSes,2
+2021,Mar,Dallas,Maintenance Plan ,2
+2021,Mar,Dallas,Software Change Request ,2
+2021,Mar,Dallas,URS - individual URSes,2
+2021,Mar,Dallas,URS/FRS to Test Protocol Trace* ,2
+2021,Mar,Dallas,CII,1
+2021,Mar,Dallas,IIVP,1
+2021,Mar,Dallas,URS,1
+2021,Mar,Dallas,ACR,1
+2021,Mar,Dallas,Identification of Supporting System Documentation (ISSD) ,1
+2021,Mar,Dallas,Software Compliance Assessment Form ,1
+2021,Mar,Dallas,Test Protocol 01  ,1
+2021,Mar,Dallas,Test Protocol 02,1
+2021,Mar,Dallas,Test Protocol 03 ,1
+2021,Mar,Dallas,Test Protocol 04 ,1
+2021,Mar,Dallas,Test Protocol 06,1
+2021,Mar,Dallas,Traceability Matrix ,1
+2021,Mar,LC/Div,Test Protocol,242
+2021,Mar,LC/Div,Test Protocol Results,146
+2021,Mar,LC/Div,test protocol,33
+2021,Mar,LC/Div,Software Change Request,28
+2021,Mar,LC/Div,Software Compliance Assessment,19
+2021,Mar,LC/Div,Traceability,17
+2021,Mar,LC/Div,ACR Proposed Resolution,16
+2021,Mar,LC/Div,FRS,14
+2021,Mar,LC/Div,System Certification Summary,14
+2021,Mar,LC/Div,IIVP results,13
+2021,Mar,LC/Div,URS,10
+2021,Mar,LC/Div,IPDR Proposed Resolution,9
+2021,Mar,LC/Div,CII,8
+2021,Mar,LC/Div,IIVP,4
+2021,Mar,LC/Div,Validation Plan,4
+2021,Mar,LC/Div,ACR Effectiveness Check,2
+2021,Mar,LC/Div,Design Verification,2
+2021,Mar,LC/Div,ERES,2
+2021,Mar,LC/Div,Move to Production,2
+2021,Mar,LC/Div,Other,2
+2021,Mar,LC/Div,Project Plan,2
+2021,Mar,LC/Div,ISSD,1
+2021,Mar,LC/Div,Maintenance Plan,1
+2021,Mar,Wiesbaden,TP,36
+2021,Mar,Wiesbaden,TPR,28
+2021,Mar,Wiesbaden,IVR,17
+2021,Mar,Wiesbaden,ACR-Post,16
+2021,Mar,Wiesbaden,IIVP,14
+2021,Mar,Wiesbaden,URS,9
+2021,Mar,Wiesbaden,IA,9
+2021,Mar,Wiesbaden,IPDR-Pre,7
+2021,Mar,Wiesbaden,SCA,6
+2021,Mar,Wiesbaden,SCR,5
+2021,Mar,Wiesbaden,ACR-Pre,5
+2021,Mar,Wiesbaden,SPVP,5
+2021,Mar,Wiesbaden,CII,4
+2021,Mar,Wiesbaden,URS/FRS,4
+2021,Mar,Wiesbaden,MP,4
+2021,Mar,Wiesbaden,SCS,4
+2021,Mar,Wiesbaden,TM-URS/FRS to TP,4
+2021,Mar,Wiesbaden,MCP,3
+2021,Mar,Wiesbaden,Other,2
+2021,Mar,Wiesbaden,RN,2
+2021,Mar,Wiesbaden,SCS/RN,1
