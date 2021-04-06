@@ -246,8 +246,8 @@ rm(temp)
 \begin{abstract}
 Presentation of First Pass Acceptance of SLC documentation. This is derived from
 the Excel workbooks that Software Quality Assurance collected called ``First Pass
-Acceptance.xlsx'', ``First Pass Acceptance Dallas.xlsx" and
-``First Pass Acceptance_Wiesbaden.xlsx''.\footnote{data is stored on the dept 09HD share drive}
+Acceptance.xlsx'', ``First Pass Acceptance\_Dallas.xlsx" and
+``First Pass Acceptance\_Wiesbaden.xlsx''.\footnote{data is stored on the dept 09HD share drive}
 This is for the month of \reportMonth \, \reportYear.\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 

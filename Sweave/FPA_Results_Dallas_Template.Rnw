@@ -201,7 +201,7 @@ rm(temp)
 \begin{abstract}
 Presentation of First Pass Acceptance of SLC documentation. This is derived from
 the Excel workbook that Software Quality Assurance collected called ``First Pass
-Acceptance_Dallas.xlsx''. \footnote{data is stored on the dept 09HD share drive}
+Acceptance\_Dallas.xlsx''. \footnote{data is stored on the dept 09HD share drive}
 This is for the month of \reportMonth \, \reportYear.\footnote{Date Ran: \today{} at \currenttime}
 \end{abstract}
 
