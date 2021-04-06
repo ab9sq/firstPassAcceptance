@@ -124,7 +124,7 @@ Lan,DA-S 00562.005 ,Ticket Code Tool Server move,IIVP,7,Install-1,A,5-Sep-2019,,
 Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,D,5-Sep-2019,Multiple Errors,Email
 Carole,DA-S01510.000,Camstar,Software Change Request,1,SCR-03,D,6-Sep-2019,Inadequate Description of Change,Email
 Carole,DA-S01510.000,Camstar,Test Protocol,1,Protocol-82,D,6-Sep-2019,Multiple Errors,Email
-Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,2,SCR-09,D,9-Sep-2019,Inaccurate information,
+Ken,DA-S00893.006,Camstar,Software Change Request,2,SCR-09,D,9-Sep-2019,Inaccurate information,
 Ken,DA-S00893.006,Mashup - Product Defect Tracking,Software Change Request,2,SCR-09,A,9-Sep-2019,,
 Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,1,Protocol-20-Results,D,9-Sep-2019,Incorrect Objective Evidence,Email
 Carole,DA-S00931.001 ,ADMS Order Management,Test Protocol Results,2,Protocol-19-Results,D,9-Sep-2019,Incorrect Objective Evidence,Email
@@ -3655,13 +3655,168 @@ Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 921
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 922,A-FP,24-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 923,A-FP,24-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 924,A-FP,24-Feb-2021,,
-Lan,VERA/Dallas_GSS,LOG-ICAL,User Requirement Specifications (URS) ,1,Multiple,D,24-Feb-2021,Multiple Errors,Email
-Lan,VERA/Dallas_GSS,LOG-ICAL,User Requirement Specifications (URS) ,1,Multiple,A,24-Feb-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,User Requirement Specifications (URS) ,1,Multiple,D,24-Feb-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,User Requirement Specifications (URS) ,1,Multiple,A,24-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,URS/FRS to Test Protocol Trace* ,1,1923,D,1-Mar-2021,Multiple Errors,Email
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,URS/FRS to Test Protocol Trace* ,1,1923,A,1-Mar-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Certification Summary ,1,1922,D,1-Mar-2021,Multiple Errors,Email
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Certification Summary ,1,1922,A,1-Mar-2021,,
-Lan,VERA/Dallas_GSS,LOG-ICAL,Software Change Request ,1,502,D,1-Mar-2021,Multiple Errors,Email
-Lan,VERA/Dallas_GSS,LOG-ICAL,Software Change Request ,1,502,A,2-Mar-2021,,
-Lan,VERA/Dallas_GSS,LOG-ICAL,Functional Requirements Specification (FRS) ,1,Multiple,D,2-Mar-2021,Multiple Errors,Email
-Lan,VERA/Dallas_GSS,LOG-ICAL,Functional Requirements Specification (FRS) ,1,Multiple,A,2-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Software Change Request ,1,502,D,1-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Software Change Request ,1,502,A,2-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Functional Requirements Specification (FRS) ,1,Multiple,D,2-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Functional Requirements Specification (FRS) ,1,Multiple,A,2-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Certification Summary ,1,1700,D,31-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Certification Summary ,1,1700,A,31-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Software Compliance Assessment Form ,2,488,A-FP,12-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Software Change Request,1,502,A-FP,15-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Functional Requirements Specification (FRS) ,2,492,A-FP,2-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Installation Instructions and Verification Protocol ,1,Test ID 87,A-FP,30-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Installation Instructions and Verification Protocol ,1,Test ID 98,A-FP,25-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,IIVP results,1,Run ID 76,A-FP,25-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,IIVP results,1,Run ID 98,A-FP,31-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Configuration Item Inventory ,1,498,D,25-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Configuration Item Inventory ,1,498,A,25-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Protocol 01  ,1,"Test ID 81, 82, 83, 88, 90",A-FP,21-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Results,1,"Run ID: 79, 81, 82, 80, 78",A-FP,26-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Protocol 02,1,"Test ID: 84, 97",A-FP,19-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Results,1,"Run ID: 88,89",A-FP,26-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Protocol 03 ,1,"Test ID: 85, 86, 89, 94, 96",A-FP,26-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Results,1,"Run ID: 84, 85, 86, 87",A-FP,26-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Results,1,RUN 90,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Protocol 04 ,1,"Test ID: 91, 92, 93",A-FP,22-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Test Results,1,"Run ID: 91, 92, 93",A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Traceability Matrix ,1,493,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Maintenance Plan ,1,500,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Maintenance Plan ,1,500,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-ICAL v2.1,Identification of Supporting System Documentation (ISSD) ,1,501,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Configuration Item Inventory ,1,1704,D,28-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Configuration Item Inventory ,1,1704,A,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Installation Instructions and Verification Protocol ,1,Test ID -102,D,28-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Configuration Item Inventory ,1,1704,A,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Software Change Request,1,1702,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Test Protocol 06,1,Test ID 103,A-FP,29-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,IIVP results,1,Run ID 94,A-FP,30-Mar-2021,,
+Lan,VERA/Dallas_GSS,LOG-IC v5.1,Test Results,1,Run ID 96,A-FP,30-Mar-2021,,
+Lan,VERA/Dallas_GSS,VIPA,URS - individual URSes,1,Multiple 1376-1430,D,18-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,URS - individual URSes,1,Multiple 1376-1430,A,25-Mar-2021,,
+Lan,VERA/Dallas_GSS,VIPA,FRS - individual FRSes,1,Multiple 1647-1689,D,18-Mar-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,FRS - individual FRSes,1,Multiple 1647-1689,A,25-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 101,A-FP,1-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 104,A-FP,1-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 105,A-FP,1-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 106,A-FP,1-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 107,D,2-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 107,A,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 108,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 109,A-FP,2-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 110,A-FP,2-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 111,A-FP,9-Mar-2021,,VERA
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 112,D,4-Mar-2021,Inaccurate information,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 112,A,22-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 115,D,3-Mar-2021,Incorrect Objective Evidence,VERA
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 115,A,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 116,D,4-Mar-2021,Inaccurate information,VERA
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 116,A,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 118,D,4-Mar-2021,Incorrect Objective Evidence,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 118,A,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 121,A-FP,8-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 123,A-FP,5-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 124,A-FP,5-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 125,A-FP,5-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 126,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 127,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 128,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 129,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 131,A-FP,5-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 132,A-FP,8-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 134,A-FP,9-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 135,A-FP,5-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 136,A-FP,4-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 137,D,8-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 137,A,9-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 138,A-FP,8-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 139,A-FP,8-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 141,A-FP,17-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 142,A-FP,10-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 143,A-FP,9-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 144,A-FP,10-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 145,A-FP,10-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 146,A-FP,11-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 147,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 148,A-FP,12-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 149,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 150,A-FP,16-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 151,A-FP,24-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 152,A-FP,18-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 153,A-FP,19-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 154,A-FP,19-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 155,A-FP,24-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 156,A-FP,31-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,System Certification Summary,1,Req ID 2722,D,26-Mar-2021,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 137,A-FP,16-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 142,A-FP,30-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 146,A-FP,16-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 153,A-FP,16-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 133,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,2,Req ID 132,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,3,Req ID 148,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,3,Req ID 135,A-FP,15-Mar-2021,,
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 7,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 8,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 9,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 10,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 11,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 12,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 13,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 15,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 16,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 17,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 18,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 21,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 22,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 23,D,22-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 24,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 25,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 58,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 59,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 60,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 61,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 62,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 63,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 64,D,23-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 65,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 66,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 67,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 68,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 109,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 110,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 111,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,Test Protocol,1,Test ID 112,D,24-Mar-2011,Inaccurate information,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Data Migration Plan,1,,D,19-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Data Migration Plan,1,,D,29-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,,D,24-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,,D,29-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 1010,A,25-Mar-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,CII,7,Req ID 162,D,2-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,Req ID 1031,D,11-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,Req  ID 1031,D,12-Mar-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - QSR Workflow,Test Protocol,1,Req  ID 1031,A,23-Mar-2021,,
+Ken,Dallas_Mfr_Ops,PC Reveal,System Certification Summary,1,Req ID-59,F,30-Mar-2021,Inaccurate information,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IIVP,1,"1192, 1193, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201, 1202, 1203, 1204, 1205, 1206, 1027, 1208",A,1-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,47,A,3-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,System Certification Summary,1,1019,A,2-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,System Certification Summary,1,1020,A,5-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,ACR,1,48,A,7-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Work in Progress,IPDR Proposed Resolution,1,49,A,15-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,50,D,18-Mar-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,51,D,18-Mar-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,50,A,19-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,51,A,19-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Test Protocol Results,1,"314, 315, 316, 317, 325",A,22-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Test Protocol Results,1,"329, 330, 331",A,23-Mar-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Test Protocol Results,1," 318, 321, 322",A,24-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Test Protocol Results,1,"332, 333, 334",A,25-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,Test Protocol Results,1,"326, 327, 328",A,26-Mar-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IPDR Proposed Resolution,1,46,A,29-Mar-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,URS,1,562,A,2-Mar-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,"251, 246, 246, 253, 253, 254, 241, 247, 248, 249, 250, 240, 255, 244",A,2-Mar-2021,,
