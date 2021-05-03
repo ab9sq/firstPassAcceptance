@@ -26,11 +26,11 @@
 %
 %  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for month of run along with R blocks.
 %
-\newcommand{\reportMonth}{March}                                           %  Update Setup below
+\newcommand{\reportMonth}{April}                                           %  Update Setup below
 \newcommand{\reportYear}{2021}
 %
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Update for new R version
-\newcommand{\Rvers}{version 3.6.3=2 named ``Dark and Stormy Night'' }
+\newcommand{\Rvers}{version 3.6.2 named ``Dark and Stormy Night'' }
 \newcommand{\lubdateVersion}{version 1.7.10}
 
 
@@ -43,16 +43,16 @@
 %       \usepackage{Sweave}
 %       \input{TEST-concordance}
 %
-
+\usepackage{Sweave}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Mar"                                                                  # update trend builder below
+Month <- "Apr"                                                                  # update trend builder below
 Year <- 2021
-XLabel <- "Since October 2019"                                                # Update for period
+XLabel <- "Since November 2019"                                                # Update for period
 
 DivFile <- "../data/Div First Pass Acceptance.csv"
 
@@ -60,7 +60,7 @@ DivFile <- "../data/Div First Pass Acceptance.csv"
 
 <<data, echo=FALSE>>=
 source("../scripts/Monthly_Stats.R")
-#source("../scripts/Monthly_Stats_CHaRM.R")
+
 require(lubridate)
 
 DivFPA <- getResults(Month = Month,
@@ -77,15 +77,11 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResults(Month = "Oct",
+
+DivPlotData <- getResults(Month = "Nov",
                         Year = 2019,
                         File = DivFile)
 
-temp <- getResults(Month = "Nov",
-                        Year = 2019,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResults(Month = "Dec",
                         Year = 2019,
@@ -178,9 +174,15 @@ temp <- getResults(Month = "Feb",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Mar",
+                        Year = 2021,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Mar",
+temp <- getResults(Month = "Apr",
                         Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,
@@ -233,15 +235,6 @@ Metrics results.
 	\end{tabular}
 	\caption{First Pass Acceptance Results for \reportMonth \, \reportYear}
 \end{table}
-
-% \begin{description}
-%      \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
-%      \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
-%      \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
-%      \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
-%      \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
-%      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
-% \end{description}
 
 
 \section{Trending Graphs}

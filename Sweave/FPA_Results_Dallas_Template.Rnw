@@ -27,7 +27,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<            update line 271
 %
-\newcommand{\reportMonth}{March}                                           % Update Setup below
+\newcommand{\reportMonth}{April}                                           % Update Setup below
 \newcommand{\reportYear}{2021}
 %
 % <<<<<<<<<< Update for new R version
@@ -50,9 +50,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Mar"                                                                     # update trend builder below
+Month <- "Apr"                                                                     # update trend builder below
 Year <- 2021
-XLabel <-  "Since Sepember 2019"                                                    # update
+XLabel <-  "Since November 2019"                                                    # update
 
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
@@ -74,16 +74,10 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResults(Month = "Oct",
+
+DivPlotData <- getResults(Month = "Nov",
                    Year = 2019,
                    File = DivFile)
-
-
-temp <- getResults(Month = "Nov",
-                   Year = 2019,
-                   File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResults(Month = "Dec",
                    Year = 2019,
@@ -177,9 +171,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "Mar",
+                    Year = 2021,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Mar",
+ temp <- getResults(Month = "Apr",
                     Year = 2021,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,
@@ -230,14 +230,6 @@ Metrics results.
 	\caption{First Pass Acceptance Results for \reportMonth \, \reportYear}
 \end{table}
 
-% \begin{description}
-%      \item[Projects Started]\Sexpr{DivFPA$Projects_Started}
-%      \item[Projects Completed]\Sexpr{DivFPA$Projects_Completed}
-%      \item[Items Reviewed]\Sexpr{DivFPA$Reviews_Completed}
-%      \item[Items Rejected]\Sexpr{DivFPA$Items_Rejected}
-%      \item[First Pass Acceptance Rate]\Sexpr{DivFPA$First_Pass_Acceptance} \%
-%      \item[Rejection Rate] \Sexpr{DivFPA$Rejection_Rate} \%
-% \end{description}
 
 \section{Trending Graphs}
 Trend graphs reflect the past 18 months of data.
