@@ -1,0 +1,65 @@
+year,month,Site,deliverable,n
+2021,Apr,Dallas,Test Protocol,30
+2021,Apr,Dallas,System Certification Summary,8
+2021,Apr,Dallas,Data Migration Plan,6
+2021,Apr,Dallas,Software Change Request,6
+2021,Apr,Dallas,CII,5
+2021,Apr,Dallas,Traceability,5
+2021,Apr,Dallas,Test Protocol Results,4
+2021,Apr,Dallas,Software Compliance Assessment,3
+2021,Apr,Dallas,Design Documentation,2
+2021,Apr,Dallas,FRS,2
+2021,Apr,Dallas,IIVP,2
+2021,Apr,Dallas,IIVP results,2
+2021,Apr,Dallas,IPDR Effectiveness Check,2
+2021,Apr,Dallas,Software Change Request ,2
+2021,Apr,LC/Div,Test Protocol Results,255
+2021,Apr,LC/Div,Test Protocol,95
+2021,Apr,LC/Div,FRS,36
+2021,Apr,LC/Div,IPDR Effectiveness Check,20
+2021,Apr,LC/Div,IPDR Proposed Resolution,20
+2021,Apr,LC/Div,Software Change Request,16
+2021,Apr,LC/Div,URS,16
+2021,Apr,LC/Div,ACR Proposed Resolution,12
+2021,Apr,LC/Div,IIVP results,11
+2021,Apr,LC/Div,Traceability,11
+2021,Apr,LC/Div,Software Compliance Assessment,9
+2021,Apr,LC/Div,CII,7
+2021,Apr,LC/Div,Project Plan,7
+2021,Apr,LC/Div,System Certification Summary,7
+2021,Apr,LC/Div,Validation Plan,7
+2021,Apr,LC/Div,ACR Effectiveness Check,4
+2021,Apr,LC/Div,IDP,4
+2021,Apr,LC/Div,ISSD,4
+2021,Apr,LC/Div,test protocol,4
+2021,Apr,LC/Div,Design Documentation,3
+2021,Apr,LC/Div,IIVP,3
+2021,Apr,LC/Div,Move to Production,2
+2021,Apr,LC/Div,Data Migration Plan,1
+2021,Apr,LC/Div,Design Verification,1
+2021,Apr,LC/Div,Maintenance Plan,1
+2021,Apr,LC/Div,Risk Assessment,1
+2021,Apr,Wiesbaden,TPR,38
+2021,Apr,Wiesbaden,TP,15
+2021,Apr,Wiesbaden,DV-UT,8
+2021,Apr,Wiesbaden,IVR,8
+2021,Apr,Wiesbaden,Other,6
+2021,Apr,Wiesbaden,URS,6
+2021,Apr,Wiesbaden,ACR-Pre,6
+2021,Apr,Wiesbaden,IA,6
+2021,Apr,Wiesbaden,SCS/RN,5
+2021,Apr,Wiesbaden,IIVP,4
+2021,Apr,Wiesbaden,CII,3
+2021,Apr,Wiesbaden,URS/FRS,3
+2021,Apr,Wiesbaden,SCR,3
+2021,Apr,Wiesbaden,IPDR-Post,3
+2021,Apr,Wiesbaden,MP,3
+2021,Apr,Wiesbaden,SPVP,3
+2021,Apr,Wiesbaden,SCS,2
+2021,Apr,Wiesbaden,IDP,1
+2021,Apr,Wiesbaden,SCA,1
+2021,Apr,Wiesbaden,ACR-Post,1
+2021,Apr,Wiesbaden,DPP,1
+2021,Apr,Wiesbaden,IPDR-Pre,1
+2021,Apr,Wiesbaden,RN,1
+2021,Apr,Wiesbaden,TM-URS/FRS to TP,1
