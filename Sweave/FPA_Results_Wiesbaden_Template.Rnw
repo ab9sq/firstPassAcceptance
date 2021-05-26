@@ -29,7 +29,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<            update line 254
 %
 
-\newcommand{\reportMonth}{April}                                                       % Update Setup below
+\newcommand{\reportMonth}{May}                                                       % Update Setup below
 \newcommand{\reportYear}{2021}
 
 %
@@ -55,7 +55,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Apr"                                                                        # update trend builder below
+Month <- "May"                                                                        # update trend builder below
 Year <- 2021
 XLabel <- "Since Jan 2020"                                                            # status until july 2021 (?)
 
@@ -168,9 +168,15 @@ temp <- getResults(Month = "Mar",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Apr",
+                        Year = 2021,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Apr",
+temp <- getResults(Month = "May",
                         Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

@@ -27,7 +27,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<            update line 271
 %
-\newcommand{\reportMonth}{April}                                           % Update Setup below
+\newcommand{\reportMonth}{May}                                           % Update Setup below
 \newcommand{\reportYear}{2021}
 %
 % <<<<<<<<<< Update for new R version
@@ -50,9 +50,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Apr"                                                                     # update trend builder below
+Month <- "May"                                                                     # update trend builder below
 Year <- 2021
-XLabel <-  "Since November 2019"                                                    # update
+XLabel <-  "Since December 2019"                                                    # update
 
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
@@ -75,15 +75,10 @@ DivFPA <- getResults(Month = Month,
 
 
 
-DivPlotData <- getResults(Month = "Nov",
+DivPlotData <- getResults(Month = "Dec",
                    Year = 2019,
                    File = DivFile)
 
-temp <- getResults(Month = "Dec",
-                   Year = 2019,
-                   File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
  temp <- getResults(Month = "Jan",
                     Year = 2020,
@@ -177,9 +172,15 @@ DivPlotData <- rbind(DivPlotData,
  DivPlotData <- rbind(DivPlotData,
                   temp)
 
+  temp <- getResults(Month = "Apr",
+                    Year = 2021,
+                    File = DivFile)
+ DivPlotData <- rbind(DivPlotData,
+                  temp)
+
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Apr",
+ temp <- getResults(Month = "May",
                     Year = 2021,
                     File = DivFile)
  DivPlotData <- rbind(DivPlotData,
