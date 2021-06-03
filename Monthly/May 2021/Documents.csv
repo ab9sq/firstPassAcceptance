@@ -1,0 +1,74 @@
+year,month,Site,deliverable,n
+2021,May,Dallas,Test Protocol,81
+2021,May,Dallas,Software Change Request,8
+2021,May,Dallas,IPDR Proposed Resolution,6
+2021,May,Dallas,CII,4
+2021,May,Dallas,Data Migration Plan,2
+2021,May,Dallas,IIVP results,2
+2021,May,Dallas,IPDR Effectiveness Check,2
+2021,May,Dallas,Risk Assessment,2
+2021,May,Dallas,Software Compliance Assessment,2
+2021,May,Dallas,URS,2
+2021,May,Dallas,URS/FRS,2
+2021,May,Dallas,Design Documentation,1
+2021,May,Dallas,FRS,1
+2021,May,Dallas,System Certification Summary,1
+2021,May,Dallas,Test Protocol Results,1
+2021,May,Dallas,Traceability,1
+2021,May,Dallas,Software Change Request ,1
+2021,May,LC/Div,Test Protocol,82
+2021,May,LC/Div,Test Protocol Results,80
+2021,May,LC/Div,ACR Proposed Resolution,26
+2021,May,LC/Div,Software Change Request,26
+2021,May,LC/Div,URS,18
+2021,May,LC/Div,CII,15
+2021,May,LC/Div,IIVP results,15
+2021,May,LC/Div,ACR Effectiveness Check,11
+2021,May,LC/Div,FRS,11
+2021,May,LC/Div,IIVP,10
+2021,May,LC/Div,IPDR Proposed Resolution,9
+2021,May,LC/Div,Project Plan,9
+2021,May,LC/Div,Software Compliance Assessment,9
+2021,May,LC/Div,System Certification Summary,9
+2021,May,LC/Div,test protocol,9
+2021,May,LC/Div,IPDR Effectiveness Check,8
+2021,May,LC/Div,IDP,5
+2021,May,LC/Div,Maintenance Plan,4
+2021,May,LC/Div,Traceability,4
+2021,May,LC/Div,ISSD,3
+2021,May,LC/Div,Validation Plan,3
+2021,May,LC/Div,Data Migration Plan,2
+2021,May,LC/Div,Design Verification,2
+2021,May,LC/Div,Move to Production,2
+2021,May,LC/Div,Release notes,2
+2021,May,LC/Div,Data Privacy Plan,1
+2021,May,LC/Div,Design Documentation,1
+2021,May,LC/Div,ERES,1
+2021,May,LC/Div,Other,1
+2021,May,LC/Div,test Protocol,1
+2021,May,LC/Div,User Acceptance Protocol,1
+2021,May,Wiesbaden,TP,19
+2021,May,Wiesbaden,URS,9
+2021,May,Wiesbaden,Other,8
+2021,May,Wiesbaden,ACR-Pre,7
+2021,May,Wiesbaden,MP,7
+2021,May,Wiesbaden,CII,5
+2021,May,Wiesbaden,IDP,5
+2021,May,Wiesbaden,ACR-Post,5
+2021,May,Wiesbaden,IA,5
+2021,May,Wiesbaden,IIVP,3
+2021,May,Wiesbaden,URS/FRS,3
+2021,May,Wiesbaden,SCA,3
+2021,May,Wiesbaden,ESRA,3
+2021,May,Wiesbaden,IVR,3
+2021,May,Wiesbaden,MCP,3
+2021,May,Wiesbaden,SPVP,3
+2021,May,Wiesbaden,TM-URS/FRS to TP,3
+2021,May,Wiesbaden,TPR,3
+2021,May,Wiesbaden,SCR,2
+2021,May,Wiesbaden,DV-UT,2
+2021,May,Wiesbaden,RA,2
+2021,May,Wiesbaden,SCS,2
+2021,May,Wiesbaden,SCS/RN,2
+2021,May,Wiesbaden,RN,1
+2021,May,Wiesbaden,TM-URS to TP,1
