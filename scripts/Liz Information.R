@@ -2,10 +2,8 @@ source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
 
-Month <- "May"
+Month <- "Jun"
 Year <- 2021
- EndOfPeriod <- as.Date("31-Jul-2020",
-                       format = "%d-%b-%Y")
 
 Div <- getFPA(file = "./data/Div First Pass Acceptance.csv")
 Div <- cleanFPA(Div)
@@ -26,56 +24,51 @@ hold <- rbind(Div,
               Dallas,
               Wiesbaden)
 
-Work <- hold %>%
-     group_by(year, month, sqa) %>%
-     count()
-
 Effort <- hold %>%
         group_by(year, month, sqa) %>%
         count() %>%
         arrange(desc(n)) %>%
         filter((year == Year & month == Month))
-Effort
+
+#Effort
 
 Work$date <- as.Date(paste("1",
                            Work$month,
                            Work$year,
                            sep = "-"),
                      format = "%d-%b-%Y")
-Work <- Work %>%
-        filter(date <= EndOfPeriod)
-
-holdplot <- ggplot(data = Work, aes(x= date, y=n))
-
-
-holdplot+geom_line(aes(group = sqa, color = sqa))
 
 Docs <- hold %>%
         group_by(year, month, Site, deliverable) %>%
         count() %>%
         arrange(Site, desc(n)) %>%
         filter((year == Year & month == Month))
-Docs
+
+#Docs
 
 sites <- hold %>%
         group_by(year, month, Site) %>%
         count() %>%
         arrange(desc(n)) %>%
         filter((year == Year & month == Month))
-sites
+
+#sites
+
 deliver <- hold %>%
         group_by(year, month, deliverable) %>%
         count() %>%
         arrange(desc(n)) %>%
         filter((year == Year & month == Month))
-deliver
+
+#deliver
 
 status <- hold %>%
         group_by(year, month, status) %>%
         count() %>%
         arrange(desc(n)) %>%
         filter((year == Year & month == Month))
-status
+
+#status
 
 Path <- paste("./Monthly/",
               Month,
@@ -83,21 +76,17 @@ Path <- paste("./Monthly/",
               Year,
               "/",
               sep = "")
+
 dir.create(Path)
+
 write_csv(Effort, file = paste0(Path,
                                "Individuals.csv"))
+
 write_csv(Docs, file = paste0(Path,
                              "Documents.csv"))
+
 write_csv(sites, file = paste0(Path,
                                "sites.csv"))
+
 write_csv(deliver, file = paste0(Path,
                                  "deliverable.csv"))
-
-
-# Effort <- hold %>%
-#         group_by(year, month, sqa) %>%
-#         count() %>%
-#         arrange(n) %>%
-#         filter((year == Year & month == Month))
-
-
