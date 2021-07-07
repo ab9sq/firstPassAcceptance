@@ -55,7 +55,7 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "June"                                                                 # update trend builder below
+Month <- "Jun"                                                                 # update trend builder below
 Year <- 2021
 XLabel <- "Since January 2020"                                                  # Update
 

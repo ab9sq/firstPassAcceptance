@@ -1,0 +1,68 @@
+year,month,Site,deliverable,n
+2021,Jun,Dallas,Test Protocol Results,36
+2021,Jun,Dallas,Test Protocol,24
+2021,Jun,Dallas,Software Change Request,14
+2021,Jun,Dallas,CII,7
+2021,Jun,Dallas,IPDR Effectiveness Check,6
+2021,Jun,Dallas,IPDR Proposed Resolution,5
+2021,Jun,Dallas,Other,5
+2021,Jun,Dallas,IIVP,4
+2021,Jun,Dallas,System Certification Summary,4
+2021,Jun,Dallas,Traceability,4
+2021,Jun,Dallas,ACR Proposed Resolution,3
+2021,Jun,Dallas,IIVP results,3
+2021,Jun,Dallas,Data Migration Plan,2
+2021,Jun,Dallas,FRS,2
+2021,Jun,Dallas,ACR Effectiveness Check,1
+2021,Jun,Dallas,Design Documentation,1
+2021,Jun,Dallas,URS,1
+2021,Jun,LC/Div,Test Protocol Results,107
+2021,Jun,LC/Div,Test Protocol,55
+2021,Jun,LC/Div,ACR Proposed Resolution,45
+2021,Jun,LC/Div,FRS,41
+2021,Jun,LC/Div,test protocol,41
+2021,Jun,LC/Div,URS,28
+2021,Jun,LC/Div,IPDR Proposed Resolution,27
+2021,Jun,LC/Div,Software Change Request,24
+2021,Jun,LC/Div,System Certification Summary,22
+2021,Jun,LC/Div,Traceability,20
+2021,Jun,LC/Div,IIVP results,15
+2021,Jun,LC/Div,test Protocol,8
+2021,Jun,LC/Div,ACR Effectiveness Check,6
+2021,Jun,LC/Div,CII,6
+2021,Jun,LC/Div,IPDR Effectiveness Check,6
+2021,Jun,LC/Div,Project Plan,6
+2021,Jun,LC/Div,Design Documentation,5
+2021,Jun,LC/Div,IDP,4
+2021,Jun,LC/Div,Maintenance Plan,4
+2021,Jun,LC/Div,IIVP,3
+2021,Jun,LC/Div,ISSD,3
+2021,Jun,LC/Div,Software Compliance Assessment,3
+2021,Jun,LC/Div,Data Migration Plan,1
+2021,Jun,LC/Div,IIVP Results,1
+2021,Jun,LC/Div,Release Notes,1
+2021,Jun,LC/Div,User Acceptance Protocol results,1
+2021,Jun,LC/Div,Validation Plan,1
+2021,Jun,Wiesbaden,URS/FRS,38
+2021,Jun,Wiesbaden,TP,34
+2021,Jun,Wiesbaden,TPR,24
+2021,Jun,Wiesbaden,IA,16
+2021,Jun,Wiesbaden,IVR,15
+2021,Jun,Wiesbaden,SCR,12
+2021,Jun,Wiesbaden,URS,8
+2021,Jun,Wiesbaden,IDP,7
+2021,Jun,Wiesbaden,SCS,7
+2021,Jun,Wiesbaden,IIVP,6
+2021,Jun,Wiesbaden,TM-URS/FRS to TP,6
+2021,Jun,Wiesbaden,CII,5
+2021,Jun,Wiesbaden,SCS/RN,5
+2021,Jun,Wiesbaden,SPVP,5
+2021,Jun,Wiesbaden,DV-UT,4
+2021,Jun,Wiesbaden,MCP,4
+2021,Jun,Wiesbaden,RN,4
+2021,Jun,Wiesbaden,SCA,3
+2021,Jun,Wiesbaden,ACR-Post,3
+2021,Jun,Wiesbaden,ACR-Pre,3
+2021,Jun,Wiesbaden,MP,3
+2021,Jun,Wiesbaden,TM-URS to TP,2
+2021,Jun,Wiesbaden,RA,1
