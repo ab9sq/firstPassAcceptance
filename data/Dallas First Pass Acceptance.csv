@@ -4018,3 +4018,125 @@ Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,58,A,12-May-
 Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,IPDR Proposed Resolution,1,62,A,12-May-2021,,
 Arun,AQC_VERA_Dallas_Mfg_Ops,PC Reveal,Software Compliance Assessment,1,39,D,12-May-2021,Multiple Errors,VERA
 Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Compliance Assessment,1,76,D,12-May-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Software Change Request,1,1031,A,14-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Traceability,1,460,A,14-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,ACR Proposed Resolution,1,63,A,3-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Software Change Request,1,1033,A,14-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Software Change Request,1,1034,A,11-Jun-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Change Request,2,80,D,15-Jun-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Change Request,2,80,D,15-Jun-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Software Change Request,1,1031,A,14-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,ACR Proposed Resolution,1,68,A,17-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Test Protocol,1,1220,A,16-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,ACR Proposed Resolution,1,65,A,16-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Effectiveness Check,1,47,A,17-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,ACR Effectiveness Check,1,67,A,17-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Traceability,1,692,A,21-Jun-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Change Request,1,80,A,21-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,IPDR Effectiveness Check,1,57,A,21-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,System Certification Summary,1,1041,A,24-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,1,588,A,1-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,"280, 281, 282, 285, ",A,2-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,"286, 275, 276, 277 ",A,2-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,"338, 339, 340, 341, 342, 343",A,8-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,80,D,10-Jun-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,80,A,29-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,IPDR Proposed Resolution,1,20,D,23-Jun-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,IPDR Proposed Resolution,1,20,A,25-Jun-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,596,D,29-Jun-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,596,A,29-Jun-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Data Migration Plan,2,1943,D,28-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Data Migration Plan,2,1943,A,28-Jun-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,CII,2,1942,A-FP,24-Jun-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol,2,1045,A-FP,24-Jun-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol,2,1046,A-FP,24-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,CII,1,1942,A,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,FRS,2,788,A-FP,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,IIVP,1,109,D,2-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,QC Report 1.1,IIVP,1,109,A,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,IIVP results,1,RUN ID 103,A-FP,3-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol,1,106,A-FP,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol,1,107,A-FP,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol,1,108,A-FP,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol Results,1,RUN ID 105,A-FP,7-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol Results,1,RUN ID 106,A-FP,7-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Test Protocol Results,1,RUN ID 107,A-FP,7-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,CII,1,1717,D,2-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,QC Report 1.1,CII,1,1717,A,2-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,Traceability,1,1718,D,10-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,QC Report 1.1,Traceability,1,1718,A,10-Jun-2021,,
+Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,D,11-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,D,12-Jun-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,A,14-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Proposed Resolution,1,36,A-FP,16-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,36,A-FP,26-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,145,A-FP,1-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,203,A-FP,2-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,23,D,10-Jun-2021,Multiple Errors,Email
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,23,A,10-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Effectiveness Check,1,23,A-FP,14-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1054,D,2-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1054,A,3-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 145,D,2-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 145,A,17-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 138,D,2-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 138,A,3-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 146,D,2-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 146,A,3-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1053,D,3-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1053,A,3-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1035,D,3-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1035,A,16-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 150,D,18-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 150,A,18-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1035,D,4-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 1035,A,16-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,CII,9,Req ID 162,D,3-Jun-2021,Other,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,CII,9,Req ID 162,A,4-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP,1,Test ID 1052,D,4-Jun-2021,Multiple Errors,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP,1,Test ID 1052,A,4-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP results,1,Run ID 946,D,4-Jun-2021,Incorrect Objective Evidence,Email 
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP results,1,Run ID 946,A,22-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 1946,D,7-Jun-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 1946,D,16-Jun-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 1946,A,30-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 991,D,28-Jun-2021,Other,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 991,A,29-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1000,D,28-Jun-2021,Other,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1000,A,30-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1009,D,28-Jun-2021,Other,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 969,D,23-Jun-2021,Other,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1004,D,29-Jun-2021,Other,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1004,A,30-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1010,D,29-Jun-2021,Other,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 958,A-FP,23-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 960,A-FP,23-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 961,A-FP,23-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 962,D,23-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 963,A-FP,23-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 964,D,23-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID  970,D,23-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 965,D,23-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 966,D,23-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 967,A-FP,29-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 982,A-FP,30-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 981,A-FP,25-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run Id 985,D,25-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 985,A,28-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 986,D,25-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 986,A,29-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 987,D,28-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 988,D,28-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1002,D,29-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1008,D,29-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1008,A,30-Jun-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1011,D,30-Jun-2021,Inaccurate information,Email / VERA
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,URS,2,Req ID 5,A-FP,21-Jun-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,FRS,1,ReqID 2815,A-FP,22-Jun-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol Results,1,Run ID 158,A,29-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Design Documentation,1,ReqID 2816,A-FP,30-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1565,A-FP,28-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1563,A-FP,28-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,ReqID 2516,A-FP,28-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1566,A-FP,28-Jun-2021,,
+Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1567,A-FP,28-Jun-2021,,
