@@ -2,7 +2,7 @@ source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
 
-Month <- "Jun"
+Month <- "Jul"
 Year <- 2021
 
 Div <- getFPA(file = "./data/Div First Pass Acceptance.csv")
@@ -32,11 +32,11 @@ Effort <- hold %>%
 
 #Effort
 
-Work$date <- as.Date(paste("1",
-                           Work$month,
-                           Work$year,
-                           sep = "-"),
-                     format = "%d-%b-%Y")
+# Work$date <- as.Date(paste("1",
+#                            Work$month,
+#                            Work$year,
+#                            sep = "-"),
+#                      format = "%d-%b-%Y")
 
 Docs <- hold %>%
         group_by(year, month, Site, deliverable) %>%
