@@ -75,8 +75,8 @@ When ``trending'' is implented graphs of the trends will also be added.
 
 <<data, echo=FALSE>>=
 source("../scripts/FirstPassAcceptance.R")
-FPA <- get.FPA(file = "../data/First Pass Acceptance.csv")
-FPA <- clean.FPA(FPA = FPA)
+FPA <- getFPA(file = "../data/Div First Pass Acceptance.csv")
+FPA <- cleanFPA(FPA = FPA)
 FPA <- process(FPA = FPA, Month = "Jan")
 @
 
