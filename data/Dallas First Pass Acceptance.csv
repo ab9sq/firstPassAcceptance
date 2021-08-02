@@ -612,8 +612,8 @@ Arun,DA-S01204.000,HL7 Simulator for ARCHITECT,CII,1,VDD-01,A,13-Nov-2019,,NPV
 Arun,DA-S01519.000,CMIA Reader Tester Software ,IIVP,1,Install-01,A,13-Nov-2019,,NPV
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,User Requirements Specification (URS),3, URS-01,A,13-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Functional Requirements Specification (FRS) ,5, SRS-01,D,13-Nov-2019,Multiple Errors,Email
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data,5, Protocol-02,D,13-Nov-2019,Multiple Errors,Email
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data,5, Protocol-02,A,13-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data,5, Protocol-02,D,13-Nov-2019,Multiple Errors,Email
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data,5, Protocol-02,A,13-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol ,8, Install-01,D,13-Nov-2019,Multiple Errors,Email
 Carole,DA-S00922.001,ADMS Purchasing,IIVP results,1,Install-02,A-FP,13-Nov-2019,N/A,
 Carole,DA-S01510.001,Camstar,Software Change Request,1,SCR-03,A,13-Nov-2019,N/A,
@@ -621,11 +621,11 @@ Carole,DA-S01510.001,Camstar,Test Protocol,1,INT_OQ_MatIssue - 01,D,13-Nov-2019,
 Arun,DA-S01204.000,HL7 Simulator for ARCHITECT,IIVP,4,Install-01 Results,A,14-Nov-2019,,NPV
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,BSQDeviceSim Test Protocol Data ,10,Other-02,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,LAS Interface Spec,2,Other-06,A-FP,14-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – LAS,2, Protocol-12,A-FP,14-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? LAS,2, Protocol-12,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  DistanceAlert,1, Protocol-13,A-FP,14-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  Command Line Interface (CLI),1, Protocol-14,A-FP,14-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix – URS to FRS to Protocol ,8, TMatrixUSPro-01,D,14-Nov-2019,Multiple Errors,Email
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix – URS to FRS to Protocol ,8, TMatrixUSPro-01,A,14-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix ? URS to FRS to Protocol ,8, TMatrixUSPro-01,D,14-Nov-2019,Multiple Errors,Email
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Traceability Matrix ? URS to FRS to Protocol ,8, TMatrixUSPro-01,A,14-Nov-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Software Verification & Validation Plan, - Vers 02, - SVVP-01,A-FP,14-Nov-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Software Requirements Specification, - Vers 02, - SRS-01,A-FP,14-Nov-2019,,
 Carole,DA-S00922.001,ADMS Purchasing,Software Change Request,1,SCR-40 Results,D,14-Nov-2019,Multiple Errors,Email
@@ -635,7 +635,7 @@ Carole,DA-S01510.001,Camstar,IIVP results,1,Install-02,A-FP,14-Nov-2019,N/A,
 Carole,DA-S01510.001,Camstar,Test Protocol,1,INT_OQ_MatIssue - 01,D,14-Nov-2019,Multiple Errors,Email
 Arun,DA-S01194.001,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Protocol-15 Result ,A,15-Nov-2019,,NPV
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,User Documentation (UDoc),3, UDoc-01,A,15-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Routine and Priority Bays,4, Protocol-03,A-FP,15-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Routine and Priority Bays,4, Protocol-03,A-FP,15-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol ,8, Install-01,A,15-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Installation Instructions and Verification Protocol - Results ,8, Install-01 (Results),A-FP,15-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Configuration Item Inventory (CII) ,10, VDD-01,D,15-Nov-2019,Multiple Errors,NPV
@@ -656,15 +656,15 @@ Arun,DA-S01204.000,HL7 Simulator for ARCHITECT,Test Protocol,3,Protocol-04,A,19-
 Arun,DA-S01519.000,CMIA Reader Tester Software ,Test Protocol,2,Protocol-01,D,19-Nov-2019,Inaccurate information,NPV
 Arun,DA-S01519.000,CMIA Reader Tester Software ,Test Protocol,2,Protocol-01,A,19-Nov-2019,,NPV
 Arun,DA-S01519.000,CMIA Reader Tester Software ,IIVP results,1,Install-01,A,19-Nov-2019,,NPV
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Optics Read Data – Results ,5, Protocol-02 (Results),A-FP,19-Nov-2019,,
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – Routine and Priority Bays,4, Protocol-03 (Result),A-FP,19-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Optics Read Data ? Results ,5, Protocol-02 (Results),A-FP,19-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? Routine and Priority Bays,4, Protocol-03 (Result),A-FP,19-Nov-2019,,
 Carole,DA-S01510.001,Camstar,Software Change Request,1,SCR-03 - Results,A-FP,19-Nov-2019,N/A,
 Carole,DA-S01510.001,Camstar,Software Change Request,1,SCR-04,D,19-Nov-2019,Multiple Errors,Email
 Carole,DA-S01510.001,Camstar,FRS,8,SRS-01,D,19-Nov-2019,Inaccurate information,Email
 Arun,DA-S01519.000,CMIA Reader Tester Software ,Maintenance Plan,1,MaintPlan-01,D,20-Nov-2019,Inaccurate information,email
 Arun,DA-S00774.010,HP Quality Center Version 11.0 Validation,Maintenance Plan,1,MaintPlan-01,D,20-Nov-2019,Inaccurate information,NPV
 Arun,DA-S00774.010,HP Quality Center Version 11.0 Validation,Maintenance Plan,1,MaintPlan-01,A,20-Nov-2019,,NPV
-Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol – LAS,2, Protocol-12 (Result),A-FP,20-Nov-2019,,
+Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol ? LAS,2, Protocol-12 (Result),A-FP,20-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  DistanceAlert - Results,1, Protocol-13 (Results),A-FP,20-Nov-2019,,
 Lan,DA-S 01259.001 ,BSQ Device Simulator v2.2.2,Test Protocol -  Command Line Interface (CLI) - Results,1, Protocol-14 (Results),A-FP,20-Nov-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0, - Version Description Document, - Vers 02, - VDD-01,A-FP,20-Nov-2019,,
@@ -795,10 +795,10 @@ Lan,DA-S 01475.001,LOG-ICAL 2.0,Test Protocol Results,1,Protocol24 Result (Passe
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Test Protocol Results,2,Protocol24 Result (Passed - Re-execution of failed steps passed),A,4-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Protocol25 Result (Passed),1,Protocol25 Result (Passed),A-FP,4-Dec-2019,,
 Lan,DA-S 01475.001,LOG-ICAL 2.0,Software Design Description,1,SDD-01,A-FP,4-Dec-2019,,
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,1,TMatrixUSPro01 – FRS to Protocol,D,4-Dec-2019,Multiple Errors,NPV
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,2,TMatrixUSPro01 – FRS to Protocol,A,4-Dec-2019,,
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,1,TMatrixUSReqs01 – URS to FRS,D,4-Dec-2019,Multiple Errors,NPV
-Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,2,TMatrixUSReqs01 – URS to FRS,A,4-Dec-2019,,
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,1,TMatrixUSPro01 ? FRS to Protocol,D,4-Dec-2019,Multiple Errors,NPV
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix FRS to Protocol,2,TMatrixUSPro01 ? FRS to Protocol,A,4-Dec-2019,,
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,1,TMatrixUSReqs01 ? URS to FRS,D,4-Dec-2019,Multiple Errors,NPV
+Lan,DA-S 01475.001,LOG-ICAL 2.0,Trace Matrix URS to FRS,2,TMatrixUSReqs01 ? URS to FRS,A,4-Dec-2019,,
 Lan,DA-S 01520.000,LOG-ICAL 2.0,Installation Instructions & Verification Protocol ,1,Install-01,A-FP,4-Dec-2019,,
 Lan,DA-S 00622 . 008,GPPM v5.5.5,MTP,1,MtP64-03,D,4-Dec-2019,,
 Lan,DA-S 00622 . 008,GPPM v5.5.5,MTP,1,MtP64-03,A,4-Dec-2019,,
@@ -1720,7 +1720,7 @@ Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,52,A,6-May-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,53,A,6-May-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,54,A,6-May-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template,Software Compliance Assessment,1,3,A,6-May-2020,,
-Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 01  ,1,"Test ID: 26, 27, 28, 29",A-FP,6-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 01 ÿ,1,"Test ID: 26, 27, 28, 29",A-FP,6-May-2020,,
 Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Test Protocol 02,1,"Test ID: 15, 16, 17, 18, 19, 20, 21, 22, 24, 25",A-FP,6-May-2020,,
 Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Identification of Supporting System Documentation (ISSD) ,1, Req ID 817,D,6-May-2020,Multiple Errors,Email
 Lan,VERA/Dallas_R_D_Tools/ICQ HL7 Sim,ICQ HL7 Sim v1.2.0,Identification of Supporting System Documentation (ISSD) ,1, Req ID 817,A,6-May-2020,,
@@ -1900,8 +1900,8 @@ Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D
 Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 355",A-FP,22-May-2020,,
 Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 359",A-FP,22-May-2020,,
 Ken,Ixiasoft DITA CMS,Ixiasoft DITA Content Management System,IIVP,1,"Dallas_R_D_Tools, Test Plan: 370",A-FP,22-May-2020,,
-Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS)  ,1,20,D,26-May-2020,Multiple Errors,Email
-Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS)  ,1,20,A,26-May-2020,,
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS) ÿ,1,20,D,26-May-2020,Multiple Errors,Email
+Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,User Requirements Specification (URS) ÿ,1,20,A,26-May-2020,,
 Carole,VERA_DALLAS_SBM,SBM Design Plan,Software Compliance Assessment,1,SCA-1,A-FP,27-May-2020,N/A,
 Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Identification of Supporting System Documentation (ISSD) ,1,486,D,27-May-2020,Multiple Errors,Email
 Lan,VERA/Dallas GSS/LOG-IC 5.0,LOG-IC 5.0,Identification of Supporting System Documentation (ISSD) ,1,486,A,27-May-2020,,
@@ -2142,7 +2142,7 @@ Carole,VERA_DALLAS_SBM,SBM Design Plan,Traceability,1,TraceMatrix-1,D,24-Jun-202
 Carole,VERA_DALLAS_SBM,SBM Design Plan,Traceability,1,TraceMatrix-1,A,24-Jun-2020,N/A,VERA
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core),Maintenance Plan,1,Maintenance-1,A,24-Jun-2020,N/A,VERA
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,494,A,24-Jun-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Software Compliance Assessment,1,ReqID 29,A-FP,24-Jun-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Software Compliance Assessment,1,ReqID 29,A-FP,24-Jun-2020,,
 Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,FRS,1,FRS-1,D,25-Jun-2020,Multiple Errors,Email
 Arun,AQC_VERA_Dallas_Mfg_Ops,Botron ESD Flipgate ,Software Change Request,1,36,D,25-Jun-2020,Inaccurate information,NPV
 Arun,AQC_VERA_Dallas_Camstar,Camstar,URS/FRS,1,"247, 496, 495, 270, 497, 495",A,25-Jun-2020,,
@@ -2167,7 +2167,7 @@ Lan,VERA/Dallas_R_D_Tools/BSQ DevSim,BSQ Device Simulator - 2.2.3,Test Protocol,
 Ken,VERA.Dallas_Spreadsheet/IFATEST,Immunoassay Factory Test Template,Software Change Request,1,ReqID 10,A-FP,29-Jun-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Test Protocol Results,1,"29, 30, 31, 32, 33, 34",A,30-Jun-2020,,
 Lan,VERA/Dallas GSS/QC Report ,QC Report ,Software Compliance Assessment,1,753,A-FP,30-Jun-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Software Change Request,1,ReqID 72,A-FP,30-Jun-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Software Change Request,1,ReqID 72,A-FP,30-Jun-2020,,
 Lan,DA-S 00536 . 004,Reliability DB,Test Protocol,2,Protocol58,D,6-Jul-2020,Inaccurate information,email
 Lan,VERA/Dallas_GSS,QC Report 1.0,Software Change Request,1,799,D,7-Jul-2020,Inaccurate information,email
 Lan,VERA/Dallas_GSS,QC Report 1.0,Software Change Request,1,799,A,7-Jul-2020,,
@@ -2205,7 +2205,7 @@ Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Software Change Request,1,ReqID 1024,D,14-Jul-2020,Multiple Errors,Email
 Lan,VERA/Dallas_GSS,QC Report 1.0,Project Plan,1,759,D,15-Jul-2020,Inaccurate information,email
 Lan,VERA/Dallas_GSS,QC Report 1.0,Project Plan,1,759,A,15-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Software Change Request,1,ReqID-72,D,15-Jul-2020,Inaccurate information,email
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Software Change Request,1,ReqID-72,D,15-Jul-2020,Inaccurate information,email
 Lan,VERA/Dallas_R_D_Tools/BSQ DevSim,BSQ Device Simulator - 2.2.3,System Certification Summary,1,1029,D,16-Jul-2020,Inaccurate information,email
 Lan,VERA/Dallas_R_D_Tools/BSQ DevSim,BSQ Device Simulator - 2.2.3,System Certification Summary,1,1029,A,16-Jul-2020,,
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Software Change Request,1,ReqID 1024,D,17-Jul-2020,Multiple Errors,Email
@@ -2260,11 +2260,11 @@ Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,TP3.05 - TC8,D,30-Jul-2
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,TP3.07 - TC2,D,30-Jul-2020,Inaccurate information,Email
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,TP3.07 - TC3,D,30-Jul-2020,Inaccurate information,Email
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,TP3.07 - TC4,D,30-Jul-2020,Inaccurate information,Email
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Software Change Request,1,ReqID-72,A,30-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,URS,1,ReqID-32,A,30-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Other,1,ReqID-78,A,30-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,CII,1,ReqID-71,A,30-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Project Plan,1,ReqID-33,A,30-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Software Change Request,1,ReqID-72,A,30-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,URS,1,ReqID-32,A,30-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Other,1,ReqID-78,A,30-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,CII,1,ReqID-71,A,30-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Project Plan,1,ReqID-33,A,30-Jul-2020,,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,URS,1,1491,D,31-Jul-2020,Inaccurate information,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,ERES,1,1492,D,31-Jul-2020,Inaccurate information,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,Software Change Request,1,1496,D,31-Jul-2020,Inaccurate information,
@@ -2273,18 +2273,18 @@ Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR,1,6,A,31-Jul-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global,ISSD,3,470,A,31-Jul-2020,,
 Carole,VERA_DALLAS_SBM,SBM Design Plan,Test Protocol,2,TestID 20,A-FP,31-Jul-2020,,
 Carole,VERA_DALLAS_SBM,SBM Design Plan,Test Protocol,2,TestID 26,A-FP,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-20,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-13,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-14,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-9,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-12,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-11,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-8,A,31-Jul-2020,,
-Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,TestID-10,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-20,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-13,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-14,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-9,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-12,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-11,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-8,A,31-Jul-2020,,
+Ken,VERA.Dallas_Spreadsheet/GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,TestID-10,A,31-Jul-2020,,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,URS,1,Req ID 1491,A,3-Aug-2020,Inaccurate information,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,501,A,3-Aug-2020,,
 Arun,AQC_VERA_Dallas_Mfg_Ops,Boltron ESD Flipgate ,ISSD,1,7,A,3-Aug-2020,,
-Ken,VERA/Dallas_Spreadsheet/ GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,3-Aug-2020,Inaccurate information,
+Ken,VERA/Dallas_Spreadsheet/ GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,3-Aug-2020,Inaccurate information,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,Test Protocol Results,1,Req ID 1486,A,4-Aug-2020,Inaccurate information,email
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,ERES,1,Req ID 1492,A,4-Aug-2020,Inaccurate information,
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,TP3.11 - TC1,D,4-Aug-2020,,Email
@@ -2397,7 +2397,7 @@ Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,Traceability,1,Req ID 1500,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,Traceability,1,Req ID 1500,A,21-Aug-2020,,
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,System Certification Summary,1,Req ID 4730,D,21-Aug-2020,Inaccurate information,email
 Lan,VERA/DIV_LC_R_D/Assay File DB,Assay File DB v1.2,System Certification Summary,1,Req ID 4730,A,21-Aug-2020,,
-Lan,VERA/Dallas_GSS,QC Report 1.0,User Configuration Guide – Other-01 VERA Req ID 814,1,Req ID 814,A-FP,21-Aug-2020,,
+Lan,VERA/Dallas_GSS,QC Report 1.0,User Configuration Guide ? Other-01 VERA Req ID 814,1,Req ID 814,A-FP,21-Aug-2020,,
 Lan,VERA/Dallas_GSS,QC Report 1.0,ISSD,2,Req ID 810,D,21-Aug-2020,Inaccurate information,email
 Lan,VERA/Dallas_GSS,QC Report 1.0,ISSD,1,Req ID 810,A,21-Aug-2020,,
 Lan,VERA/Dallas_R_D Tools,ACE,Software Change Request,1,Req ID 1157,D,21-Aug-2020,Multiple Errors,Email
@@ -2440,7 +2440,7 @@ Carole,VERA_DALLAS_SBM,SBM Design Plan,Test Protocol Results,1,Run ID 11,D,28-Au
 Carole,VERA_DALLAS_SBM,SBM Design Plan,Test Protocol Results,1,Run ID 12,A-FP,28-Aug-2020,N/A,
 Arun,AQC_VERA_Dallas_R_D_Tools,Architect Strings Data Management System (ASDMS,Validation Plan,1,1159,A,28-Aug-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,ACR,1,10,D,28-Aug-2020,Inaccurate information,VERA
-Ken,VERA/Dallas_Spreadsheet/ GMEST,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,A,28-Aug-2020,,
+Ken,VERA/Dallas_Spreadsheet/ GMEST,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,A,28-Aug-2020,,
 Arun,AQC_VERA_Dallas_R_D_Tools,Architect Strings Data Management System (ASDMS,ERES,1,1161,A,30-Aug-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,Traceability,1,464,D,30-Aug-2020,Inaccurate information,VERA
 Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,Test Protocol Results,1,47,A,30-Aug-2020,,
@@ -2481,7 +2481,7 @@ Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 603,D,8-Sep-202
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 607,D,8-Sep-2020,Multiple Errors,Email
 Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,5,519,A,8-Sep-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),URS,1,32,A,8-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Design Document,1,Req ID-92,D,8-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Design Document,1,Req ID-92,D,8-Sep-2020,Inaccurate information,
 Lan,VERA/Dallas_R_D Tools,Log-IC,Software Change Request,2,Req ID 14,A-FP,8-Sep-2020,,
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 603,A,9-Sep-2020,N/A,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,Traceability,3,460,A,9-Sep-2020,,
@@ -2505,36 +2505,36 @@ Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Risk Assessment,1,24,A,10-Sep-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template (IFATEST),Software Change Request,1,10,A,10-Sep-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template (IFATEST),Validation Plan,1,23,A,10-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,D,10-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,A,10-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-10,A,10-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Other,3,Req ID-76,A,10-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Design Verification,1,Req ID-85,A,10-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,D,10-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,A,10-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-10,A,10-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Other,3,Req ID-76,A,10-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Design Verification,1,Req ID-85,A,10-Sep-2020,,
 Carole,VERA_DALLAS_SBM,SBM Meetings Application,URS,1,Req ID 1125,A-FP,11-Sep-2020,N/A,
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1220,A,11-Sep-2020,N/A,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,"176, 177, 178, 179, 180, 182, 183, 185, 184",A,11-Sep-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template (IFATEST),Risk Assessment,1,24,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,A-FP,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-8,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-10,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-12,A-FP,11-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-12,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-13,D,11-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-13,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-14,D,11-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-14,A,11-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,11-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,11-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,URS,1,Req ID-32,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-11,A-FP,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-8,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-10,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-12,A-FP,11-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-12,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-13,D,11-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-13,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-14,D,11-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-14,A,11-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,11-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-20,D,11-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,URS,1,Req ID-32,A,11-Sep-2020,,
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Software Change Request,2,Req ID 811,A-FP,14-Sep-2020,N/A,
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Software Change Request,1,Req ID 616,A,14-Sep-2020,N/A,
 Arun,AQC_VERA_Dallas_Spreadsheets,Immunoassay Factory Test Template (IFATEST),Design Verification,1,90,A,14-Sep-2020,,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Other,1,Req ID-86,A,14-Sep-2020,,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Other,1,Req ID-87,A,14-Sep-2020,,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Design Verification,1,Req ID-90,A,14-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-8,A,14-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,1,Test Plan ID-9,A,14-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Design Document,1,Req ID-92,A,14-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-8,A,14-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,1,Test Plan ID-9,A,14-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Design Document,1,Req ID-92,A,14-Sep-2020,,
 Lan,VERA/Dallas_R_D Tools,ACE,IIVP,1,Req ID 977,D,15-Sep-2020,Multiple Errors,Email
 Lan,VERA/Dallas_R_D Tools,ACE,IIVP,1,Test ID 602,D,15-Sep-2020,Multiple Errors,Email
 Lan,VERA/Dallas_R_D Tools,ACE,IIVP,1,Test ID 615,D,15-Sep-2020,Multiple Errors,Email
@@ -2554,7 +2554,7 @@ Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Other,1,Req ID-89,A,17
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Risk Assessment,1,Req ID-24,D,17-Sep-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Risk Assessment,1,Req ID-24,A,17-Sep-2020,,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Risk Assessment,1,Req ID-24,A,17-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Protocol,2,Test Plan ID-9,A,17-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Protocol,2,Test Plan ID-9,A,17-Sep-2020,,
 Lan,VERA/Dallas_R_D Tools,ACE,IIVP,1,Test ID 616,D,17-Sep-2020,Multiple Errors,Email
 Carole,VERA_DALLAS_SBM,SBM User Account Tracking (UAT) ,URS,1,Req ID 1465,D,18-Sep-2020,Multiple Errors,Email
 Carole,VERA_DALLAS_SBM,SBM User Account Tracking (UAT) ,FRS,1,Req ID 1466,D,18-Sep-2020,Multiple Errors,
@@ -2575,32 +2575,32 @@ Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,URS,1,Req ID 1
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-611,D,23-Sep-2020,Inaccurate information,
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-612,D,23-Sep-2020,Inaccurate information,
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-613,D,23-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,IIVP Results,1,Test Run-21,A,23-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,IIVP Results,1,Test Run-19,D,23-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-19,A,23-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-18,D,23-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,D,23-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-22,A-FP,23-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-16,D,23-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,2,Test Plan ID-11,A,23-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,IIVP Results,1,Test Run-21,A,23-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,IIVP Results,1,Test Run-19,D,23-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-19,A,23-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-18,D,23-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,D,23-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-22,A-FP,23-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-16,D,23-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,2,Test Plan ID-11,A,23-Sep-2020,,
 Carole,VERA_DALLAS_SBM,Software Tool Access Request System (STARS) ,URS,1,Req ID 1217,A,24-Sep-2020,N/A,
 Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,FRS,1,Req ID 177,A,24-Sep-2020,N/A,
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-611,D,24-Sep-2020,Inaccurate information,
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-612,D,24-Sep-2020,Inaccurate information,
 Ken,Dallas R_D Tools,APLM - Core,Test Protocol,1,Test Plan-613,D,24-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-16,A-FP,24-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-15,D,24-Sep-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-15,A,24-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-14,A,24-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-20,A-FP,24-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,3,Test Plan ID-11,A,24-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,2,Test Plan ID-10,A,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-16,A-FP,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-15,D,24-Sep-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-15,A,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-14,A,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-20,A-FP,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,3,Test Plan ID-11,A,24-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,2,Test Plan ID-10,A,24-Sep-2020,,
 Ken,Dallas R_D Tools,APLM - Core,IIVP Results,1,Test Run ID-26,A,25-Sep-2020,,
 Ken,Dallas R_D Tools,APLM - Core,IIVP Results,1,Test Run ID-27,A,25-Sep-2020,,
 Ken,Dallas R_D Tools,APLM - Core,IIVP Results,1,Test Run ID-28,A,25-Sep-2020,,
 Ken,Dallas R_D Tools,APLM - Core,IIVP Results,1,Test Run ID-29,A,25-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,2,Test Plan ID-8,A,25-Sep-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol,4,Test Plan ID-11,A,25-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,2,Test Plan ID-8,A,25-Sep-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol,4,Test Plan ID-11,A,25-Sep-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Test Protocol Results,1,"14, 20, 21, 15, 16, 19",A,27-Sep-2020,,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Test Protocol,1,Test ID-2,D,27-Sep-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,Test Protocol,1,Test ID-4,D,27-Sep-2020,Inaccurate information,
@@ -2631,17 +2631,17 @@ Lan,DA-S 00536 . 004,Reliability DB,IIVP results,1,Install02 v03 IIVP Prod Move 
 Ken,Dallas R_D Tools,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test Plan-611,A,1-Oct-2020,,
 Ken,Dallas R_D Tools,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test Plan-612,A,1-Oct-2020,,
 Ken,Dallas R_D Tools,Abbott Product Lifecycle Management (APLM),Test Protocol,1,Test Plan-613,A,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-25,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-26,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-27,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-28,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-30,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-31,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-32,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-33,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-34,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-35,FP,1-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-36,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-25,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-26,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-27,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-28,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-30,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-31,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-32,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-33,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-34,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-35,FP,1-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-36,FP,1-Oct-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Validation Plan,3,33,A,2-Oct-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Software Change Request,3,72,A,2-Oct-2020,,
 Arun,AQC_VERA_Dallas_R_D_Tools,Architect Strings Data Management System (ASDMS,Data Migration Plan,1,1170,A,3-Oct-2020,,
@@ -2649,16 +2649,16 @@ Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (
 Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Software Change Request,1,903,A,5-Oct-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR,1,20,D,5-Oct-2020,Inaccurate information,VERA
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR,1,19,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-28,D,5-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-35,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-36,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-30,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-31,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-32,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-33,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-34,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-25,A,5-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-27,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-28,D,5-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-35,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-36,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-30,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-31,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-32,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-33,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-34,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-25,A,5-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-27,A,5-Oct-2020,,
 Ken,Dallas R_D Tools,APLM - Core,SCR,1,Req-1156,D,5-Oct-2020,Inaccurate information,
 Ken,Dallas R_D Tools,APLM - Core,CII,3,Req-1156,D,5-Oct-2020,Multiple errors,
 Carole,VERA_DALLAS_SBM,SBM User Account Tracking (UAT) ,Test Protocol,1,Test ID 89,D,5-Oct-2020,Multiple Errors,Email
@@ -2709,14 +2709,14 @@ Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR,1,"24, 23, 22",D,12-Oct-2020,Inaccurate information,VERA
 Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,Software Change Request,1,885,A,12-Oct-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Software Change Request,1,528,A,12-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,System Certification Summary,1,Req ID-80,D,12-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,System Certification Summary,1,Req ID-80,D,12-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Other,1,Req ID-34,FP,12-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Traceability,1,Req ID-82,D,12-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Traceability,1,Req ID-82,A,12-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,System Certification Summary,1,Req ID-80,D,12-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,System Certification Summary,1,Req ID-80,D,12-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Other,1,Req ID-34,FP,12-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Traceability,1,Req ID-82,D,12-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Traceability,1,Req ID-82,A,12-Oct-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Traceability,1,65,A,13-Oct-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IIVP,1,928,A,13-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,System Certification Summary,1,Req ID-80,A,13-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,System Certification Summary,1,Req ID-80,A,13-Oct-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Other,1,201,A,14-Oct-2020,,
 Arun,AQC_VERA_Dallas_Spreadsheets,Generic Microsoft Excel Spreadsheet Template (GMEST),Other,1,202,A,14-Oct-2020,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Global Module,IIVP,1,929,A,14-Oct-2020,,
@@ -2725,14 +2725,14 @@ Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,System Certification Summary,1,913,A,14-O
 Arun,AQC_VERA_Dallas_Camstar,Camstar,URS,1,"529, 530",A,14-Oct-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Risk Assessment,4,421,A,14-Oct-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,2,"446, 264, 531, 534, 533",A,14-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,D,14-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-24,D,14-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,D,14-Oct-2020,Inaccurate information,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-24,D,14-Oct-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,User Requirement,2,Req ID-86,D,14-Oct-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,User Requirement,2,Req ID-87,D,14-Oct-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,User Requirement,2,Req ID-88,D,14-Oct-2020,Inaccurate information,
 Ken,Dallas_Spreadsheets,Immunoassay Factory Test Template,User Requirement,2,Req ID-89,D,14-Oct-2020,Inaccurate information,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,A,14-Oct-2020,,
-Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) – Audit Trail Plug-In,Test Protocol Results,1,Test Run-24,A,14-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-17,A,14-Oct-2020,,
+Ken,Dallas_Spreadsheets,Generic Spreadsheet Template (GMEST) ? Audit Trail Plug-In,Test Protocol Results,1,Test Run-24,A,14-Oct-2020,,
 Lan,VERA/Dallas_R_D Tools,VIPA,Software Change Request,1,Req ID 818,D,15-Oct-2020,Multiple Errors,Email
 Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,1,535,A,16-Oct-2020,,
 Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,"187, 177, 178, 179, 180, 184, 185, 186, 182, 183, 189",A,16-Oct-2020,,
@@ -2966,7 +2966,7 @@ Carole,VERA_DALLAS_SBM,SBM Design Plan,Test Protocol Results,1,Run ID 25,D,17-No
 Carole,VERA_DALLAS_SBM,SBM Product Defect Tracking,Test Protocol Results,1,Run ID 25,A,17-Nov-2020,,
 Arun,AQC_VERA_Dallas_R_D_Tools,Architect Strings Data Management System (ASDMS,URS/FRS,2,"1230, 1331, 1330, 1249, 1229, 1206, 1205, ",A,17-Nov-2020,,
 Arun,AQC_VERA_Dallas_R_D_Tools,Architect Strings Data Management System (ASDMS,Test Protocol,1,"791, 780, 886, 889, 890",A,17-Nov-2020,,
-Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Installation Instructions and Verification Protocol – QA Result ,1,RUN ID 66,A-FP,18-Nov-2020,,
+Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Installation Instructions and Verification Protocol ? QA Result ,1,RUN ID 66,A-FP,18-Nov-2020,,
 Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Test Results,1,Run ID 68,A-FP,18-Nov-2020,,
 Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Test Results,1,Run ID 73,A-FP,18-Nov-2020,,
 Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Test Results,1,Run ID 74,A-FP,18-Nov-2020,,
@@ -3042,7 +3042,7 @@ Carole,VERA_DALLAS_SBM,SBM User Account Tracking (UAT) ,Test Protocol Results,1,
 Carole,VERA_DALLAS_SBM,Software Tool Access Request System (STARS) ,Test Protocol Results,1,Run ID 67,A,20-Nov-2020,,
 Carole,VERA_DALLAS_SBM,Software Tool Access Request System (STARS) ,Test Protocol Results,1,Run ID 72,D,20-Nov-2020,Inaccurate information,
 Carole,VERA_DALLAS_SBM,Software Tool Access Request System (STARS) ,Test Protocol Results,1,Run ID 72,A,20-Nov-2020,,
-Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Installation Instructions and Verification Protocol – Prod Result ,1,RUN ID83,A-FP,23-Nov-2020,,
+Lan,VERA/DIV_LC_CMS,GPPM DB Server Move,Installation Instructions and Verification Protocol ? Prod Result ,1,RUN ID83,A-FP,23-Nov-2020,,
 Lan,VERA/Dallas_GSS,Proactive Operations Monitoring 2.4 MS Azure authentication,Installation Instructions and Verification Protocol ,1,Test ID 47,A-FP,23-Nov-2020,,
 Lan,VERA/Dallas_GSS,Proactive Operations Monitoring 2.4 MS Azure authentication,Installation Instructions and Verification Protocol ,1,Test ID 48,A-FP,23-Nov-2020,,
 Lan,VERA/Dallas_GSS,Proactive Operations Monitoring 2.4 MS Azure authentication,Installation Instructions and Verification Protocol ,1,Test ID 49,A-FP,23-Nov-2020,,
@@ -3643,7 +3643,7 @@ Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Protocol,1,Test ID 1
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Protocol,1,Test ID 1021,A-FP,12-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Protocol,1,Test ID 1022,A-FP,12-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Protocol,3,Test ID 534,A-FP,1-Mar-2021,,
-Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Installation Instructions and Verification Protocol – QA Result ,1,RUN ID 912,A-FP,23-Feb-2021,,
+Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Installation Instructions and Verification Protocol ? QA Result ,1,RUN ID 912,A-FP,23-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 914,A-FP,23-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 915,A-FP,23-Feb-2021,,
 Lan,VERA/Dallas_R_D Tools,BSQ Device Simulator - 2.2.4,Test Results,1,RUN ID 916,A-FP,23-Feb-2021,,
@@ -4068,10 +4068,10 @@ Lan,VERA/Dallas_GSS,QC Report 1.1,Traceability,1,1718,A,10-Jun-2021,,
 Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,D,11-Jun-2021,Multiple Errors,Email
 Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,D,12-Jun-2021,Multiple Errors,Email
 Lan,VERA/Dallas_GSS,QC Report 1.1,System Certification Summary,1,1719,A,14-Jun-2021,,
-Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Proposed Resolution,1,36,A-FP,16-Jun-2021,,
-Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,36,A-FP,26-Jun-2021,,
-Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,145,A-FP,1-Jun-2021,,
-Lan,VERA/DIV_LC_CMS,GPPPM,IPDR Effectiveness Check,1,203,A-FP,2-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPM,IPDR Proposed Resolution,1,36,A-FP,16-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPM,IPDR Effectiveness Check,1,36,A-FP,26-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPM,IPDR Effectiveness Check,1,145,A-FP,1-Jun-2021,,
+Lan,VERA/DIV_LC_CMS,GPPM,IPDR Effectiveness Check,1,203,A-FP,2-Jun-2021,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,23,D,10-Jun-2021,Multiple Errors,Email
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,23,A,10-Jun-2021,,
 Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Effectiveness Check,1,23,A-FP,14-Jun-2021,,
@@ -4140,3 +4140,104 @@ Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application U
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,ReqID 2516,A-FP,28-Jun-2021,,
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1566,A-FP,28-Jun-2021,,
 Carole,VERA_DALLAS_SBM,Serena Business Manager (SBM) - Base (Core) Application Upgrade,Other,1,Req ID 1567,A-FP,28-Jun-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,IPDR Proposed Resolution,1,64,A,6-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Test Protocol,1,1223,A,7-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,System Certification Summary,1,1042,A,7-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,URS,1,1037,A,7-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,ACR Proposed Resolution,1,72,A,14-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Software Change Request,1,1045,A,16-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,IPDR Proposed Resolution,1,71,A,17-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,Test Protocol,1,"1240, 1241, 1243, 1244, 1245",A,18-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,Traceability,1,460,A,19-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,ACR Proposed Resolution,1,53,A,19-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,ACR Proposed Resolution,1,54,A,19-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,ACR Proposed Resolution,1,61,A,19-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,Test Protocol,1,"1246, 1247, 1248, 1249",A,22-Jul-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Work In Process,Test Protocol,1,"1246, 1247, 1248, 1249",D,22-Jul-2021,Insufficient testing,VERA
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,ACR Proposed Resolution,1,73,A,26-Jul-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,CII,1,597,A,Jul-7-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,1,"598, 328, 601, 575, 533, 598, 328, ",A,Jul-5-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,1,"226, 599, 600",D,Jul-5-2021,Insufficient traceability,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,FRS,1,"226, 599, 600",A,Jul-7-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,"298,299, 295, 296, 293, 294, 292, 289, 290",A,Jul-16-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,291,D,Jul-16-2021,Insufficient traceability,VERA
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol,1,291,A,Jul-16-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Traceability,1,406,A,26-Jul-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,System Certification Summary,1,603,A,28-Jul-2021,,
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,104,D,1-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,105,D,1-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,110,D,1-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,112,D,2-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,113,D,2-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,114,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,116,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,119,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,132,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,133,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,134,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,79,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,80,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,125,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,126,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,127,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,129,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,131,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,130,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,118,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,120,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,123,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_GSS,VIPA,Test Protocol,1,124,D,5-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1013,D,13-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1013,A,13-Jul-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1028,D,13-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1028,A,13-Jul-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1029,A-FP,13-Jul-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1030,A-FP,14-Jul-2021,,
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1040,D,7-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,ACE v1.1,Test Protocol Results,1,1040,D,8-Jul-2021,Multiple Errors,Email
+Lan,VERA/Dallas_R_D_TOOLS,Coverity,Software Compliance Assessment,1,2075,D,8-Jul-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,GPPM,IPDR Effectiveness Check,1,233,A-FP,22-Jul-2021,,
+Lan,VERA/Dallas_Quality,QIST,Software Compliance Assessment,1,2,A-FP,22-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1011,A,8-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 982,A,1-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 987,A,1-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1002,A,1-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1027,A-FP,12-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1032,A-FP,19-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Traceability,9,Req ID 163,A,14-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2067,D,14-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2067,D,14-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2067,A,16-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 965,A,7-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 962,A,7-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 964,A,7-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2069,D,14-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2069,D,15-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2069,A,16-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 2064,D,6-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 2064,D,19-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Software Change Request,1,Req ID 2064,A,20-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP,2,Req ID 537,D,26-Jul-2021,Inadequate Description of Change,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,IIVP,2,Req ID 537,A,29-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 61,D,19-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 61,A,21-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,CII,10,Req ID 162,A-FP,22-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Design Documentation,2,Req ID 1034,D,14-Jul-2021,Inaccurate information,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Design Documentation,2,Req ID 1034,A,21-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Design Documentation,2,Req ID 1040,D,14-Jul-2021,Inaccurate information,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Design Documentation,2,Req ID 1040,A,21-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Test Protocol Results,1,Run ID 1001,A,12-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Test Protocol Results,1,Run ID 976,A,12-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Test Protocol Results,1,Run ID 990,A,13-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,Test Protocol Results,1,Run ID 969,A,7-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 1928,D,14-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 1928,D,15-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 1928,A,15-Jul-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 2070,D,14-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 2070,D,15-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Design Planning (DP) Workflow,System Certification Summary,1,Req ID 2070,A,15-Jul-2021,,
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,IIVP,1,Test ID 213,D,14-Jul-2021,Other,Email/Vera
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,CII,1,Req ID 2817,D,15-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Data Migration Plan,2,Req ID 1573,D,26-Jul-2021,Other,Email/Vera
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,1,Test ID 214,D,27-Jul-2021,Multiple Errors,Email/Vera
+Carole,VERA_DALLAS_SBM,SBM System Level Event Tracking,Test Protocol,1,Test ID 214,D,28-Jul-2021,Multiple Errors,Email/Vera
