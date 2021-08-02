@@ -51,7 +51,7 @@
 <<setup, echo = FALSE>>=
 Month <- "Jul"                                                                  # update trend builder below
 Year <- 2021
-XLabel <- "Since January 2020"                                                  # update each month
+XLabel <- "Since Feburary 2020"                                                  # update each month
 file1 <- "../data/Div First Pass Acceptance.csv"
 file2 <- "../data/Dallas First Pass Acceptance.csv"
 file3 <- "../data/Wiesbaden First Pass Acceptance.csv"
