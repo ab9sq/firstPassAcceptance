@@ -1,4 +1,18 @@
 year,month,Site,deliverable,n
+2021,Jul,Dallas,Test Protocol,31
+2021,Jul,Dallas,Test Protocol Results,21
+2021,Jul,Dallas,System Certification Summary,14
+2021,Jul,Dallas,ACR Proposed Resolution,5
+2021,Jul,Dallas,Design Documentation,4
+2021,Jul,Dallas,Software Change Request,4
+2021,Jul,Dallas,IIVP,3
+2021,Jul,Dallas,Traceability,3
+2021,Jul,Dallas,CII,2
+2021,Jul,Dallas,IPDR Proposed Resolution,2
+2021,Jul,Dallas,Software Compliance Assessment,2
+2021,Jul,Dallas,Data Migration Plan,1
+2021,Jul,Dallas,IPDR Effectiveness Check,1
+2021,Jul,Dallas,URS,1
 2021,Jul,LC/Div,Test Protocol,82
 2021,Jul,LC/Div,ACR Proposed Resolution,56
 2021,Jul,LC/Div,Test Protocol Results,39
@@ -25,16 +39,29 @@ year,month,Site,deliverable,n
 2021,Jul,LC/Div,Move to Production,1
 2021,Jul,LC/Div,Project Plan,1
 2021,Jul,LC/Div,Release notes,1
+2021,Jul,Wiesbaden,URS/FRS,38
+2021,Jul,Wiesbaden,TPR,24
+2021,Jul,Wiesbaden,TP,18
+2021,Jul,Wiesbaden,IA,16
+2021,Jul,Wiesbaden,IVR,13
+2021,Jul,Wiesbaden,SCR,12
+2021,Jul,Wiesbaden,DV-UT,9
+2021,Jul,Wiesbaden,SCS/RN,9
+2021,Jul,Wiesbaden,IIVP,7
+2021,Jul,Wiesbaden,SCA,7
+2021,Jul,Wiesbaden,SPVP,6
+2021,Jul,Wiesbaden,CII,5
+2021,Jul,Wiesbaden,SCS,5
+2021,Jul,Wiesbaden,TM-URS to TP,5
 2021,Jul,Wiesbaden,URS,4
-2021,Jul,Wiesbaden,TP,4
-2021,Jul,Wiesbaden,IA,3
-2021,Jul,Wiesbaden,IIVP,2
-2021,Jul,Wiesbaden,URS/FRS,1
-2021,Jul,Wiesbaden,SCA,1
-2021,Jul,Wiesbaden,SCR,1
-2021,Jul,Wiesbaden,DV-UT,1
-2021,Jul,Wiesbaden,RN,1
-2021,Jul,Wiesbaden,SCS,1
-2021,Jul,Wiesbaden,SCS/RN,1
-2021,Jul,Wiesbaden,TM-URS to TP,1
-2021,Jul,Wiesbaden,TPR,1
+2021,Jul,Wiesbaden,RN,4
+2021,Jul,Wiesbaden,TM-URS/FRS to TP,4
+2021,Jul,Wiesbaden,IDP,3
+2021,Jul,Wiesbaden,MP,3
+2021,Jul,Wiesbaden,ACR-Post,2
+2021,Jul,Wiesbaden,ACR-Pre,2
+2021,Jul,Wiesbaden,DPP,2
+2021,Jul,Wiesbaden,IPDR-Pre,2
+2021,Jul,Wiesbaden,MCP,2
+2021,Jul,Wiesbaden,ESRA,1
+2021,Jul,Wiesbaden,IPDR-Post,1

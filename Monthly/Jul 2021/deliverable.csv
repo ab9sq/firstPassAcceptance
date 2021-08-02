@@ -1,38 +1,50 @@
 year,month,deliverable,n
-2021,Jul,Test Protocol,82
-2021,Jul,ACR Proposed Resolution,56
-2021,Jul,Test Protocol Results,39
+2021,Jul,Test Protocol,113
+2021,Jul,ACR Proposed Resolution,61
+2021,Jul,Test Protocol Results,60
+2021,Jul,URS/FRS,38
+2021,Jul,System Certification Summary,26
+2021,Jul,TPR,24
+2021,Jul,IIVP,19
+2021,Jul,Software Change Request,19
+2021,Jul,URS,18
+2021,Jul,TP,18
 2021,Jul,FRS,17
-2021,Jul,URS,17
-2021,Jul,Software Change Request,15
+2021,Jul,IA,16
+2021,Jul,IPDR Effectiveness Check,15
 2021,Jul,ACR Effectiveness Check,14
-2021,Jul,IPDR Effectiveness Check,14
-2021,Jul,IPDR Proposed Resolution,12
-2021,Jul,System Certification Summary,12
-2021,Jul,IIVP,11
+2021,Jul,IPDR Proposed Resolution,14
+2021,Jul,IVR,13
+2021,Jul,Design Documentation,12
+2021,Jul,SCR,12
+2021,Jul,CII,11
+2021,Jul,Traceability,11
 2021,Jul,IIVP results,9
-2021,Jul,Design Documentation,8
-2021,Jul,Traceability,8
-2021,Jul,CII,4
+2021,Jul,DV-UT,9
+2021,Jul,SCS/RN,9
+2021,Jul,SCA,7
+2021,Jul,IDP,6
+2021,Jul,Software Compliance Assessment,6
+2021,Jul,SPVP,6
+2021,Jul,SCS,5
+2021,Jul,TM-URS to TP,5
 2021,Jul,ISSD,4
-2021,Jul,Software Compliance Assessment,4
-2021,Jul,TP,4
-2021,Jul,IDP,3
+2021,Jul,RN,4
+2021,Jul,TM-URS/FRS to TP,4
 2021,Jul,Maintenance Plan,3
-2021,Jul,IA,3
+2021,Jul,MP,3
 2021,Jul,Design Verification,2
 2021,Jul,Other,2
 2021,Jul,test protocol,2
 2021,Jul,Validation Plan,2
+2021,Jul,ACR-Post,2
+2021,Jul,ACR-Pre,2
+2021,Jul,DPP,2
+2021,Jul,IPDR-Pre,2
+2021,Jul,MCP,2
+2021,Jul,Data Migration Plan,1
 2021,Jul,Move to Production,1
 2021,Jul,Project Plan,1
 2021,Jul,Release notes,1
-2021,Jul,URS/FRS,1
-2021,Jul,SCA,1
-2021,Jul,SCR,1
-2021,Jul,DV-UT,1
-2021,Jul,RN,1
-2021,Jul,SCS,1
-2021,Jul,SCS/RN,1
-2021,Jul,TM-URS to TP,1
-2021,Jul,TPR,1
+2021,Jul,ESRA,1
+2021,Jul,IPDR-Post,1
