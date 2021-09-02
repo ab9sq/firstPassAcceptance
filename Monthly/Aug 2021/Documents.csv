@@ -1,0 +1,67 @@
+year,month,Site,deliverable,n
+2021,Aug,Dallas,Test Protocol,36
+2021,Aug,Dallas,Test Protocol Results,23
+2021,Aug,Dallas,Software Change Request,14
+2021,Aug,Dallas,System Certification Summary,10
+2021,Aug,Dallas,CII,8
+2021,Aug,Dallas,IIVP results,6
+2021,Aug,Dallas,Software Compliance Assessment,4
+2021,Aug,Dallas,ACR Effectiveness Check,3
+2021,Aug,Dallas,IIVP,3
+2021,Aug,Dallas,IPDR Proposed Resolution,3
+2021,Aug,Dallas,Traceability,3
+2021,Aug,Dallas,Functional Requirement,3
+2021,Aug,Dallas,FRS,2
+2021,Aug,Dallas,Maintenance Plan,2
+2021,Aug,Dallas,Project Plan,2
+2021,Aug,Dallas,Software Change Request.,2
+2021,Aug,Dallas,Design Documentation,1
+2021,Aug,Dallas,IPDR Effectiveness Check,1
+2021,Aug,Dallas,Other,1
+2021,Aug,Dallas,QMS Applications used by the Dallas site,1
+2021,Aug,LC/Div,Test Protocol,89
+2021,Aug,LC/Div,Test Protocol Results,89
+2021,Aug,LC/Div,ACR Proposed Resolution,62
+2021,Aug,LC/Div,test protocol,44
+2021,Aug,LC/Div,IPDR Proposed Resolution,33
+2021,Aug,LC/Div,FRS,27
+2021,Aug,LC/Div,ACR Effectiveness Check,26
+2021,Aug,LC/Div,Software Change Request,21
+2021,Aug,LC/Div,URS,13
+2021,Aug,LC/Div,CII,11
+2021,Aug,LC/Div,IPDR Effectiveness Check,11
+2021,Aug,LC/Div,IIVP results,10
+2021,Aug,LC/Div,System Certification Summary,10
+2021,Aug,LC/Div,Traceability,9
+2021,Aug,LC/Div,Validation Plan,9
+2021,Aug,LC/Div,IIVP,8
+2021,Aug,LC/Div,Software Compliance Assessment,6
+2021,Aug,LC/Div,Design Verification,4
+2021,Aug,LC/Div,IDP,4
+2021,Aug,LC/Div,ISSD,3
+2021,Aug,LC/Div,Maintenance Plan,3
+2021,Aug,LC/Div,Project Plan,3
+2021,Aug,LC/Div,idp,2
+2021,Aug,LC/Div,Release notes,1
+2021,Aug,LC/Div,Risk Assessment,1
+2021,Aug,LC/Div,test Protocol,1
+2021,Aug,Wiesbaden,TP,14
+2021,Aug,Wiesbaden,SCR,12
+2021,Aug,Wiesbaden,URS/FRS,8
+2021,Aug,Wiesbaden,ACR-Pre,8
+2021,Aug,Wiesbaden,IA,8
+2021,Aug,Wiesbaden,IVR,8
+2021,Aug,Wiesbaden,IIVP,7
+2021,Aug,Wiesbaden,SPVP,7
+2021,Aug,Wiesbaden,DV-UT,6
+2021,Aug,Wiesbaden,SCS/RN,5
+2021,Aug,Wiesbaden,MP,3
+2021,Aug,Wiesbaden,ACR-Post,2
+2021,Aug,Wiesbaden,TPR,2
+2021,Aug,Wiesbaden,IDP,1
+2021,Aug,Wiesbaden,URS,1
+2021,Aug,Wiesbaden,ESRA,1
+2021,Aug,Wiesbaden,IPDR-Post,1
+2021,Aug,Wiesbaden,MCP,1
+2021,Aug,Wiesbaden,RN,1
+2021,Aug,Wiesbaden,TM-URS/FRS to TP,1
