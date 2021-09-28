@@ -29,7 +29,7 @@
 % <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<            update line 254
 %
 
-\newcommand{\reportMonth}{August}                                                 % Update Setup below
+\newcommand{\reportMonth}{September}                                                 % Update Setup below
 \newcommand{\reportYear}{2021}
 
 %
@@ -55,9 +55,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                                                 # update trend builder below
+Month <- "Sep"                                                                 # update trend builder below
 Year <- 2021
-XLabel <- "Since Feburary 2020"                                                  # Update
+XLabel <- "Since April 2020"                                                  # Update
 
 DivFile <- "../data/Wiesbaden First Pass Acceptance.csv"
 @
@@ -78,16 +78,12 @@ DivFPA<- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
-DivPlotData <- getResults(Month = "Mar",
+
+DivPlotData <- getResults(Month = "Apr",
                         Year = 2020,
                         File = DivFile)
 
 
-temp <- getResults(Month = "Apr",
-                        Year = 2020,
-                        File = DivFile)
-DivPlotData <- rbind(DivPlotData,
-                     temp)
 
 temp <- getResults(Month = "May",
                         Year = 2020,
@@ -179,9 +175,16 @@ temp <- getResults(Month = "Jul",
 DivPlotData <- rbind(DivPlotData,
                      temp)
 
+temp <- getResults(Month = "Aug",
+                        Year = 2021,
+                        File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+# end of update
+
 #                                          ********************************
 # start of update
-temp <- getResults(Month = "Aug",
+temp <- getResults(Month = "Sep",
                         Year = 2021,
                         File = DivFile)
 DivPlotData <- rbind(DivPlotData,

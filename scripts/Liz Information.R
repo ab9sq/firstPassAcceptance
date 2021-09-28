@@ -2,7 +2,7 @@ source("./scripts/FirstPassAcceptance.R")
 require(lubridate)
 require(tidyverse)
 
-Month <- "Aug"
+Month <- "Sep"
 Year <- 2021
 
 Div <- getFPA(file = "./data/Div First Pass Acceptance.csv")

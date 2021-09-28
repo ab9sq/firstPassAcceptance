@@ -27,7 +27,7 @@
 % <<<<<<<<<<<<<<<<      NOTE: update number of months just before charts
 % <<<<<<<<<<<<<<<<            update line 271
 %
-\newcommand{\reportMonth}{August}                                                    % Update Setup below
+\newcommand{\reportMonth}{September}                                                    % Update Setup below
 \newcommand{\reportYear}{2021}
 %
 % <<<<<<<<<< Update for new R version
@@ -50,9 +50,9 @@
 % update for month of run or analysis
 % update trend builder as well below
 <<setup, echo = FALSE>>=
-Month <- "Aug"                                                                  # update trend builder below
+Month <- "Sep"                                                                  # update trend builder below
 Year <- 2021
-XLabel <-  "Since Feburary 2020"                                                 # update
+XLabel <-  "Since Spril 2020"                                                 # update
 
 DivFile <- "../data/Dallas First Pass Acceptance.csv"
 @
@@ -61,8 +61,8 @@ DivFile <- "../data/Dallas First Pass Acceptance.csv"
 source("../scripts/Monthly_Stats.R")
 require(lubridate)
 DivFPA <- getResults(Month = Month,
-                  Year = Year,
-                  File = DivFile)
+                     Year = Year,
+                     File = DivFile)
 
 #
 # ------ Trend Builder -------------- update at end
@@ -74,113 +74,115 @@ DivFPA <- getResults(Month = Month,
 # #      4) Update last data for this month
 
 
- DivPlotData <- getResults(Month = "Mar",
-                    Year = 2020,
-                    File = DivFile)
+DivPlotData <- getResults(Month = "Apr",
+                          Year = 2020,
+                          File = DivFile)
 
-  temp <- getResults(Month = "Apr",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
 
-  temp <- getResults(Month = "May",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
 
-  temp <- getResults(Month = "Jun",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "May",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Jul",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Jun",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Aug",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Jul",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Sep",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Aug",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Oct",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Sep",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Nov",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Oct",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Dec",
-                    Year = 2020,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Nov",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Jan",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Dec",
+                   Year = 2020,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Feb",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Jan",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Mar",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Feb",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Apr",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Mar",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "May",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Apr",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Jun",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "May",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
-  temp <- getResults(Month = "Jul",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Jun",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResults(Month = "Jul",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
+
+temp <- getResults(Month = "Aug",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 
 ##                                          <><><><><><><><><><><><><><><><><><>
 # start of update
- temp <- getResults(Month = "Aug",
-                    Year = 2021,
-                    File = DivFile)
- DivPlotData <- rbind(DivPlotData,
-                  temp)
+temp <- getResults(Month = "Sep",
+                   Year = 2021,
+                   File = DivFile)
+DivPlotData <- rbind(DivPlotData,
+                     temp)
 # # end of update
 #
 
