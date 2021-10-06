@@ -1,6 +1,6 @@
 SQA,Project ID,Application,Deliverable,Doc Version,"Doc ID, if needed",Approve or Disapprove,Date of Approval or Disapproval,Reason for Disapproval,Comments
-Lan,DA-S 00622 . 008,Global Product Part Master (GPPM),IIVP, - Vers 01, - Install-01,D,15-May-2019,Multiple Errors,Email
-Lan,DA-S 00622 . 008,Global Product Part Master (GPPM),IIVP, - Vers 01, - Install-01,A,15-May-2019,,
+Lan,DA-S 00622 . 008,Global Product Part Master (GPPM),IIVP, - Vers 01, - Install-01,D,15-Jul-2019,Multiple Errors,Email
+Lan,DA-S 00622 . 008,Global Product Part Master (GPPM),IIVP, - Vers 01, - Install-01,A,15-Jul-2019,,
 Arun,DA-S 01112.000,Global Product Part Master (GPPM),Software Change Request,8,SCR-08,D,10-Jul-2019,Inaccurate information,Email
 Arun,DA-S 01112.000,Global Product Part Master (GPPM),URS,3,URS-03,D,16-Jul-2019,Inaccurate information,Email
 Carole,DA-S00919.004,Global Product Part Master (GPPM),IIVP,1,Install-03,D,19-Jul-2019,Inaccurate information,Email
@@ -4369,3 +4369,157 @@ Megha,AQC_VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,590,D,26-Aug-2021,Mu
 Megha,AQC_VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,591,D,26-Aug-2021,Multiple Errors,Email
 Megha,AQC_VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,592,D,26-Aug-2021,Multiple Errors,Email
 Megha,AQC_VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,593,D,26-Aug-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2156,D,3-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,System Certification Summary,1,Req ID 2156,A,3-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 72,D,1-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 72,A,20-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 71,D,1-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 71,D,15-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 71,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 22,D,2-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 22,D,15-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 22,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 23,D,2-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 24,D,8-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 24,A,16-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 25,D,8-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 25,A,16-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 2,D,8-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 2,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 2,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 477,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 477,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 477,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 478,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 478,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 478,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 479,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 479,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 479,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 475,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 475,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 476,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 476,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 476,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 122,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 122,A,21-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 45,D,20-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 45,A,21-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 48,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 48,A,21-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 49,D,16-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,1,Test ID 49,A,21-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,URS,2,Req ID 21,D,9-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,URS,2,Req ID 21,A,16-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,FRS,2,Req ID 62,D,10-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,FRS,2,Req ID 62,A,16-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Maintenance Plan,1,Req ID 1031,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Maintenance Plan,1,Req ID 1031,D,17-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Maintenance Plan,1,Req ID 1031,A,17-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Risk Assessment,1,Req ID 1880,D,14-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Risk Assessment,1,Req ID 1880,A,16-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,ERES,1,Req ID 1045,D,13-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,ERES,1,Req ID 1045,A,15-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Project Plan,2,Req ID 1030,D,8-Sep-2021,Incorrect Approvers,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Project Plan,2,Req ID 1030,A,15-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1122,A-FP,28-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1124,A-FP,28-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1126,A-FP,28-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1133,A-FP,28-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1138,A-FP,29-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1142,D,29-Sep-2021,Inaccurate information,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1142,A,30-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1127,D,29-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1121,D,30-Sep-2021,Other,Email / Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1121,A,30-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1153,D,30-Sep-2021,Other,Email / Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1152,A-FP,30-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1148,D,30-Sep-2021,Other,Email / Vera
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1154,A-FP,30-Sep-2021,,
+Carole,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol Results,1,Run ID 1139,A-FP,30-Sep-2021,,
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,IIVP,1,Test ID 196,D,8-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,IIVP,1,Test ID 196,D,8-Sep-2021,Multiple Errors,Email
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,IIVP,1,Test ID 196,A,10-Sep-2021,,
+Carole,VERA_DALLAS_SBM,SBM Affiliate CAPA,CII,1,Req ID 2723,A,13-Sep-2021,,
+Arun,AQC_VERA_Dallas_Quality,Erratic Rates,Software Compliance Assessment,1,10,D,15-Sep-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Quality,Erratic Rates,Software Compliance Assessment,1,10,D,20-Sep-2021,Multiple Errors,VERA
+Arun,AQC_VERA_Dallas_Quality,Erratic Rates,Software Compliance Assessment,1,10,A,24-Sep-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Purchasing,IPDR Effectiveness Check,1,77,A,7-Sep-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Quality,IPDR Proposed Resolution,1,79,A,7-Sep-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Order Management,IPDR Proposed Resolution,1,56,A,8-Sep-2021,,
+Arun,AQC_VERA_Dallas_ADMS,ADMS Inventory,IPDR Proposed Resolution,1,80,A,16-Sep-2021,,
+Arun,AQC_VERA_Dallas_Camstar,Camstar,Test Protocol Results,1,"494, 406, 389, 390, 405, 380, 399, 400, 384",A,21-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Compliance Assessment,1,76,A,21-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,Software Change Request,1,82,A,22-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,URS/FRS,1,94,A,27-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,URS/FRS,1,101,A,27-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,URS/FRS,1,102,A,27-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,URS/FRS,1,103,A,27-Sep-2021,,
+Arun,AQC_VERA_Dallas_Mfg_Ops,Loftware Software Suite ,URS/FRS,1,104,A,27-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,Traceability,1,3700,D,2-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Reliability DB,Traceability,1,3700,A,2-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,System Certification Summary,1,3701,D,2-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Reliability DB,System Certification Summary,1,3701,A,2-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,Test Protocol Results,1,643,A-FP,1-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,Test Protocol Results,1,637,A-FP,1-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,Test Protocol Results,1,635,A-FP,1-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,Test Protocol Results,1,650,A-FP,1-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,IIVP results,1,676,A-FP,9-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Software Change Request,2,3875,D,7-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Software Change Request,2,3875,A,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Project Plan,1,3680,D,7-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Project Plan,1,3680,A,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Test Protocol,1,Test ID 390 ,A-FP,1-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Test Protocol Results,1,Run ID 665 ,A-FP,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Test Protocol Results,1,Run ID 666 ,A-FP,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),IIVP results,1,Run ID 664,A-FP,3-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),Traceability,1,3704,A-FP,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),System Certification Summary,1,3705,D,7-Sep-2021,Multiple Errors,Email
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),System Certification Summary,1,3705,A,7-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Global Product Part Master (GPPM),IPDR Effectiveness Check,1,328,A-FP,9-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Ticket Code Tool Database and ASP Interface,IPDR Proposed Resolution,1,367,A-FP,22-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Ticket Code Tool Database and ASP Interface,IPDR Effectiveness Check,1,367,A-FP,24-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,IPDR Proposed Resolution,1,68,A-FP,9-Sep-2021,,
+Lan,VERA/DIV_LC_CMS,Reliability DB,IPDR Proposed Resolution,1,68,A-FP,9-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 463,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 464,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 465,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 466,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 467,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 468,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 469,D,8-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 470,D,15-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 471,D,15-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 472,D,15-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 473,D,15-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 474,D,15-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 587,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 588,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 589,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 590,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 591,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 593,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,2,Test ID 594,D,17-Sep-2021,Multiple Errors,Responded with Email and meeting to correct and finalyze the incorporation.
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 463,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 464,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 465,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 466,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 467,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 468,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 469,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 470,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 471,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 472,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 473,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 474,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 587,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 588,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 589,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 590,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 591,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 593,A,17-Sep-2021,,
+Megha,VERA_DALLAS_R_D_TOOLS,APLM - Core,Test Protocol,3,Test ID 594,A,17-Sep-2021,,
+Megha,VERA/DIV_LC_CMS,Capture,Software Compliance Assessment,1,1721,D,15-Sep-2021,Multiple Errors,email
+Megha,VERA/DIV_LC_CMS,Capture,Project Plan,1,1726,D,28-Sep-2021,Multiple Errors,email and meeting
+Megha,VERA/DIV_LC_CMS,Capture,Software Compliance Assessment,2,1721,A,17-Sep-2021,,
+Megha,VERA/DIV_LC_CMS,Capture,Software Change Request,1,1725,A,20-Sep-2021,,
