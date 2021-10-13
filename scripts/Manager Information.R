@@ -70,23 +70,36 @@ status <- hold %>%
 
 #status
 
-Path <- paste("./Monthly/",
-              Month,
-              " ",
-              Year,
+Path <- paste("./Monthly/New",
               "/",
               sep = "")
 
 dir.create(Path)
 
 write_csv(Effort, file = paste0(Path,
-                               "Individuals.csv"))
+                               "Individuals ",
+                               Month,
+                               " ",
+                               Year,
+                               ".csv"))
 
 write_csv(Docs, file = paste0(Path,
-                             "Documents.csv"))
+                             "Documents ",
+                             Month,
+                             " ",
+                             Year,
+                             ".csv"))
 
 write_csv(sites, file = paste0(Path,
-                               "sites.csv"))
+                               "sites ",
+                               Month,
+                               " ",
+                               Year,
+                               ".csv"))
 
 write_csv(deliver, file = paste0(Path,
-                                 "deliverable.csv"))
+                                 "deliverable ",
+                                 Month,
+                                 " ",
+                                 Year,
+                                 ".csv"))
