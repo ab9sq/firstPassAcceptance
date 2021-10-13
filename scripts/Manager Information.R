@@ -70,9 +70,15 @@ status <- hold %>%
 
 #status
 
-Path <- paste("./Monthly/New",
-              "/",
-              sep = "")
+#Path <- paste("./Monthly/",
+#              Month,
+#              " ",
+#              Year,
+#              "/",
+#              sep = "")
+Path <- paste0("./Monthly/",
+               "New",
+               "/")
 
 dir.create(Path)
 
